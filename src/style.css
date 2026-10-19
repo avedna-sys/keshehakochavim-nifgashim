@@ -1,1 +1,64 @@
 :root{font-family:Arial,"Noto Sans Hebrew",sans-serif;color:#202735;background:#eaf6ff;font-synthesis:none;line-height:1.6;font-weight:400}*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 50% 8%,#f3f1fc80,transparent 55%),#eaf6ff}button,input{font:inherit}button,label,input{ -webkit-tap-highlight-color:transparent}button{cursor:pointer}.topbar{max-width:1240px;margin:auto;padding:27px 42px;display:flex;justify-content:space-between;align-items:center}.creator{display:flex;gap:12px;align-items:center}.avatar{width:49px;height:49px;border:1px solid #b39a58;border-radius:50%;display:grid;place-items:center;color:#aa8c45;font-size:29px;background:#f5eedf;cursor:pointer;overflow:hidden}.avatar:has(+div input:focus-visible){outline:3px solid #755487;outline-offset:4px}.avatar img{width:100%;height:100%;object-fit:cover}.creator-label{display:block;font-size:13px}.upload-label{font-size:11px;color:#746182;text-decoration:underline;cursor:pointer}.top-note{font-size:12px;color:#536174;letter-spacing:.4px}.top-note span{color:#af914d;margin-right:13px}.hero{text-align:center;padding:28px 20px 39px;position:relative}.eyebrow{font-size:12px;letter-spacing:1.3px;color:#806024}.zodiac{display:block;width:360px;max-width:100%;height:auto;margin:14px auto 8px;filter:drop-shadow(0 8px 18px #507a9d16)}h1{font-family:Georgia,"Times New Roman",serif;font-size:clamp(37px,5.3vw,61px);font-weight:400;line-height:1.25;margin:6px 0 12px;letter-spacing:-1.5px}.subtitle{font-size:19px;margin:0;color:#665372}.ornament{display:flex;gap:15px;justify-content:center;align-items:center;color:#b49a62;margin:20px 0 13px}.ornament span{width:63px;height:1px;background:#daceb4}.intro{font-size:14px;line-height:1.9;color:#495a6b;margin:0}.workspace{max-width:940px;margin:0 auto;background:#f9f7f0;border:1px solid #cddde6;border-radius:16px;padding:32px 38px 18px;box-shadow:0 12px 45px #43657e0d}.section-heading{display:flex;gap:14px;align-items:center;border-bottom:1px solid #eee6d9;padding-bottom:24px}.step{font-family:Georgia,serif;font-size:28px;color:#84652b}h2{font-size:21px;font-weight:500;margin:0}.section-heading p{font-size:13px;color:#536174;margin:4px 0 0}.phase{margin-right:auto;border:1px solid #e4d9ed;color:#786189;background:#f5f0f8;border-radius:20px;padding:3px 12px;font-size:10px}.people{display:grid;grid-template-columns:1fr 40px 1fr;gap:10px;padding-top:24px}.person{border:0;padding:0;margin:0;min-width:0}.person legend{font-size:17px;padding:0;margin-bottom:20px;display:flex;align-items:center;gap:10px}.person-symbol{width:32px;height:32px;border-radius:50%;background:#f1ebf6;color:#886998;display:inline-grid;place-items:center;font-size:22px}.person:nth-of-type(2) .person-symbol{background:#eaf2f7;color:#7799b4}.person label{display:block;font-size:12px;color:#59515e;margin-bottom:16px}input:not([type=radio]):not([type=file]){width:100%;min-width:0;display:block;border:1px solid #bdccd7;border-radius:7px;padding:10px 12px;margin-top:6px;background:#f2f7fa;color:#202735;height:44px;outline:none;font-size:14px}input::placeholder{color:#5e6b79;font-size:12px}input:focus-visible{border-color:#9473a5!important;box-shadow:0 0 0 3px #9473a51c}.field-row{display:grid;grid-template-columns:1fr 1fr;gap:12px}.optional{font-size:10px;color:#596677}.connection{display:flex;justify-content:center;align-items:center;color:#b89c65;font-size:25px;position:relative}.time-note{font-size:11px;color:#536174;margin:0 0 23px}.relationships{border:0;border-top:1px solid #eee6d9;padding:22px 0 0;margin:0}.relationships legend{float:right;width:100%;font-size:14px;margin-bottom:12px}.choices{display:flex;gap:10px;clear:both;flex-wrap:wrap}.choices label{position:relative;cursor:pointer}.choices input{position:absolute;opacity:0;width:1px;height:1px}.choices span{display:block;padding:7px 24px;border:1px solid #e4ddd5;border-radius:7px;font-size:13px;color:#706773;background:#f2f7fa}.choices input:checked+span{border-color:#a38ab1;background:#eee7f3;color:#644879}.choices input:focus-visible+span{outline:2px solid #644879;outline-offset:3px}.submit-area{text-align:center;padding-top:28px}.submit-area button{background:#755487;color:white;padding:13px 35px;border:1px solid #755487;border-radius:8px;font-size:16px;box-shadow:0 5px 12px #75548718;transition:background .2s}.submit-area button:hover{background:#60416f}.submit-area button span{color:#e4cf9c;margin-right:20px}.submit-area p{font-size:11px;color:#536174;margin:10px 0 0}.status{font-size:13px;background:#f2edf5;border-radius:6px;color:#5d456e;padding:12px;margin:17px 0 0}.status:empty{display:none}.future{max-width:940px;margin:42px auto 0}.future-heading{text-align:center;margin-bottom:23px}.future-heading h2{font-family:Georgia,"Times New Roman",serif;font-size:26px;margin-top:6px}.future-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.future article{position:relative;border:1px solid #e5ddd1;border-radius:11px;padding:22px 24px;background:#f8f4e9}.future article:nth-child(2){background:#eaf3f8}.future article:nth-child(3){background:#f1edf6}.future-icon{font-size:29px;color:#a78c55}.badge{position:absolute;left:18px;top:21px;border:1px solid #ddd5c9;border-radius:20px;padding:1px 9px;font-size:10px;color:#5d526d}.future h3{font-size:16px;font-weight:500;margin:12px 0 7px}.future p{font-size:12px;line-height:1.9;color:#536174;margin:0}.privacy{font-size:11px;color:#536174;text-align:center;margin:27px 20px}footer{border-top:1px solid #cddde6;max-width:1120px;margin:28px auto 0;padding:22px;text-align:center;font-size:11px;color:#536174}footer>span:first-child{color:#b39450;margin-left:8px}.footer-dot{margin:0 9px}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}button:focus-visible,.avatar:focus-within{outline:3px solid #ac8e50;outline-offset:4px}[hidden]{display:none!important}@media(min-width:1500px){.hero{padding-top:48px}}@media(max-width:700px){.topbar{padding:20px}.top-note{display:none}.hero{padding:15px 18px 28px}.zodiac{width:290px;height:auto}.subtitle{font-size:16px}.intro{font-size:13px}main{padding:0 16px}.workspace{padding:23px 20px 18px}.section-heading{gap:10px}.section-heading h2{font-size:18px}.phase{font-size:9px;padding:3px 8px}.people{grid-template-columns:1fr;gap:12px}.connection{height:16px;margin-bottom:13px}.person legend{margin-bottom:14px}.person label{margin-bottom:14px}.choices{gap:8px}.choices span{padding:7px 17px}.future-grid{grid-template-columns:1fr}.future article{padding:19px 23px}.future{margin-top:32px}.future-heading h2{font-size:24px}.privacy{line-height:1.8;margin-inline:0}.submit-area button{width:100%}.field-row{gap:10px}.optional{font-size:9px}.time-note{margin-top:5px}}
+
+/* Repeat the original botanical texture without stretching it on desktop or mobile. */
+:root {
+  --app-background-image: url("/background.jpg");
+  background: #e5f3f3;
+  color: #202735;
+}
+body {
+  min-height: 100vh;
+  background-color: #e5f3f3;
+  background-image: linear-gradient(#f4faf733, #f4faf733), var(--app-background-image);
+  background-repeat: repeat, repeat;
+  background-position: center top;
+  background-size: auto, 960px auto;
+}
+.topbar {
+  background: #faf8f0f5;
+  border: 1px solid #d9e3df;
+  border-top: 0;
+  border-radius: 0 0 20px 20px;
+}
+.hero {
+  max-width: 940px;
+  margin: 24px auto;
+  padding: 30px 24px;
+  background: #f8faf6f7;
+  border: 1px solid #d9e3df;
+  border-radius: 20px;
+  box-shadow: 0 8px 32px #345a6810;
+}
+.workspace {
+  background: #faf8f1;
+  border-color: #c8dbd8;
+  box-shadow: 0 12px 40px #345a6814;
+}
+.future {
+  background: #f7f9f6;
+  padding: 28px 24px;
+  border: 1px solid #c8dbd8;
+  border-radius: 18px;
+}
+.future article { background: #faf7ed; border-color: #d6dcd6; }
+.future article:nth-child(2) { background: #edf5f8; }
+.future article:nth-child(3) { background: #f3eef7; }
+.intro, .future p, .section-heading p, .time-note,
+.submit-area p, .privacy, footer { color: #465364; }
+.person label, .choices span { color: #394658; }
+.privacy {
+  max-width: 940px;
+  margin: 24px auto;
+  padding: 14px 20px;
+  border: 1px solid #d9e3df;
+  border-radius: 12px;
+  background: #faf8f1;
+}
+footer { background: #f7f9f6; border-radius: 16px 16px 0 0; }
+@media (max-width: 700px) {
+  .topbar { margin-inline: 16px; padding: 16px; }
+  .hero { margin-block: 18px 24px; padding: 24px 16px; }
+  .future { padding: 24px 16px; }
+  .privacy { padding: 14px 16px; }
+  footer { margin-inline: 16px; }
+}
