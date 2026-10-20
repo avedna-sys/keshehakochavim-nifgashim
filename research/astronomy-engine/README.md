@@ -86,3 +86,20 @@ node --test local-investigations/true-node/validation/lunar-nodes.check.mjs
 ```
 
 הצלחת `npm test` אינה אישור ל־True Node: היא בודקת את המנוע הקיים, הזמן ואת Mean בלבד. [NODE_CAUSE_REPORT.md](NODE_CAUSE_REPORT.md) כולל את שלושת המועדים, בידוד גורמי ההפרש, ההרצה החוזרת לאחר שינוי מוסכמת זמן האור והעבודה שטרם אומתה. עדות הכישלון נשמרת בענף כנתונים בלבד, לא כקוד חישוב מאושר.
+
+## Mean Black Moon Lilith — מודול נפרד מאומת בדגימה
+
+`verified/mean-lilith.mjs` מחשב את **האפוגיאה הממוצעת של הירח**, עם אורך ורוחב אקליפטיים גאוצנטריים טרופיים. הוא אינו מחשב לילית אוסצולטורית, אפוגיאה אינטרפולטיבית או אסטרואיד 1181 Lilith. סף ההשוואה שנקבע מראש הוא 0.001° לאורך, לרוחב ולהפרדה הזוויתית הכוללת. המודול מבודד ואינו מחובר לאפליקציה הציבורית או ל־engine.mjs.
+
+```js
+import * as Astronomy from 'astronomy-engine';
+import {calculateMeanBlackMoonLilith} from './verified/mean-lilith.mjs';
+const lilith = calculateMeanBlackMoonLilith(Astronomy.MakeTime(new Date('2000-01-01T12:00:00Z')));
+```
+
+```sh
+node --test validation/mean-lilith.check.mjs
+node validation/write-lilith-report.mjs
+```
+
+[MEAN_LILITH_REPORT.md](MEAN_LILITH_REPORT.md) מפרט הרצה חדשה מול Swiss MEAN_APOG בשנים 1800–2026, כולל דגימה יומית של כל התקופה, שני מצבי ΔT, הפרשים ומספר השוואות שעברו/נכשלו. `npm test` כולל את בדיקות לילית. השוואת לילית הממוצעת אינה אישור ל־True Node או ללילית האוסצולטורית, ואינה משנה את מצבם המתועד.
