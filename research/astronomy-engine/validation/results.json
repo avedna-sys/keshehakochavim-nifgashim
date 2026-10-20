@@ -1,0 +1,1780 @@
+{
+  "status": "passed-experimental-sample-only",
+  "startedAt": "2026-10-20T09:44:18.217Z",
+  "finishedAt": "2026-10-20T09:44:20.513Z",
+  "node": "v24.19.0",
+  "astronomyEngine": "2.1.19",
+  "swiss": "2.10.03",
+  "swissFlags": 258,
+  "sourceFiles": [
+    {
+      "path": "/workspace/keshehakochavim-nifgashim/research/astronomy-engine/validation/reference-data/sepl_18.se1",
+      "start": 2378496.5,
+      "end": 2597651.3591467496,
+      "denum": 441
+    },
+    {
+      "path": "/workspace/keshehakochavim-nifgashim/research/astronomy-engine/validation/reference-data/semo_18.se1",
+      "start": 2378487.555370702,
+      "end": 2597656.4574524714,
+      "denum": 441
+    }
+  ],
+  "dates": 2728,
+  "referenceCalls": 27280,
+  "sites": [
+    [
+      "Amsterdam",
+      52.3676,
+      4.9041
+    ],
+    [
+      "Jerusalem",
+      31.7683,
+      35.2137
+    ],
+    [
+      "Paris",
+      48.8566,
+      2.3522
+    ],
+    [
+      "Kathmandu",
+      27.7172,
+      85.324
+    ],
+    [
+      "New York",
+      40.7128,
+      -74.006
+    ],
+    [
+      "Lord Howe",
+      -31.55,
+      159.08
+    ],
+    [
+      "Apia",
+      -13.833,
+      -171.75
+    ],
+    [
+      "London",
+      51.5074,
+      -0.1278
+    ],
+    [
+      "Equator",
+      0,
+      0
+    ],
+    [
+      "Sydney",
+      -33.8688,
+      151.2093
+    ],
+    [
+      "Reykjavik",
+      64.1466,
+      -21.9426
+    ],
+    [
+      "Near polar south",
+      -65,
+      0
+    ]
+  ],
+  "thresholds": {
+    "planetLongitudeDegrees": 0.016666666666666666,
+    "planetSkySeparationDegrees": 0.016666666666666666,
+    "matchedDeltaTHouseDegrees": 0.005
+  },
+  "timePolicy": "Treat each supplied UTC-like timestamp as UT1 (DUT1=0) in both engines. Default mode uses each engine Delta T; matchedDeltaT uses Swiss Delta T in AE. Not verification of historical UTC/UT1 or timezone conversion.",
+  "modes": {
+    "default": {
+      "planets": {
+        "Sun": {
+          "longitude": {
+            "count": 2728,
+            "maxDegrees": 0.000643957161742037,
+            "worst": {
+              "utc": "2003-02-15T12:34:56Z",
+              "actual": 326.4079881660932,
+              "reference": 326.40863212325496,
+              "errorDegrees": 0.000643957161742037
+            },
+            "meanDegrees": 0.00013769331709081092
+          },
+          "skySeparation": {
+            "count": 2728,
+            "maxDegrees": 0.0008658445707651443,
+            "worst": {
+              "utc": "1819-08-15T12:34:56Z",
+              "actual": 141.78235759776345,
+              "reference": 141.78278117398384,
+              "errorDegrees": 0.0008658445707651443
+            },
+            "meanDegrees": 0.0002817213570373668
+          }
+        },
+        "Moon": {
+          "longitude": {
+            "count": 2728,
+            "maxDegrees": 0.00230072568047035,
+            "worst": {
+              "utc": "1808-03-15T12:34:56Z",
+              "actual": 215.88314139739146,
+              "reference": 215.88084067171093,
+              "errorDegrees": 0.00230072568047035
+            },
+            "meanDegrees": 0.0006248375363662067
+          },
+          "skySeparation": {
+            "count": 2728,
+            "maxDegrees": 0.002301107378985841,
+            "worst": {
+              "utc": "1808-03-15T12:34:56Z",
+              "actual": 215.88314139739146,
+              "reference": 215.88084067171093,
+              "errorDegrees": 0.002301107378985841
+            },
+            "meanDegrees": 0.0006390502793074685
+          }
+        },
+        "Mercury": {
+          "longitude": {
+            "count": 2728,
+            "maxDegrees": 0.0033937559974219766,
+            "worst": {
+              "utc": "1833-12-15T12:34:56Z",
+              "actual": 250.02997891719713,
+              "reference": 250.02658516119965,
+              "errorDegrees": 0.0033937559974219766
+            },
+            "meanDegrees": 0.0006008365453308708
+          },
+          "skySeparation": {
+            "count": 2728,
+            "maxDegrees": 0.004111543135158031,
+            "worst": {
+              "utc": "1805-01-15T12:34:56Z",
+              "actual": 306.67207864710383,
+              "reference": 306.66957627895647,
+              "errorDegrees": 0.004111543135158031
+            },
+            "meanDegrees": 0.0008777761635765584
+          }
+        },
+        "Venus": {
+          "longitude": {
+            "count": 2728,
+            "maxDegrees": 0.005684159103225284,
+            "worst": {
+              "utc": "2026-10-15T12:34:56Z",
+              "actual": 215.5732424464304,
+              "reference": 215.57892660553364,
+              "errorDegrees": 0.005684159103225284
+            },
+            "meanDegrees": 0.00047247158539642754
+          },
+          "skySeparation": {
+            "count": 2728,
+            "maxDegrees": 0.005635895699130616,
+            "worst": {
+              "utc": "2026-10-15T12:34:56Z",
+              "actual": 215.5732424464304,
+              "reference": 215.57892660553364,
+              "errorDegrees": 0.005635895699130616
+            },
+            "meanDegrees": 0.0006909969875884955
+          }
+        },
+        "Mars": {
+          "longitude": {
+            "count": 2728,
+            "maxDegrees": 0.003955161686917563,
+            "worst": {
+              "utc": "1830-09-15T12:34:56Z",
+              "actual": 357.394797670584,
+              "reference": 357.39084250889715,
+              "errorDegrees": 0.003955161686917563
+            },
+            "meanDegrees": 0.00039173479827708037
+          },
+          "skySeparation": {
+            "count": 2728,
+            "maxDegrees": 0.005772293384355537,
+            "worst": {
+              "utc": "1830-09-15T12:34:56Z",
+              "actual": 357.394797670584,
+              "reference": 357.39084250889715,
+              "errorDegrees": 0.005772293384355537
+            },
+            "meanDegrees": 0.0005956383735884267
+          }
+        },
+        "Jupiter": {
+          "longitude": {
+            "count": 2728,
+            "maxDegrees": 0.002945163686717933,
+            "worst": {
+              "utc": "1808-10-15T12:34:56Z",
+              "actual": 338.73726897610084,
+              "reference": 338.7343238124142,
+              "errorDegrees": 0.002945163686717933
+            },
+            "meanDegrees": 0.0007599729116716716
+          },
+          "skySeparation": {
+            "count": 2728,
+            "maxDegrees": 0.0036549254138536816,
+            "worst": {
+              "utc": "1834-11-15T12:34:56Z",
+              "actual": 68.45575057042777,
+              "reference": 68.45458120602157,
+              "errorDegrees": 0.0036549254138536816
+            },
+            "meanDegrees": 0.0012270479349960088
+          }
+        },
+        "Saturn": {
+          "longitude": {
+            "count": 2728,
+            "maxDegrees": 0.003567392211607512,
+            "worst": {
+              "utc": "2001-11-15T12:34:56Z",
+              "actual": 72.92150280138986,
+              "reference": 72.91793540917826,
+              "errorDegrees": 0.003567392211607512
+            },
+            "meanDegrees": 0.0009589433405846403
+          },
+          "skySeparation": {
+            "count": 2728,
+            "maxDegrees": 0.006264899521634358,
+            "worst": {
+              "utc": "1927-06-15T12:34:56Z",
+              "actual": 242.94426381314747,
+              "reference": 242.94234987653772,
+              "errorDegrees": 0.006264899521634358
+            },
+            "meanDegrees": 0.0024456457419405908
+          }
+        },
+        "Uranus": {
+          "longitude": {
+            "count": 2728,
+            "maxDegrees": 0.0033660031493809583,
+            "worst": {
+              "utc": "1999-08-15T12:34:56Z",
+              "actual": 314.50457744531695,
+              "reference": 314.50794344846634,
+              "errorDegrees": 0.0033660031493809583
+            },
+            "meanDegrees": 0.0008844825831247002
+          },
+          "skySeparation": {
+            "count": 2728,
+            "maxDegrees": 0.004974055637964908,
+            "worst": {
+              "utc": "1952-01-15T12:34:56Z",
+              "actual": 101.43411087475192,
+              "reference": 101.43425985977214,
+              "errorDegrees": 0.004974055637964908
+            },
+            "meanDegrees": 0.0019171830142331243
+          }
+        },
+        "Neptune": {
+          "longitude": {
+            "count": 2728,
+            "maxDegrees": 0.00547704261407489,
+            "worst": {
+              "utc": "1836-08-15T12:34:56Z",
+              "actual": 304.1139040579087,
+              "reference": 304.1084270152946,
+              "errorDegrees": 0.00547704261407489
+            },
+            "meanDegrees": 0.002657502041752784
+          },
+          "skySeparation": {
+            "count": 2728,
+            "maxDegrees": 0.00590320241475349,
+            "worst": {
+              "utc": "1848-08-15T12:34:56Z",
+              "actual": 331.4419699538678,
+              "reference": 331.4365571237672,
+              "errorDegrees": 0.00590320241475349
+            },
+            "meanDegrees": 0.0030557386822515943
+          }
+        },
+        "Pluto": {
+          "longitude": {
+            "count": 2728,
+            "maxDegrees": 0.005360229875577716,
+            "worst": {
+              "utc": "1800-09-15T12:34:56Z",
+              "actual": 332.9727923934022,
+              "reference": 332.96743216352667,
+              "errorDegrees": 0.005360229875577716
+            },
+            "meanDegrees": 0.0014263815837644808
+          },
+          "skySeparation": {
+            "count": 2728,
+            "maxDegrees": 0.0053258820072910875,
+            "worst": {
+              "utc": "1800-09-15T12:34:56Z",
+              "actual": 332.9727923934022,
+              "reference": 332.96743216352667,
+              "errorDegrees": 0.0053258820072910875
+            },
+            "meanDegrees": 0.001396028289369899
+          }
+        }
+      },
+      "houses": {
+        "count": 131328,
+        "maxDegrees": 0.000347451953075506,
+        "worst": {
+          "utc": "1801-01-15T12:34:56Z",
+          "site": "Reykjavik",
+          "house": 1,
+          "actual": 68.29322118127692,
+          "reference": 68.29356863322995,
+          "errorDegrees": 0.000347451953075506
+        },
+        "meanDegrees": 0.00002466317159512573
+      },
+      "cuspMetrics": [
+        {
+          "count": 10944,
+          "maxDegrees": 0.000347451953075506,
+          "worst": {
+            "utc": "1801-01-15T12:34:56Z",
+            "site": "Reykjavik",
+            "house": 1,
+            "actual": 68.29322118127692,
+            "reference": 68.29356863322995,
+            "errorDegrees": 0.000347451953075506
+          },
+          "meanDegrees": 0.00002397875220505283
+        },
+        {
+          "count": 10944,
+          "maxDegrees": 0.0002807888411098247,
+          "worst": {
+            "utc": "1800-04-15T12:34:56Z",
+            "site": "Near polar south",
+            "house": 2,
+            "actual": 110.98141643304734,
+            "reference": 110.98169722188852,
+            "errorDegrees": 0.0002807888411098247
+          },
+          "meanDegrees": 0.00002428478558138794
+        },
+        {
+          "count": 10944,
+          "maxDegrees": 0.00019743159919016762,
+          "worst": {
+            "utc": "1821-10-15T12:34:56Z",
+            "site": "Reykjavik",
+            "house": 3,
+            "actual": 330.219989855064,
+            "reference": 330.22018728666313,
+            "errorDegrees": 0.00019743159919016762
+          },
+          "meanDegrees": 0.00002451276201954161
+        },
+        {
+          "count": 10944,
+          "maxDegrees": 0.00014344742305638647,
+          "worst": {
+            "utc": "1801-01-15T12:34:56Z",
+            "site": "Jerusalem",
+            "house": 4,
+            "actual": 156.67918758505755,
+            "reference": 156.6793310324806,
+            "errorDegrees": 0.00014344742305638647
+          },
+          "meanDegrees": 0.000024604791498181033
+        },
+        {
+          "count": 10944,
+          "maxDegrees": 0.00017113976741711667,
+          "worst": {
+            "utc": "1801-01-15T12:34:56Z",
+            "site": "Amsterdam",
+            "house": 5,
+            "actual": 151.17443006052656,
+            "reference": 151.17460120029392,
+            "errorDegrees": 0.00017113976741711667
+          },
+          "meanDegrees": 0.000025022931902405746
+        },
+        {
+          "count": 10944,
+          "maxDegrees": 0.00030013210584911576,
+          "worst": {
+            "utc": "1821-01-15T12:34:56Z",
+            "site": "Reykjavik",
+            "house": 6,
+            "actual": 133.0155041457349,
+            "reference": 133.0158042778407,
+            "errorDegrees": 0.00030013210584911576
+          },
+          "meanDegrees": 0.00002557500636410213
+        },
+        {
+          "count": 10944,
+          "maxDegrees": 0.0003474519529618192,
+          "worst": {
+            "utc": "1801-01-15T12:34:56Z",
+            "site": "Reykjavik",
+            "house": 7,
+            "actual": 248.29322118127698,
+            "reference": 248.29356863322994,
+            "errorDegrees": 0.0003474519529618192
+          },
+          "meanDegrees": 0.000023978752205582618
+        },
+        {
+          "count": 10944,
+          "maxDegrees": 0.0002807888411098247,
+          "worst": {
+            "utc": "1800-04-15T12:34:56Z",
+            "site": "Near polar south",
+            "house": 8,
+            "actual": 290.98141643304734,
+            "reference": 290.9816972218885,
+            "errorDegrees": 0.0002807888411098247
+          },
+          "meanDegrees": 0.000024284785581190566
+        },
+        {
+          "count": 10944,
+          "maxDegrees": 0.00019743159919016762,
+          "worst": {
+            "utc": "1821-10-15T12:34:56Z",
+            "site": "Reykjavik",
+            "house": 9,
+            "actual": 150.219989855064,
+            "reference": 150.22018728666313,
+            "errorDegrees": 0.00019743159919016762
+          },
+          "meanDegrees": 0.00002451276201932346
+        },
+        {
+          "count": 10944,
+          "maxDegrees": 0.0001434474231700733,
+          "worst": {
+            "utc": "1801-01-15T12:34:56Z",
+            "site": "Jerusalem",
+            "house": 10,
+            "actual": 336.67918758505755,
+            "reference": 336.67933103248066,
+            "errorDegrees": 0.0001434474231700733
+          },
+          "meanDegrees": 0.00002460479149792133
+        },
+        {
+          "count": 10944,
+          "maxDegrees": 0.00017113976741711667,
+          "worst": {
+            "utc": "1801-01-15T12:34:56Z",
+            "site": "Amsterdam",
+            "house": 11,
+            "actual": 331.17443006052656,
+            "reference": 331.1746012002939,
+            "errorDegrees": 0.00017113976741711667
+          },
+          "meanDegrees": 0.000025022931902426522
+        },
+        {
+          "count": 10944,
+          "maxDegrees": 0.00030013210584911576,
+          "worst": {
+            "utc": "1821-01-15T12:34:56Z",
+            "site": "Reykjavik",
+            "house": 12,
+            "actual": 313.0155041457349,
+            "reference": 313.0158042778407,
+            "errorDegrees": 0.00030013210584911576
+          },
+          "meanDegrees": 0.000025575006364392996
+        }
+      ],
+      "asc": {
+        "count": 10944,
+        "maxDegrees": 0.000347451953075506,
+        "worst": {
+          "utc": "1801-01-15T12:34:56Z",
+          "site": "Reykjavik",
+          "actual": 68.29322118127692,
+          "reference": 68.29356863322995,
+          "errorDegrees": 0.000347451953075506
+        },
+        "meanDegrees": 0.00002397875220505283
+      },
+      "mc": {
+        "count": 10944,
+        "maxDegrees": 0.0001434474231700733,
+        "worst": {
+          "utc": "1801-01-15T12:34:56Z",
+          "site": "Jerusalem",
+          "actual": 336.67918758505755,
+          "reference": 336.67933103248066,
+          "errorDegrees": 0.0001434474231700733
+        },
+        "meanDegrees": 0.00002460479149792133
+      },
+      "dsc": {
+        "count": 10944,
+        "maxDegrees": 0.0003474519529618192,
+        "worst": {
+          "utc": "1801-01-15T12:34:56Z",
+          "site": "Reykjavik",
+          "actual": 248.29322118127698,
+          "reference": 248.29356863322994,
+          "errorDegrees": 0.0003474519529618192
+        },
+        "meanDegrees": 0.000023978752205582618
+      },
+      "ic": {
+        "count": 10944,
+        "maxDegrees": 0.00014344742305638647,
+        "worst": {
+          "utc": "1801-01-15T12:34:56Z",
+          "site": "Jerusalem",
+          "actual": 156.67918758505755,
+          "reference": 156.6793310324806,
+          "errorDegrees": 0.00014344742305638647
+        },
+        "meanDegrees": 0.000024604791498181033
+      },
+      "houseCharts": 10944
+    },
+    "matchedDeltaT": {
+      "planets": {
+        "Sun": {
+          "longitude": {
+            "count": 2728,
+            "maxDegrees": 0.0006433176964719678,
+            "worst": {
+              "utc": "2003-02-15T12:34:56Z",
+              "actual": 326.4079888055585,
+              "reference": 326.40863212325496,
+              "errorDegrees": 0.0006433176964719678
+            },
+            "meanDegrees": 0.00013923340404384458
+          },
+          "skySeparation": {
+            "count": 2728,
+            "maxDegrees": 0.0008566953427930842,
+            "worst": {
+              "utc": "1802-09-15T12:34:56Z",
+              "actual": 171.91002860934873,
+              "reference": 171.90965024171604,
+              "errorDegrees": 0.0008566953427930842
+            },
+            "meanDegrees": 0.00028310780543292847
+          }
+        },
+        "Moon": {
+          "longitude": {
+            "count": 2728,
+            "maxDegrees": 0.002931168119630456,
+            "worst": {
+              "utc": "1804-12-15T12:34:56Z",
+              "actual": 64.07186508460302,
+              "reference": 64.06893391648335,
+              "errorDegrees": 0.002931168119630456
+            },
+            "meanDegrees": 0.0007993977096708854
+          },
+          "skySeparation": {
+            "count": 2728,
+            "maxDegrees": 0.002925937673102913,
+            "worst": {
+              "utc": "1804-12-15T12:34:56Z",
+              "actual": 64.07186508460302,
+              "reference": 64.06893391648335,
+              "errorDegrees": 0.002925937673102913
+            },
+            "meanDegrees": 0.0008127831640909382
+          }
+        },
+        "Mercury": {
+          "longitude": {
+            "count": 2728,
+            "maxDegrees": 0.0033728670255186444,
+            "worst": {
+              "utc": "1833-12-15T12:34:56Z",
+              "actual": 250.0299580282251,
+              "reference": 250.02658516119965,
+              "errorDegrees": 0.0033728670255186444
+            },
+            "meanDegrees": 0.0006007992894339801
+          },
+          "skySeparation": {
+            "count": 2728,
+            "maxDegrees": 0.004082242673577501,
+            "worst": {
+              "utc": "1805-01-15T12:34:56Z",
+              "actual": 306.67204897148656,
+              "reference": 306.66957627895647,
+              "errorDegrees": 0.004082242673577501
+            },
+            "meanDegrees": 0.0008779442983860238
+          }
+        },
+        "Venus": {
+          "longitude": {
+            "count": 2728,
+            "maxDegrees": 0.005648203087162074,
+            "worst": {
+              "utc": "2026-10-15T12:34:56Z",
+              "actual": 215.57327840244648,
+              "reference": 215.57892660553364,
+              "errorDegrees": 0.005648203087162074
+            },
+            "meanDegrees": 0.0004725517363608307
+          },
+          "skySeparation": {
+            "count": 2728,
+            "maxDegrees": 0.005600230808850704,
+            "worst": {
+              "utc": "2026-10-15T12:34:56Z",
+              "actual": 215.57327840244648,
+              "reference": 215.57892660553364,
+              "errorDegrees": 0.005600230808850704
+            },
+            "meanDegrees": 0.0006911066038455983
+          }
+        },
+        "Mars": {
+          "longitude": {
+            "count": 2728,
+            "maxDegrees": 0.003944975360127501,
+            "worst": {
+              "utc": "1830-09-15T12:34:56Z",
+              "actual": 357.3947874842572,
+              "reference": 357.39084250889715,
+              "errorDegrees": 0.003944975360127501
+            },
+            "meanDegrees": 0.0003931479978847312
+          },
+          "skySeparation": {
+            "count": 2728,
+            "maxDegrees": 0.0057642734515161295,
+            "worst": {
+              "utc": "1830-09-15T12:34:56Z",
+              "actual": 357.3947874842572,
+              "reference": 357.39084250889715,
+              "errorDegrees": 0.0057642734515161295
+            },
+            "meanDegrees": 0.0005969310792495512
+          }
+        },
+        "Jupiter": {
+          "longitude": {
+            "count": 2728,
+            "maxDegrees": 0.002942941901665108,
+            "worst": {
+              "utc": "1808-10-15T12:34:56Z",
+              "actual": 338.7372667543158,
+              "reference": 338.7343238124142,
+              "errorDegrees": 0.002942941901665108
+            },
+            "meanDegrees": 0.0007600733188226002
+          },
+          "skySeparation": {
+            "count": 2728,
+            "maxDegrees": 0.003653635739963012,
+            "worst": {
+              "utc": "1834-11-15T12:34:56Z",
+              "actual": 68.45574664263302,
+              "reference": 68.45458120602157,
+              "errorDegrees": 0.003653635739963012
+            },
+            "meanDegrees": 0.0012271786969761667
+          }
+        },
+        "Saturn": {
+          "longitude": {
+            "count": 2728,
+            "maxDegrees": 0.003567403944543912,
+            "worst": {
+              "utc": "2001-11-15T12:34:56Z",
+              "actual": 72.92150281312274,
+              "reference": 72.91793540917826,
+              "errorDegrees": 0.003567403944543912
+            },
+            "meanDegrees": 0.0009588510004925632
+          },
+          "skySeparation": {
+            "count": 2728,
+            "maxDegrees": 0.006264865647454371,
+            "worst": {
+              "utc": "1927-06-15T12:34:56Z",
+              "actual": 242.9442637126889,
+              "reference": 242.94234987653772,
+              "errorDegrees": 0.006264865647454371
+            },
+            "meanDegrees": 0.002445622283263897
+          }
+        },
+        "Uranus": {
+          "longitude": {
+            "count": 2728,
+            "maxDegrees": 0.003366001511835748,
+            "worst": {
+              "utc": "1999-08-15T12:34:56Z",
+              "actual": 314.5045774469545,
+              "reference": 314.50794344846634,
+              "errorDegrees": 0.003366001511835748
+            },
+            "meanDegrees": 0.0008844684796665818
+          },
+          "skySeparation": {
+            "count": 2728,
+            "maxDegrees": 0.004974053227688397,
+            "worst": {
+              "utc": "1952-01-15T12:34:56Z",
+              "actual": 101.43411095096076,
+              "reference": 101.43425985977214,
+              "errorDegrees": 0.004974053227688397
+            },
+            "meanDegrees": 0.00191715632913155
+          }
+        },
+        "Neptune": {
+          "longitude": {
+            "count": 2728,
+            "maxDegrees": 0.0054762882214163255,
+            "worst": {
+              "utc": "1836-08-15T12:34:56Z",
+              "actual": 304.11390330351605,
+              "reference": 304.1084270152946,
+              "errorDegrees": 0.0054762882214163255
+            },
+            "meanDegrees": 0.002657508540263667
+          },
+          "skySeparation": {
+            "count": 2728,
+            "maxDegrees": 0.005902603497432433,
+            "worst": {
+              "utc": "1848-08-15T12:34:56Z",
+              "actual": 331.4419693030734,
+              "reference": 331.4365571237672,
+              "errorDegrees": 0.005902603497432433
+            },
+            "meanDegrees": 0.003055742587198908
+          }
+        },
+        "Pluto": {
+          "longitude": {
+            "count": 2728,
+            "maxDegrees": 0.005359063427931687,
+            "worst": {
+              "utc": "1800-09-15T12:34:56Z",
+              "actual": 332.97279122695454,
+              "reference": 332.96743216352667,
+              "errorDegrees": 0.005359063427931687
+            },
+            "meanDegrees": 0.0014264380742757263
+          },
+          "skySeparation": {
+            "count": 2728,
+            "maxDegrees": 0.005324753014160321,
+            "worst": {
+              "utc": "1800-09-15T12:34:56Z",
+              "actual": 332.97279122695454,
+              "reference": 332.96743216352667,
+              "errorDegrees": 0.005324753014160321
+            },
+            "meanDegrees": 0.0013960836621527133
+          }
+        }
+      },
+      "houses": {
+        "count": 131328,
+        "maxDegrees": 0.00034743425294436747,
+        "worst": {
+          "utc": "1801-01-15T12:34:56Z",
+          "site": "Reykjavik",
+          "house": 1,
+          "actual": 68.29322119897705,
+          "reference": 68.29356863322995,
+          "errorDegrees": 0.00034743425294436747
+        },
+        "meanDegrees": 0.000024662497215215793
+      },
+      "cuspMetrics": [
+        {
+          "count": 10944,
+          "maxDegrees": 0.00034743425294436747,
+          "worst": {
+            "utc": "1801-01-15T12:34:56Z",
+            "site": "Reykjavik",
+            "house": 1,
+            "actual": 68.29322119897705,
+            "reference": 68.29356863322995,
+            "errorDegrees": 0.00034743425294436747
+          },
+          "meanDegrees": 0.000023978051673531796
+        },
+        {
+          "count": 10944,
+          "maxDegrees": 0.00028078324726266146,
+          "worst": {
+            "utc": "1800-04-15T12:34:56Z",
+            "site": "Near polar south",
+            "house": 2,
+            "actual": 110.98141643864125,
+            "reference": 110.98169722188852,
+            "errorDegrees": 0.00028078324726266146
+          },
+          "meanDegrees": 0.000024284156439072047
+        },
+        {
+          "count": 10944,
+          "maxDegrees": 0.00019742652784771053,
+          "worst": {
+            "utc": "1821-10-15T12:34:56Z",
+            "site": "Reykjavik",
+            "house": 3,
+            "actual": 330.21998986013523,
+            "reference": 330.22018728666313,
+            "errorDegrees": 0.00019742652784771053
+          },
+          "meanDegrees": 0.000024512156227903835
+        },
+        {
+          "count": 10944,
+          "maxDegrees": 0.00014344398823595839,
+          "worst": {
+            "utc": "1801-01-15T12:34:56Z",
+            "site": "Jerusalem",
+            "house": 4,
+            "actual": 156.67918758849237,
+            "reference": 156.6793310324806,
+            "errorDegrees": 0.00014344398823595839
+          },
+          "meanDegrees": 0.000024604163482677882
+        },
+        {
+          "count": 10944,
+          "maxDegrees": 0.0001711359375349275,
+          "worst": {
+            "utc": "1801-01-15T12:34:56Z",
+            "site": "Amsterdam",
+            "house": 5,
+            "actual": 151.17443006435633,
+            "reference": 151.17460120029392,
+            "errorDegrees": 0.0001711359375349275
+          },
+          "meanDegrees": 0.000025022238656897964
+        },
+        {
+          "count": 10944,
+          "maxDegrees": 0.0003001226332344231,
+          "worst": {
+            "utc": "1821-01-15T12:34:56Z",
+            "site": "Reykjavik",
+            "house": 6,
+            "actual": 133.0155041552074,
+            "reference": 133.0158042778407,
+            "errorDegrees": 0.0003001226332344231
+          },
+          "meanDegrees": 0.000025574216811257972
+        },
+        {
+          "count": 10944,
+          "maxDegrees": 0.00034743425283068063,
+          "worst": {
+            "utc": "1801-01-15T12:34:56Z",
+            "site": "Reykjavik",
+            "house": 7,
+            "actual": 248.2932211989771,
+            "reference": 248.29356863322994,
+            "errorDegrees": 0.00034743425283068063
+          },
+          "meanDegrees": 0.000023978051673168216
+        },
+        {
+          "count": 10944,
+          "maxDegrees": 0.00028078324726266146,
+          "worst": {
+            "utc": "1800-04-15T12:34:56Z",
+            "site": "Near polar south",
+            "house": 8,
+            "actual": 290.9814164386412,
+            "reference": 290.9816972218885,
+            "errorDegrees": 0.00028078324726266146
+          },
+          "meanDegrees": 0.000024284156438739628
+        },
+        {
+          "count": 10944,
+          "maxDegrees": 0.00019742652784771053,
+          "worst": {
+            "utc": "1821-10-15T12:34:56Z",
+            "site": "Reykjavik",
+            "house": 9,
+            "actual": 150.21998986013523,
+            "reference": 150.22018728666313,
+            "errorDegrees": 0.00019742652784771053
+          },
+          "meanDegrees": 0.00002451215622824664
+        },
+        {
+          "count": 10944,
+          "maxDegrees": 0.00014344398834964522,
+          "worst": {
+            "utc": "1801-01-15T12:34:56Z",
+            "site": "Jerusalem",
+            "house": 10,
+            "actual": 336.6791875884923,
+            "reference": 336.67933103248066,
+            "errorDegrees": 0.00014344398834964522
+          },
+          "meanDegrees": 0.00002460416348289603
+        },
+        {
+          "count": 10944,
+          "maxDegrees": 0.0001711359375349275,
+          "worst": {
+            "utc": "1801-01-15T12:34:56Z",
+            "site": "Amsterdam",
+            "house": 11,
+            "actual": 331.17443006435633,
+            "reference": 331.1746012002939,
+            "errorDegrees": 0.0001711359375349275
+          },
+          "meanDegrees": 0.000025022238656783696
+        },
+        {
+          "count": 10944,
+          "maxDegrees": 0.0003001226332344231,
+          "worst": {
+            "utc": "1821-01-15T12:34:56Z",
+            "site": "Reykjavik",
+            "house": 12,
+            "actual": 313.0155041552074,
+            "reference": 313.0158042778407,
+            "errorDegrees": 0.0003001226332344231
+          },
+          "meanDegrees": 0.000025574216811413796
+        }
+      ],
+      "asc": {
+        "count": 10944,
+        "maxDegrees": 0.00034743425294436747,
+        "worst": {
+          "utc": "1801-01-15T12:34:56Z",
+          "site": "Reykjavik",
+          "actual": 68.29322119897705,
+          "reference": 68.29356863322995,
+          "errorDegrees": 0.00034743425294436747
+        },
+        "meanDegrees": 0.000023978051673531796
+      },
+      "mc": {
+        "count": 10944,
+        "maxDegrees": 0.00014344398834964522,
+        "worst": {
+          "utc": "1801-01-15T12:34:56Z",
+          "site": "Jerusalem",
+          "actual": 336.6791875884923,
+          "reference": 336.67933103248066,
+          "errorDegrees": 0.00014344398834964522
+        },
+        "meanDegrees": 0.00002460416348289603
+      },
+      "dsc": {
+        "count": 10944,
+        "maxDegrees": 0.00034743425283068063,
+        "worst": {
+          "utc": "1801-01-15T12:34:56Z",
+          "site": "Reykjavik",
+          "actual": 248.2932211989771,
+          "reference": 248.29356863322994,
+          "errorDegrees": 0.00034743425283068063
+        },
+        "meanDegrees": 0.000023978051673168216
+      },
+      "ic": {
+        "count": 10944,
+        "maxDegrees": 0.00014344398823595839,
+        "worst": {
+          "utc": "1801-01-15T12:34:56Z",
+          "site": "Jerusalem",
+          "actual": 156.67918758849237,
+          "reference": 156.6793310324806,
+          "errorDegrees": 0.00014344398823595839
+        },
+        "meanDegrees": 0.000024604163482677882
+      },
+      "houseCharts": 10944
+    }
+  },
+  "samples": [
+    {
+      "mode": "default",
+      "utc": "1930-01-01T11:40:28Z",
+      "body": "Sun",
+      "actual": 280.3539069547111,
+      "reference": 280.35396264044823,
+      "differenceDegrees": -0.00005568573715208913
+    },
+    {
+      "mode": "default",
+      "utc": "1930-01-01T11:40:28Z",
+      "body": "Moon",
+      "actual": 296.6337144311119,
+      "reference": 296.6333436727919,
+      "differenceDegrees": 0.00037075832005939446
+    },
+    {
+      "mode": "default",
+      "utc": "1930-01-01T11:40:28Z",
+      "body": "Mercury",
+      "actual": 298.75017732121023,
+      "reference": 298.74927805924926,
+      "differenceDegrees": 0.0008992619609671237
+    },
+    {
+      "mode": "default",
+      "utc": "1930-01-01T11:40:28Z",
+      "body": "Venus",
+      "actual": 271.67494808283186,
+      "reference": 271.67450119210054,
+      "differenceDegrees": 0.0004468907313821546
+    },
+    {
+      "mode": "default",
+      "utc": "1930-01-01T11:40:28Z",
+      "body": "Mars",
+      "actual": 272.28372133833705,
+      "reference": 272.283419478496,
+      "differenceDegrees": 0.00030185984110175923
+    },
+    {
+      "mode": "default",
+      "utc": "1930-01-01T11:40:28Z",
+      "body": "Jupiter",
+      "actual": 67.8346639241978,
+      "reference": 67.83574090311265,
+      "differenceDegrees": -0.0010769789148525888
+    },
+    {
+      "mode": "default",
+      "utc": "1930-01-01T11:40:28Z",
+      "body": "Saturn",
+      "actual": 273.7696801537254,
+      "reference": 273.76952767949,
+      "differenceDegrees": 0.00015247423539221927
+    },
+    {
+      "mode": "default",
+      "utc": "1930-01-01T11:40:28Z",
+      "body": "Uranus",
+      "actual": 7.553011875070638,
+      "reference": 7.553581808015942,
+      "differenceDegrees": -0.0005699329452681923
+    },
+    {
+      "mode": "default",
+      "utc": "1930-01-01T11:40:28Z",
+      "body": "Neptune",
+      "actual": 153.39853580391195,
+      "reference": 153.39564842768456,
+      "differenceDegrees": 0.0028873762273633474
+    },
+    {
+      "mode": "default",
+      "utc": "1930-01-01T11:40:28Z",
+      "body": "Pluto",
+      "actual": 108.71408239501181,
+      "reference": 108.71369514328578,
+      "differenceDegrees": 0.00038725172601061786
+    },
+    {
+      "mode": "matchedDeltaT",
+      "utc": "1930-01-01T11:40:28Z",
+      "body": "Sun",
+      "actual": 280.3539103552845,
+      "reference": 280.35396264044823,
+      "differenceDegrees": -0.000052285163747001207
+    },
+    {
+      "mode": "matchedDeltaT",
+      "utc": "1930-01-01T11:40:28Z",
+      "body": "Moon",
+      "actual": 296.63375398236076,
+      "reference": 296.6333436727919,
+      "differenceDegrees": 0.0004103095689060865
+    },
+    {
+      "mode": "matchedDeltaT",
+      "utc": "1930-01-01T11:40:28Z",
+      "body": "Mercury",
+      "actual": 298.7501818016608,
+      "reference": 298.74927805924926,
+      "differenceDegrees": 0.000903742411537678
+    },
+    {
+      "mode": "matchedDeltaT",
+      "utc": "1930-01-01T11:40:28Z",
+      "body": "Venus",
+      "actual": 271.6749522783774,
+      "reference": 271.67450119210054,
+      "differenceDegrees": 0.00045108627682566294
+    },
+    {
+      "mode": "matchedDeltaT",
+      "utc": "1930-01-01T11:40:28Z",
+      "body": "Mars",
+      "actual": 272.28372384810007,
+      "reference": 272.283419478496,
+      "differenceDegrees": 0.0003043696040094801
+    },
+    {
+      "mode": "matchedDeltaT",
+      "utc": "1930-01-01T11:40:28Z",
+      "body": "Jupiter",
+      "actual": 67.83466360555911,
+      "reference": 67.83574090311265,
+      "differenceDegrees": -0.0010772975535928708
+    },
+    {
+      "mode": "matchedDeltaT",
+      "utc": "1930-01-01T11:40:28Z",
+      "body": "Saturn",
+      "actual": 273.76968054671624,
+      "reference": 273.76952767949,
+      "differenceDegrees": 0.00015286722623386595
+    },
+    {
+      "mode": "matchedDeltaT",
+      "utc": "1930-01-01T11:40:28Z",
+      "body": "Uranus",
+      "actual": 7.553011918987124,
+      "reference": 7.553581808015942,
+      "differenceDegrees": -0.0005698890288385883
+    },
+    {
+      "mode": "matchedDeltaT",
+      "utc": "1930-01-01T11:40:28Z",
+      "body": "Neptune",
+      "actual": 153.39853575655798,
+      "reference": 153.39564842768456,
+      "differenceDegrees": 0.0028873288733848312
+    },
+    {
+      "mode": "matchedDeltaT",
+      "utc": "1930-01-01T11:40:28Z",
+      "body": "Pluto",
+      "actual": 108.71408232481633,
+      "reference": 108.71369514328578,
+      "differenceDegrees": 0.000387181530527414
+    },
+    {
+      "mode": "default",
+      "utc": "2000-01-01T12:00:00Z",
+      "body": "Sun",
+      "actual": 280.3687386398185,
+      "reference": 280.3689186698997,
+      "differenceDegrees": -0.00018003008119649166
+    },
+    {
+      "mode": "default",
+      "utc": "2000-01-01T12:00:00Z",
+      "body": "Moon",
+      "actual": 223.3238911274741,
+      "reference": 223.32375144635085,
+      "differenceDegrees": 0.0001396811233007611
+    },
+    {
+      "mode": "default",
+      "utc": "2000-01-01T12:00:00Z",
+      "body": "Mercury",
+      "actual": 271.88891206646304,
+      "reference": 271.88927704616657,
+      "differenceDegrees": -0.0003649797035905067
+    },
+    {
+      "mode": "default",
+      "utc": "2000-01-01T12:00:00Z",
+      "body": "Venus",
+      "actual": 241.56523294036208,
+      "reference": 241.5657883828867,
+      "differenceDegrees": -0.0005554425246145911
+    },
+    {
+      "mode": "default",
+      "utc": "2000-01-01T12:00:00Z",
+      "body": "Mars",
+      "actual": 327.96389907790285,
+      "reference": 327.96330252578866,
+      "differenceDegrees": 0.000596552114188853
+    },
+    {
+      "mode": "default",
+      "utc": "2000-01-01T12:00:00Z",
+      "body": "Jupiter",
+      "actual": 25.254199844874222,
+      "reference": 25.253087178951848,
+      "differenceDegrees": 0.0011126659223918978
+    },
+    {
+      "mode": "default",
+      "utc": "2000-01-01T12:00:00Z",
+      "body": "Saturn",
+      "actual": 40.39612413717839,
+      "reference": 40.395663495199436,
+      "differenceDegrees": 0.0004606419789752181
+    },
+    {
+      "mode": "default",
+      "utc": "2000-01-01T12:00:00Z",
+      "body": "Uranus",
+      "actual": 314.8061046271607,
+      "reference": 314.8091877223818,
+      "differenceDegrees": -0.003083095221086296
+    },
+    {
+      "mode": "default",
+      "utc": "2000-01-01T12:00:00Z",
+      "body": "Neptune",
+      "actual": 303.1954420594734,
+      "reference": 303.1930132253617,
+      "differenceDegrees": 0.0024288341116971424
+    },
+    {
+      "mode": "default",
+      "utc": "2000-01-01T12:00:00Z",
+      "body": "Pluto",
+      "actual": 251.45473515991364,
+      "reference": 251.45477929526984,
+      "differenceDegrees": -0.0000441353562337099
+    },
+    {
+      "mode": "matchedDeltaT",
+      "utc": "2000-01-01T12:00:00Z",
+      "body": "Sun",
+      "actual": 280.36873842537693,
+      "reference": 280.3689186698997,
+      "differenceDegrees": -0.0001802445227667704
+    },
+    {
+      "mode": "matchedDeltaT",
+      "utc": "2000-01-01T12:00:00Z",
+      "body": "Moon",
+      "actual": 223.32388859871492,
+      "reference": 223.32375144635085,
+      "differenceDegrees": 0.00013715236400457798
+    },
+    {
+      "mode": "matchedDeltaT",
+      "utc": "2000-01-01T12:00:00Z",
+      "body": "Mercury",
+      "actual": 271.88891173909155,
+      "reference": 271.88927704616657,
+      "differenceDegrees": -0.0003653070750715415
+    },
+    {
+      "mode": "matchedDeltaT",
+      "utc": "2000-01-01T12:00:00Z",
+      "body": "Venus",
+      "actual": 241.56523268603485,
+      "reference": 241.5657883828867,
+      "differenceDegrees": -0.0005556968518476424
+    },
+    {
+      "mode": "matchedDeltaT",
+      "utc": "2000-01-01T12:00:00Z",
+      "body": "Mars",
+      "actual": 327.96389891473586,
+      "reference": 327.96330252578866,
+      "differenceDegrees": 0.0005963889472013761
+    },
+    {
+      "mode": "matchedDeltaT",
+      "utc": "2000-01-01T12:00:00Z",
+      "body": "Jupiter",
+      "actual": 25.254199836301837,
+      "reference": 25.253087178951848,
+      "differenceDegrees": 0.0011126573499495862
+    },
+    {
+      "mode": "matchedDeltaT",
+      "utc": "2000-01-01T12:00:00Z",
+      "body": "Saturn",
+      "actual": 40.39612414137338,
+      "reference": 40.395663495199436,
+      "differenceDegrees": 0.00046064617390584317
+    },
+    {
+      "mode": "matchedDeltaT",
+      "utc": "2000-01-01T12:00:00Z",
+      "body": "Uranus",
+      "actual": 314.8061046165709,
+      "reference": 314.8091877223818,
+      "differenceDegrees": -0.003083105810901543
+    },
+    {
+      "mode": "matchedDeltaT",
+      "utc": "2000-01-01T12:00:00Z",
+      "body": "Neptune",
+      "actual": 303.19544205199145,
+      "reference": 303.1930132253617,
+      "differenceDegrees": 0.0024288266297389782
+    },
+    {
+      "mode": "matchedDeltaT",
+      "utc": "2000-01-01T12:00:00Z",
+      "body": "Pluto",
+      "actual": 251.45473515251956,
+      "reference": 251.45477929526984,
+      "differenceDegrees": -0.000044142750311948475
+    }
+  ],
+  "houseSamples": [
+    {
+      "mode": "default",
+      "utc": "1930-01-01T11:40:28Z",
+      "site": "Amsterdam",
+      "house": 1,
+      "actual": 25.09721665671492,
+      "reference": 25.097203845959708,
+      "differenceDegrees": 0.000012810755151804187
+    },
+    {
+      "mode": "default",
+      "utc": "1930-01-01T11:40:28Z",
+      "site": "Amsterdam",
+      "house": 2,
+      "actual": 61.919791297127176,
+      "reference": 61.91978165242739,
+      "differenceDegrees": 0.000009644699730415596
+    },
+    {
+      "mode": "default",
+      "utc": "1930-01-01T11:40:28Z",
+      "site": "Amsterdam",
+      "house": 3,
+      "actual": 82.3733040003408,
+      "reference": 82.37329871186304,
+      "differenceDegrees": 0.000005288477723297547
+    },
+    {
+      "mode": "default",
+      "utc": "1930-01-01T11:40:28Z",
+      "site": "Amsterdam",
+      "house": 4,
+      "actual": 99.57555704595444,
+      "reference": 99.57555523360043,
+      "differenceDegrees": 0.0000018123539575753966
+    },
+    {
+      "mode": "default",
+      "utc": "1930-01-01T11:40:28Z",
+      "site": "Amsterdam",
+      "house": 5,
+      "actual": 118.65910706284933,
+      "reference": 118.65910802669151,
+      "differenceDegrees": -9.63842239798396e-7
+    },
+    {
+      "mode": "default",
+      "utc": "1930-01-01T11:40:28Z",
+      "site": "Amsterdam",
+      "house": 6,
+      "actual": 147.07447878890684,
+      "reference": 147.07448019521263,
+      "differenceDegrees": -0.0000014063057278690394
+    },
+    {
+      "mode": "default",
+      "utc": "1930-01-01T11:40:28Z",
+      "site": "Amsterdam",
+      "house": 7,
+      "actual": 205.09721665671486,
+      "reference": 205.0972038459597,
+      "differenceDegrees": 0.000012810755151804187
+    },
+    {
+      "mode": "default",
+      "utc": "1930-01-01T11:40:28Z",
+      "site": "Amsterdam",
+      "house": 8,
+      "actual": 241.91979129712718,
+      "reference": 241.9197816524274,
+      "differenceDegrees": 0.000009644699730415596
+    },
+    {
+      "mode": "default",
+      "utc": "1930-01-01T11:40:28Z",
+      "site": "Amsterdam",
+      "house": 9,
+      "actual": 262.3733040003408,
+      "reference": 262.3732987118631,
+      "differenceDegrees": 0.000005288477723297547
+    },
+    {
+      "mode": "default",
+      "utc": "1930-01-01T11:40:28Z",
+      "site": "Amsterdam",
+      "house": 10,
+      "actual": 279.57555704595444,
+      "reference": 279.5755552336004,
+      "differenceDegrees": 0.0000018123539575753966
+    },
+    {
+      "mode": "default",
+      "utc": "1930-01-01T11:40:28Z",
+      "site": "Amsterdam",
+      "house": 11,
+      "actual": 298.65910706284933,
+      "reference": 298.6591080266915,
+      "differenceDegrees": -9.63842239798396e-7
+    },
+    {
+      "mode": "default",
+      "utc": "1930-01-01T11:40:28Z",
+      "site": "Amsterdam",
+      "house": 12,
+      "actual": 327.07447878890684,
+      "reference": 327.07448019521263,
+      "differenceDegrees": -0.0000014063057278690394
+    },
+    {
+      "mode": "matchedDeltaT",
+      "utc": "1930-01-01T11:40:28Z",
+      "site": "Amsterdam",
+      "house": 1,
+      "actual": 25.097216657273975,
+      "reference": 25.097203845959708,
+      "differenceDegrees": 0.000012811314263672102
+    },
+    {
+      "mode": "matchedDeltaT",
+      "utc": "1930-01-01T11:40:28Z",
+      "site": "Amsterdam",
+      "house": 2,
+      "actual": 61.919791297454594,
+      "reference": 61.91978165242739,
+      "differenceDegrees": 0.000009645027148508234
+    },
+    {
+      "mode": "matchedDeltaT",
+      "utc": "1930-01-01T11:40:28Z",
+      "site": "Amsterdam",
+      "house": 3,
+      "actual": 82.37330400057579,
+      "reference": 82.37329871186304,
+      "differenceDegrees": 0.000005288712713991117
+    },
+    {
+      "mode": "matchedDeltaT",
+      "utc": "1930-01-01T11:40:28Z",
+      "site": "Amsterdam",
+      "house": 4,
+      "actual": 99.57555704615174,
+      "reference": 99.57555523360043,
+      "differenceDegrees": 0.0000018125513179256814
+    },
+    {
+      "mode": "matchedDeltaT",
+      "utc": "1930-01-01T11:40:28Z",
+      "site": "Amsterdam",
+      "house": 5,
+      "actual": 118.65910706305124,
+      "reference": 118.65910802669151,
+      "differenceDegrees": -9.636403319746023e-7
+    },
+    {
+      "mode": "matchedDeltaT",
+      "utc": "1930-01-01T11:40:28Z",
+      "site": "Amsterdam",
+      "house": 6,
+      "actual": 147.07447878920084,
+      "reference": 147.07448019521263,
+      "differenceDegrees": -0.0000014060117337066913
+    },
+    {
+      "mode": "matchedDeltaT",
+      "utc": "1930-01-01T11:40:28Z",
+      "site": "Amsterdam",
+      "house": 7,
+      "actual": 205.09721665727398,
+      "reference": 205.0972038459597,
+      "differenceDegrees": 0.000012811314263672102
+    },
+    {
+      "mode": "matchedDeltaT",
+      "utc": "1930-01-01T11:40:28Z",
+      "site": "Amsterdam",
+      "house": 8,
+      "actual": 241.9197912974546,
+      "reference": 241.9197816524274,
+      "differenceDegrees": 0.000009645027148508234
+    },
+    {
+      "mode": "matchedDeltaT",
+      "utc": "1930-01-01T11:40:28Z",
+      "site": "Amsterdam",
+      "house": 9,
+      "actual": 262.3733040005758,
+      "reference": 262.3732987118631,
+      "differenceDegrees": 0.000005288712713991117
+    },
+    {
+      "mode": "matchedDeltaT",
+      "utc": "1930-01-01T11:40:28Z",
+      "site": "Amsterdam",
+      "house": 10,
+      "actual": 279.57555704615174,
+      "reference": 279.5755552336004,
+      "differenceDegrees": 0.0000018125513179256814
+    },
+    {
+      "mode": "matchedDeltaT",
+      "utc": "1930-01-01T11:40:28Z",
+      "site": "Amsterdam",
+      "house": 11,
+      "actual": 298.65910706305124,
+      "reference": 298.6591080266915,
+      "differenceDegrees": -9.636403319746023e-7
+    },
+    {
+      "mode": "matchedDeltaT",
+      "utc": "1930-01-01T11:40:28Z",
+      "site": "Amsterdam",
+      "house": 12,
+      "actual": 327.07447878920084,
+      "reference": 327.07448019521263,
+      "differenceDegrees": -0.0000014060117337066913
+    },
+    {
+      "mode": "default",
+      "utc": "2000-01-01T12:00:00Z",
+      "site": "Jerusalem",
+      "house": 1,
+      "actual": 61.104415415326116,
+      "reference": 61.104443689009834,
+      "differenceDegrees": -0.000028273683710722253
+    },
+    {
+      "mode": "default",
+      "utc": "2000-01-01T12:00:00Z",
+      "site": "Jerusalem",
+      "house": 2,
+      "actual": 86.35387034831842,
+      "reference": 86.35389470916509,
+      "differenceDegrees": -0.00002436084673718142
+    },
+    {
+      "mode": "default",
+      "utc": "2000-01-01T12:00:00Z",
+      "site": "Jerusalem",
+      "house": 3,
+      "actual": 108.95686517061938,
+      "reference": 108.95689018593636,
+      "differenceDegrees": -0.0000250153169645273
+    },
+    {
+      "mode": "default",
+      "utc": "2000-01-01T12:00:00Z",
+      "site": "Jerusalem",
+      "house": 4,
+      "actual": 133.20510982888408,
+      "reference": 133.20513835109165,
+      "differenceDegrees": -0.000028522207571768377
+    },
+    {
+      "mode": "default",
+      "utc": "2000-01-01T12:00:00Z",
+      "site": "Jerusalem",
+      "house": 5,
+      "actual": 162.94571918704003,
+      "reference": 162.9457526328565,
+      "differenceDegrees": -0.000033445816484345414
+    },
+    {
+      "mode": "default",
+      "utc": "2000-01-01T12:00:00Z",
+      "site": "Jerusalem",
+      "house": 6,
+      "actual": 200.58812906478022,
+      "reference": 200.58816385919343,
+      "differenceDegrees": -0.00003479441318177123
+    },
+    {
+      "mode": "default",
+      "utc": "2000-01-01T12:00:00Z",
+      "site": "Jerusalem",
+      "house": 7,
+      "actual": 241.10441541532612,
+      "reference": 241.10444368900983,
+      "differenceDegrees": -0.000028273683710722253
+    },
+    {
+      "mode": "default",
+      "utc": "2000-01-01T12:00:00Z",
+      "site": "Jerusalem",
+      "house": 8,
+      "actual": 266.3538703483184,
+      "reference": 266.3538947091651,
+      "differenceDegrees": -0.00002436084673718142
+    },
+    {
+      "mode": "default",
+      "utc": "2000-01-01T12:00:00Z",
+      "site": "Jerusalem",
+      "house": 9,
+      "actual": 288.9568651706194,
+      "reference": 288.95689018593635,
+      "differenceDegrees": -0.0000250153169645273
+    },
+    {
+      "mode": "default",
+      "utc": "2000-01-01T12:00:00Z",
+      "site": "Jerusalem",
+      "house": 10,
+      "actual": 313.2051098288841,
+      "reference": 313.20513835109165,
+      "differenceDegrees": -0.000028522207571768377
+    },
+    {
+      "mode": "default",
+      "utc": "2000-01-01T12:00:00Z",
+      "site": "Jerusalem",
+      "house": 11,
+      "actual": 342.94571918704,
+      "reference": 342.9457526328565,
+      "differenceDegrees": -0.000033445816484345414
+    },
+    {
+      "mode": "default",
+      "utc": "2000-01-01T12:00:00Z",
+      "site": "Jerusalem",
+      "house": 12,
+      "actual": 20.58812906478022,
+      "reference": 20.588163859193422,
+      "differenceDegrees": -0.00003479441318177123
+    },
+    {
+      "mode": "matchedDeltaT",
+      "utc": "2000-01-01T12:00:00Z",
+      "site": "Jerusalem",
+      "house": 1,
+      "actual": 61.10441541531799,
+      "reference": 61.104443689009834,
+      "differenceDegrees": -0.00002827369189617457
+    },
+    {
+      "mode": "matchedDeltaT",
+      "utc": "2000-01-01T12:00:00Z",
+      "site": "Jerusalem",
+      "house": 2,
+      "actual": 86.3538703483116,
+      "reference": 86.35389470916509,
+      "differenceDegrees": -0.000024360853558391682
+    },
+    {
+      "mode": "matchedDeltaT",
+      "utc": "2000-01-01T12:00:00Z",
+      "site": "Jerusalem",
+      "house": 3,
+      "actual": 108.95686517061279,
+      "reference": 108.95689018593636,
+      "differenceDegrees": -0.00002501532355836389
+    },
+    {
+      "mode": "matchedDeltaT",
+      "utc": "2000-01-01T12:00:00Z",
+      "site": "Jerusalem",
+      "house": 4,
+      "actual": 133.2051098288768,
+      "reference": 133.20513835109165,
+      "differenceDegrees": -0.00002852221484772599
+    },
+    {
+      "mode": "matchedDeltaT",
+      "utc": "2000-01-01T12:00:00Z",
+      "site": "Jerusalem",
+      "house": 5,
+      "actual": 162.9457191870314,
+      "reference": 162.9457526328565,
+      "differenceDegrees": -0.00003344582512454508
+    },
+    {
+      "mode": "matchedDeltaT",
+      "utc": "2000-01-01T12:00:00Z",
+      "site": "Jerusalem",
+      "house": 6,
+      "actual": 200.5881290647709,
+      "reference": 200.58816385919343,
+      "differenceDegrees": -0.000034794422504091926
+    },
+    {
+      "mode": "matchedDeltaT",
+      "utc": "2000-01-01T12:00:00Z",
+      "site": "Jerusalem",
+      "house": 7,
+      "actual": 241.10441541531804,
+      "reference": 241.10444368900983,
+      "differenceDegrees": -0.00002827369178248773
+    },
+    {
+      "mode": "matchedDeltaT",
+      "utc": "2000-01-01T12:00:00Z",
+      "site": "Jerusalem",
+      "house": 8,
+      "actual": 266.3538703483116,
+      "reference": 266.3538947091651,
+      "differenceDegrees": -0.000024360853558391682
+    },
+    {
+      "mode": "matchedDeltaT",
+      "utc": "2000-01-01T12:00:00Z",
+      "site": "Jerusalem",
+      "house": 9,
+      "actual": 288.9568651706128,
+      "reference": 288.95689018593635,
+      "differenceDegrees": -0.00002501532355836389
+    },
+    {
+      "mode": "matchedDeltaT",
+      "utc": "2000-01-01T12:00:00Z",
+      "site": "Jerusalem",
+      "house": 10,
+      "actual": 313.2051098288768,
+      "reference": 313.20513835109165,
+      "differenceDegrees": -0.00002852221484772599
+    },
+    {
+      "mode": "matchedDeltaT",
+      "utc": "2000-01-01T12:00:00Z",
+      "site": "Jerusalem",
+      "house": 11,
+      "actual": 342.9457191870314,
+      "reference": 342.9457526328565,
+      "differenceDegrees": -0.00003344582512454508
+    },
+    {
+      "mode": "matchedDeltaT",
+      "utc": "2000-01-01T12:00:00Z",
+      "site": "Jerusalem",
+      "house": 12,
+      "actual": 20.588129064770897,
+      "reference": 20.588163859193422,
+      "differenceDegrees": -0.000034794422504091926
+    }
+  ],
+  "violations": []
+}

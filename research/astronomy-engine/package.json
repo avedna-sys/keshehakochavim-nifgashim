@@ -1,0 +1,5 @@
+{
+ "name":"synastry-astronomy-engine-experiment", "version":"0.1.0", "private":true,"type":"module",
+ "scripts":{"reference:prepare":"node validation/prepare-reference.mjs","test":"node --test validation/*.check.mjs"},
+ "dependencies":{"astronomy-engine":"2.1.19"},"devDependencies":{"sweph":"2.10.3-8"},"engines":{"node":"24.x"}
+}
