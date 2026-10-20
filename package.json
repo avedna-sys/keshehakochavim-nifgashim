@@ -14,5 +14,9 @@
   },
   "engines": {
     "node": "24.x"
+  },
+  "dependencies": {
+    "@js-temporal/polyfill": "^0.5.1",
+    "i18n-iso-countries": "^7.14.0"
   }
 }
