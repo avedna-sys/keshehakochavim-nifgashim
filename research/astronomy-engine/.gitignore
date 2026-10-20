@@ -6,3 +6,6 @@ local-investigations/
 
 # Experimental browser build (never the public app output)
 browser-dist/
+
+# Review artifact for the integrated website (not deployed)
+integrated-dist/
