@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "url": "http://127.0.0.1:4174",
+  "desktop": {
+    "width": 1440,
+    "height": 1100
+  },
+  "mobile": {
+    "width": 390,
+    "height": 844
+  },
+  "planetMarks": 20,
+  "houseCusps": 24,
+  "axes": 8,
+  "aspects": 42,
+  "extendedMarks": 26,
+  "geometry": true,
+  "numericEngineMatch": true,
+  "svgDownload": true,
+  "amsterdam1930": true,
+  "gapBlocked": true,
+  "foldBlocked": true,
+  "staleResultsCleared": true,
+  "namesEscaped": true,
+  "noExternalRequests": true,
+  "pageErrors": [],
+  "finishedAt": "2026-10-20T13:46:26.636Z"
+}

@@ -3,3 +3,6 @@ validation/reference-data/
 
 # Unapproved True Node candidate and failed evidence, preserved locally
 local-investigations/
+
+# Experimental browser build (never the public app output)
+browser-dist/

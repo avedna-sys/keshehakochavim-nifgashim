@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>מעבדת סינסטרי | כשהכוכבים נפגשים</title></head>
+<body>
+<header class="masthead"><a href="#" aria-label="כשהכוכבים נפגשים" class="brand">✧</a><span>כשהכוכבים נפגשים<small>אסטרולוגיה של אהבה, משפחה וחברות</small></span><span class="lab-tag">מעבדת סינסטרי</span></header>
+<main>
+<section class="intro"><p class="eyebrow">שני סיפורים. מפגש אחד.</p><h1>המפה של החיבור ביניכם</h1><p>שני גלגלים, שתי מפות לידה ומבט משותף על ההיבטים ביניהם.</p><p class="notice">תצוגת מחקר בלבד · חישובים אמיתיים של Astronomy Engine ו־IANA TZDB 2026b. טרם אושרה לשימוש מקצועי או לפרסום.</p></section>
+<form id="birth-form" class="panel">
+ <div class="section-heading"><div><h2>פרטי הלידה</h2><p>שעה ידועה, מקום וקואורדינטות נדרשים לחישוב הבתים והצירים.</p></div><button type="button" id="example" class="secondary">מילוי נתוני בדיקה</button></div>
+ <div id="people" class="people"></div>
+ <datalist id="zones"></datalist>
+ <div class="options"><label><input type="checkbox" name="meanNodes"> הוסף ראש וזנב דרקון ממוצעים</label><label><input type="checkbox" name="meanLilith"> הוסף לילית ממוצעת</label></div>
+ <div class="form-footer"><p>הפרטים מחושבים בדפדפן ואינם נשלחים לשירות חיצוני. רשימת המקומות היא רשימת ייחוס לניסוי; אפשר להזין קואורדינטות ומזהה IANA ידנית.</p><button class="primary" type="submit">✧ צור מפת סינסטרי</button></div>
+ <p id="message" role="status" aria-live="polite"></p>
+</form>
+<section id="results" hidden>
+ <div class="result-heading"><div><p class="eyebrow">המרחב המשותף</p><h2 id="pair-title"></h2></div><span class="result-tag">חישוב מקומי · ניסיוני</span></div>
+ <div class="result-grid"><article class="panel chart-panel"><div class="section-heading"><h3>מפת הסינסטרי</h3><button id="download" type="button" class="secondary">הורדת SVG</button></div><div class="chart-controls"><label>גודל המפה <input id="zoom" type="range" min="100" max="200" step="25" value="100"></label><span>בנייד אפשר להגדיל ולגלול את המפה</span></div><p class="muted">הנקודות בשפת הגלגל מסמנות מיקום מחושב מדויק; בסמלים צפופים, קווי מנחה מחברים אליהן את התוויות.</p><div class="chart-scroll" tabindex="0" aria-label="מפה ניתנת לגלילה"><div id="chart"></div></div></article>
+ <aside class="panel reading"><h3>שני הגלגלים</h3><div id="summaries"></div><h3>מפתח ההיבטים</h3><div id="legend"></div><p class="muted">לחיצה על היבט בטבלה תדגיש את הקו שלו במפה.</p><details><summary>הגדרות החישוב</summary><div id="profile"></div><p>UTC מטופל כ־UT1 בהנחת DUT1=0. המנוע משתמש במודל ΔT המוגדר בו. נדרש אימות נוסף של סולמות הזמן לפני שימוש מקצועי.</p></details></aside></div>
+ <section class="panel aspects"><div class="section-heading"><div><h3>טבלת ההיבטים</h3><p id="aspect-count"></p></div><label>סינון היבט <select id="aspect-filter"><option value="all">כל ההיבטים</option></select></label></div><p class="muted">הספים: צמידות ומולות 8°, ריבוע ומשולש 6°, משושה 4°. סימון ≈ מציין קרבה של עד 2 דקות קשת לגבול האורב.</p><div class="table-scroll"><table><caption class="sr-only">היבטים בין נקודות האדם הראשון לנקודות האדם השני</caption><thead><tr><th>אדם ראשון</th><th>היבט</th><th>אדם שני</th><th>מרחק זוויתי</th><th>אורב</th><th>בחירה</th></tr></thead><tbody id="aspect-rows"></tbody></table></div><p class="muted">האורבים מוצגים בשש ספרות אחרי הנקודה לצורכי בדיקה. מספר הספרות אינו מבטיח דיוק פיזיקלי זהה. בנייד אפשר לגלול את הטבלה לצדדים.</p></section>
+ <section class="panel"><details><summary>בתים, צירים ומיקומי הנקודות במעלות</summary><div class="table-scroll"><table><thead><tr><th>בית / ציר</th><th id="house-name-0"></th><th id="house-name-1"></th></tr></thead><tbody id="house-rows"></tbody></table></div><div class="table-scroll"><table><thead><tr><th>נקודה</th><th id="point-name-0"></th><th id="point-name-1"></th></tr></thead><tbody id="point-rows"></tbody></table></div></details></section>
+</section>
+</main><footer>כשהכוכבים נפגשים · ניסוי נפרד בענף המחקר · אין כאן כירון או True Node</footer>
+<script type="module" src="/main.mjs"></script>
+</body></html>

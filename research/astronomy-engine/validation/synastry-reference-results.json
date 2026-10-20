@@ -1,0 +1,24 @@
+{
+  "status": "passed-experimental-sample-only",
+  "startedAt": "2026-10-20T13:45:19.533Z",
+  "finishedAt": "2026-10-20T13:45:19.622Z",
+  "swiss": "2.10.03",
+  "flags": 258,
+  "pairs": 100,
+  "planetPairs": 10000,
+  "orbChecks": 50000,
+  "limitDegrees": 0.03333333333333333,
+  "maxOrbDifferenceDegrees": 0.009640379715335712,
+  "worst": {
+    "first": "1800-01-01T00:00:00Z",
+    "second": "1800-01-01T00:00:00Z",
+    "body1": "Neptune",
+    "body2": "Pluto",
+    "type": "conjunction",
+    "actualOrb": 104.79974195785906,
+    "referenceOrb": 104.79010157814372,
+    "errorDegrees": 0.009640379715335712
+  },
+  "classificationDifferences": [],
+  "policy": "Default AE Delta T vs default Swiss Delta T; same UTC-like UT1, DUT1=0. Near-cutoff classifications can differ and must not imply guaranteed physical precision."
+}

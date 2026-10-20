@@ -7,13 +7,20 @@
     "reference:prepare": "node validation/prepare-reference.mjs",
     "test": "node --test validation/*.check.mjs",
     "tzdb:prepare": "node validation/prepare-tzdb.mjs",
-    "report:time": "node validation/write-time-report.mjs"
+    "report:time": "node validation/write-time-report.mjs",
+    "dev:chart": "vite --config vite.config.mjs",
+    "build:chart": "vite build --config vite.config.mjs",
+    "preview:chart": "vite preview --config vite.config.mjs",
+    "test:browser": "node validation/browser-smoke.mjs",
+    "export:chart": "node validation/export-standalone.mjs"
   },
   "dependencies": {
     "astronomy-engine": "2.1.19"
   },
   "devDependencies": {
-    "sweph": "2.10.3-8"
+    "playwright-core": "1.56.1",
+    "sweph": "2.10.3-8",
+    "vite": "7.3.7"
   },
   "engines": {
     "node": "24.x"
