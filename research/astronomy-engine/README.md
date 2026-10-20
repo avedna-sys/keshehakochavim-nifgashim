@@ -7,6 +7,7 @@
 ```sh
 npm ci --cache /tmp/synastry-npm-cache
 npm run reference:prepare
+npm run tzdb:prepare
 npm test
 node validation/write-report.mjs
 ```
@@ -63,3 +64,25 @@ npm run report:time
 הכנת TZDB דורשת `curl`, `tar`, `make`, `awk`, ו־`zic` התומך ב־`-R`; בדיקות ההשוואה דורשות Python 3.9+ עם ZoneInfo והתקנת tzdata של המערכת. נתוני המקור נבדקים ב־SHA-256. כל קומפילציה נוצרת בתיקייה חדשה מוחרגת, בלי לדרוס עבודת מחקר קיימת. לצורך שימוש בממיר בלבד אין צורך בכלי הבנייה או ב־Python. בשימוש בדפדפן ניתן להזין JSON לממיר, אך הוא עדיין לא חובר לאתר.
 
 [דוח הזמן החדש](HISTORICAL_TIME_REPORT.md) נפרד מדוח הכוכבים והבתים. הבדיקות מאמתות המרה מול IANA ולא מהוות אימות עצמאי של החוקים ההיסטוריים לכל מקום. UT1/TT והכרעת אזור זמן לפי מיקום עדיין דורשים טיפול. אין העברה אוטומטית של קלט מקומי למנוע הכוכבים.
+
+## צמתי הירח — חלק מאומת נפרד וחקירת True Node
+
+`verified/mean-node.mjs` מחשב **Mean Node בלבד**, כולל זנב ב־180° מהראש. הוא עבר השוואה עצמאית מול Swiss ב־6,018 מועדים בשנים 1800–2026. אינו מחובר אוטומטית ל־`engine.mjs` או לאפליקציה; משתמשים בו ישירות עם `AstroTime` של TT ידוע.
+
+```js
+import * as Astronomy from 'astronomy-engine';
+import {calculateMeanLunarNodes} from './verified/mean-node.mjs';
+const nodes = calculateMeanLunarNodes(Astronomy.MakeTime(new Date('2000-01-01T12:00:00Z')));
+```
+
+**True Node עדיין נכשל בסף 0.005°, שלא הוגדל.** חקירת הזמן, המסגרת והגדרת הצומת מצביעה על וקטור מצב הירח של Astronomy Engine כמקור העיקרי להפרש. תיקון מוסכמת זמן האור במועמד המקומי לא פתר אותו. המועמד, הבדיקות הכושלות וקובצי העבודה הקודמים נשמרו מקומית תחת `local-investigations/true-node/`, מוחרגים מ־Git, ואינם חלק מהמודול המאומת.
+
+```sh
+npm test
+node validation/node-cause.probe.mjs
+node validation/write-node-cause-report.mjs
+# בדיקת המועמד המקומי בלבד — צפויה להיכשל בסף True:
+node --test local-investigations/true-node/validation/lunar-nodes.check.mjs
+```
+
+הצלחת `npm test` אינה אישור ל־True Node: היא בודקת את המנוע הקיים, הזמן ואת Mean בלבד. [NODE_CAUSE_REPORT.md](NODE_CAUSE_REPORT.md) כולל את שלושת המועדים, בידוד גורמי ההפרש, ההרצה החוזרת לאחר שינוי מוסכמת זמן האור והעבודה שטרם אומתה. עדות הכישלון נשמרת בענף כנתונים בלבד, לא כקוד חישוב מאושר.

@@ -1,2 +1,5 @@
 node_modules/
 validation/reference-data/
+
+# Unapproved True Node candidate and failed evidence, preserved locally
+local-investigations/
