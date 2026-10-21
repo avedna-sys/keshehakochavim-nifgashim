@@ -31,7 +31,7 @@ form.addEventListener('submit',async event=>{
     const engine=await loadSynastry();if(run!==revision)return;
     const pair=engine.createIntegratedSynastry(request,locations,engine.resolver,{includeMeanNodes:data.has('mean-nodes'),includeMeanLilith:data.has('mean-lilith')});
     if(run!==revision)return;
-    engine.mountSynastry(result,pair);result.hidden=false;
+    result.hidden=false;engine.mountSynastry(result,pair);
     status.textContent='המפה וטבלת ההיבטים חושבו מהנתונים שהוזנו. התוצאה מוצגת בהמשך העמוד כתצוגת מחקר.';
   }catch(error){if(run===revision){result.hidden=true;result.replaceChildren();status.textContent=error instanceof RangeError?'לא ניתן לחשב: יש לבדוק תאריך בשנים 1800–2026, שעה ידועה, קואורדינטות ואזור זמן תקינים. בתי Placidus אינם זמינים בקווי רוחב קוטביים.':error.message;}}
   finally{if(run===revision){submit.disabled=false;form.removeAttribute('aria-busy');if(result.hidden)status.focus();else{result.tabIndex=-1;result.focus({preventScroll:true});result.scrollIntoView({behavior:'smooth',block:'start'});}}}

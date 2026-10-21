@@ -1,0 +1,20 @@
+{
+  "status": "passed-with-Saturn-motion-withheld",
+  "finishedAt": "2026-10-21T07:10:57.379Z",
+  "count": 35412,
+  "limitDegreesPerDay": 0.001,
+  "maxDifferenceDegreesPerDay": 0.0029071297785168704,
+  "failed": 1,
+  "acceptedFailures": 0,
+  "maxAcceptedDifferenceDegreesPerDay": 0.0006799211224691737,
+  "classificationFailures": 0,
+  "uncertain": 179,
+  "worst": {
+    "year": 1975,
+    "month": 7,
+    "body": "Saturn",
+    "actual": 0.12975470868332195,
+    "reference": 0.13266183846183882
+  },
+  "method": "±5 TT minutes central difference; Swiss TT with matched Delta T; flag 258; near-zero classification withheld"
+}

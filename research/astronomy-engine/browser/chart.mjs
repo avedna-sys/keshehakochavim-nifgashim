@@ -1,3 +1,4 @@
+import {zodiacParts} from '../position-details.mjs';
 import {normalize} from '../placidus.mjs';
 import {pointInfo} from '../synastry.mjs';
 const ns='http://www.w3.org/2000/svg';
@@ -69,14 +70,16 @@ export function renderChart(pair){
   path.append(el('title',{},`${pointInfo[a.first][0]} – ${pointInfo[a.second][0]}: ${a.label}, אורב ${a.orb.toFixed(6)}°`));
  }
  pair.charts.forEach((c,person)=>{
-  const labels=pointLabels(c.points),radius=person?333:208;
+  const labels=pointLabels(c.points,14),radius=person?333:208;
   c.points.forEach((p,i)=>{
    const labelLongitude=labels.get(i),where=position(labelLongitude,radius,asc),tick=position(p.longitude,person?359:239,asc);
    const g=el('g',{'data-point':p.body,'data-person':person,'data-longitude':p.longitude,'data-label-longitude':labelLongitude});
    line(g,tick,where,{stroke:colors[person],'stroke-width':.8,'stroke-opacity':.55});
    g.append(el('circle',{cx:tick.x,cy:tick.y,r:2.2,fill:colors[person]}));
    g.append(el('circle',{cx:where.x,cy:where.y,r:13,fill:'#fffdf8','fill-opacity':.94}));
-   label(g,where,pointInfo[p.body][1],{fill:colors[person],'font-size':28,'font-weight':600});
+   label(g,where,pointInfo[p.body][1],{fill:colors[person],'font-size':25,'font-weight':600});
+   const parts=zodiacParts(p.longitude);
+   label(g,{x:where.x,y:where.y+31},`${parts.degree}°${String(parts.minute).padStart(2,'0')}′`,{fill:colors[person],'font-size':12,'data-position-degree':p.body,stroke:'#fffdf8','stroke-width':3,'paint-order':'stroke'});
    g.append(el('title',{},`${c.name} · ${pointInfo[p.body][0]}: ${p.longitude.toFixed(6)}° (${p.sign})`));
    svg.append(g);
   });

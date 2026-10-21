@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "finishedAt": "2026-10-21T07:13:27.250Z",
+  "tables": 2,
+  "planetRows": 20,
+  "optionalRows": 26,
+  "houseAndAxisRows": 16,
+  "inlineDegreeLabels": 20,
+  "visibleDegreeLabels": 11,
+  "clickAndKeyboard": true,
+  "mobileNoOverflow": true,
+  "saturnMotionWithheld": true,
+  "pageErrors": []
+}
