@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "finishedAt": "2026-10-21T08:02:03.260Z",
+  "explicitSaveOnly": true,
+  "reloadPersistence": true,
+  "pageCloseReopenPersistence": true,
+  "browserProcessRestartPersistence": true,
+  "noAutoLoad": true,
+  "exactCoordinatesAndZone": true,
+  "restoredChartCalculates": true,
+  "overwriteAndDeleteCanCancel": true,
+  "jsonRoundtrip": true,
+  "importDoesNotPersist": true,
+  "invalidImportNonDestructive": true,
+  "quotaFailurePreservesData": true,
+  "unrelatedStorageUntouched": true,
+  "unknownVersionPreserved": true,
+  "mobileNoOverflow": true,
+  "externalRequests": 0,
+  "pageErrors": []
+}
