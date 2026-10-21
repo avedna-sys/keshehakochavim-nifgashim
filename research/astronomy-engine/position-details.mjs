@@ -16,11 +16,15 @@ export function motionAt(body,ttJulianDay){
  const step=5/1440,t=ttJulianDay-2451545;
  const speed=signedDifference(longitudeAt(body,Astronomy.AstroTime.FromTerrestrialTime(t+step)),longitudeAt(body,Astronomy.AstroTime.FromTerrestrialTime(t-step)))/(2*step);
  if(!Number.isFinite(speed))throw Error('Non-finite longitude speed');
- return {longitudeSpeed:speed,motion:body==='Saturn'?'unverified':Math.abs(speed)<=motionErrorBound?'uncertain':speed<0?'retrograde':'direct'};
+ return {longitudeSpeed:speed,motion:Math.abs(speed)<=motionErrorBound?'uncertain':speed<0?'retrograde':'direct'};
 }
 export function zodiacParts(longitude){
- const p=zodiacPosition(longitude),minutes=Math.floor(p.degreesWithinSign*60+1e-10);
- return {...p,degree:Math.floor(minutes/60),minute:minutes%60};
+ const p=zodiacPosition(longitude);
+ // Round full zodiac to nearest arcminute BEFORE splitting sign/degrees.
+ // Carry propagates through 30° and 360°; numeric engine longitude is unchanged.
+ // 1e-9 arcminute tolerance stabilizes half-minute ties after floating-point normalization.
+ const minutes=Math.round(p.longitude*60+1e-9)%21600,display=zodiacPosition(minutes/60);
+ return {...p,signIndex:display.signIndex,sign:display.sign,degree:Math.floor((minutes%1800)/60),minute:minutes%60};
 }
 // Ecliptic-longitude placement between own Placidus cusps, not 3-D house position.
 // A cusp belongs to the house starting there; near-boundary assignment is flagged.

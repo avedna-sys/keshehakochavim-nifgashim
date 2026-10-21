@@ -1,6 +1,6 @@
 {
   "status": "passed",
-  "finishedAt": "2026-10-21T07:13:27.250Z",
+  "finishedAt": "2026-10-21T07:45:49.352Z",
   "tables": 2,
   "planetRows": 20,
   "optionalRows": 26,
@@ -9,6 +9,6 @@
   "visibleDegreeLabels": 11,
   "clickAndKeyboard": true,
   "mobileNoOverflow": true,
-  "saturnMotionWithheld": true,
+  "saturnMotionMatchedProfile": true,
   "pageErrors": []
 }
