@@ -29,7 +29,11 @@ export async function exportSVG(svg,pair){
   return {text:new XMLSerializer().serializeToString(copy),height,width:1000,pointCount:pair.charts.reduce((n,c)=>n+c.points.length,0)};
  }finally{holder.remove();}
 }
-export function downloadFile(blob,filename){const url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download=filename;a.click();setTimeout(()=>URL.revokeObjectURL(url),30000);}
+export function downloadFile(blob,filename){
+ const url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download=filename;a.hidden=true;
+ // A connected anchor is required by some desktop browser/download handlers.
+ document.body.append(a);a.click();setTimeout(()=>{a.remove();URL.revokeObjectURL(url);},30000);
+}
 export async function pngFile(snapshot){
  const url=URL.createObjectURL(new Blob([snapshot.text],{type:'image/svg+xml;charset=utf-8'}));
  try{const img=new Image();img.src=url;await img.decode();const canvas=document.createElement('canvas');canvas.width=exportWidth;canvas.height=Math.round(exportWidth*snapshot.height/snapshot.width);const ctx=canvas.getContext('2d');if(!ctx)throw Error('לא ניתן ליצור תמונה בדפדפן הזה. אפשר להוריד SVG.');ctx.fillStyle='#fffdf8';ctx.fillRect(0,0,canvas.width,canvas.height);ctx.drawImage(img,0,0,canvas.width,canvas.height);
