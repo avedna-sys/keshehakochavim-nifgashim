@@ -1,0 +1,9 @@
+{
+  "finishedAt": "2026-10-21T16:18:44.934Z",
+  "baselineCommit": "8ca11c0",
+  "method": "Legacy chart-export-ui served in browser via route; real SVG and PNG conversion delayed 1200ms; no download or format logic mocked",
+  "requestedAtClick": "pdf",
+  "changedDuringPreparation": "png",
+  "actualDownload": "synastry-map.png",
+  "confirmedRaceBug": true
+}

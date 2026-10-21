@@ -1,0 +1,40 @@
+{
+  "status": "passed",
+  "finishedAt": "2026-10-21T16:19:30.571Z",
+  "url": "http://127.0.0.1:4178",
+  "build": "production Vite preview",
+  "transitions": [
+    {
+      "selected": "pdf",
+      "download": "synastry-map.pdf"
+    },
+    {
+      "selected": "png",
+      "download": "synastry-map.png"
+    },
+    {
+      "selected": "svg",
+      "download": "synastry-research.svg"
+    },
+    {
+      "selected": "pdf",
+      "download": "synastry-map.pdf"
+    },
+    {
+      "selected": "svg",
+      "download": "synastry-research.svg"
+    },
+    {
+      "selected": "png",
+      "download": "synastry-map.png"
+    }
+  ],
+  "selectionShowsFeedback": true,
+  "selectionDoesNotDownload": true,
+  "requestedFormatCapturedBeforeAwait": true,
+  "manualLinksMatchAllFormats": true,
+  "legacySVGButton": true,
+  "mobileNoOverflow": true,
+  "pageErrors": [],
+  "consoleErrors": []
+}

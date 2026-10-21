@@ -2,28 +2,46 @@ import {exportSVG,pngFile,pdfFile,downloadFile} from './chart-export.js';
 export function attachChartExports(container,svg,pair){
  const $=id=>container.querySelector('#'+id),status=$('syn-export-status'),share=$('syn-share'),download=$('syn-export-download');
  const current=()=>svg.isConnected&&container.contains(svg);
- const message=text=>{status.textContent=text;};let readyPNG,preparation,fallbackURL;
+ const message=text=>{status.textContent=text;};let readyPNG,preparation,fallbackURL;const files=new Map(),pending=new Map();const formatSelect=$('syn-export-format');
  function clearFallback(){if(fallbackURL){URL.revokeObjectURL(fallbackURL);fallbackURL=undefined;}}
  const lifecycle=new MutationObserver(()=>{if(!current()){clearFallback();lifecycle.disconnect();}});lifecycle.observe(container,{childList:true,subtree:true});
- function savePNG(file){
+ function saveFile(file,format){
   if(!current())return;downloadFile(file,file.name);clearFallback();fallbackURL=URL.createObjectURL(file);
-  const link=document.createElement('a');link.href=fallbackURL;link.download=file.name;link.textContent='הורדת PNG ידנית';
+  const link=document.createElement('a');link.href=fallbackURL;link.download=file.name;link.textContent=`הורדת ${format.toUpperCase()} ידנית`;
   status.replaceChildren(document.createTextNode('המפה מוכנה ללא פרטי לידה מלאים. אם ההורדה לא החלה, לחצו כאן: '),link);
  }
  function prepare(){if(!preparation)preparation=exportSVG(svg,pair).then(async snapshot=>({snapshot,png:await pngFile(snapshot)})).catch(e=>{preparation=undefined;throw e;});return preparation;}
  // Prepare locally in advance so navigator.share is called directly within a user click.
- function warm(){share.disabled=true;share.textContent='מכין מפה לשיתוף…';prepare().then(v=>{readyPNG=v.png;if(current()){share.disabled=false;share.textContent='שתף מפה';}}).catch(()=>{if(current()){share.disabled=false;share.textContent='שתף מפה';}});}
+ function warm(){share.disabled=true;share.textContent='מכין מפה לשיתוף…';prepare().then(v=>{readyPNG=v.png;files.set('png',v.png);if(current()){share.disabled=false;share.textContent='שתף מפה';}}).catch(()=>{if(current()){share.disabled=false;share.textContent='שתף מפה';}});}
  warm();
- $('syn-download').addEventListener('click',async()=>{try{const value=await exportSVG(svg,pair);if(current())downloadFile(new Blob([value.text],{type:'image/svg+xml;charset=utf-8'}),'synastry-research.svg');}catch{message('לא ניתן לייצא SVG כרגע. נסו שוב.');}});
- download.addEventListener('click',()=>{
-  // Cached PNG must be dispatched in this click, before any await/activation loss.
-  if($('syn-export-format').value==='png'&&readyPNG){savePNG(readyPNG);return;}
-  download.disabled=true;message('מכין את המפה להורדה…');
-  (async()=>{try{const {png}=await prepare();if(!current())return;readyPNG=png;
-   if($('syn-export-format').value==='pdf'){const file=await pdfFile(png);if(!current())return;downloadFile(file,file.name);message('קובץ PDF מוכן, ללא פרטי לידה מלאים.');}
-   else savePNG(png);
-  }catch(e){if(current())message(e.message||'הייצוא נכשל. אפשר לנסות הורדת SVG.');}finally{if(current())download.disabled=false;}})();
+ function fileFor(format){
+  if(!['png','pdf','svg'].includes(format))return Promise.reject(Error('יש לבחור PNG, PDF או SVG.'));
+  if(files.has(format))return Promise.resolve(files.get(format));
+  if(!pending.has(format))pending.set(format,(async()=>{
+   let file;
+   if(format==='svg'){const value=await exportSVG(svg,pair);file=new File([value.text],'synastry-research.svg',{type:'image/svg+xml;charset=utf-8'});}
+   else{const {png}=await prepare();readyPNG=png;files.set('png',png);file=format==='pdf'?await pdfFile(png):png;}
+   files.set(format,file);return file;
+  })().catch(e=>{pending.delete(format);throw e;}));
+  return pending.get(format);
+ }
+ function downloadFormat(format){
+  if(!current()||download.disabled)return;
+  // Capture the requested format BEFORE any await; later selector changes cannot alter it.
+  if(files.has(format)){saveFile(files.get(format),format);return;}
+  download.disabled=true;message(`מכין ${format.toUpperCase()} להורדה…`);
+  fileFor(format).then(file=>{if(current())saveFile(file,format);}).catch(e=>{if(current())message(e.message||'הייצוא נכשל. נסו שוב או בחרו SVG.');}).finally(()=>{if(current())download.disabled=false;});
+ }
+ formatSelect.addEventListener('change',()=>{
+  const format=formatSelect.value;message(`נבחר ${format.toUpperCase()}. לחצו על ״הורד מפה״ להורדת הקובץ.`);
+  // Preload locally so the next click can download synchronously with user activation.
+  fileFor(format).catch(e=>{if(current()&&formatSelect.value===format)message(e.message||'לא ניתן להכין את הפורמט שנבחר. נסו שוב.');});
  });
+ $('syn-download').addEventListener('click',()=>{
+  if(files.has('svg')){saveFile(files.get('svg'),'svg');return;}
+  message('מכין SVG להורדה…');fileFor('svg').then(file=>{if(current())saveFile(file,'svg');}).catch(()=>{if(current())message('לא ניתן לייצא SVG כרגע. נסו שוב.');});
+ });
+ download.addEventListener('click',()=>downloadFormat(formatSelect.value));
  share.addEventListener('click',()=>{
   if(!readyPNG){message('מכין קובץ לשיתוף. לאחר ההכנה לחצו שוב על ״שתף מפה״.');warm();return;}
   let supported=false;try{supported=Boolean(navigator.share&&navigator.canShare?.({files:[readyPNG]}));}catch{/* Some embedded browsers reject capability probes. */}
