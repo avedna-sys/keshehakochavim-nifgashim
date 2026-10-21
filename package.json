@@ -18,6 +18,7 @@
   "dependencies": {
     "@js-temporal/polyfill": "^0.5.1",
     "astronomy-engine": "2.1.19",
-    "i18n-iso-countries": "^7.14.0"
+    "i18n-iso-countries": "^7.14.0",
+    "pdf-lib": "1.17.1"
   }
 }

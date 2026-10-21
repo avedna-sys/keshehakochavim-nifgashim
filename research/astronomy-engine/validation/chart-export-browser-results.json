@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "finishedAt": "2026-10-21T08:30:39.776Z",
+  "png": [
+    3000,
+    4140
+  ],
+  "mobileWithOptionalPoints": [
+    3000,
+    4374
+  ],
+  "pdfPages": 1,
+  "pdfPage": "A4 portrait, entire image fitted with 20pt margin",
+  "svgRetained": true,
+  "allPointsAndAspects": true,
+  "allPositionDegreesInAppendix": true,
+  "exportIgnoresZoomAndAspectSelection": true,
+  "longNamesWithinBounds": true,
+  "noBirthDetailsInSVG": true,
+  "shareFileMockPassed": true,
+  "shareHasUserActivation": true,
+  "cancelHandled": true,
+  "unsupportedFileShareFallback": true,
+  "nativeOSShare": "not available in headless browser; API tested with controlled mocks only",
+  "mobileNoOverflow": true,
+  "staleExportCancelled": true,
+  "externalRequests": 0,
+  "pageErrors": []
+}
