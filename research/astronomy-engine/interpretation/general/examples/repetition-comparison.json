@@ -1,0 +1,183 @@
+{
+  "status": "passed-mechanical-comparison",
+  "normalization": "Replace names and numbers; compare sentences of at least 12 words and contiguous 12-word sequences across different reports. Titles evaluated without name substitution.",
+  "old": {
+    "titleCount": 24,
+    "uniqueTitles": 9,
+    "repeatedTitles": 15,
+    "sharedLongSentences": 13,
+    "shared12WordSequences": 278,
+    "tokensCoveredBySharedSequences": 1596,
+    "totalTokens": 3206,
+    "sharedTokenFraction": 0.4978165938864629
+  },
+  "current": {
+    "titleCount": 18,
+    "uniqueTitles": 18,
+    "repeatedTitles": 0,
+    "sharedLongSentences": 1,
+    "shared12WordSequences": 35,
+    "tokensCoveredBySharedSequences": 154,
+    "totalTokens": 2023,
+    "sharedTokenFraction": 0.07612456747404844
+  },
+  "cases": [
+    {
+      "case": 1,
+      "relationship": "זוגיות",
+      "oldTitles": [
+        [
+          "שתי דרכי מחשבה והמרחב שבו הן נפגשות",
+          "המגעים המשניים וגבולות הקריאה",
+          "שליטי הבתים: מה השיחה נושאת מעבר לתוכנה",
+          "סינתזה: תיאום משמעות, ולא רק החלפת מילים"
+        ],
+        [
+          "שני צרכים רגשיים, ושתי דרכים לפגוש אותם",
+          "המגעים המרכזיים: בין הצורך לבין התגובה",
+          "שליטי הבתים: היכן מתארגן הביטחון",
+          "סינתזה: מענה מתאים, ולא תגובה אחת לכל צורך"
+        ]
+      ],
+      "newTitles": [
+        [
+          "השיחה בין פרטיות ועיבוד פנימי לבית ושייכות",
+          "כשדיוק נשמע כמו הערכה של האדם",
+          "להבדיל בין תשובה בדוקה לבין שיחה סגורה"
+        ],
+        [
+          "עומק אצל אדם אחד, עידוד בכיוון האחר",
+          "הביטחון בין חברות ותוכניות למשמעות והשקפה",
+          "להרחיב מבט בלי לדלג על הגבול"
+        ]
+      ],
+      "narrativePlans": [
+        {
+          "topic": "communication",
+          "motif": "accountability-and-two-voices",
+          "order": [
+            "context",
+            "lead",
+            "synthesis"
+          ]
+        },
+        {
+          "topic": "emotions",
+          "motif": "depth-and-perspective",
+          "order": [
+            "lead",
+            "context",
+            "synthesis"
+          ]
+        }
+      ],
+      "numericFindingsUnchanged": true,
+      "focusContactsUnchanged": true
+    },
+    {
+      "case": 2,
+      "relationship": "חברות",
+      "oldTitles": [
+        [
+          "שתי דרכי מחשבה והמרחב שבו הן נפגשות",
+          "המגעים המרכזיים: מה נאמר ומה מתקבל",
+          "שליטי הבתים: מה השיחה נושאת מעבר לתוכנה",
+          "סינתזה: תיאום משמעות, ולא רק החלפת מילים"
+        ],
+        [
+          "שני צרכים רגשיים, ושתי דרכים לפגוש אותם",
+          "המגעים המרכזיים: בין הצורך לבין התגובה",
+          "שליטי הבתים: היכן מתארגן הביטחון",
+          "סינתזה: מענה מתאים, ולא תגובה אחת לכל צורך"
+        ]
+      ],
+      "newTitles": [
+        [
+          "רעיון חדש אינו חייב למחוק הסכמה קודמת",
+          "השיחה בין דיאלוג והסכמות לפרטיות ועיבוד פנימי",
+          "שיחה שמרחיבה אפשרויות ומשאירה כתובת ברורה"
+        ],
+        [
+          "לשנות בלי לנתק את הרצף",
+          "הביטחון בין פרטיות ועיבוד פנימי לשיחה יומיומית",
+          "לעזור כחבר, בלי להחליט במקום האחר"
+        ]
+      ],
+      "narrativePlans": [
+        {
+          "topic": "communication",
+          "motif": "innovation-with-recognition",
+          "order": [
+            "lead",
+            "context",
+            "synthesis"
+          ]
+        },
+        {
+          "topic": "emotions",
+          "motif": "continuity-and-action",
+          "order": [
+            "lead",
+            "context",
+            "synthesis"
+          ]
+        }
+      ],
+      "numericFindingsUnchanged": true,
+      "focusContactsUnchanged": true
+    },
+    {
+      "case": 3,
+      "relationship": "הורה וילד",
+      "oldTitles": [
+        [
+          "שתי דרכי מחשבה והמרחב שבו הן נפגשות",
+          "המגעים המרכזיים: מה נאמר ומה מתקבל",
+          "שליטי הבתים: מה השיחה נושאת מעבר לתוכנה",
+          "סינתזה: תיאום משמעות, ולא רק החלפת מילים"
+        ],
+        [
+          "שני צרכים רגשיים, ושתי דרכים לפגוש אותם",
+          "המגעים המרכזיים: בין הצורך לבין התגובה",
+          "שליטי הבתים: היכן מתארגן הביטחון",
+          "סינתזה: מענה מתאים, ולא תגובה אחת לכל צורך"
+        ]
+      ],
+      "newTitles": [
+        [
+          "מי מחזיק את גבולות השיחה במשפחה",
+          "השיחה בין בית ושייכות לערך וביטחון",
+          "לא כל שאלה דורשת חשיפה נוספת"
+        ],
+        [
+          "הביטחון בין פרטיות ועיבוד פנימי לבית ושייכות",
+          "להקשיב לילד בלי להסביר את חווייתו במקומו",
+          "אמפתיה אינה ידיעה ודאית"
+        ]
+      ],
+      "narrativePlans": [
+        {
+          "topic": "communication",
+          "motif": "evaluation-and-disclosure",
+          "order": [
+            "lead",
+            "context",
+            "synthesis"
+          ]
+        },
+        {
+          "topic": "emotions",
+          "motif": "explanation-and-attunement",
+          "order": [
+            "context",
+            "lead",
+            "synthesis"
+          ]
+        }
+      ],
+      "numericFindingsUnchanged": true,
+      "focusContactsUnchanged": true
+    }
+  ],
+  "limitation": "Repeated technical concepts can be legitimate; lower string overlap does not prove semantic originality, accuracy or literary quality. Human review required."
+}

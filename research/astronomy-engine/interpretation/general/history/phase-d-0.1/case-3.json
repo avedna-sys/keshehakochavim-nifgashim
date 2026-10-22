@@ -1,0 +1,4858 @@
+{
+  "facts": {
+    "version": "interpretation-facts-0.1",
+    "status": "experimental-symbolic-sample",
+    "relationship": "הורה וילד",
+    "names": [
+      "יעל",
+      "איתן"
+    ],
+    "profile": {
+      "zodiac": "tropical",
+      "houses": "Placidus",
+      "tzdb": "2026b",
+      "dut1Seconds": 0,
+      "deltaT": "Astronomy Engine default Espenak–Meeus",
+      "aspectOrbs": [
+        {
+          "id": "conjunction",
+          "label": "צמידות",
+          "symbol": "☌",
+          "angle": 0,
+          "orb": 8,
+          "color": "#98701a"
+        },
+        {
+          "id": "opposition",
+          "label": "מולות",
+          "symbol": "☍",
+          "angle": 180,
+          "orb": 8,
+          "color": "#b34b63"
+        },
+        {
+          "id": "square",
+          "label": "ריבוע",
+          "symbol": "□",
+          "angle": 90,
+          "orb": 6,
+          "color": "#bf6844"
+        },
+        {
+          "id": "trine",
+          "label": "משולש",
+          "symbol": "△",
+          "angle": 120,
+          "orb": 6,
+          "color": "#367bb0"
+        },
+        {
+          "id": "sextile",
+          "label": "משושה",
+          "symbol": "⚹",
+          "angle": 60,
+          "orb": 4,
+          "color": "#3f8c7b"
+        }
+      ]
+    },
+    "facts": [
+      {
+        "id": "pos:A:Sun",
+        "kind": "position",
+        "person": 0,
+        "body": "Sun",
+        "longitude": 221.61166162567304,
+        "signIndex": 7,
+        "sign": "עקרב",
+        "degreesWithinSign": 11.611661625673037,
+        "ownHouse": {
+          "house": 1,
+          "nearCusp": false
+        },
+        "refs": [],
+        "baseKeys": [
+          "position:A:Sun"
+        ]
+      },
+      {
+        "id": "pos:A:Moon",
+        "kind": "position",
+        "person": 0,
+        "body": "Moon",
+        "longitude": 74.34578732920664,
+        "signIndex": 2,
+        "sign": "תאומים",
+        "degreesWithinSign": 14.345787329206644,
+        "ownHouse": {
+          "house": 8,
+          "nearCusp": false
+        },
+        "refs": [],
+        "baseKeys": [
+          "position:A:Moon"
+        ]
+      },
+      {
+        "id": "pos:A:Mercury",
+        "kind": "position",
+        "person": 0,
+        "body": "Mercury",
+        "longitude": 204.35518154252122,
+        "signIndex": 6,
+        "sign": "מאזניים",
+        "degreesWithinSign": 24.355181542521223,
+        "ownHouse": {
+          "house": 12,
+          "nearCusp": false
+        },
+        "refs": [],
+        "baseKeys": [
+          "position:A:Mercury"
+        ]
+      },
+      {
+        "id": "pos:A:Venus",
+        "kind": "position",
+        "person": 0,
+        "body": "Venus",
+        "longitude": 204.26891613392513,
+        "signIndex": 6,
+        "sign": "מאזניים",
+        "degreesWithinSign": 24.26891613392513,
+        "ownHouse": {
+          "house": 12,
+          "nearCusp": false
+        },
+        "refs": [],
+        "baseKeys": [
+          "position:A:Venus"
+        ]
+      },
+      {
+        "id": "pos:A:Mars",
+        "kind": "position",
+        "person": 0,
+        "body": "Mars",
+        "longitude": 305.00691221596276,
+        "signIndex": 10,
+        "sign": "דלי",
+        "degreesWithinSign": 5.006912215962757,
+        "ownHouse": {
+          "house": 4,
+          "nearCusp": false
+        },
+        "refs": [],
+        "baseKeys": [
+          "position:A:Mars"
+        ]
+      },
+      {
+        "id": "pos:A:Jupiter",
+        "kind": "position",
+        "person": 0,
+        "body": "Jupiter",
+        "longitude": 105.68921620836426,
+        "signIndex": 3,
+        "sign": "סרטן",
+        "degreesWithinSign": 15.689216208364257,
+        "ownHouse": {
+          "house": 9,
+          "nearCusp": false
+        },
+        "refs": [],
+        "baseKeys": [
+          "position:A:Jupiter"
+        ]
+      },
+      {
+        "id": "pos:A:Saturn",
+        "kind": "position",
+        "person": 0,
+        "body": "Saturn",
+        "longitude": 73.717305930392,
+        "signIndex": 2,
+        "sign": "תאומים",
+        "degreesWithinSign": 13.717305930392001,
+        "ownHouse": {
+          "house": 8,
+          "nearCusp": false
+        },
+        "refs": [],
+        "baseKeys": [
+          "position:A:Saturn"
+        ]
+      },
+      {
+        "id": "pos:A:Uranus",
+        "kind": "position",
+        "person": 0,
+        "body": "Uranus",
+        "longitude": 320.9140015247931,
+        "signIndex": 10,
+        "sign": "דלי",
+        "degreesWithinSign": 20.914001524793093,
+        "ownHouse": {
+          "house": 4,
+          "nearCusp": false
+        },
+        "refs": [],
+        "baseKeys": [
+          "position:A:Uranus"
+        ]
+      },
+      {
+        "id": "pos:A:Neptune",
+        "kind": "position",
+        "person": 0,
+        "body": "Neptune",
+        "longitude": 306.07639188868416,
+        "signIndex": 10,
+        "sign": "דלי",
+        "degreesWithinSign": 6.076391888684157,
+        "ownHouse": {
+          "house": 4,
+          "nearCusp": false
+        },
+        "refs": [],
+        "baseKeys": [
+          "position:A:Neptune"
+        ]
+      },
+      {
+        "id": "pos:A:Pluto",
+        "kind": "position",
+        "person": 0,
+        "body": "Pluto",
+        "longitude": 253.87833731649266,
+        "signIndex": 8,
+        "sign": "קשת",
+        "degreesWithinSign": 13.878337316492662,
+        "ownHouse": {
+          "house": 2,
+          "nearCusp": false
+        },
+        "refs": [],
+        "baseKeys": [
+          "position:A:Pluto"
+        ]
+      },
+      {
+        "id": "cusp:A:1",
+        "kind": "cusp",
+        "person": 0,
+        "house": 1,
+        "longitude": 207.45083198585326,
+        "signIndex": 6,
+        "sign": "מאזניים",
+        "degreesWithinSign": 27.450831985853256,
+        "nearSignBoundary": false,
+        "refs": [],
+        "baseKeys": [
+          "cusp:A:1"
+        ]
+      },
+      {
+        "id": "cusp:A:2",
+        "kind": "cusp",
+        "person": 0,
+        "house": 2,
+        "longitude": 236.33756934128678,
+        "signIndex": 7,
+        "sign": "עקרב",
+        "degreesWithinSign": 26.33756934128678,
+        "nearSignBoundary": false,
+        "refs": [],
+        "baseKeys": [
+          "cusp:A:2"
+        ]
+      },
+      {
+        "id": "cusp:A:3",
+        "kind": "cusp",
+        "person": 0,
+        "house": 3,
+        "longitude": 266.9952543637428,
+        "signIndex": 8,
+        "sign": "קשת",
+        "degreesWithinSign": 26.995254363742788,
+        "nearSignBoundary": false,
+        "refs": [],
+        "baseKeys": [
+          "cusp:A:3"
+        ]
+      },
+      {
+        "id": "cusp:A:4",
+        "kind": "cusp",
+        "person": 0,
+        "house": 4,
+        "longitude": 298.9697041003069,
+        "signIndex": 9,
+        "sign": "גדי",
+        "degreesWithinSign": 28.9697041003069,
+        "nearSignBoundary": false,
+        "refs": [],
+        "baseKeys": [
+          "cusp:A:4"
+        ]
+      },
+      {
+        "id": "cusp:A:5",
+        "kind": "cusp",
+        "person": 0,
+        "house": 5,
+        "longitude": 331.03857991969903,
+        "signIndex": 11,
+        "sign": "דגים",
+        "degreesWithinSign": 1.038579919699032,
+        "nearSignBoundary": false,
+        "refs": [],
+        "baseKeys": [
+          "cusp:A:5"
+        ]
+      },
+      {
+        "id": "cusp:A:6",
+        "kind": "cusp",
+        "person": 0,
+        "house": 6,
+        "longitude": 1.0476393737753824,
+        "signIndex": 0,
+        "sign": "טלה",
+        "degreesWithinSign": 1.0476393737753824,
+        "nearSignBoundary": false,
+        "refs": [],
+        "baseKeys": [
+          "cusp:A:6"
+        ]
+      },
+      {
+        "id": "cusp:A:7",
+        "kind": "cusp",
+        "person": 0,
+        "house": 7,
+        "longitude": 27.450831985853256,
+        "signIndex": 0,
+        "sign": "טלה",
+        "degreesWithinSign": 27.450831985853256,
+        "nearSignBoundary": false,
+        "refs": [],
+        "baseKeys": [
+          "cusp:A:7"
+        ]
+      },
+      {
+        "id": "cusp:A:8",
+        "kind": "cusp",
+        "person": 0,
+        "house": 8,
+        "longitude": 56.33756934128678,
+        "signIndex": 1,
+        "sign": "שור",
+        "degreesWithinSign": 26.33756934128678,
+        "nearSignBoundary": false,
+        "refs": [],
+        "baseKeys": [
+          "cusp:A:8"
+        ]
+      },
+      {
+        "id": "cusp:A:9",
+        "kind": "cusp",
+        "person": 0,
+        "house": 9,
+        "longitude": 86.99525436374279,
+        "signIndex": 2,
+        "sign": "תאומים",
+        "degreesWithinSign": 26.995254363742788,
+        "nearSignBoundary": false,
+        "refs": [],
+        "baseKeys": [
+          "cusp:A:9"
+        ]
+      },
+      {
+        "id": "cusp:A:10",
+        "kind": "cusp",
+        "person": 0,
+        "house": 10,
+        "longitude": 118.96970410030696,
+        "signIndex": 3,
+        "sign": "סרטן",
+        "degreesWithinSign": 28.969704100306956,
+        "nearSignBoundary": false,
+        "refs": [],
+        "baseKeys": [
+          "cusp:A:10"
+        ]
+      },
+      {
+        "id": "cusp:A:11",
+        "kind": "cusp",
+        "person": 0,
+        "house": 11,
+        "longitude": 151.0385799196991,
+        "signIndex": 5,
+        "sign": "בתולה",
+        "degreesWithinSign": 1.0385799196990888,
+        "nearSignBoundary": false,
+        "refs": [],
+        "baseKeys": [
+          "cusp:A:11"
+        ]
+      },
+      {
+        "id": "cusp:A:12",
+        "kind": "cusp",
+        "person": 0,
+        "house": 12,
+        "longitude": 181.04763937377538,
+        "signIndex": 6,
+        "sign": "מאזניים",
+        "degreesWithinSign": 1.0476393737753824,
+        "nearSignBoundary": false,
+        "refs": [],
+        "baseKeys": [
+          "cusp:A:12"
+        ]
+      },
+      {
+        "id": "pos:B:Sun",
+        "kind": "position",
+        "person": 1,
+        "body": "Sun",
+        "longitude": 269.8656790872119,
+        "signIndex": 8,
+        "sign": "קשת",
+        "degreesWithinSign": 29.865679087211902,
+        "ownHouse": {
+          "house": 7,
+          "nearCusp": false
+        },
+        "refs": [],
+        "baseKeys": [
+          "position:B:Sun"
+        ]
+      },
+      {
+        "id": "pos:B:Moon",
+        "kind": "position",
+        "person": 1,
+        "body": "Moon",
+        "longitude": 308.7538875381381,
+        "signIndex": 10,
+        "sign": "דלי",
+        "degreesWithinSign": 8.753887538138088,
+        "ownHouse": {
+          "house": 8,
+          "nearCusp": false
+        },
+        "refs": [],
+        "baseKeys": [
+          "position:B:Moon"
+        ]
+      },
+      {
+        "id": "pos:B:Mercury",
+        "kind": "position",
+        "person": 1,
+        "body": "Mercury",
+        "longitude": 253.4961189847795,
+        "signIndex": 8,
+        "sign": "קשת",
+        "degreesWithinSign": 13.496118984779514,
+        "ownHouse": {
+          "house": 6,
+          "nearCusp": false
+        },
+        "refs": [],
+        "baseKeys": [
+          "position:B:Mercury"
+        ]
+      },
+      {
+        "id": "pos:B:Venus",
+        "kind": "position",
+        "person": 1,
+        "body": "Venus",
+        "longitude": 299.4546549693064,
+        "signIndex": 9,
+        "sign": "גדי",
+        "degreesWithinSign": 29.454654969306375,
+        "ownHouse": {
+          "house": 8,
+          "nearCusp": false
+        },
+        "refs": [],
+        "baseKeys": [
+          "position:B:Venus"
+        ]
+      },
+      {
+        "id": "pos:B:Mars",
+        "kind": "position",
+        "person": 1,
+        "body": "Mars",
+        "longitude": 161.87153486856187,
+        "signIndex": 5,
+        "sign": "בתולה",
+        "degreesWithinSign": 11.871534868561866,
+        "ownHouse": {
+          "house": 3,
+          "nearCusp": false
+        },
+        "refs": [],
+        "baseKeys": [
+          "position:B:Mars"
+        ]
+      },
+      {
+        "id": "pos:B:Jupiter",
+        "kind": "position",
+        "person": 1,
+        "body": "Jupiter",
+        "longitude": 160.21515389640865,
+        "signIndex": 5,
+        "sign": "בתולה",
+        "degreesWithinSign": 10.215153896408651,
+        "ownHouse": {
+          "house": 3,
+          "nearCusp": false
+        },
+        "refs": [],
+        "baseKeys": [
+          "position:B:Jupiter"
+        ]
+      },
+      {
+        "id": "pos:B:Saturn",
+        "kind": "position",
+        "person": 1,
+        "body": "Saturn",
+        "longitude": 176.7958847936768,
+        "signIndex": 5,
+        "sign": "בתולה",
+        "degreesWithinSign": 26.795884793676805,
+        "ownHouse": {
+          "house": 3,
+          "nearCusp": false
+        },
+        "refs": [],
+        "baseKeys": [
+          "position:B:Saturn"
+        ]
+      },
+      {
+        "id": "pos:B:Uranus",
+        "kind": "position",
+        "person": 1,
+        "body": "Uranus",
+        "longitude": 233.55645374496567,
+        "signIndex": 7,
+        "sign": "עקרב",
+        "degreesWithinSign": 23.556453744965665,
+        "ownHouse": {
+          "house": 5,
+          "nearCusp": false
+        },
+        "refs": [],
+        "baseKeys": [
+          "position:B:Uranus"
+        ]
+      },
+      {
+        "id": "pos:B:Neptune",
+        "kind": "position",
+        "person": 1,
+        "body": "Neptune",
+        "longitude": 260.562955746203,
+        "signIndex": 8,
+        "sign": "קשת",
+        "degreesWithinSign": 20.562955746202988,
+        "ownHouse": {
+          "house": 7,
+          "nearCusp": false
+        },
+        "refs": [],
+        "baseKeys": [
+          "position:B:Neptune"
+        ]
+      },
+      {
+        "id": "pos:B:Pluto",
+        "kind": "position",
+        "person": 1,
+        "body": "Pluto",
+        "longitude": 201.44572404314408,
+        "signIndex": 6,
+        "sign": "מאזניים",
+        "degreesWithinSign": 21.445724043144082,
+        "ownHouse": {
+          "house": 4,
+          "nearCusp": false
+        },
+        "refs": [],
+        "baseKeys": [
+          "position:B:Pluto"
+        ]
+      },
+      {
+        "id": "cusp:B:1",
+        "kind": "cusp",
+        "person": 1,
+        "house": 1,
+        "longitude": 76.3333315404202,
+        "signIndex": 2,
+        "sign": "תאומים",
+        "degreesWithinSign": 16.333331540420204,
+        "nearSignBoundary": false,
+        "refs": [],
+        "baseKeys": [
+          "cusp:B:1"
+        ]
+      },
+      {
+        "id": "cusp:B:2",
+        "kind": "cusp",
+        "person": 1,
+        "house": 2,
+        "longitude": 109.38566906105956,
+        "signIndex": 3,
+        "sign": "סרטן",
+        "degreesWithinSign": 19.38566906105956,
+        "nearSignBoundary": false,
+        "refs": [],
+        "baseKeys": [
+          "cusp:B:2"
+        ]
+      },
+      {
+        "id": "cusp:B:3",
+        "kind": "cusp",
+        "person": 1,
+        "house": 3,
+        "longitude": 146.3486790670156,
+        "signIndex": 4,
+        "sign": "אריה",
+        "degreesWithinSign": 26.34867906701561,
+        "nearSignBoundary": false,
+        "refs": [],
+        "baseKeys": [
+          "cusp:B:3"
+        ]
+      },
+      {
+        "id": "cusp:B:4",
+        "kind": "cusp",
+        "person": 1,
+        "house": 4,
+        "longitude": 181.62740104488967,
+        "signIndex": 6,
+        "sign": "מאזניים",
+        "degreesWithinSign": 1.627401044889666,
+        "nearSignBoundary": false,
+        "refs": [],
+        "baseKeys": [
+          "cusp:B:4"
+        ]
+      },
+      {
+        "id": "cusp:B:5",
+        "kind": "cusp",
+        "person": 1,
+        "house": 5,
+        "longitude": 210.9367100446408,
+        "signIndex": 7,
+        "sign": "עקרב",
+        "degreesWithinSign": 0.9367100446407903,
+        "nearSignBoundary": false,
+        "refs": [],
+        "baseKeys": [
+          "cusp:B:5"
+        ]
+      },
+      {
+        "id": "cusp:B:6",
+        "kind": "cusp",
+        "person": 1,
+        "house": 6,
+        "longitude": 234.9363902236271,
+        "signIndex": 7,
+        "sign": "עקרב",
+        "degreesWithinSign": 24.936390223627086,
+        "nearSignBoundary": false,
+        "refs": [],
+        "baseKeys": [
+          "cusp:B:6"
+        ]
+      },
+      {
+        "id": "cusp:B:7",
+        "kind": "cusp",
+        "person": 1,
+        "house": 7,
+        "longitude": 256.3333315404202,
+        "signIndex": 8,
+        "sign": "קשת",
+        "degreesWithinSign": 16.333331540420204,
+        "nearSignBoundary": false,
+        "refs": [],
+        "baseKeys": [
+          "cusp:B:7"
+        ]
+      },
+      {
+        "id": "cusp:B:8",
+        "kind": "cusp",
+        "person": 1,
+        "house": 8,
+        "longitude": 289.3856690610596,
+        "signIndex": 9,
+        "sign": "גדי",
+        "degreesWithinSign": 19.385669061059616,
+        "nearSignBoundary": false,
+        "refs": [],
+        "baseKeys": [
+          "cusp:B:8"
+        ]
+      },
+      {
+        "id": "cusp:B:9",
+        "kind": "cusp",
+        "person": 1,
+        "house": 9,
+        "longitude": 326.3486790670156,
+        "signIndex": 10,
+        "sign": "דלי",
+        "degreesWithinSign": 26.34867906701561,
+        "nearSignBoundary": false,
+        "refs": [],
+        "baseKeys": [
+          "cusp:B:9"
+        ]
+      },
+      {
+        "id": "cusp:B:10",
+        "kind": "cusp",
+        "person": 1,
+        "house": 10,
+        "longitude": 1.627401044889666,
+        "signIndex": 0,
+        "sign": "טלה",
+        "degreesWithinSign": 1.627401044889666,
+        "nearSignBoundary": false,
+        "refs": [],
+        "baseKeys": [
+          "cusp:B:10"
+        ]
+      },
+      {
+        "id": "cusp:B:11",
+        "kind": "cusp",
+        "person": 1,
+        "house": 11,
+        "longitude": 30.93671004464079,
+        "signIndex": 1,
+        "sign": "שור",
+        "degreesWithinSign": 0.9367100446407903,
+        "nearSignBoundary": false,
+        "refs": [],
+        "baseKeys": [
+          "cusp:B:11"
+        ]
+      },
+      {
+        "id": "cusp:B:12",
+        "kind": "cusp",
+        "person": 1,
+        "house": 12,
+        "longitude": 54.93639022362703,
+        "signIndex": 1,
+        "sign": "שור",
+        "degreesWithinSign": 24.93639022362703,
+        "nearSignBoundary": false,
+        "refs": [],
+        "baseKeys": [
+          "cusp:B:12"
+        ]
+      },
+      {
+        "id": "aspect:A:Saturn:B:Mercury:opposition",
+        "first": "Saturn",
+        "second": "Mercury",
+        "firstLongitude": 73.717305930392,
+        "secondLongitude": 253.4961189847795,
+        "type": "opposition",
+        "label": "מולות",
+        "symbol": "☍",
+        "color": "#b34b63",
+        "angle": 180,
+        "separation": 179.7788130543875,
+        "orb": 0.2211869456124873,
+        "limit": 8,
+        "nearBoundary": false,
+        "kind": "aspect",
+        "firstPerson": 0,
+        "secondPerson": 1,
+        "refs": [
+          "pos:A:Saturn",
+          "pos:B:Mercury"
+        ],
+        "baseKeys": [
+          "aspect:A:Saturn:B:Mercury:opposition"
+        ],
+        "quality": "sample-validated-profile"
+      },
+      {
+        "id": "aspect:A:Sun:B:Mars:sextile",
+        "first": "Sun",
+        "second": "Mars",
+        "firstLongitude": 221.61166162567304,
+        "secondLongitude": 161.87153486856187,
+        "type": "sextile",
+        "label": "משושה",
+        "symbol": "⚹",
+        "color": "#3f8c7b",
+        "angle": 60,
+        "separation": 59.74012675711117,
+        "orb": 0.25987324288882974,
+        "limit": 4,
+        "nearBoundary": false,
+        "kind": "aspect",
+        "firstPerson": 0,
+        "secondPerson": 1,
+        "refs": [
+          "pos:A:Sun",
+          "pos:B:Mars"
+        ],
+        "baseKeys": [
+          "aspect:A:Sun:B:Mars:sextile"
+        ],
+        "quality": "sample-validated-profile"
+      },
+      {
+        "id": "aspect:A:Uranus:B:Neptune:sextile",
+        "first": "Uranus",
+        "second": "Neptune",
+        "firstLongitude": 320.9140015247931,
+        "secondLongitude": 260.562955746203,
+        "type": "sextile",
+        "label": "משושה",
+        "symbol": "⚹",
+        "color": "#3f8c7b",
+        "angle": 60,
+        "separation": 60.351045778590105,
+        "orb": 0.35104577859010533,
+        "limit": 4,
+        "nearBoundary": false,
+        "kind": "aspect",
+        "firstPerson": 0,
+        "secondPerson": 1,
+        "refs": [
+          "pos:A:Uranus",
+          "pos:B:Neptune"
+        ],
+        "baseKeys": [
+          "aspect:A:Uranus:B:Neptune:sextile"
+        ],
+        "quality": "sample-validated-profile"
+      },
+      {
+        "id": "aspect:A:Pluto:B:Mercury:conjunction",
+        "first": "Pluto",
+        "second": "Mercury",
+        "firstLongitude": 253.87833731649266,
+        "secondLongitude": 253.4961189847795,
+        "type": "conjunction",
+        "label": "צמידות",
+        "symbol": "☌",
+        "color": "#98701a",
+        "angle": 0,
+        "separation": 0.38221833171314756,
+        "orb": 0.38221833171314756,
+        "limit": 8,
+        "nearBoundary": false,
+        "kind": "aspect",
+        "firstPerson": 0,
+        "secondPerson": 1,
+        "refs": [
+          "pos:A:Pluto",
+          "pos:B:Mercury"
+        ],
+        "baseKeys": [
+          "aspect:A:Pluto:B:Mercury:conjunction"
+        ],
+        "quality": "sample-validated-profile"
+      },
+      {
+        "id": "aspect:A:Uranus:B:Pluto:trine",
+        "first": "Uranus",
+        "second": "Pluto",
+        "firstLongitude": 320.9140015247931,
+        "secondLongitude": 201.44572404314408,
+        "type": "trine",
+        "label": "משולש",
+        "symbol": "△",
+        "color": "#367bb0",
+        "angle": 120,
+        "separation": 119.46827748164901,
+        "orb": 0.531722518350989,
+        "limit": 6,
+        "nearBoundary": false,
+        "kind": "aspect",
+        "firstPerson": 0,
+        "secondPerson": 1,
+        "refs": [
+          "pos:A:Uranus",
+          "pos:B:Pluto"
+        ],
+        "baseKeys": [
+          "aspect:A:Uranus:B:Pluto:trine"
+        ],
+        "quality": "sample-validated-profile"
+      },
+      {
+        "id": "aspect:A:Moon:B:Mercury:opposition",
+        "first": "Moon",
+        "second": "Mercury",
+        "firstLongitude": 74.34578732920664,
+        "secondLongitude": 253.4961189847795,
+        "type": "opposition",
+        "label": "מולות",
+        "symbol": "☍",
+        "color": "#b34b63",
+        "angle": 180,
+        "separation": 179.15033165557287,
+        "orb": 0.8496683444271298,
+        "limit": 8,
+        "nearBoundary": false,
+        "kind": "aspect",
+        "firstPerson": 0,
+        "secondPerson": 1,
+        "refs": [
+          "pos:A:Moon",
+          "pos:B:Mercury"
+        ],
+        "baseKeys": [
+          "aspect:A:Moon:B:Mercury:opposition"
+        ],
+        "quality": "sample-validated-profile"
+      },
+      {
+        "id": "aspect:A:Sun:B:Jupiter:sextile",
+        "first": "Sun",
+        "second": "Jupiter",
+        "firstLongitude": 221.61166162567304,
+        "secondLongitude": 160.21515389640865,
+        "type": "sextile",
+        "label": "משושה",
+        "symbol": "⚹",
+        "color": "#3f8c7b",
+        "angle": 60,
+        "separation": 61.396507729264385,
+        "orb": 1.3965077292643855,
+        "limit": 4,
+        "nearBoundary": false,
+        "kind": "aspect",
+        "firstPerson": 0,
+        "secondPerson": 1,
+        "refs": [
+          "pos:A:Sun",
+          "pos:B:Jupiter"
+        ],
+        "baseKeys": [
+          "aspect:A:Sun:B:Jupiter:sextile"
+        ],
+        "quality": "sample-validated-profile"
+      },
+      {
+        "id": "aspect:A:Saturn:B:Mars:square",
+        "first": "Saturn",
+        "second": "Mars",
+        "firstLongitude": 73.717305930392,
+        "secondLongitude": 161.87153486856187,
+        "type": "square",
+        "label": "ריבוע",
+        "symbol": "□",
+        "color": "#bf6844",
+        "angle": 90,
+        "separation": 88.15422893816987,
+        "orb": 1.8457710618301348,
+        "limit": 6,
+        "nearBoundary": false,
+        "kind": "aspect",
+        "firstPerson": 0,
+        "secondPerson": 1,
+        "refs": [
+          "pos:A:Saturn",
+          "pos:B:Mars"
+        ],
+        "baseKeys": [
+          "aspect:A:Saturn:B:Mars:square"
+        ],
+        "quality": "sample-validated-profile"
+      },
+      {
+        "id": "aspect:A:Pluto:B:Mars:square",
+        "first": "Pluto",
+        "second": "Mars",
+        "firstLongitude": 253.87833731649266,
+        "secondLongitude": 161.87153486856187,
+        "type": "square",
+        "label": "ריבוע",
+        "symbol": "□",
+        "color": "#bf6844",
+        "angle": 90,
+        "separation": 92.0068024479308,
+        "orb": 2.006802447930795,
+        "limit": 6,
+        "nearBoundary": false,
+        "kind": "aspect",
+        "firstPerson": 0,
+        "secondPerson": 1,
+        "refs": [
+          "pos:A:Pluto",
+          "pos:B:Mars"
+        ],
+        "baseKeys": [
+          "aspect:A:Pluto:B:Mars:square"
+        ],
+        "quality": "sample-validated-profile"
+      },
+      {
+        "id": "aspect:A:Moon:B:Mars:square",
+        "first": "Moon",
+        "second": "Mars",
+        "firstLongitude": 74.34578732920664,
+        "secondLongitude": 161.87153486856187,
+        "type": "square",
+        "label": "ריבוע",
+        "symbol": "□",
+        "color": "#bf6844",
+        "angle": 90,
+        "separation": 87.52574753935522,
+        "orb": 2.4742524606447773,
+        "limit": 6,
+        "nearBoundary": false,
+        "kind": "aspect",
+        "firstPerson": 0,
+        "secondPerson": 1,
+        "refs": [
+          "pos:A:Moon",
+          "pos:B:Mars"
+        ],
+        "baseKeys": [
+          "aspect:A:Moon:B:Mars:square"
+        ],
+        "quality": "sample-validated-profile"
+      },
+      {
+        "id": "aspect:A:Uranus:B:Uranus:square",
+        "first": "Uranus",
+        "second": "Uranus",
+        "firstLongitude": 320.9140015247931,
+        "secondLongitude": 233.55645374496567,
+        "type": "square",
+        "label": "ריבוע",
+        "symbol": "□",
+        "color": "#bf6844",
+        "angle": 90,
+        "separation": 87.35754777982743,
+        "orb": 2.642452220172572,
+        "limit": 6,
+        "nearBoundary": false,
+        "kind": "aspect",
+        "firstPerson": 0,
+        "secondPerson": 1,
+        "refs": [
+          "pos:A:Uranus",
+          "pos:B:Uranus"
+        ],
+        "baseKeys": [
+          "aspect:A:Uranus:B:Uranus:square"
+        ],
+        "quality": "sample-validated-profile"
+      },
+      {
+        "id": "aspect:A:Neptune:B:Moon:conjunction",
+        "first": "Neptune",
+        "second": "Moon",
+        "firstLongitude": 306.07639188868416,
+        "secondLongitude": 308.7538875381381,
+        "type": "conjunction",
+        "label": "צמידות",
+        "symbol": "☌",
+        "color": "#98701a",
+        "angle": 0,
+        "separation": 2.677495649453931,
+        "orb": 2.677495649453931,
+        "limit": 8,
+        "nearBoundary": false,
+        "kind": "aspect",
+        "firstPerson": 0,
+        "secondPerson": 1,
+        "refs": [
+          "pos:A:Neptune",
+          "pos:B:Moon"
+        ],
+        "baseKeys": [
+          "aspect:A:Neptune:B:Moon:conjunction"
+        ],
+        "quality": "sample-validated-profile"
+      },
+      {
+        "id": "aspect:A:Venus:B:Pluto:conjunction",
+        "first": "Venus",
+        "second": "Pluto",
+        "firstLongitude": 204.26891613392513,
+        "secondLongitude": 201.44572404314408,
+        "type": "conjunction",
+        "label": "צמידות",
+        "symbol": "☌",
+        "color": "#98701a",
+        "angle": 0,
+        "separation": 2.823192090781049,
+        "orb": 2.823192090781049,
+        "limit": 8,
+        "nearBoundary": false,
+        "kind": "aspect",
+        "firstPerson": 0,
+        "secondPerson": 1,
+        "refs": [
+          "pos:A:Venus",
+          "pos:B:Pluto"
+        ],
+        "baseKeys": [
+          "aspect:A:Venus:B:Pluto:conjunction"
+        ],
+        "quality": "sample-validated-profile"
+      },
+      {
+        "id": "aspect:A:Sun:B:Moon:square",
+        "first": "Sun",
+        "second": "Moon",
+        "firstLongitude": 221.61166162567304,
+        "secondLongitude": 308.7538875381381,
+        "type": "square",
+        "label": "ריבוע",
+        "symbol": "□",
+        "color": "#bf6844",
+        "angle": 90,
+        "separation": 87.14222591246505,
+        "orb": 2.857774087534949,
+        "limit": 6,
+        "nearBoundary": false,
+        "kind": "aspect",
+        "firstPerson": 0,
+        "secondPerson": 1,
+        "refs": [
+          "pos:A:Sun",
+          "pos:B:Moon"
+        ],
+        "baseKeys": [
+          "aspect:A:Sun:B:Moon:square"
+        ],
+        "quality": "sample-validated-profile"
+      },
+      {
+        "id": "aspect:A:Mercury:B:Pluto:conjunction",
+        "first": "Mercury",
+        "second": "Pluto",
+        "firstLongitude": 204.35518154252122,
+        "secondLongitude": 201.44572404314408,
+        "type": "conjunction",
+        "label": "צמידות",
+        "symbol": "☌",
+        "color": "#98701a",
+        "angle": 0,
+        "separation": 2.9094574993771403,
+        "orb": 2.9094574993771403,
+        "limit": 8,
+        "nearBoundary": false,
+        "kind": "aspect",
+        "firstPerson": 0,
+        "secondPerson": 1,
+        "refs": [
+          "pos:A:Mercury",
+          "pos:B:Pluto"
+        ],
+        "baseKeys": [
+          "aspect:A:Mercury:B:Pluto:conjunction"
+        ],
+        "quality": "sample-validated-profile"
+      },
+      {
+        "id": "aspect:A:Saturn:B:Jupiter:square",
+        "first": "Saturn",
+        "second": "Jupiter",
+        "firstLongitude": 73.717305930392,
+        "secondLongitude": 160.21515389640865,
+        "type": "square",
+        "label": "ריבוע",
+        "symbol": "□",
+        "color": "#bf6844",
+        "angle": 90,
+        "separation": 86.49784796601665,
+        "orb": 3.50215203398335,
+        "limit": 6,
+        "nearBoundary": false,
+        "kind": "aspect",
+        "firstPerson": 0,
+        "secondPerson": 1,
+        "refs": [
+          "pos:A:Saturn",
+          "pos:B:Jupiter"
+        ],
+        "baseKeys": [
+          "aspect:A:Saturn:B:Jupiter:square"
+        ],
+        "quality": "sample-validated-profile"
+      },
+      {
+        "id": "aspect:A:Pluto:B:Jupiter:square",
+        "first": "Pluto",
+        "second": "Jupiter",
+        "firstLongitude": 253.87833731649266,
+        "secondLongitude": 160.21515389640865,
+        "type": "square",
+        "label": "ריבוע",
+        "symbol": "□",
+        "color": "#bf6844",
+        "angle": 90,
+        "separation": 93.66318342008401,
+        "orb": 3.6631834200840103,
+        "limit": 6,
+        "nearBoundary": false,
+        "kind": "aspect",
+        "firstPerson": 0,
+        "secondPerson": 1,
+        "refs": [
+          "pos:A:Pluto",
+          "pos:B:Jupiter"
+        ],
+        "baseKeys": [
+          "aspect:A:Pluto:B:Jupiter:square"
+        ],
+        "quality": "sample-validated-profile"
+      },
+      {
+        "id": "aspect:A:Venus:B:Neptune:sextile",
+        "first": "Venus",
+        "second": "Neptune",
+        "firstLongitude": 204.26891613392513,
+        "secondLongitude": 260.562955746203,
+        "type": "sextile",
+        "label": "משושה",
+        "symbol": "⚹",
+        "color": "#3f8c7b",
+        "angle": 60,
+        "separation": 56.29403961227786,
+        "orb": 3.7059603877221434,
+        "limit": 4,
+        "nearBoundary": false,
+        "kind": "aspect",
+        "firstPerson": 0,
+        "secondPerson": 1,
+        "refs": [
+          "pos:A:Venus",
+          "pos:B:Neptune"
+        ],
+        "baseKeys": [
+          "aspect:A:Venus:B:Neptune:sextile"
+        ],
+        "quality": "sample-validated-profile"
+      },
+      {
+        "id": "aspect:A:Mars:B:Moon:conjunction",
+        "first": "Mars",
+        "second": "Moon",
+        "firstLongitude": 305.00691221596276,
+        "secondLongitude": 308.7538875381381,
+        "type": "conjunction",
+        "label": "צמידות",
+        "symbol": "☌",
+        "color": "#98701a",
+        "angle": 0,
+        "separation": 3.746975322175331,
+        "orb": 3.746975322175331,
+        "limit": 8,
+        "nearBoundary": false,
+        "kind": "aspect",
+        "firstPerson": 0,
+        "secondPerson": 1,
+        "refs": [
+          "pos:A:Mars",
+          "pos:B:Moon"
+        ],
+        "baseKeys": [
+          "aspect:A:Mars:B:Moon:conjunction"
+        ],
+        "quality": "sample-validated-profile"
+      },
+      {
+        "id": "aspect:A:Mercury:B:Neptune:sextile",
+        "first": "Mercury",
+        "second": "Neptune",
+        "firstLongitude": 204.35518154252122,
+        "secondLongitude": 260.562955746203,
+        "type": "sextile",
+        "label": "משושה",
+        "symbol": "⚹",
+        "color": "#3f8c7b",
+        "angle": 60,
+        "separation": 56.207774203681765,
+        "orb": 3.7922257963182346,
+        "limit": 4,
+        "nearBoundary": false,
+        "kind": "aspect",
+        "firstPerson": 0,
+        "secondPerson": 1,
+        "refs": [
+          "pos:A:Mercury",
+          "pos:B:Neptune"
+        ],
+        "baseKeys": [
+          "aspect:A:Mercury:B:Neptune:sextile"
+        ],
+        "quality": "sample-validated-profile"
+      },
+      {
+        "id": "aspect:A:Jupiter:B:Mars:sextile",
+        "first": "Jupiter",
+        "second": "Mars",
+        "firstLongitude": 105.68921620836426,
+        "secondLongitude": 161.87153486856187,
+        "type": "sextile",
+        "label": "משושה",
+        "symbol": "⚹",
+        "color": "#3f8c7b",
+        "angle": 60,
+        "separation": 56.18231866019761,
+        "orb": 3.817681339802391,
+        "limit": 4,
+        "nearBoundary": false,
+        "kind": "aspect",
+        "firstPerson": 0,
+        "secondPerson": 1,
+        "refs": [
+          "pos:A:Jupiter",
+          "pos:B:Mars"
+        ],
+        "baseKeys": [
+          "aspect:A:Jupiter:B:Mars:sextile"
+        ],
+        "quality": "sample-validated-profile"
+      },
+      {
+        "id": "aspect:A:Moon:B:Jupiter:square",
+        "first": "Moon",
+        "second": "Jupiter",
+        "firstLongitude": 74.34578732920664,
+        "secondLongitude": 160.21515389640865,
+        "type": "square",
+        "label": "ריבוע",
+        "symbol": "□",
+        "color": "#bf6844",
+        "angle": 90,
+        "separation": 85.86936656720201,
+        "orb": 4.1306334327979926,
+        "limit": 6,
+        "nearBoundary": false,
+        "kind": "aspect",
+        "firstPerson": 0,
+        "secondPerson": 1,
+        "refs": [
+          "pos:A:Moon",
+          "pos:B:Jupiter"
+        ],
+        "baseKeys": [
+          "aspect:A:Moon:B:Jupiter:square"
+        ],
+        "quality": "sample-validated-profile"
+      },
+      {
+        "id": "aspect:A:Saturn:B:Moon:trine",
+        "first": "Saturn",
+        "second": "Moon",
+        "firstLongitude": 73.717305930392,
+        "secondLongitude": 308.7538875381381,
+        "type": "trine",
+        "label": "משולש",
+        "symbol": "△",
+        "color": "#367bb0",
+        "angle": 120,
+        "separation": 124.96341839225391,
+        "orb": 4.963418392253914,
+        "limit": 6,
+        "nearBoundary": false,
+        "kind": "aspect",
+        "firstPerson": 0,
+        "secondPerson": 1,
+        "refs": [
+          "pos:A:Saturn",
+          "pos:B:Moon"
+        ],
+        "baseKeys": [
+          "aspect:A:Saturn:B:Moon:trine"
+        ],
+        "quality": "sample-validated-profile"
+      },
+      {
+        "id": "aspect:A:Mercury:B:Venus:square",
+        "first": "Mercury",
+        "second": "Venus",
+        "firstLongitude": 204.35518154252122,
+        "secondLongitude": 299.4546549693064,
+        "type": "square",
+        "label": "ריבוע",
+        "symbol": "□",
+        "color": "#bf6844",
+        "angle": 90,
+        "separation": 95.09947342678515,
+        "orb": 5.099473426785153,
+        "limit": 6,
+        "nearBoundary": false,
+        "kind": "aspect",
+        "firstPerson": 0,
+        "secondPerson": 1,
+        "refs": [
+          "pos:A:Mercury",
+          "pos:B:Venus"
+        ],
+        "baseKeys": [
+          "aspect:A:Mercury:B:Venus:square"
+        ],
+        "quality": "sample-validated-profile"
+      },
+      {
+        "id": "aspect:A:Venus:B:Venus:square",
+        "first": "Venus",
+        "second": "Venus",
+        "firstLongitude": 204.26891613392513,
+        "secondLongitude": 299.4546549693064,
+        "type": "square",
+        "label": "ריבוע",
+        "symbol": "□",
+        "color": "#bf6844",
+        "angle": 90,
+        "separation": 95.18573883538124,
+        "orb": 5.185738835381244,
+        "limit": 6,
+        "nearBoundary": false,
+        "kind": "aspect",
+        "firstPerson": 0,
+        "secondPerson": 1,
+        "refs": [
+          "pos:A:Venus",
+          "pos:B:Venus"
+        ],
+        "baseKeys": [
+          "aspect:A:Venus:B:Venus:square"
+        ],
+        "quality": "sample-validated-profile"
+      },
+      {
+        "id": "aspect:A:Mars:B:Venus:conjunction",
+        "first": "Mars",
+        "second": "Venus",
+        "firstLongitude": 305.00691221596276,
+        "secondLongitude": 299.4546549693064,
+        "type": "conjunction",
+        "label": "צמידות",
+        "symbol": "☌",
+        "color": "#98701a",
+        "angle": 0,
+        "separation": 5.5522572466563815,
+        "orb": 5.5522572466563815,
+        "limit": 8,
+        "nearBoundary": false,
+        "kind": "aspect",
+        "firstPerson": 0,
+        "secondPerson": 1,
+        "refs": [
+          "pos:A:Mars",
+          "pos:B:Venus"
+        ],
+        "baseKeys": [
+          "aspect:A:Mars:B:Venus:conjunction"
+        ],
+        "quality": "sample-validated-profile"
+      },
+      {
+        "id": "aspect:A:Moon:B:Moon:trine",
+        "first": "Moon",
+        "second": "Moon",
+        "firstLongitude": 74.34578732920664,
+        "secondLongitude": 308.7538875381381,
+        "type": "trine",
+        "label": "משולש",
+        "symbol": "△",
+        "color": "#367bb0",
+        "angle": 120,
+        "separation": 125.59189979106856,
+        "orb": 5.591899791068556,
+        "limit": 6,
+        "nearBoundary": false,
+        "kind": "aspect",
+        "firstPerson": 0,
+        "secondPerson": 1,
+        "refs": [
+          "pos:A:Moon",
+          "pos:B:Moon"
+        ],
+        "baseKeys": [
+          "aspect:A:Moon:B:Moon:trine"
+        ],
+        "quality": "sample-validated-profile"
+      },
+      {
+        "id": "aspect:A:Jupiter:B:Pluto:square",
+        "first": "Jupiter",
+        "second": "Pluto",
+        "firstLongitude": 105.68921620836426,
+        "secondLongitude": 201.44572404314408,
+        "type": "square",
+        "label": "ריבוע",
+        "symbol": "□",
+        "color": "#bf6844",
+        "angle": 90,
+        "separation": 95.75650783477982,
+        "orb": 5.756507834779825,
+        "limit": 6,
+        "nearBoundary": false,
+        "kind": "aspect",
+        "firstPerson": 0,
+        "secondPerson": 1,
+        "refs": [
+          "pos:A:Jupiter",
+          "pos:B:Pluto"
+        ],
+        "baseKeys": [
+          "aspect:A:Jupiter:B:Pluto:square"
+        ],
+        "quality": "sample-validated-profile"
+      },
+      {
+        "id": "aspect:A:Moon:B:Neptune:opposition",
+        "first": "Moon",
+        "second": "Neptune",
+        "firstLongitude": 74.34578732920664,
+        "secondLongitude": 260.562955746203,
+        "type": "opposition",
+        "label": "מולות",
+        "symbol": "☍",
+        "color": "#b34b63",
+        "angle": 180,
+        "separation": 173.78283158300366,
+        "orb": 6.217168416996344,
+        "limit": 8,
+        "nearBoundary": false,
+        "kind": "aspect",
+        "firstPerson": 0,
+        "secondPerson": 1,
+        "refs": [
+          "pos:A:Moon",
+          "pos:B:Neptune"
+        ],
+        "baseKeys": [
+          "aspect:A:Moon:B:Neptune:opposition"
+        ],
+        "quality": "sample-validated-profile"
+      },
+      {
+        "id": "aspect:A:Neptune:B:Venus:conjunction",
+        "first": "Neptune",
+        "second": "Venus",
+        "firstLongitude": 306.07639188868416,
+        "secondLongitude": 299.4546549693064,
+        "type": "conjunction",
+        "label": "צמידות",
+        "symbol": "☌",
+        "color": "#98701a",
+        "angle": 0,
+        "separation": 6.621736919377781,
+        "orb": 6.621736919377781,
+        "limit": 8,
+        "nearBoundary": false,
+        "kind": "aspect",
+        "firstPerson": 0,
+        "secondPerson": 1,
+        "refs": [
+          "pos:A:Neptune",
+          "pos:B:Venus"
+        ],
+        "baseKeys": [
+          "aspect:A:Neptune:B:Venus:conjunction"
+        ],
+        "quality": "sample-validated-profile"
+      },
+      {
+        "id": "aspect:A:Pluto:B:Neptune:conjunction",
+        "first": "Pluto",
+        "second": "Neptune",
+        "firstLongitude": 253.87833731649266,
+        "secondLongitude": 260.562955746203,
+        "type": "conjunction",
+        "label": "צמידות",
+        "symbol": "☌",
+        "color": "#98701a",
+        "angle": 0,
+        "separation": 6.684618429710326,
+        "orb": 6.684618429710326,
+        "limit": 8,
+        "nearBoundary": false,
+        "kind": "aspect",
+        "firstPerson": 0,
+        "secondPerson": 1,
+        "refs": [
+          "pos:A:Pluto",
+          "pos:B:Neptune"
+        ],
+        "baseKeys": [
+          "aspect:A:Pluto:B:Neptune:conjunction"
+        ],
+        "quality": "sample-validated-profile"
+      },
+      {
+        "id": "aspect:A:Saturn:B:Neptune:opposition",
+        "first": "Saturn",
+        "second": "Neptune",
+        "firstLongitude": 73.717305930392,
+        "secondLongitude": 260.562955746203,
+        "type": "opposition",
+        "label": "מולות",
+        "symbol": "☍",
+        "color": "#b34b63",
+        "angle": 180,
+        "separation": 173.154350184189,
+        "orb": 6.845649815810987,
+        "limit": 8,
+        "nearBoundary": false,
+        "kind": "aspect",
+        "firstPerson": 0,
+        "secondPerson": 1,
+        "refs": [
+          "pos:A:Saturn",
+          "pos:B:Neptune"
+        ],
+        "baseKeys": [
+          "aspect:A:Saturn:B:Neptune:opposition"
+        ],
+        "quality": "sample-validated-profile"
+      },
+      {
+        "id": "overlay:A:Sun:in:B",
+        "kind": "overlay",
+        "person": 0,
+        "target": 1,
+        "body": "Sun",
+        "longitude": 221.61166162567304,
+        "house": 5,
+        "nearCusp": false,
+        "quality": "time-sensitive",
+        "refs": [
+          "pos:A:Sun",
+          "cusp:B:5",
+          "cusp:B:6"
+        ],
+        "baseKeys": [
+          "overlay:A:Sun:in:B"
+        ]
+      },
+      {
+        "id": "overlay:A:Moon:in:B",
+        "kind": "overlay",
+        "person": 0,
+        "target": 1,
+        "body": "Moon",
+        "longitude": 74.34578732920664,
+        "house": 12,
+        "nearCusp": false,
+        "quality": "time-sensitive",
+        "refs": [
+          "pos:A:Moon",
+          "cusp:B:12",
+          "cusp:B:1"
+        ],
+        "baseKeys": [
+          "overlay:A:Moon:in:B"
+        ]
+      },
+      {
+        "id": "overlay:A:Mercury:in:B",
+        "kind": "overlay",
+        "person": 0,
+        "target": 1,
+        "body": "Mercury",
+        "longitude": 204.35518154252122,
+        "house": 4,
+        "nearCusp": false,
+        "quality": "time-sensitive",
+        "refs": [
+          "pos:A:Mercury",
+          "cusp:B:4",
+          "cusp:B:5"
+        ],
+        "baseKeys": [
+          "overlay:A:Mercury:in:B"
+        ]
+      },
+      {
+        "id": "overlay:A:Venus:in:B",
+        "kind": "overlay",
+        "person": 0,
+        "target": 1,
+        "body": "Venus",
+        "longitude": 204.26891613392513,
+        "house": 4,
+        "nearCusp": false,
+        "quality": "time-sensitive",
+        "refs": [
+          "pos:A:Venus",
+          "cusp:B:4",
+          "cusp:B:5"
+        ],
+        "baseKeys": [
+          "overlay:A:Venus:in:B"
+        ]
+      },
+      {
+        "id": "overlay:A:Mars:in:B",
+        "kind": "overlay",
+        "person": 0,
+        "target": 1,
+        "body": "Mars",
+        "longitude": 305.00691221596276,
+        "house": 8,
+        "nearCusp": false,
+        "quality": "time-sensitive",
+        "refs": [
+          "pos:A:Mars",
+          "cusp:B:8",
+          "cusp:B:9"
+        ],
+        "baseKeys": [
+          "overlay:A:Mars:in:B"
+        ]
+      },
+      {
+        "id": "overlay:A:Jupiter:in:B",
+        "kind": "overlay",
+        "person": 0,
+        "target": 1,
+        "body": "Jupiter",
+        "longitude": 105.68921620836426,
+        "house": 1,
+        "nearCusp": false,
+        "quality": "time-sensitive",
+        "refs": [
+          "pos:A:Jupiter",
+          "cusp:B:1",
+          "cusp:B:2"
+        ],
+        "baseKeys": [
+          "overlay:A:Jupiter:in:B"
+        ]
+      },
+      {
+        "id": "overlay:A:Saturn:in:B",
+        "kind": "overlay",
+        "person": 0,
+        "target": 1,
+        "body": "Saturn",
+        "longitude": 73.717305930392,
+        "house": 12,
+        "nearCusp": false,
+        "quality": "time-sensitive",
+        "refs": [
+          "pos:A:Saturn",
+          "cusp:B:12",
+          "cusp:B:1"
+        ],
+        "baseKeys": [
+          "overlay:A:Saturn:in:B"
+        ]
+      },
+      {
+        "id": "overlay:A:Uranus:in:B",
+        "kind": "overlay",
+        "person": 0,
+        "target": 1,
+        "body": "Uranus",
+        "longitude": 320.9140015247931,
+        "house": 8,
+        "nearCusp": false,
+        "quality": "time-sensitive",
+        "refs": [
+          "pos:A:Uranus",
+          "cusp:B:8",
+          "cusp:B:9"
+        ],
+        "baseKeys": [
+          "overlay:A:Uranus:in:B"
+        ]
+      },
+      {
+        "id": "overlay:A:Neptune:in:B",
+        "kind": "overlay",
+        "person": 0,
+        "target": 1,
+        "body": "Neptune",
+        "longitude": 306.07639188868416,
+        "house": 8,
+        "nearCusp": false,
+        "quality": "time-sensitive",
+        "refs": [
+          "pos:A:Neptune",
+          "cusp:B:8",
+          "cusp:B:9"
+        ],
+        "baseKeys": [
+          "overlay:A:Neptune:in:B"
+        ]
+      },
+      {
+        "id": "overlay:A:Pluto:in:B",
+        "kind": "overlay",
+        "person": 0,
+        "target": 1,
+        "body": "Pluto",
+        "longitude": 253.87833731649266,
+        "house": 6,
+        "nearCusp": false,
+        "quality": "time-sensitive",
+        "refs": [
+          "pos:A:Pluto",
+          "cusp:B:6",
+          "cusp:B:7"
+        ],
+        "baseKeys": [
+          "overlay:A:Pluto:in:B"
+        ]
+      },
+      {
+        "id": "ruler:A:1",
+        "kind": "ruler",
+        "person": 0,
+        "house": 1,
+        "cuspSign": "מאזניים",
+        "ruler": "Venus",
+        "system": "traditional",
+        "quality": "time-sensitive",
+        "modernSupplement": null,
+        "natalHouse": 12,
+        "partnerHouse": 4,
+        "priority": 4,
+        "contactIds": [
+          "aspect:A:Venus:B:Pluto:conjunction",
+          "aspect:A:Venus:B:Neptune:sextile",
+          "aspect:A:Venus:B:Venus:square"
+        ],
+        "refs": [
+          "cusp:A:1",
+          "pos:A:Venus",
+          "overlay:A:Venus:in:B"
+        ],
+        "baseKeys": [
+          "overlay:A:Venus:in:B"
+        ]
+      },
+      {
+        "id": "ruler:A:2",
+        "kind": "ruler",
+        "person": 0,
+        "house": 2,
+        "cuspSign": "עקרב",
+        "ruler": "Mars",
+        "system": "traditional",
+        "quality": "time-sensitive",
+        "modernSupplement": "Pluto",
+        "natalHouse": 4,
+        "partnerHouse": 8,
+        "priority": 1,
+        "contactIds": [
+          "aspect:A:Mars:B:Moon:conjunction",
+          "aspect:A:Mars:B:Venus:conjunction"
+        ],
+        "refs": [
+          "cusp:A:2",
+          "pos:A:Mars",
+          "overlay:A:Mars:in:B"
+        ],
+        "baseKeys": [
+          "overlay:A:Mars:in:B"
+        ]
+      },
+      {
+        "id": "ruler:A:3",
+        "kind": "ruler",
+        "person": 0,
+        "house": 3,
+        "cuspSign": "קשת",
+        "ruler": "Jupiter",
+        "system": "traditional",
+        "quality": "time-sensitive",
+        "modernSupplement": null,
+        "natalHouse": 9,
+        "partnerHouse": 1,
+        "priority": 3,
+        "contactIds": [
+          "aspect:A:Jupiter:B:Mars:sextile",
+          "aspect:A:Jupiter:B:Pluto:square"
+        ],
+        "refs": [
+          "cusp:A:3",
+          "pos:A:Jupiter",
+          "overlay:A:Jupiter:in:B"
+        ],
+        "baseKeys": [
+          "overlay:A:Jupiter:in:B"
+        ]
+      },
+      {
+        "id": "ruler:A:4",
+        "kind": "ruler",
+        "person": 0,
+        "house": 4,
+        "cuspSign": "גדי",
+        "ruler": "Saturn",
+        "system": "traditional",
+        "quality": "time-sensitive",
+        "modernSupplement": null,
+        "natalHouse": 8,
+        "partnerHouse": 12,
+        "priority": 5,
+        "contactIds": [
+          "aspect:A:Saturn:B:Mercury:opposition",
+          "aspect:A:Saturn:B:Mars:square",
+          "aspect:A:Saturn:B:Jupiter:square",
+          "aspect:A:Saturn:B:Moon:trine",
+          "aspect:A:Saturn:B:Neptune:opposition"
+        ],
+        "refs": [
+          "cusp:A:4",
+          "pos:A:Saturn",
+          "overlay:A:Saturn:in:B"
+        ],
+        "baseKeys": [
+          "overlay:A:Saturn:in:B"
+        ]
+      },
+      {
+        "id": "ruler:A:5",
+        "kind": "ruler",
+        "person": 0,
+        "house": 5,
+        "cuspSign": "דגים",
+        "ruler": "Jupiter",
+        "system": "traditional",
+        "quality": "time-sensitive",
+        "modernSupplement": "Neptune",
+        "natalHouse": 9,
+        "partnerHouse": 1,
+        "priority": 3,
+        "contactIds": [
+          "aspect:A:Jupiter:B:Mars:sextile",
+          "aspect:A:Jupiter:B:Pluto:square"
+        ],
+        "refs": [
+          "cusp:A:5",
+          "pos:A:Jupiter",
+          "overlay:A:Jupiter:in:B"
+        ],
+        "baseKeys": [
+          "overlay:A:Jupiter:in:B"
+        ]
+      },
+      {
+        "id": "ruler:A:6",
+        "kind": "ruler",
+        "person": 0,
+        "house": 6,
+        "cuspSign": "טלה",
+        "ruler": "Mars",
+        "system": "traditional",
+        "quality": "time-sensitive",
+        "modernSupplement": null,
+        "natalHouse": 4,
+        "partnerHouse": 8,
+        "priority": 1,
+        "contactIds": [
+          "aspect:A:Mars:B:Moon:conjunction",
+          "aspect:A:Mars:B:Venus:conjunction"
+        ],
+        "refs": [
+          "cusp:A:6",
+          "pos:A:Mars",
+          "overlay:A:Mars:in:B"
+        ],
+        "baseKeys": [
+          "overlay:A:Mars:in:B"
+        ]
+      },
+      {
+        "id": "ruler:A:7",
+        "kind": "ruler",
+        "person": 0,
+        "house": 7,
+        "cuspSign": "טלה",
+        "ruler": "Mars",
+        "system": "traditional",
+        "quality": "time-sensitive",
+        "modernSupplement": null,
+        "natalHouse": 4,
+        "partnerHouse": 8,
+        "priority": 1,
+        "contactIds": [
+          "aspect:A:Mars:B:Moon:conjunction",
+          "aspect:A:Mars:B:Venus:conjunction"
+        ],
+        "refs": [
+          "cusp:A:7",
+          "pos:A:Mars",
+          "overlay:A:Mars:in:B"
+        ],
+        "baseKeys": [
+          "overlay:A:Mars:in:B"
+        ]
+      },
+      {
+        "id": "ruler:A:8",
+        "kind": "ruler",
+        "person": 0,
+        "house": 8,
+        "cuspSign": "שור",
+        "ruler": "Venus",
+        "system": "traditional",
+        "quality": "time-sensitive",
+        "modernSupplement": null,
+        "natalHouse": 12,
+        "partnerHouse": 4,
+        "priority": 1,
+        "contactIds": [
+          "aspect:A:Venus:B:Pluto:conjunction",
+          "aspect:A:Venus:B:Neptune:sextile",
+          "aspect:A:Venus:B:Venus:square"
+        ],
+        "refs": [
+          "cusp:A:8",
+          "pos:A:Venus",
+          "overlay:A:Venus:in:B"
+        ],
+        "baseKeys": [
+          "overlay:A:Venus:in:B"
+        ]
+      },
+      {
+        "id": "ruler:A:9",
+        "kind": "ruler",
+        "person": 0,
+        "house": 9,
+        "cuspSign": "תאומים",
+        "ruler": "Mercury",
+        "system": "traditional",
+        "quality": "time-sensitive",
+        "modernSupplement": null,
+        "natalHouse": 12,
+        "partnerHouse": 4,
+        "priority": 1,
+        "contactIds": [
+          "aspect:A:Mercury:B:Pluto:conjunction",
+          "aspect:A:Mercury:B:Neptune:sextile",
+          "aspect:A:Mercury:B:Venus:square"
+        ],
+        "refs": [
+          "cusp:A:9",
+          "pos:A:Mercury",
+          "overlay:A:Mercury:in:B"
+        ],
+        "baseKeys": [
+          "overlay:A:Mercury:in:B"
+        ]
+      },
+      {
+        "id": "ruler:A:10",
+        "kind": "ruler",
+        "person": 0,
+        "house": 10,
+        "cuspSign": "סרטן",
+        "ruler": "Moon",
+        "system": "traditional",
+        "quality": "time-sensitive",
+        "modernSupplement": null,
+        "natalHouse": 8,
+        "partnerHouse": 12,
+        "priority": 1,
+        "contactIds": [
+          "aspect:A:Moon:B:Mercury:opposition",
+          "aspect:A:Moon:B:Mars:square",
+          "aspect:A:Moon:B:Jupiter:square",
+          "aspect:A:Moon:B:Moon:trine",
+          "aspect:A:Moon:B:Neptune:opposition"
+        ],
+        "refs": [
+          "cusp:A:10",
+          "pos:A:Moon",
+          "overlay:A:Moon:in:B"
+        ],
+        "baseKeys": [
+          "overlay:A:Moon:in:B"
+        ]
+      },
+      {
+        "id": "ruler:A:11",
+        "kind": "ruler",
+        "person": 0,
+        "house": 11,
+        "cuspSign": "בתולה",
+        "ruler": "Mercury",
+        "system": "traditional",
+        "quality": "time-sensitive",
+        "modernSupplement": null,
+        "natalHouse": 12,
+        "partnerHouse": 4,
+        "priority": 1,
+        "contactIds": [
+          "aspect:A:Mercury:B:Pluto:conjunction",
+          "aspect:A:Mercury:B:Neptune:sextile",
+          "aspect:A:Mercury:B:Venus:square"
+        ],
+        "refs": [
+          "cusp:A:11",
+          "pos:A:Mercury",
+          "overlay:A:Mercury:in:B"
+        ],
+        "baseKeys": [
+          "overlay:A:Mercury:in:B"
+        ]
+      },
+      {
+        "id": "ruler:A:12",
+        "kind": "ruler",
+        "person": 0,
+        "house": 12,
+        "cuspSign": "מאזניים",
+        "ruler": "Venus",
+        "system": "traditional",
+        "quality": "time-sensitive",
+        "modernSupplement": null,
+        "natalHouse": 12,
+        "partnerHouse": 4,
+        "priority": 1,
+        "contactIds": [
+          "aspect:A:Venus:B:Pluto:conjunction",
+          "aspect:A:Venus:B:Neptune:sextile",
+          "aspect:A:Venus:B:Venus:square"
+        ],
+        "refs": [
+          "cusp:A:12",
+          "pos:A:Venus",
+          "overlay:A:Venus:in:B"
+        ],
+        "baseKeys": [
+          "overlay:A:Venus:in:B"
+        ]
+      },
+      {
+        "id": "overlay:B:Sun:in:A",
+        "kind": "overlay",
+        "person": 1,
+        "target": 0,
+        "body": "Sun",
+        "longitude": 269.8656790872119,
+        "house": 3,
+        "nearCusp": false,
+        "quality": "time-sensitive",
+        "refs": [
+          "pos:B:Sun",
+          "cusp:A:3",
+          "cusp:A:4"
+        ],
+        "baseKeys": [
+          "overlay:B:Sun:in:A"
+        ]
+      },
+      {
+        "id": "overlay:B:Moon:in:A",
+        "kind": "overlay",
+        "person": 1,
+        "target": 0,
+        "body": "Moon",
+        "longitude": 308.7538875381381,
+        "house": 4,
+        "nearCusp": false,
+        "quality": "time-sensitive",
+        "refs": [
+          "pos:B:Moon",
+          "cusp:A:4",
+          "cusp:A:5"
+        ],
+        "baseKeys": [
+          "overlay:B:Moon:in:A"
+        ]
+      },
+      {
+        "id": "overlay:B:Mercury:in:A",
+        "kind": "overlay",
+        "person": 1,
+        "target": 0,
+        "body": "Mercury",
+        "longitude": 253.4961189847795,
+        "house": 2,
+        "nearCusp": false,
+        "quality": "time-sensitive",
+        "refs": [
+          "pos:B:Mercury",
+          "cusp:A:2",
+          "cusp:A:3"
+        ],
+        "baseKeys": [
+          "overlay:B:Mercury:in:A"
+        ]
+      },
+      {
+        "id": "overlay:B:Venus:in:A",
+        "kind": "overlay",
+        "person": 1,
+        "target": 0,
+        "body": "Venus",
+        "longitude": 299.4546549693064,
+        "house": 4,
+        "nearCusp": false,
+        "quality": "time-sensitive",
+        "refs": [
+          "pos:B:Venus",
+          "cusp:A:4",
+          "cusp:A:5"
+        ],
+        "baseKeys": [
+          "overlay:B:Venus:in:A"
+        ]
+      },
+      {
+        "id": "overlay:B:Mars:in:A",
+        "kind": "overlay",
+        "person": 1,
+        "target": 0,
+        "body": "Mars",
+        "longitude": 161.87153486856187,
+        "house": 11,
+        "nearCusp": false,
+        "quality": "time-sensitive",
+        "refs": [
+          "pos:B:Mars",
+          "cusp:A:11",
+          "cusp:A:12"
+        ],
+        "baseKeys": [
+          "overlay:B:Mars:in:A"
+        ]
+      },
+      {
+        "id": "overlay:B:Jupiter:in:A",
+        "kind": "overlay",
+        "person": 1,
+        "target": 0,
+        "body": "Jupiter",
+        "longitude": 160.21515389640865,
+        "house": 11,
+        "nearCusp": false,
+        "quality": "time-sensitive",
+        "refs": [
+          "pos:B:Jupiter",
+          "cusp:A:11",
+          "cusp:A:12"
+        ],
+        "baseKeys": [
+          "overlay:B:Jupiter:in:A"
+        ]
+      },
+      {
+        "id": "overlay:B:Saturn:in:A",
+        "kind": "overlay",
+        "person": 1,
+        "target": 0,
+        "body": "Saturn",
+        "longitude": 176.7958847936768,
+        "house": 11,
+        "nearCusp": false,
+        "quality": "time-sensitive",
+        "refs": [
+          "pos:B:Saturn",
+          "cusp:A:11",
+          "cusp:A:12"
+        ],
+        "baseKeys": [
+          "overlay:B:Saturn:in:A"
+        ]
+      },
+      {
+        "id": "overlay:B:Uranus:in:A",
+        "kind": "overlay",
+        "person": 1,
+        "target": 0,
+        "body": "Uranus",
+        "longitude": 233.55645374496567,
+        "house": 1,
+        "nearCusp": false,
+        "quality": "time-sensitive",
+        "refs": [
+          "pos:B:Uranus",
+          "cusp:A:1",
+          "cusp:A:2"
+        ],
+        "baseKeys": [
+          "overlay:B:Uranus:in:A"
+        ]
+      },
+      {
+        "id": "overlay:B:Neptune:in:A",
+        "kind": "overlay",
+        "person": 1,
+        "target": 0,
+        "body": "Neptune",
+        "longitude": 260.562955746203,
+        "house": 2,
+        "nearCusp": false,
+        "quality": "time-sensitive",
+        "refs": [
+          "pos:B:Neptune",
+          "cusp:A:2",
+          "cusp:A:3"
+        ],
+        "baseKeys": [
+          "overlay:B:Neptune:in:A"
+        ]
+      },
+      {
+        "id": "overlay:B:Pluto:in:A",
+        "kind": "overlay",
+        "person": 1,
+        "target": 0,
+        "body": "Pluto",
+        "longitude": 201.44572404314408,
+        "house": 12,
+        "nearCusp": false,
+        "quality": "time-sensitive",
+        "refs": [
+          "pos:B:Pluto",
+          "cusp:A:12",
+          "cusp:A:1"
+        ],
+        "baseKeys": [
+          "overlay:B:Pluto:in:A"
+        ]
+      },
+      {
+        "id": "ruler:B:1",
+        "kind": "ruler",
+        "person": 1,
+        "house": 1,
+        "cuspSign": "תאומים",
+        "ruler": "Mercury",
+        "system": "traditional",
+        "quality": "time-sensitive",
+        "modernSupplement": null,
+        "natalHouse": 6,
+        "partnerHouse": 2,
+        "priority": 4,
+        "contactIds": [
+          "aspect:A:Saturn:B:Mercury:opposition",
+          "aspect:A:Pluto:B:Mercury:conjunction",
+          "aspect:A:Moon:B:Mercury:opposition"
+        ],
+        "refs": [
+          "cusp:B:1",
+          "pos:B:Mercury",
+          "overlay:B:Mercury:in:A"
+        ],
+        "baseKeys": [
+          "overlay:B:Mercury:in:A"
+        ]
+      },
+      {
+        "id": "ruler:B:2",
+        "kind": "ruler",
+        "person": 1,
+        "house": 2,
+        "cuspSign": "סרטן",
+        "ruler": "Moon",
+        "system": "traditional",
+        "quality": "time-sensitive",
+        "modernSupplement": null,
+        "natalHouse": 8,
+        "partnerHouse": 4,
+        "priority": 1,
+        "contactIds": [
+          "aspect:A:Neptune:B:Moon:conjunction",
+          "aspect:A:Sun:B:Moon:square",
+          "aspect:A:Mars:B:Moon:conjunction",
+          "aspect:A:Saturn:B:Moon:trine",
+          "aspect:A:Moon:B:Moon:trine"
+        ],
+        "refs": [
+          "cusp:B:2",
+          "pos:B:Moon",
+          "overlay:B:Moon:in:A"
+        ],
+        "baseKeys": [
+          "overlay:B:Moon:in:A"
+        ]
+      },
+      {
+        "id": "ruler:B:3",
+        "kind": "ruler",
+        "person": 1,
+        "house": 3,
+        "cuspSign": "אריה",
+        "ruler": "Sun",
+        "system": "traditional",
+        "quality": "time-sensitive",
+        "modernSupplement": null,
+        "natalHouse": 7,
+        "partnerHouse": 3,
+        "priority": 3,
+        "contactIds": [],
+        "refs": [
+          "cusp:B:3",
+          "pos:B:Sun",
+          "overlay:B:Sun:in:A"
+        ],
+        "baseKeys": [
+          "overlay:B:Sun:in:A"
+        ]
+      },
+      {
+        "id": "ruler:B:4",
+        "kind": "ruler",
+        "person": 1,
+        "house": 4,
+        "cuspSign": "מאזניים",
+        "ruler": "Venus",
+        "system": "traditional",
+        "quality": "time-sensitive",
+        "modernSupplement": null,
+        "natalHouse": 8,
+        "partnerHouse": 4,
+        "priority": 5,
+        "contactIds": [
+          "aspect:A:Mercury:B:Venus:square",
+          "aspect:A:Venus:B:Venus:square",
+          "aspect:A:Mars:B:Venus:conjunction",
+          "aspect:A:Neptune:B:Venus:conjunction"
+        ],
+        "refs": [
+          "cusp:B:4",
+          "pos:B:Venus",
+          "overlay:B:Venus:in:A"
+        ],
+        "baseKeys": [
+          "overlay:B:Venus:in:A"
+        ]
+      },
+      {
+        "id": "ruler:B:5",
+        "kind": "ruler",
+        "person": 1,
+        "house": 5,
+        "cuspSign": "עקרב",
+        "ruler": "Mars",
+        "system": "traditional",
+        "quality": "time-sensitive",
+        "modernSupplement": "Pluto",
+        "natalHouse": 3,
+        "partnerHouse": 11,
+        "priority": 3,
+        "contactIds": [
+          "aspect:A:Sun:B:Mars:sextile",
+          "aspect:A:Saturn:B:Mars:square",
+          "aspect:A:Pluto:B:Mars:square",
+          "aspect:A:Moon:B:Mars:square",
+          "aspect:A:Jupiter:B:Mars:sextile"
+        ],
+        "refs": [
+          "cusp:B:5",
+          "pos:B:Mars",
+          "overlay:B:Mars:in:A"
+        ],
+        "baseKeys": [
+          "overlay:B:Mars:in:A"
+        ]
+      },
+      {
+        "id": "ruler:B:6",
+        "kind": "ruler",
+        "person": 1,
+        "house": 6,
+        "cuspSign": "עקרב",
+        "ruler": "Mars",
+        "system": "traditional",
+        "quality": "time-sensitive",
+        "modernSupplement": "Pluto",
+        "natalHouse": 3,
+        "partnerHouse": 11,
+        "priority": 1,
+        "contactIds": [
+          "aspect:A:Sun:B:Mars:sextile",
+          "aspect:A:Saturn:B:Mars:square",
+          "aspect:A:Pluto:B:Mars:square",
+          "aspect:A:Moon:B:Mars:square",
+          "aspect:A:Jupiter:B:Mars:sextile"
+        ],
+        "refs": [
+          "cusp:B:6",
+          "pos:B:Mars",
+          "overlay:B:Mars:in:A"
+        ],
+        "baseKeys": [
+          "overlay:B:Mars:in:A"
+        ]
+      },
+      {
+        "id": "ruler:B:7",
+        "kind": "ruler",
+        "person": 1,
+        "house": 7,
+        "cuspSign": "קשת",
+        "ruler": "Jupiter",
+        "system": "traditional",
+        "quality": "time-sensitive",
+        "modernSupplement": null,
+        "natalHouse": 3,
+        "partnerHouse": 11,
+        "priority": 1,
+        "contactIds": [
+          "aspect:A:Sun:B:Jupiter:sextile",
+          "aspect:A:Saturn:B:Jupiter:square",
+          "aspect:A:Pluto:B:Jupiter:square",
+          "aspect:A:Moon:B:Jupiter:square"
+        ],
+        "refs": [
+          "cusp:B:7",
+          "pos:B:Jupiter",
+          "overlay:B:Jupiter:in:A"
+        ],
+        "baseKeys": [
+          "overlay:B:Jupiter:in:A"
+        ]
+      },
+      {
+        "id": "ruler:B:8",
+        "kind": "ruler",
+        "person": 1,
+        "house": 8,
+        "cuspSign": "גדי",
+        "ruler": "Saturn",
+        "system": "traditional",
+        "quality": "time-sensitive",
+        "modernSupplement": null,
+        "natalHouse": 3,
+        "partnerHouse": 11,
+        "priority": 1,
+        "contactIds": [],
+        "refs": [
+          "cusp:B:8",
+          "pos:B:Saturn",
+          "overlay:B:Saturn:in:A"
+        ],
+        "baseKeys": [
+          "overlay:B:Saturn:in:A"
+        ]
+      },
+      {
+        "id": "ruler:B:9",
+        "kind": "ruler",
+        "person": 1,
+        "house": 9,
+        "cuspSign": "דלי",
+        "ruler": "Saturn",
+        "system": "traditional",
+        "quality": "time-sensitive",
+        "modernSupplement": "Uranus",
+        "natalHouse": 3,
+        "partnerHouse": 11,
+        "priority": 1,
+        "contactIds": [],
+        "refs": [
+          "cusp:B:9",
+          "pos:B:Saturn",
+          "overlay:B:Saturn:in:A"
+        ],
+        "baseKeys": [
+          "overlay:B:Saturn:in:A"
+        ]
+      },
+      {
+        "id": "ruler:B:10",
+        "kind": "ruler",
+        "person": 1,
+        "house": 10,
+        "cuspSign": "טלה",
+        "ruler": "Mars",
+        "system": "traditional",
+        "quality": "time-sensitive",
+        "modernSupplement": null,
+        "natalHouse": 3,
+        "partnerHouse": 11,
+        "priority": 1,
+        "contactIds": [
+          "aspect:A:Sun:B:Mars:sextile",
+          "aspect:A:Saturn:B:Mars:square",
+          "aspect:A:Pluto:B:Mars:square",
+          "aspect:A:Moon:B:Mars:square",
+          "aspect:A:Jupiter:B:Mars:sextile"
+        ],
+        "refs": [
+          "cusp:B:10",
+          "pos:B:Mars",
+          "overlay:B:Mars:in:A"
+        ],
+        "baseKeys": [
+          "overlay:B:Mars:in:A"
+        ]
+      },
+      {
+        "id": "ruler:B:11",
+        "kind": "ruler",
+        "person": 1,
+        "house": 11,
+        "cuspSign": "שור",
+        "ruler": "Venus",
+        "system": "traditional",
+        "quality": "time-sensitive",
+        "modernSupplement": null,
+        "natalHouse": 8,
+        "partnerHouse": 4,
+        "priority": 1,
+        "contactIds": [
+          "aspect:A:Mercury:B:Venus:square",
+          "aspect:A:Venus:B:Venus:square",
+          "aspect:A:Mars:B:Venus:conjunction",
+          "aspect:A:Neptune:B:Venus:conjunction"
+        ],
+        "refs": [
+          "cusp:B:11",
+          "pos:B:Venus",
+          "overlay:B:Venus:in:A"
+        ],
+        "baseKeys": [
+          "overlay:B:Venus:in:A"
+        ]
+      },
+      {
+        "id": "ruler:B:12",
+        "kind": "ruler",
+        "person": 1,
+        "house": 12,
+        "cuspSign": "שור",
+        "ruler": "Venus",
+        "system": "traditional",
+        "quality": "time-sensitive",
+        "modernSupplement": null,
+        "natalHouse": 8,
+        "partnerHouse": 4,
+        "priority": 1,
+        "contactIds": [
+          "aspect:A:Mercury:B:Venus:square",
+          "aspect:A:Venus:B:Venus:square",
+          "aspect:A:Mars:B:Venus:conjunction",
+          "aspect:A:Neptune:B:Venus:conjunction"
+        ],
+        "refs": [
+          "cusp:B:12",
+          "pos:B:Venus",
+          "overlay:B:Venus:in:A"
+        ],
+        "baseKeys": [
+          "overlay:B:Venus:in:A"
+        ]
+      },
+      {
+        "id": "natal:A:Mercury:Venus:conjunction",
+        "first": "Mercury",
+        "second": "Venus",
+        "firstLongitude": 204.35518154252122,
+        "secondLongitude": 204.26891613392513,
+        "type": "conjunction",
+        "label": "צמידות",
+        "symbol": "☌",
+        "color": "#98701a",
+        "angle": 0,
+        "separation": 0.08626540859609122,
+        "orb": 0.08626540859609122,
+        "limit": 8,
+        "nearBoundary": false,
+        "kind": "natalAspect",
+        "person": 0,
+        "refs": [
+          "pos:A:Mercury",
+          "pos:A:Venus"
+        ],
+        "baseKeys": [
+          "natal:A:Mercury:Venus:conjunction"
+        ]
+      },
+      {
+        "id": "natal:A:Saturn:Pluto:opposition",
+        "first": "Saturn",
+        "second": "Pluto",
+        "firstLongitude": 73.717305930392,
+        "secondLongitude": 253.87833731649266,
+        "type": "opposition",
+        "label": "מולות",
+        "symbol": "☍",
+        "color": "#b34b63",
+        "angle": 180,
+        "separation": 179.83896861389934,
+        "orb": 0.16103138610066026,
+        "limit": 8,
+        "nearBoundary": false,
+        "kind": "natalAspect",
+        "person": 0,
+        "refs": [
+          "pos:A:Saturn",
+          "pos:A:Pluto"
+        ],
+        "baseKeys": [
+          "natal:A:Saturn:Pluto:opposition"
+        ]
+      },
+      {
+        "id": "natal:A:Moon:Pluto:opposition",
+        "first": "Moon",
+        "second": "Pluto",
+        "firstLongitude": 74.34578732920664,
+        "secondLongitude": 253.87833731649266,
+        "type": "opposition",
+        "label": "מולות",
+        "symbol": "☍",
+        "color": "#b34b63",
+        "angle": 180,
+        "separation": 179.53254998728602,
+        "orb": 0.46745001271398223,
+        "limit": 8,
+        "nearBoundary": false,
+        "kind": "natalAspect",
+        "person": 0,
+        "refs": [
+          "pos:A:Moon",
+          "pos:A:Pluto"
+        ],
+        "baseKeys": [
+          "natal:A:Moon:Pluto:opposition"
+        ]
+      },
+      {
+        "id": "natal:A:Moon:Saturn:conjunction",
+        "first": "Moon",
+        "second": "Saturn",
+        "firstLongitude": 74.34578732920664,
+        "secondLongitude": 73.717305930392,
+        "type": "conjunction",
+        "label": "צמידות",
+        "symbol": "☌",
+        "color": "#98701a",
+        "angle": 0,
+        "separation": 0.6284813988146425,
+        "orb": 0.6284813988146425,
+        "limit": 8,
+        "nearBoundary": false,
+        "kind": "natalAspect",
+        "person": 0,
+        "refs": [
+          "pos:A:Moon",
+          "pos:A:Saturn"
+        ],
+        "baseKeys": [
+          "natal:A:Moon:Saturn:conjunction"
+        ]
+      },
+      {
+        "id": "natal:A:Mars:Neptune:conjunction",
+        "first": "Mars",
+        "second": "Neptune",
+        "firstLongitude": 305.00691221596276,
+        "secondLongitude": 306.07639188868416,
+        "type": "conjunction",
+        "label": "צמידות",
+        "symbol": "☌",
+        "color": "#98701a",
+        "angle": 0,
+        "separation": 1.0694796727213998,
+        "orb": 1.0694796727213998,
+        "limit": 8,
+        "nearBoundary": false,
+        "kind": "natalAspect",
+        "person": 0,
+        "refs": [
+          "pos:A:Mars",
+          "pos:A:Neptune"
+        ],
+        "baseKeys": [
+          "natal:A:Mars:Neptune:conjunction"
+        ]
+      },
+      {
+        "id": "natal:A:Venus:Uranus:trine",
+        "first": "Venus",
+        "second": "Uranus",
+        "firstLongitude": 204.26891613392513,
+        "secondLongitude": 320.9140015247931,
+        "type": "trine",
+        "label": "משולש",
+        "symbol": "△",
+        "color": "#367bb0",
+        "angle": 120,
+        "separation": 116.64508539086796,
+        "orb": 3.354914609132038,
+        "limit": 6,
+        "nearBoundary": false,
+        "kind": "natalAspect",
+        "person": 0,
+        "refs": [
+          "pos:A:Venus",
+          "pos:A:Uranus"
+        ],
+        "baseKeys": [
+          "natal:A:Venus:Uranus:trine"
+        ]
+      },
+      {
+        "id": "natal:A:Mercury:Uranus:trine",
+        "first": "Mercury",
+        "second": "Uranus",
+        "firstLongitude": 204.35518154252122,
+        "secondLongitude": 320.9140015247931,
+        "type": "trine",
+        "label": "משולש",
+        "symbol": "△",
+        "color": "#367bb0",
+        "angle": 120,
+        "separation": 116.55881998227187,
+        "orb": 3.4411800177281293,
+        "limit": 6,
+        "nearBoundary": false,
+        "kind": "natalAspect",
+        "person": 0,
+        "refs": [
+          "pos:A:Mercury",
+          "pos:A:Uranus"
+        ],
+        "baseKeys": [
+          "natal:A:Mercury:Uranus:trine"
+        ]
+      },
+      {
+        "id": "natal:A:Sun:Jupiter:trine",
+        "first": "Sun",
+        "second": "Jupiter",
+        "firstLongitude": 221.61166162567304,
+        "secondLongitude": 105.68921620836426,
+        "type": "trine",
+        "label": "משולש",
+        "symbol": "△",
+        "color": "#367bb0",
+        "angle": 120,
+        "separation": 115.92244541730884,
+        "orb": 4.077554582691164,
+        "limit": 6,
+        "nearBoundary": false,
+        "kind": "natalAspect",
+        "person": 0,
+        "refs": [
+          "pos:A:Sun",
+          "pos:A:Jupiter"
+        ],
+        "baseKeys": [
+          "natal:A:Sun:Jupiter:trine"
+        ]
+      },
+      {
+        "id": "natal:A:Sun:Neptune:square",
+        "first": "Sun",
+        "second": "Neptune",
+        "firstLongitude": 221.61166162567304,
+        "secondLongitude": 306.07639188868416,
+        "type": "square",
+        "label": "ריבוע",
+        "symbol": "□",
+        "color": "#bf6844",
+        "angle": 90,
+        "separation": 84.46473026301112,
+        "orb": 5.53526973698888,
+        "limit": 6,
+        "nearBoundary": false,
+        "kind": "natalAspect",
+        "person": 0,
+        "refs": [
+          "pos:A:Sun",
+          "pos:A:Neptune"
+        ],
+        "baseKeys": [
+          "natal:A:Sun:Neptune:square"
+        ]
+      },
+      {
+        "id": "natal:B:Neptune:Pluto:sextile",
+        "first": "Neptune",
+        "second": "Pluto",
+        "firstLongitude": 260.562955746203,
+        "secondLongitude": 201.44572404314408,
+        "type": "sextile",
+        "label": "משושה",
+        "symbol": "⚹",
+        "color": "#3f8c7b",
+        "angle": 60,
+        "separation": 59.117231703058906,
+        "orb": 0.8827682969410944,
+        "limit": 4,
+        "nearBoundary": false,
+        "kind": "natalAspect",
+        "person": 1,
+        "refs": [
+          "pos:B:Neptune",
+          "pos:B:Pluto"
+        ],
+        "baseKeys": [
+          "natal:B:Neptune:Pluto:sextile"
+        ]
+      },
+      {
+        "id": "natal:B:Mercury:Mars:square",
+        "first": "Mercury",
+        "second": "Mars",
+        "firstLongitude": 253.4961189847795,
+        "secondLongitude": 161.87153486856187,
+        "type": "square",
+        "label": "ריבוע",
+        "symbol": "□",
+        "color": "#bf6844",
+        "angle": 90,
+        "separation": 91.62458411621765,
+        "orb": 1.6245841162176475,
+        "limit": 6,
+        "nearBoundary": false,
+        "kind": "natalAspect",
+        "person": 1,
+        "refs": [
+          "pos:B:Mercury",
+          "pos:B:Mars"
+        ],
+        "baseKeys": [
+          "natal:B:Mercury:Mars:square"
+        ]
+      },
+      {
+        "id": "natal:B:Mars:Jupiter:conjunction",
+        "first": "Mars",
+        "second": "Jupiter",
+        "firstLongitude": 161.87153486856187,
+        "secondLongitude": 160.21515389640865,
+        "type": "conjunction",
+        "label": "צמידות",
+        "symbol": "☌",
+        "color": "#98701a",
+        "angle": 0,
+        "separation": 1.6563809721532152,
+        "orb": 1.6563809721532152,
+        "limit": 8,
+        "nearBoundary": false,
+        "kind": "natalAspect",
+        "person": 1,
+        "refs": [
+          "pos:B:Mars",
+          "pos:B:Jupiter"
+        ],
+        "baseKeys": [
+          "natal:B:Mars:Jupiter:conjunction"
+        ]
+      },
+      {
+        "id": "natal:B:Venus:Saturn:trine",
+        "first": "Venus",
+        "second": "Saturn",
+        "firstLongitude": 299.4546549693064,
+        "secondLongitude": 176.7958847936768,
+        "type": "trine",
+        "label": "משולש",
+        "symbol": "△",
+        "color": "#367bb0",
+        "angle": 120,
+        "separation": 122.65877017562957,
+        "orb": 2.65877017562957,
+        "limit": 6,
+        "nearBoundary": false,
+        "kind": "natalAspect",
+        "person": 1,
+        "refs": [
+          "pos:B:Venus",
+          "pos:B:Saturn"
+        ],
+        "baseKeys": [
+          "natal:B:Venus:Saturn:trine"
+        ]
+      },
+      {
+        "id": "natal:B:Sun:Saturn:square",
+        "first": "Sun",
+        "second": "Saturn",
+        "firstLongitude": 269.8656790872119,
+        "secondLongitude": 176.7958847936768,
+        "type": "square",
+        "label": "ריבוע",
+        "symbol": "□",
+        "color": "#bf6844",
+        "angle": 90,
+        "separation": 93.0697942935351,
+        "orb": 3.0697942935350966,
+        "limit": 6,
+        "nearBoundary": false,
+        "kind": "natalAspect",
+        "person": 1,
+        "refs": [
+          "pos:B:Sun",
+          "pos:B:Saturn"
+        ],
+        "baseKeys": [
+          "natal:B:Sun:Saturn:square"
+        ]
+      },
+      {
+        "id": "natal:B:Saturn:Uranus:sextile",
+        "first": "Saturn",
+        "second": "Uranus",
+        "firstLongitude": 176.7958847936768,
+        "secondLongitude": 233.55645374496567,
+        "type": "sextile",
+        "label": "משושה",
+        "symbol": "⚹",
+        "color": "#3f8c7b",
+        "angle": 60,
+        "separation": 56.76056895128886,
+        "orb": 3.2394310487111397,
+        "limit": 4,
+        "nearBoundary": false,
+        "kind": "natalAspect",
+        "person": 1,
+        "refs": [
+          "pos:B:Saturn",
+          "pos:B:Uranus"
+        ],
+        "baseKeys": [
+          "natal:B:Saturn:Uranus:sextile"
+        ]
+      },
+      {
+        "id": "natal:B:Mercury:Jupiter:square",
+        "first": "Mercury",
+        "second": "Jupiter",
+        "firstLongitude": 253.4961189847795,
+        "secondLongitude": 160.21515389640865,
+        "type": "square",
+        "label": "ריבוע",
+        "symbol": "□",
+        "color": "#bf6844",
+        "angle": 90,
+        "separation": 93.28096508837086,
+        "orb": 3.2809650883708628,
+        "limit": 6,
+        "nearBoundary": false,
+        "kind": "natalAspect",
+        "person": 1,
+        "refs": [
+          "pos:B:Mercury",
+          "pos:B:Jupiter"
+        ],
+        "baseKeys": [
+          "natal:B:Mercury:Jupiter:square"
+        ]
+      },
+      {
+        "id": "natal:B:Mercury:Neptune:conjunction",
+        "first": "Mercury",
+        "second": "Neptune",
+        "firstLongitude": 253.4961189847795,
+        "secondLongitude": 260.562955746203,
+        "type": "conjunction",
+        "label": "צמידות",
+        "symbol": "☌",
+        "color": "#98701a",
+        "angle": 0,
+        "separation": 7.066836761423474,
+        "orb": 7.066836761423474,
+        "limit": 8,
+        "nearBoundary": false,
+        "kind": "natalAspect",
+        "person": 1,
+        "refs": [
+          "pos:B:Mercury",
+          "pos:B:Neptune"
+        ],
+        "baseKeys": [
+          "natal:B:Mercury:Neptune:conjunction"
+        ]
+      },
+      {
+        "id": "core:SunMoonVenusMars",
+        "kind": "coreNetwork",
+        "refs": [
+          "aspect:A:Sun:B:Mars:sextile",
+          "aspect:A:Moon:B:Mars:square",
+          "aspect:A:Sun:B:Moon:square",
+          "aspect:A:Mars:B:Moon:conjunction",
+          "aspect:A:Venus:B:Venus:square",
+          "aspect:A:Mars:B:Venus:conjunction",
+          "aspect:A:Moon:B:Moon:trine"
+        ],
+        "note": "Only calculated edges; no missing contact is inferred",
+        "baseKeys": [
+          "aspect:A:Sun:B:Mars:sextile",
+          "aspect:A:Moon:B:Mars:square",
+          "aspect:A:Sun:B:Moon:square",
+          "aspect:A:Mars:B:Moon:conjunction",
+          "aspect:A:Venus:B:Venus:square",
+          "aspect:A:Mars:B:Venus:conjunction",
+          "aspect:A:Moon:B:Moon:trine"
+        ]
+      },
+      {
+        "id": "reciprocal:Mars-Moon",
+        "kind": "reciprocalCore",
+        "refs": [
+          "aspect:A:Mars:B:Moon:conjunction",
+          "aspect:A:Moon:B:Mars:square"
+        ],
+        "note": "Two distinct contacts, not identical or statistically independent evidence",
+        "baseKeys": [
+          "aspect:A:Mars:B:Moon:conjunction",
+          "aspect:A:Moon:B:Mars:square"
+        ]
+      },
+      {
+        "id": "theme:communication",
+        "kind": "multiChannelTheme",
+        "topic": "communication",
+        "refs": [
+          "aspect:A:Saturn:B:Mercury:opposition",
+          "aspect:A:Pluto:B:Mercury:conjunction",
+          "aspect:A:Moon:B:Mercury:opposition",
+          "aspect:A:Mercury:B:Pluto:conjunction",
+          "aspect:A:Mercury:B:Neptune:sextile",
+          "aspect:A:Mercury:B:Venus:square",
+          "overlay:A:Mercury:in:B",
+          "overlay:B:Sun:in:A",
+          "overlay:B:Mercury:in:A"
+        ],
+        "note": "Distinct geometric channels, not probability or independent confirmation",
+        "baseKeys": [
+          "aspect:A:Saturn:B:Mercury:opposition",
+          "aspect:A:Pluto:B:Mercury:conjunction",
+          "aspect:A:Moon:B:Mercury:opposition",
+          "aspect:A:Mercury:B:Pluto:conjunction",
+          "aspect:A:Mercury:B:Neptune:sextile",
+          "aspect:A:Mercury:B:Venus:square",
+          "overlay:A:Mercury:in:B",
+          "overlay:B:Sun:in:A",
+          "overlay:B:Mercury:in:A"
+        ]
+      },
+      {
+        "id": "theme:emotions",
+        "kind": "multiChannelTheme",
+        "topic": "emotions",
+        "refs": [
+          "aspect:A:Moon:B:Mercury:opposition",
+          "aspect:A:Moon:B:Mars:square",
+          "aspect:A:Neptune:B:Moon:conjunction",
+          "aspect:A:Sun:B:Moon:square",
+          "aspect:A:Mars:B:Moon:conjunction",
+          "aspect:A:Moon:B:Jupiter:square",
+          "aspect:A:Saturn:B:Moon:trine",
+          "aspect:A:Moon:B:Moon:trine",
+          "aspect:A:Moon:B:Neptune:opposition",
+          "overlay:A:Moon:in:B",
+          "overlay:A:Venus:in:B",
+          "overlay:A:Mars:in:B",
+          "overlay:B:Moon:in:A",
+          "overlay:B:Venus:in:A"
+        ],
+        "note": "Distinct geometric channels, not probability or independent confirmation",
+        "baseKeys": [
+          "aspect:A:Moon:B:Mercury:opposition",
+          "aspect:A:Moon:B:Mars:square",
+          "aspect:A:Neptune:B:Moon:conjunction",
+          "aspect:A:Sun:B:Moon:square",
+          "aspect:A:Mars:B:Moon:conjunction",
+          "aspect:A:Moon:B:Jupiter:square",
+          "aspect:A:Saturn:B:Moon:trine",
+          "aspect:A:Moon:B:Moon:trine",
+          "aspect:A:Moon:B:Neptune:opposition",
+          "overlay:A:Moon:in:B",
+          "overlay:A:Venus:in:B",
+          "overlay:A:Mars:in:B",
+          "overlay:B:Moon:in:A",
+          "overlay:B:Venus:in:A"
+        ]
+      }
+    ],
+    "coreContacts": [
+      "aspect:A:Sun:B:Mars:sextile",
+      "aspect:A:Moon:B:Mars:square",
+      "aspect:A:Sun:B:Moon:square",
+      "aspect:A:Mars:B:Moon:conjunction",
+      "aspect:A:Venus:B:Venus:square",
+      "aspect:A:Mars:B:Venus:conjunction",
+      "aspect:A:Moon:B:Moon:trine"
+    ],
+    "priorityHouses": [
+      1,
+      4,
+      5,
+      7,
+      8
+    ],
+    "quality": {
+      "calculation": "experimental sampled validation; not proof for every instant",
+      "birthTimeAccuracy": "not supplied; a known time is not a measured uncertainty",
+      "houses": "ecliptic longitude placement; birth-time sensitive",
+      "interpretation": "symbolic, not scientifically established prediction"
+    },
+    "coverage": {
+      "chapters": [
+        "communication",
+        "emotions"
+      ],
+      "modernRulership": "labeled supplementary data only",
+      "complexConfigurations": "not interpreted",
+      "axisAspects": "not implemented in this sample",
+      "extras": "computed facts retained; no node/Lilith narrative rules or ranking"
+    }
+  },
+  "report": {
+    "version": "phase-d-synthesis-0.1",
+    "status": "phase-d-experimental-awaiting-review",
+    "names": [
+      "יעל",
+      "איתן"
+    ],
+    "relationship": "הורה וילד",
+    "disclosure": "הנתונים חושבו במנוע הניסיוני הקיים; הפרשנות סמלית ואינה עובדה פסיכולוגית. שלב ד׳ לתקשורת ולרגשות בלבד. התפקידים נמסרו במפורש. האחריות ההורית להקשבה ולגבולות אינה סימטרית, ואין להטיל על הילד אחריות לניהול רגשות ההורה.",
+    "participants": [
+      {
+        "id": "first",
+        "role": "child",
+        "name": "יעל"
+      },
+      {
+        "id": "second",
+        "role": "parent",
+        "name": "איתן"
+      }
+    ],
+    "chapters": [
+      {
+        "id": "communication",
+        "title": "תקשורת",
+        "paragraphs": [
+          {
+            "id": "communication:1",
+            "title": "רצינות בלי בחינה של האדם — איתן מול יעל",
+            "ruleId": "phase-d.communication.thread",
+            "text": "שבתאי של יעל בתאומים, בבית 8 במולות למרקורי של איתן — מגע מרכזי בקריאה. מרקורי בקשת פוגש כאן שבתאי בתאומים, כך שמסגרת ובדיקה עלולות להיעשות תנאי שמקשה להעלות מחשבה או תחושה לא גמורה. אצל יעל מסגרת, אחריות וגבול מקבל הקשר של אמון, גבולות חשיפה ומשאבים משותפים. גם אם שבתאי שייך ליעל, האחריות ההורית נשארת אצל איתן; בעלות על הכוכב אינה סמכות משפחתית.",
+            "claims": [
+              {
+                "text": "שבתאי של יעל בתאומים, בבית 8 במולות למרקורי של איתן — מגע מרכזי בקריאה. מרקורי בקשת פוגש כאן שבתאי בתאומים, כך שמסגרת ובדיקה עלולות להיעשות תנאי שמקשה להעלות מחשבה או תחושה לא גמורה. אצל יעל מסגרת, אחריות וגבול מקבל הקשר של אמון, גבולות חשיפה ומשאבים משותפים. גם אם שבתאי שייך ליעל, האחריות ההורית נשארת אצל איתן; בעלות על הכוכב אינה סמכות משפחתית.",
+                "evidenceIds": [
+                  "aspect:A:Saturn:B:Mercury:opposition",
+                  "pos:A:Saturn",
+                  "pos:B:Mercury"
+                ],
+                "baseKeys": [
+                  "aspect:A:Saturn:B:Mercury:opposition",
+                  "position:A:Saturn",
+                  "position:B:Mercury"
+                ],
+                "policyRefs": [
+                  "phase-d-synthesis-0.1",
+                  "relationship:הורה וילד",
+                  "concept:communication:thread:Saturn"
+                ],
+                "kind": "symbolic",
+                "conceptKey": "communication:thread:Saturn",
+                "id": "communication:1:1"
+              }
+            ],
+            "evidenceIds": [
+              "aspect:A:Saturn:B:Mercury:opposition",
+              "pos:A:Saturn",
+              "pos:B:Mercury"
+            ],
+            "role": "symbolic",
+            "semanticKind": "thread"
+          },
+          {
+            "id": "communication:2",
+            "title": "איך השיחה מגיעה לבית 4 ולבית 2",
+            "ruleId": "phase-d.communication.context",
+            "text": "מרקורי של יעל במאזניים, בבית 12 מציע ניסוח הבוחן יחס, הוגנות ואת נקודת המבט האחרת, ובמפגש עם איתן הוא מגיע לבית 4, ולכן הסגנון הזה פוגש מרחב פרטי, בית ותחושת שייכות. מרקורי של איתן בקשת, בבית 6 מציע דיבור המחבר פרט לתמונה רחבה ולשאלת משמעות, ובמפגש עם יעל הוא מגיע לבית 2, ולכן הסגנון הזה פוגש ערכים, משאבים ותחושת ערך. בין איתן כהורה ליעל כילד בקשר, ההבדל בין סגנונות אינו מדרג של בגרות; האחריות לאפשר שאלה ואי־הסכמה מוטלת במיוחד על ההורה.",
+            "claims": [
+              {
+                "text": "מרקורי של יעל במאזניים, בבית 12 מציע ניסוח הבוחן יחס, הוגנות ואת נקודת המבט האחרת, ובמפגש עם איתן הוא מגיע לבית 4, ולכן הסגנון הזה פוגש מרחב פרטי, בית ותחושת שייכות. מרקורי של איתן בקשת, בבית 6 מציע דיבור המחבר פרט לתמונה רחבה ולשאלת משמעות, ובמפגש עם יעל הוא מגיע לבית 2, ולכן הסגנון הזה פוגש ערכים, משאבים ותחושת ערך. בין איתן כהורה ליעל כילד בקשר, ההבדל בין סגנונות אינו מדרג של בגרות; האחריות לאפשר שאלה ואי־הסכמה מוטלת במיוחד על ההורה.",
+                "evidenceIds": [
+                  "pos:A:Mercury",
+                  "pos:B:Mercury",
+                  "overlay:A:Mercury:in:B",
+                  "overlay:B:Mercury:in:A"
+                ],
+                "baseKeys": [
+                  "position:A:Mercury",
+                  "position:B:Mercury",
+                  "overlay:A:Mercury:in:B",
+                  "overlay:B:Mercury:in:A"
+                ],
+                "policyRefs": [
+                  "phase-d-synthesis-0.1",
+                  "relationship:הורה וילד",
+                  "concept:communication:directional-context"
+                ],
+                "kind": "symbolic",
+                "conceptKey": "communication:directional-context",
+                "id": "communication:2:1"
+              }
+            ],
+            "evidenceIds": [
+              "pos:A:Mercury",
+              "pos:B:Mercury",
+              "overlay:A:Mercury:in:B",
+              "overlay:B:Mercury:in:A"
+            ],
+            "role": "symbolic",
+            "semanticKind": "context"
+          },
+          {
+            "id": "communication:3",
+            "title": "עומק עם רשות לעצור — איתן מול יעל",
+            "ruleId": "phase-d.communication.thread",
+            "text": "פלוטו של יעל בקשת, בבית 2 בצמידות למרקורי של איתן — מגע מרכזי בקריאה. מרקורי של יעל בצמידות לפלוטו של איתן במאזניים, בבית 4 — גורם מחזק בהקשר הפרק. מרקורי בקשת פוגש כאן פלוטו בקשת, כך שהניסוח או הצורך במענה נוגעים במישרין בשאלות של חשיפה והשפעה, כך שהקשבה דורשת גם גבול לשאלות. אצל יעל עומק, חשיפה והשפעה מקבל הקשר של ערכים, משאבים ותחושת ערך. זכותו של הילד לפרטיות אינה תלויה בכך שההורה השתכנע שאין דבר נוסף לברר.",
+            "claims": [
+              {
+                "text": "פלוטו של יעל בקשת, בבית 2 בצמידות למרקורי של איתן — מגע מרכזי בקריאה. מרקורי של יעל בצמידות לפלוטו של איתן במאזניים, בבית 4 — גורם מחזק בהקשר הפרק. מרקורי בקשת פוגש כאן פלוטו בקשת, כך שהניסוח או הצורך במענה נוגעים במישרין בשאלות של חשיפה והשפעה, כך שהקשבה דורשת גם גבול לשאלות. אצל יעל עומק, חשיפה והשפעה מקבל הקשר של ערכים, משאבים ותחושת ערך. זכותו של הילד לפרטיות אינה תלויה בכך שההורה השתכנע שאין דבר נוסף לברר.",
+                "evidenceIds": [
+                  "aspect:A:Pluto:B:Mercury:conjunction",
+                  "pos:A:Pluto",
+                  "pos:B:Mercury",
+                  "aspect:A:Mercury:B:Pluto:conjunction",
+                  "pos:A:Mercury",
+                  "pos:B:Pluto"
+                ],
+                "baseKeys": [
+                  "aspect:A:Pluto:B:Mercury:conjunction",
+                  "position:A:Pluto",
+                  "position:B:Mercury",
+                  "aspect:A:Mercury:B:Pluto:conjunction",
+                  "position:A:Mercury",
+                  "position:B:Pluto"
+                ],
+                "policyRefs": [
+                  "phase-d-synthesis-0.1",
+                  "relationship:הורה וילד",
+                  "concept:communication:thread:Pluto"
+                ],
+                "kind": "symbolic",
+                "conceptKey": "communication:thread:Pluto",
+                "id": "communication:3:1"
+              }
+            ],
+            "evidenceIds": [
+              "aspect:A:Pluto:B:Mercury:conjunction",
+              "pos:A:Pluto",
+              "pos:B:Mercury",
+              "aspect:A:Mercury:B:Pluto:conjunction",
+              "pos:A:Mercury",
+              "pos:B:Pluto"
+            ],
+            "role": "symbolic",
+            "semanticKind": "thread"
+          },
+          {
+            "id": "communication:4",
+            "title": "מחווה נעימה והעדפה אישית — יעל מול איתן",
+            "ruleId": "phase-d.communication.thread",
+            "text": "מרקורי של יעל בריבוע לונוס של איתן בגדי, בבית 8 — הקשר משני בשל רוחב האורב. מרקורי במאזניים פוגש כאן ונוס בגדי, כך שרצון לשמור על נועם עלול לדחות אמירה של העדפה אחרת. אצל איתן העדפה, הערכה ומחווה נעימה מקבל הקשר של אמון, גבולות חשיפה ומשאבים משותפים. מחווה חמה במשפחה יכולה להישאר הזמנה, בלי להפוך להסכמה שהילד חייב לתת בתמורה. משקל הקריאה כאן משני; אין להציגו כדפוס מוביל או כתחליף למגע מדויק יותר.",
+            "claims": [
+              {
+                "text": "מרקורי של יעל בריבוע לונוס של איתן בגדי, בבית 8 — הקשר משני בשל רוחב האורב. מרקורי במאזניים פוגש כאן ונוס בגדי, כך שרצון לשמור על נועם עלול לדחות אמירה של העדפה אחרת. אצל איתן העדפה, הערכה ומחווה נעימה מקבל הקשר של אמון, גבולות חשיפה ומשאבים משותפים. מחווה חמה במשפחה יכולה להישאר הזמנה, בלי להפוך להסכמה שהילד חייב לתת בתמורה. משקל הקריאה כאן משני; אין להציגו כדפוס מוביל או כתחליף למגע מדויק יותר.",
+                "evidenceIds": [
+                  "aspect:A:Mercury:B:Venus:square",
+                  "pos:A:Mercury",
+                  "pos:B:Venus"
+                ],
+                "baseKeys": [
+                  "aspect:A:Mercury:B:Venus:square",
+                  "position:A:Mercury",
+                  "position:B:Venus"
+                ],
+                "policyRefs": [
+                  "phase-d-synthesis-0.1",
+                  "relationship:הורה וילד",
+                  "concept:communication:thread:Venus"
+                ],
+                "kind": "symbolic",
+                "conceptKey": "communication:thread:Venus",
+                "id": "communication:4:1"
+              }
+            ],
+            "evidenceIds": [
+              "aspect:A:Mercury:B:Venus:square",
+              "pos:A:Mercury",
+              "pos:B:Venus"
+            ],
+            "role": "symbolic",
+            "semanticKind": "thread"
+          },
+          {
+            "id": "communication:5",
+            "title": "רגישות שמשאירה מקום לבדיקה — יעל מול איתן",
+            "ruleId": "phase-d.communication.thread",
+            "text": "מרקורי של יעל במשושה לנפטון של איתן בקשת, בבית 7 — הקשר משני בשל רוחב האורב, שהאפשרות בו זקוקה ליוזמה. מרקורי במאזניים פוגש כאן נפטון בקשת, כך שדמיון וקשב לאווירה יכולים לסייע כשאין עדיין ניסוח שלם. אצל איתן דמיון ורגישות למשמעות לא מפורשת מקבל הקשר של דיאלוג, הסכמות ומפגש ישיר עם האחר. רגישות משפחתית לאווירה אינה מצדיקה לדרוש מן הילד לאשר השערה על חווייתו. משקל הקריאה כאן משני; אין להציגו כדפוס מוביל או כתחליף למגע מדויק יותר.",
+            "claims": [
+              {
+                "text": "מרקורי של יעל במשושה לנפטון של איתן בקשת, בבית 7 — הקשר משני בשל רוחב האורב, שהאפשרות בו זקוקה ליוזמה. מרקורי במאזניים פוגש כאן נפטון בקשת, כך שדמיון וקשב לאווירה יכולים לסייע כשאין עדיין ניסוח שלם. אצל איתן דמיון ורגישות למשמעות לא מפורשת מקבל הקשר של דיאלוג, הסכמות ומפגש ישיר עם האחר. רגישות משפחתית לאווירה אינה מצדיקה לדרוש מן הילד לאשר השערה על חווייתו. משקל הקריאה כאן משני; אין להציגו כדפוס מוביל או כתחליף למגע מדויק יותר.",
+                "evidenceIds": [
+                  "aspect:A:Mercury:B:Neptune:sextile",
+                  "pos:A:Mercury",
+                  "pos:B:Neptune"
+                ],
+                "baseKeys": [
+                  "aspect:A:Mercury:B:Neptune:sextile",
+                  "position:A:Mercury",
+                  "position:B:Neptune"
+                ],
+                "policyRefs": [
+                  "phase-d-synthesis-0.1",
+                  "relationship:הורה וילד",
+                  "concept:communication:thread:Neptune"
+                ],
+                "kind": "symbolic",
+                "conceptKey": "communication:thread:Neptune",
+                "id": "communication:5:1"
+              }
+            ],
+            "evidenceIds": [
+              "aspect:A:Mercury:B:Neptune:sextile",
+              "pos:A:Mercury",
+              "pos:B:Neptune"
+            ],
+            "role": "symbolic",
+            "semanticKind": "thread"
+          },
+          {
+            "id": "communication:6",
+            "title": "רצינות בלי בחינה של האדם לצד עומק עם רשות לעצור",
+            "ruleId": "phase-d.communication.synthesis",
+            "text": "שבתאי ופלוטו מציבים כאן שתי דרישות שונות מן השיחה: שתהיה אחראית ושלא תישאר על פני השטח. שתי הדרישות פונות למרקורי של איתן. כאשר שתיהן מתכנסות לאותו מרקורי, עלולה להיווצר תחושה שתשובה צריכה להיות גם מדויקת וגם חשופה מאוד כדי להתקבל. ההבחנה המועילה היא בין מידע הדרוש להחלטה לבין חשיפה שאינה תנאי לה. ההתכנסות לתחום של ערכים, משאבים ותחושת ערך מזמינה הסכמה על גבולות הבירור: אפשר להתחייב לחזור לשאלה בלי להתחייב להסביר מיד כל מניע או רגש. בהסכם משפחתי, איתן כהורה יכול לברר עם יעל מה הובן ומה עדיין פתוח, בלי להפוך הסבר על כל רגש לתנאי לכיבוד הגבול. מגע משותף נוסף נדון בפרק רגשות; אין לספור את אותו מקור שוב כאישור נפרד.\n\nאצל יעל, אופן הבירור מקבל גם הקשר של משמעות, השקפות ולמידה רחבה: יופיטר בסרטן, השליט המסורתי של תחום השיחה והלמידה, מגיע אצל איתן לבית 1 ולנוכחות אישית, תגובה ראשונית ודרך להציג רצון.\n\nאצל איתן, אופן הבירור מקבל גם הקשר של דיאלוג, הסכמות ומפגש ישיר עם האחר: שמש בקשת, השליט המסורתי של תחום השיחה והלמידה, מגיע אצל יעל לבית 3 ולשיחה יומיומית, שאלות ולמידה קרובה.",
+            "claims": [
+              {
+                "text": "שבתאי ופלוטו מציבים כאן שתי דרישות שונות מן השיחה: שתהיה אחראית ושלא תישאר על פני השטח. שתי הדרישות פונות למרקורי של איתן. כאשר שתיהן מתכנסות לאותו מרקורי, עלולה להיווצר תחושה שתשובה צריכה להיות גם מדויקת וגם חשופה מאוד כדי להתקבל. ההבחנה המועילה היא בין מידע הדרוש להחלטה לבין חשיפה שאינה תנאי לה. ההתכנסות לתחום של ערכים, משאבים ותחושת ערך מזמינה הסכמה על גבולות הבירור: אפשר להתחייב לחזור לשאלה בלי להתחייב להסביר מיד כל מניע או רגש. בהסכם משפחתי, איתן כהורה יכול לברר עם יעל מה הובן ומה עדיין פתוח, בלי להפוך הסבר על כל רגש לתנאי לכיבוד הגבול. מגע משותף נוסף נדון בפרק רגשות; אין לספור את אותו מקור שוב כאישור נפרד.",
+                "evidenceIds": [
+                  "pos:A:Mercury",
+                  "pos:B:Mercury",
+                  "overlay:A:Mercury:in:B",
+                  "overlay:B:Mercury:in:A",
+                  "aspect:A:Saturn:B:Mercury:opposition",
+                  "pos:A:Saturn",
+                  "aspect:A:Pluto:B:Mercury:conjunction",
+                  "pos:A:Pluto",
+                  "aspect:A:Mercury:B:Pluto:conjunction",
+                  "pos:B:Pluto",
+                  "aspect:A:Mercury:B:Venus:square",
+                  "pos:B:Venus",
+                  "aspect:A:Mercury:B:Neptune:sextile",
+                  "pos:B:Neptune"
+                ],
+                "baseKeys": [
+                  "position:A:Mercury",
+                  "position:B:Mercury",
+                  "overlay:A:Mercury:in:B",
+                  "overlay:B:Mercury:in:A",
+                  "aspect:A:Saturn:B:Mercury:opposition",
+                  "position:A:Saturn",
+                  "aspect:A:Pluto:B:Mercury:conjunction",
+                  "position:A:Pluto",
+                  "aspect:A:Mercury:B:Pluto:conjunction",
+                  "position:B:Pluto",
+                  "aspect:A:Mercury:B:Venus:square",
+                  "position:B:Venus",
+                  "aspect:A:Mercury:B:Neptune:sextile",
+                  "position:B:Neptune"
+                ],
+                "policyRefs": [
+                  "phase-d-synthesis-0.1",
+                  "relationship:הורה וילד",
+                  "concept:communication:integrated-synthesis"
+                ],
+                "kind": "symbolic",
+                "conceptKey": "communication:integrated-synthesis",
+                "id": "communication:6:1"
+              },
+              {
+                "text": "אצל יעל, אופן הבירור מקבל גם הקשר של משמעות, השקפות ולמידה רחבה: יופיטר בסרטן, השליט המסורתי של תחום השיחה והלמידה, מגיע אצל איתן לבית 1 ולנוכחות אישית, תגובה ראשונית ודרך להציג רצון.",
+                "evidenceIds": [
+                  "ruler:A:3",
+                  "cusp:A:3",
+                  "pos:A:Jupiter",
+                  "overlay:A:Jupiter:in:B"
+                ],
+                "baseKeys": [
+                  "overlay:A:Jupiter:in:B",
+                  "cusp:A:3",
+                  "position:A:Jupiter"
+                ],
+                "policyRefs": [
+                  "phase-d-synthesis-0.1",
+                  "relationship:הורה וילד",
+                  "concept:communication:remaining-ruler:first"
+                ],
+                "kind": "symbolic",
+                "conceptKey": "communication:remaining-ruler:first",
+                "id": "communication:6:2"
+              },
+              {
+                "text": "אצל איתן, אופן הבירור מקבל גם הקשר של דיאלוג, הסכמות ומפגש ישיר עם האחר: שמש בקשת, השליט המסורתי של תחום השיחה והלמידה, מגיע אצל יעל לבית 3 ולשיחה יומיומית, שאלות ולמידה קרובה.",
+                "evidenceIds": [
+                  "ruler:B:3",
+                  "cusp:B:3",
+                  "pos:B:Sun",
+                  "overlay:B:Sun:in:A"
+                ],
+                "baseKeys": [
+                  "overlay:B:Sun:in:A",
+                  "cusp:B:3",
+                  "position:B:Sun"
+                ],
+                "policyRefs": [
+                  "phase-d-synthesis-0.1",
+                  "relationship:הורה וילד",
+                  "concept:communication:remaining-ruler:second"
+                ],
+                "kind": "symbolic",
+                "conceptKey": "communication:remaining-ruler:second",
+                "id": "communication:6:3"
+              }
+            ],
+            "evidenceIds": [
+              "pos:A:Mercury",
+              "pos:B:Mercury",
+              "overlay:A:Mercury:in:B",
+              "overlay:B:Mercury:in:A",
+              "aspect:A:Saturn:B:Mercury:opposition",
+              "pos:A:Saturn",
+              "aspect:A:Pluto:B:Mercury:conjunction",
+              "pos:A:Pluto",
+              "aspect:A:Mercury:B:Pluto:conjunction",
+              "pos:B:Pluto",
+              "aspect:A:Mercury:B:Venus:square",
+              "pos:B:Venus",
+              "aspect:A:Mercury:B:Neptune:sextile",
+              "pos:B:Neptune",
+              "ruler:A:3",
+              "cusp:A:3",
+              "pos:A:Jupiter",
+              "overlay:A:Jupiter:in:B",
+              "ruler:B:3",
+              "cusp:B:3",
+              "pos:B:Sun",
+              "overlay:B:Sun:in:A"
+            ],
+            "role": "symbolic",
+            "semanticKind": "synthesis"
+          }
+        ]
+      },
+      {
+        "id": "emotions",
+        "title": "רגשות",
+        "paragraphs": [
+          {
+            "id": "emotions:1",
+            "title": "כשהמילים פוגשות את החוויה — יעל מול איתן",
+            "ruleId": "phase-d.emotions.thread",
+            "text": "ירח של יעל במולות למרקורי של איתן — מגע מרכזי בקריאה. ירח בתאומים פוגש כאן מרקורי בקשת, כך שהסבר יכול להיות נכון מבחינת הדובר ובכל זאת להחמיץ את מה שהאחר מנסה למסור.  בהקשר ההורי, הסבר של כוונה אינו מבטל את האופן שבו התקבלו הדברים אצל הילד, גם כשהילד בוגר.",
+            "claims": [
+              {
+                "text": "ירח של יעל במולות למרקורי של איתן — מגע מרכזי בקריאה. ירח בתאומים פוגש כאן מרקורי בקשת, כך שהסבר יכול להיות נכון מבחינת הדובר ובכל זאת להחמיץ את מה שהאחר מנסה למסור.  בהקשר ההורי, הסבר של כוונה אינו מבטל את האופן שבו התקבלו הדברים אצל הילד, גם כשהילד בוגר.",
+                "evidenceIds": [
+                  "aspect:A:Moon:B:Mercury:opposition",
+                  "pos:A:Moon",
+                  "pos:B:Mercury"
+                ],
+                "baseKeys": [
+                  "aspect:A:Moon:B:Mercury:opposition",
+                  "position:A:Moon",
+                  "position:B:Mercury"
+                ],
+                "policyRefs": [
+                  "phase-d-synthesis-0.1",
+                  "relationship:הורה וילד",
+                  "concept:emotions:thread:Mercury"
+                ],
+                "kind": "symbolic",
+                "conceptKey": "emotions:thread:Mercury",
+                "id": "emotions:1:1"
+              }
+            ],
+            "evidenceIds": [
+              "aspect:A:Moon:B:Mercury:opposition",
+              "pos:A:Moon",
+              "pos:B:Mercury"
+            ],
+            "role": "symbolic",
+            "semanticKind": "thread"
+          },
+          {
+            "id": "emotions:2",
+            "title": "שני מרחבים לביטחון: בית 12 ובית 4",
+            "ruleId": "phase-d.emotions.context",
+            "text": "ירח של יעל בתאומים, בבית 8 מציע עיבוד רגש דרך מילים, תנועה ונקודת מבט נוספת, ובמפגש עם איתן הוא מגיע לבית 12, ולכן הסגנון הזה פוגש פרטיות, שקט וחוויות שקשה לתת להן מילים. ירח של איתן בדלי, בבית 8 מציע צורך במרחב רגשי ובזכות לחוויה שאינה לפי ציפייה, ובמפגש עם יעל הוא מגיע לבית 4, ולכן הסגנון הזה פוגש מרחב פרטי, בית ותחושת שייכות. גם כאשר יעל מזהה מצוקה אצל איתן, אין בכך אחריות לנהל את מצב רוחו של ההורה. גיל ותלות אינם נגזרים מן המפה.",
+            "claims": [
+              {
+                "text": "ירח של יעל בתאומים, בבית 8 מציע עיבוד רגש דרך מילים, תנועה ונקודת מבט נוספת, ובמפגש עם איתן הוא מגיע לבית 12, ולכן הסגנון הזה פוגש פרטיות, שקט וחוויות שקשה לתת להן מילים. ירח של איתן בדלי, בבית 8 מציע צורך במרחב רגשי ובזכות לחוויה שאינה לפי ציפייה, ובמפגש עם יעל הוא מגיע לבית 4, ולכן הסגנון הזה פוגש מרחב פרטי, בית ותחושת שייכות. גם כאשר יעל מזהה מצוקה אצל איתן, אין בכך אחריות לנהל את מצב רוחו של ההורה. גיל ותלות אינם נגזרים מן המפה.",
+                "evidenceIds": [
+                  "pos:A:Moon",
+                  "pos:B:Moon",
+                  "overlay:A:Moon:in:B",
+                  "overlay:B:Moon:in:A"
+                ],
+                "baseKeys": [
+                  "position:A:Moon",
+                  "position:B:Moon",
+                  "overlay:A:Moon:in:B",
+                  "overlay:B:Moon:in:A"
+                ],
+                "policyRefs": [
+                  "phase-d-synthesis-0.1",
+                  "relationship:הורה וילד",
+                  "concept:emotions:directional-context"
+                ],
+                "kind": "symbolic",
+                "conceptKey": "emotions:directional-context",
+                "id": "emotions:2:1"
+              }
+            ],
+            "evidenceIds": [
+              "pos:A:Moon",
+              "pos:B:Moon",
+              "overlay:A:Moon:in:B",
+              "overlay:B:Moon:in:A"
+            ],
+            "role": "symbolic",
+            "semanticKind": "context"
+          },
+          {
+            "id": "emotions:3",
+            "title": "רגישות שמשאירה מקום לבדיקה — איתן מול יעל",
+            "ruleId": "phase-d.emotions.thread",
+            "text": "נפטון של יעל בדלי, בבית 4 בצמידות לירח של איתן — מגע מרכזי בקריאה. ירח של יעל במולות לנפטון של איתן — הקשר משני בשל רוחב האורב. ירח בדלי פוגש כאן נפטון בדלי, כך שהקרבה למה שאינו נאמר עשויה להיות עמוקה, אך אינה מעניקה ידיעה ודאית של החוויה האחרת. ירח בדלי פוגש כאן נפטון בדלי, כך שקל לקלוט גוון או רמז ולייחס להם משמעות שלא נשאלה. אצל יעל דמיון ורגישות למשמעות לא מפורשת מקבל הקשר של מרחב פרטי, בית ותחושת שייכות. ",
+            "claims": [
+              {
+                "text": "נפטון של יעל בדלי, בבית 4 בצמידות לירח של איתן — מגע מרכזי בקריאה. ירח של יעל במולות לנפטון של איתן — הקשר משני בשל רוחב האורב. ירח בדלי פוגש כאן נפטון בדלי, כך שהקרבה למה שאינו נאמר עשויה להיות עמוקה, אך אינה מעניקה ידיעה ודאית של החוויה האחרת. ירח בדלי פוגש כאן נפטון בדלי, כך שקל לקלוט גוון או רמז ולייחס להם משמעות שלא נשאלה. אצל יעל דמיון ורגישות למשמעות לא מפורשת מקבל הקשר של מרחב פרטי, בית ותחושת שייכות. ",
+                "evidenceIds": [
+                  "aspect:A:Neptune:B:Moon:conjunction",
+                  "pos:A:Neptune",
+                  "pos:B:Moon",
+                  "aspect:A:Moon:B:Neptune:opposition",
+                  "pos:A:Moon",
+                  "pos:B:Neptune"
+                ],
+                "baseKeys": [
+                  "aspect:A:Neptune:B:Moon:conjunction",
+                  "position:A:Neptune",
+                  "position:B:Moon",
+                  "aspect:A:Moon:B:Neptune:opposition",
+                  "position:A:Moon",
+                  "position:B:Neptune"
+                ],
+                "policyRefs": [
+                  "phase-d-synthesis-0.1",
+                  "relationship:הורה וילד",
+                  "concept:emotions:thread:Neptune"
+                ],
+                "kind": "symbolic",
+                "conceptKey": "emotions:thread:Neptune",
+                "id": "emotions:3:1"
+              }
+            ],
+            "evidenceIds": [
+              "aspect:A:Neptune:B:Moon:conjunction",
+              "pos:A:Neptune",
+              "pos:B:Moon",
+              "aspect:A:Moon:B:Neptune:opposition",
+              "pos:A:Moon",
+              "pos:B:Neptune"
+            ],
+            "role": "symbolic",
+            "semanticKind": "thread"
+          },
+          {
+            "id": "emotions:4",
+            "title": "המעבר מתגובה לפעולה — יעל מול איתן",
+            "ruleId": "phase-d.emotions.thread",
+            "text": "ירח של יעל בריבוע למאדים של איתן בבתולה, בבית 3 — גורם מחזק בהקשר הפרק. מאדים של יעל בדלי, בבית 4 בצמידות לירח של איתן — גורם מחזק בהקשר הפרק. שבתאי של יעל בריבוע למאדים של איתן — גורם מחזק בהקשר הפרק. ירח בתאומים פוגש כאן מאדים בבתולה, כך שיוזמה מהירה עלולה להקדים את הבירור שהאחר עדיין זקוק לו. ירח בתאומים פוגש כאן מאדים בבתולה, כך שהדחף לפעול והצורך להגיב מופיעים יחד, ולכן דרושה הבחנה בין רצון לעזור לבין רשות לפעול. אצל איתן יוזמה ותגובה מקבל הקשר של שיחה יומיומית, שאלות ולמידה קרובה. יוזמה הורית מועילה כשהיא מותאמת לצורך שנשאל; המפה אינה קובעת יכולת החלטה או תלות של הילד. לתנאים שבהם מתבסס הביטחון אצל יעל יש כאן חוליה נוספת: שבתאי בתאומים, המופקד בשליטה המסורתית על בית 4, קושר את אמון, גבולות חשיפה ומשאבים משותפים במפת הלידה לפרטיות, שקט וחוויות שקשה לתת להן מילים במפגש עם איתן, ולכן המגע אינו רק תגובה רגעית אלא נוגע גם לאופן ארגון התחום הזה בקשר.",
+            "claims": [
+              {
+                "text": "ירח של יעל בריבוע למאדים של איתן בבתולה, בבית 3 — גורם מחזק בהקשר הפרק. מאדים של יעל בדלי, בבית 4 בצמידות לירח של איתן — גורם מחזק בהקשר הפרק. שבתאי של יעל בריבוע למאדים של איתן — גורם מחזק בהקשר הפרק. ירח בתאומים פוגש כאן מאדים בבתולה, כך שיוזמה מהירה עלולה להקדים את הבירור שהאחר עדיין זקוק לו. ירח בתאומים פוגש כאן מאדים בבתולה, כך שהדחף לפעול והצורך להגיב מופיעים יחד, ולכן דרושה הבחנה בין רצון לעזור לבין רשות לפעול. אצל איתן יוזמה ותגובה מקבל הקשר של שיחה יומיומית, שאלות ולמידה קרובה. יוזמה הורית מועילה כשהיא מותאמת לצורך שנשאל; המפה אינה קובעת יכולת החלטה או תלות של הילד. לתנאים שבהם מתבסס הביטחון אצל יעל יש כאן חוליה נוספת: שבתאי בתאומים, המופקד בשליטה המסורתית על בית 4, קושר את אמון, גבולות חשיפה ומשאבים משותפים במפת הלידה לפרטיות, שקט וחוויות שקשה לתת להן מילים במפגש עם איתן, ולכן המגע אינו רק תגובה רגעית אלא נוגע גם לאופן ארגון התחום הזה בקשר.",
+                "evidenceIds": [
+                  "aspect:A:Moon:B:Mars:square",
+                  "pos:A:Moon",
+                  "pos:B:Mars",
+                  "aspect:A:Mars:B:Moon:conjunction",
+                  "pos:A:Mars",
+                  "pos:B:Moon",
+                  "aspect:A:Saturn:B:Mars:square",
+                  "pos:A:Saturn",
+                  "ruler:A:4",
+                  "cusp:A:4",
+                  "overlay:A:Saturn:in:B"
+                ],
+                "baseKeys": [
+                  "aspect:A:Moon:B:Mars:square",
+                  "position:A:Moon",
+                  "position:B:Mars",
+                  "aspect:A:Mars:B:Moon:conjunction",
+                  "position:A:Mars",
+                  "position:B:Moon",
+                  "aspect:A:Saturn:B:Mars:square",
+                  "position:A:Saturn",
+                  "overlay:A:Saturn:in:B",
+                  "cusp:A:4"
+                ],
+                "policyRefs": [
+                  "phase-d-synthesis-0.1",
+                  "relationship:הורה וילד",
+                  "concept:emotions:thread:Mars"
+                ],
+                "kind": "symbolic",
+                "conceptKey": "emotions:thread:Mars",
+                "id": "emotions:4:1"
+              }
+            ],
+            "evidenceIds": [
+              "aspect:A:Moon:B:Mars:square",
+              "pos:A:Moon",
+              "pos:B:Mars",
+              "aspect:A:Mars:B:Moon:conjunction",
+              "pos:A:Mars",
+              "pos:B:Moon",
+              "aspect:A:Saturn:B:Mars:square",
+              "pos:A:Saturn",
+              "ruler:A:4",
+              "cusp:A:4",
+              "overlay:A:Saturn:in:B"
+            ],
+            "role": "symbolic",
+            "semanticKind": "thread"
+          },
+          {
+            "id": "emotions:5",
+            "title": "לתת מקום לקול אישי — איתן מול יעל",
+            "ruleId": "phase-d.emotions.thread",
+            "text": "שמש של יעל בעקרב, בבית 1 בריבוע לירח של איתן — גורם מחזק בהקשר הפרק. ירח בדלי פוגש כאן שמש בעקרב, כך שהבירור עלול להישמע כערעור על זכותו של האחר לרצות דבר מסוים. אצל יעל ביטוי עצמי ורצון מקבל הקשר של נוכחות אישית, תגובה ראשונית ודרך להציג רצון. במסגרת המשפחתית, הרצון של יעל אינו צריך לחקות את רצון איתן כדי לזכות בהכרה.",
+            "claims": [
+              {
+                "text": "שמש של יעל בעקרב, בבית 1 בריבוע לירח של איתן — גורם מחזק בהקשר הפרק. ירח בדלי פוגש כאן שמש בעקרב, כך שהבירור עלול להישמע כערעור על זכותו של האחר לרצות דבר מסוים. אצל יעל ביטוי עצמי ורצון מקבל הקשר של נוכחות אישית, תגובה ראשונית ודרך להציג רצון. במסגרת המשפחתית, הרצון של יעל אינו צריך לחקות את רצון איתן כדי לזכות בהכרה.",
+                "evidenceIds": [
+                  "aspect:A:Sun:B:Moon:square",
+                  "pos:A:Sun",
+                  "pos:B:Moon"
+                ],
+                "baseKeys": [
+                  "aspect:A:Sun:B:Moon:square",
+                  "position:A:Sun",
+                  "position:B:Moon"
+                ],
+                "policyRefs": [
+                  "phase-d-synthesis-0.1",
+                  "relationship:הורה וילד",
+                  "concept:emotions:thread:Sun"
+                ],
+                "kind": "symbolic",
+                "conceptKey": "emotions:thread:Sun",
+                "id": "emotions:5:1"
+              }
+            ],
+            "evidenceIds": [
+              "aspect:A:Sun:B:Moon:square",
+              "pos:A:Sun",
+              "pos:B:Moon"
+            ],
+            "role": "symbolic",
+            "semanticKind": "thread"
+          },
+          {
+            "id": "emotions:6",
+            "title": "מרחב רחב שאינו מדלג על הפרטים — יעל מול איתן",
+            "ruleId": "phase-d.emotions.thread",
+            "text": "ירח של יעל בריבוע ליופיטר של איתן בבתולה, בבית 3 — הקשר משני בשל רוחב האורב. ירח בתאומים פוגש כאן יופיטר בבתולה, כך שמבט רחב עלול להפוך להסבר גדול מדי לפני שהקושי המסוים הובן. אצל איתן הרחבת מבט ואמון באפשרות מקבל הקשר של שיחה יומיומית, שאלות ולמידה קרובה. הרחבת נקודת מבט במשפחה אינה צריכה להפוך מיד לשיעור; אפשר להכיר בקושי לפני שמציעים מה ללמוד ממנו. משקל הקריאה כאן משני; אין להציגו כדפוס מוביל או כתחליף למגע מדויק יותר.",
+            "claims": [
+              {
+                "text": "ירח של יעל בריבוע ליופיטר של איתן בבתולה, בבית 3 — הקשר משני בשל רוחב האורב. ירח בתאומים פוגש כאן יופיטר בבתולה, כך שמבט רחב עלול להפוך להסבר גדול מדי לפני שהקושי המסוים הובן. אצל איתן הרחבת מבט ואמון באפשרות מקבל הקשר של שיחה יומיומית, שאלות ולמידה קרובה. הרחבת נקודת מבט במשפחה אינה צריכה להפוך מיד לשיעור; אפשר להכיר בקושי לפני שמציעים מה ללמוד ממנו. משקל הקריאה כאן משני; אין להציגו כדפוס מוביל או כתחליף למגע מדויק יותר.",
+                "evidenceIds": [
+                  "aspect:A:Moon:B:Jupiter:square",
+                  "pos:A:Moon",
+                  "pos:B:Jupiter"
+                ],
+                "baseKeys": [
+                  "aspect:A:Moon:B:Jupiter:square",
+                  "position:A:Moon",
+                  "position:B:Jupiter"
+                ],
+                "policyRefs": [
+                  "phase-d-synthesis-0.1",
+                  "relationship:הורה וילד",
+                  "concept:emotions:thread:Jupiter"
+                ],
+                "kind": "symbolic",
+                "conceptKey": "emotions:thread:Jupiter",
+                "id": "emotions:6:1"
+              }
+            ],
+            "evidenceIds": [
+              "aspect:A:Moon:B:Jupiter:square",
+              "pos:A:Moon",
+              "pos:B:Jupiter"
+            ],
+            "role": "symbolic",
+            "semanticKind": "thread"
+          },
+          {
+            "id": "emotions:7",
+            "title": "רצינות בלי בחינה של האדם — איתן מול יעל",
+            "ruleId": "phase-d.emotions.thread",
+            "text": "שבתאי של יעל במשולש לירח של איתן — הקשר משני בשל רוחב האורב. ירח בדלי פוגש כאן שבתאי בתאומים, כך שעקביות וסבלנות עשויות לאפשר לחזור לנושא גם אחרי אי־הסכמה.   משקל הקריאה כאן משני; אין להציגו כדפוס מוביל או כתחליף למגע מדויק יותר.",
+            "claims": [
+              {
+                "text": "שבתאי של יעל במשולש לירח של איתן — הקשר משני בשל רוחב האורב. ירח בדלי פוגש כאן שבתאי בתאומים, כך שעקביות וסבלנות עשויות לאפשר לחזור לנושא גם אחרי אי־הסכמה.   משקל הקריאה כאן משני; אין להציגו כדפוס מוביל או כתחליף למגע מדויק יותר.",
+                "evidenceIds": [
+                  "aspect:A:Saturn:B:Moon:trine",
+                  "pos:A:Saturn",
+                  "pos:B:Moon",
+                  "ruler:A:4"
+                ],
+                "baseKeys": [
+                  "aspect:A:Saturn:B:Moon:trine",
+                  "position:A:Saturn",
+                  "position:B:Moon",
+                  "overlay:A:Saturn:in:B"
+                ],
+                "policyRefs": [
+                  "phase-d-synthesis-0.1",
+                  "relationship:הורה וילד",
+                  "concept:emotions:thread:Saturn"
+                ],
+                "kind": "symbolic",
+                "conceptKey": "emotions:thread:Saturn",
+                "id": "emotions:7:1"
+              }
+            ],
+            "evidenceIds": [
+              "aspect:A:Saturn:B:Moon:trine",
+              "pos:A:Saturn",
+              "pos:B:Moon",
+              "ruler:A:4"
+            ],
+            "role": "symbolic",
+            "semanticKind": "thread"
+          },
+          {
+            "id": "emotions:8",
+            "title": "להכיר בשני קצבי תגובה — יעל מול איתן",
+            "ruleId": "phase-d.emotions.thread",
+            "text": "ירח של יעל במשולש לירח של איתן — הקשר משני בשל רוחב האורב. ירח בתאומים פוגש כאן ירח בדלי, כך שהיכרות עם הרגלי התגובה יכולה לסייע ביצירת רצף נעים.  במשפחה, הרגל שמרגיע את ההורה אינו נעשה משום כך הדרך הנכונה היחידה לילד. משקל הקריאה כאן משני; אין להציגו כדפוס מוביל או כתחליף למגע מדויק יותר.",
+            "claims": [
+              {
+                "text": "ירח של יעל במשולש לירח של איתן — הקשר משני בשל רוחב האורב. ירח בתאומים פוגש כאן ירח בדלי, כך שהיכרות עם הרגלי התגובה יכולה לסייע ביצירת רצף נעים.  במשפחה, הרגל שמרגיע את ההורה אינו נעשה משום כך הדרך הנכונה היחידה לילד. משקל הקריאה כאן משני; אין להציגו כדפוס מוביל או כתחליף למגע מדויק יותר.",
+                "evidenceIds": [
+                  "aspect:A:Moon:B:Moon:trine",
+                  "pos:A:Moon",
+                  "pos:B:Moon"
+                ],
+                "baseKeys": [
+                  "aspect:A:Moon:B:Moon:trine",
+                  "position:A:Moon",
+                  "position:B:Moon"
+                ],
+                "policyRefs": [
+                  "phase-d-synthesis-0.1",
+                  "relationship:הורה וילד",
+                  "concept:emotions:thread:Moon"
+                ],
+                "kind": "symbolic",
+                "conceptKey": "emotions:thread:Moon",
+                "id": "emotions:8:1"
+              }
+            ],
+            "evidenceIds": [
+              "aspect:A:Moon:B:Moon:trine",
+              "pos:A:Moon",
+              "pos:B:Moon"
+            ],
+            "role": "symbolic",
+            "semanticKind": "thread"
+          },
+          {
+            "id": "emotions:9",
+            "title": "כשהמילים פוגשות את החוויה לצד רגישות שמשאירה מקום לבדיקה",
+            "ruleId": "phase-d.emotions.synthesis",
+            "text": "הרגישות הנפטונית והעימות בין רגש למילים עלולים להציע קיצורי דרך הפוכים: להבין בשם ההסבר או להבין בשם התחושה. הירח של יעל מקבל ניסוח מצד איתן, בעוד הרגישות פונה אל הירח של איתן מצד יעל. אין להסיק שמה שקשה לתאר בכיוון אחד כבר הובן בכיוון האחר. דווקא השילוב מציע לתת לכל אדם זכות לתקן את ההבנה שנוצרה עליו: תיאור עובדתי, משמעות אישית והרגש שהתעורר אינם אותה שכבה. בבית 12 אצל איתן ובבית 4 אצל יעל, האפשרות להשהות פירוש עשויה לשמור על הקרבה בלי להפוך אמפתיה לידיעה ודאית. לצד זאת, המפגש של ירח של יעל עם מאדים של איתן מוסיף אפשרות לפעולה: המתח מדגיש את הצורך לעצור ולברר לפני שהתגובה קובעת עובדה. המגע המאתגר עם השמש של יעל מציב לצד הצורך של איתן גם רצון בנראות ובהכרה: נדרשת הבחנה בין זכותו של אדם לבטא רצון לבין בקשה שהאחר יצמצם עבורו את חווייתו. כאשר איתן ויעל חוזרים לשיחה טעונה, האחריות ההורית היא להשאיר מקום לתיקון ההבנה; הילד אינו צריך לאשר פירוש רק כדי להרגיע את ההורה. מגע משותף נוסף נדון בפרק תקשורת; אין לספור את אותו מקור שוב כאישור נפרד.\n\nאצל איתן, תחושת השייכות נקראת גם דרך אמון, גבולות חשיפה ומשאבים משותפים: ונוס בגדי, השליט המסורתי של תחום הבית, מגיע אצל יעל לבית 4 ולמרחב פרטי, בית ותחושת שייכות.",
+            "claims": [
+              {
+                "text": "הרגישות הנפטונית והעימות בין רגש למילים עלולים להציע קיצורי דרך הפוכים: להבין בשם ההסבר או להבין בשם התחושה. הירח של יעל מקבל ניסוח מצד איתן, בעוד הרגישות פונה אל הירח של איתן מצד יעל. אין להסיק שמה שקשה לתאר בכיוון אחד כבר הובן בכיוון האחר. דווקא השילוב מציע לתת לכל אדם זכות לתקן את ההבנה שנוצרה עליו: תיאור עובדתי, משמעות אישית והרגש שהתעורר אינם אותה שכבה. בבית 12 אצל איתן ובבית 4 אצל יעל, האפשרות להשהות פירוש עשויה לשמור על הקרבה בלי להפוך אמפתיה לידיעה ודאית. לצד זאת, המפגש של ירח של יעל עם מאדים של איתן מוסיף אפשרות לפעולה: המתח מדגיש את הצורך לעצור ולברר לפני שהתגובה קובעת עובדה. המגע המאתגר עם השמש של יעל מציב לצד הצורך של איתן גם רצון בנראות ובהכרה: נדרשת הבחנה בין זכותו של אדם לבטא רצון לבין בקשה שהאחר יצמצם עבורו את חווייתו. כאשר איתן ויעל חוזרים לשיחה טעונה, האחריות ההורית היא להשאיר מקום לתיקון ההבנה; הילד אינו צריך לאשר פירוש רק כדי להרגיע את ההורה. מגע משותף נוסף נדון בפרק תקשורת; אין לספור את אותו מקור שוב כאישור נפרד.",
+                "evidenceIds": [
+                  "pos:A:Moon",
+                  "pos:B:Moon",
+                  "overlay:A:Moon:in:B",
+                  "overlay:B:Moon:in:A",
+                  "aspect:A:Moon:B:Mercury:opposition",
+                  "pos:B:Mercury",
+                  "aspect:A:Neptune:B:Moon:conjunction",
+                  "pos:A:Neptune",
+                  "aspect:A:Moon:B:Mars:square",
+                  "pos:B:Mars",
+                  "aspect:A:Mars:B:Moon:conjunction",
+                  "pos:A:Mars",
+                  "aspect:A:Sun:B:Moon:square",
+                  "pos:A:Sun",
+                  "aspect:A:Moon:B:Jupiter:square",
+                  "pos:B:Jupiter",
+                  "aspect:A:Moon:B:Neptune:opposition",
+                  "pos:B:Neptune",
+                  "aspect:A:Saturn:B:Moon:trine",
+                  "pos:A:Saturn",
+                  "ruler:A:4",
+                  "aspect:A:Moon:B:Moon:trine",
+                  "aspect:A:Saturn:B:Mars:square"
+                ],
+                "baseKeys": [
+                  "position:A:Moon",
+                  "position:B:Moon",
+                  "overlay:A:Moon:in:B",
+                  "overlay:B:Moon:in:A",
+                  "aspect:A:Moon:B:Mercury:opposition",
+                  "position:B:Mercury",
+                  "aspect:A:Neptune:B:Moon:conjunction",
+                  "position:A:Neptune",
+                  "aspect:A:Moon:B:Mars:square",
+                  "position:B:Mars",
+                  "aspect:A:Mars:B:Moon:conjunction",
+                  "position:A:Mars",
+                  "aspect:A:Sun:B:Moon:square",
+                  "position:A:Sun",
+                  "aspect:A:Moon:B:Jupiter:square",
+                  "position:B:Jupiter",
+                  "aspect:A:Moon:B:Neptune:opposition",
+                  "position:B:Neptune",
+                  "aspect:A:Saturn:B:Moon:trine",
+                  "position:A:Saturn",
+                  "overlay:A:Saturn:in:B",
+                  "aspect:A:Moon:B:Moon:trine",
+                  "aspect:A:Saturn:B:Mars:square"
+                ],
+                "policyRefs": [
+                  "phase-d-synthesis-0.1",
+                  "relationship:הורה וילד",
+                  "concept:emotions:integrated-synthesis"
+                ],
+                "kind": "symbolic",
+                "conceptKey": "emotions:integrated-synthesis",
+                "id": "emotions:9:1"
+              },
+              {
+                "text": "אצל איתן, תחושת השייכות נקראת גם דרך אמון, גבולות חשיפה ומשאבים משותפים: ונוס בגדי, השליט המסורתי של תחום הבית, מגיע אצל יעל לבית 4 ולמרחב פרטי, בית ותחושת שייכות.",
+                "evidenceIds": [
+                  "ruler:B:4",
+                  "cusp:B:4",
+                  "pos:B:Venus",
+                  "overlay:B:Venus:in:A"
+                ],
+                "baseKeys": [
+                  "overlay:B:Venus:in:A",
+                  "cusp:B:4",
+                  "position:B:Venus"
+                ],
+                "policyRefs": [
+                  "phase-d-synthesis-0.1",
+                  "relationship:הורה וילד",
+                  "concept:emotions:remaining-ruler:second"
+                ],
+                "kind": "symbolic",
+                "conceptKey": "emotions:remaining-ruler:second",
+                "id": "emotions:9:2"
+              }
+            ],
+            "evidenceIds": [
+              "pos:A:Moon",
+              "pos:B:Moon",
+              "overlay:A:Moon:in:B",
+              "overlay:B:Moon:in:A",
+              "aspect:A:Moon:B:Mercury:opposition",
+              "pos:B:Mercury",
+              "aspect:A:Neptune:B:Moon:conjunction",
+              "pos:A:Neptune",
+              "aspect:A:Moon:B:Mars:square",
+              "pos:B:Mars",
+              "aspect:A:Mars:B:Moon:conjunction",
+              "pos:A:Mars",
+              "aspect:A:Sun:B:Moon:square",
+              "pos:A:Sun",
+              "aspect:A:Moon:B:Jupiter:square",
+              "pos:B:Jupiter",
+              "aspect:A:Moon:B:Neptune:opposition",
+              "pos:B:Neptune",
+              "aspect:A:Saturn:B:Moon:trine",
+              "pos:A:Saturn",
+              "ruler:A:4",
+              "aspect:A:Moon:B:Moon:trine",
+              "aspect:A:Saturn:B:Mars:square",
+              "ruler:B:4",
+              "cusp:B:4",
+              "pos:B:Venus",
+              "overlay:B:Venus:in:A"
+            ],
+            "role": "symbolic",
+            "semanticKind": "synthesis"
+          }
+        ]
+      }
+    ],
+    "selectionTrace": [
+      {
+        "topic": "communication",
+        "selected": [
+          {
+            "factId": "aspect:A:Saturn:B:Mercury:opposition",
+            "key": "first:Saturn:second:Mercury:opposition",
+            "topic": "communication",
+            "focusOwner": 1,
+            "focalBody": "Mercury",
+            "counterBody": "Saturn",
+            "direct": true,
+            "rulerIds": [],
+            "orb": 0.2211869456124873,
+            "limit": 8,
+            "relativeOrb": 0.027648368201560913,
+            "mode": "tension",
+            "relevance": 3,
+            "central": true,
+            "score": 4.972351631798439,
+            "role": "central"
+          },
+          {
+            "factId": "aspect:A:Pluto:B:Mercury:conjunction",
+            "key": "first:Pluto:second:Mercury:conjunction",
+            "topic": "communication",
+            "focusOwner": 1,
+            "focalBody": "Mercury",
+            "counterBody": "Pluto",
+            "direct": true,
+            "rulerIds": [],
+            "orb": 0.38221833171314756,
+            "limit": 8,
+            "relativeOrb": 0.047777291464143445,
+            "mode": "blend",
+            "relevance": 3,
+            "central": true,
+            "score": 4.9522227085358566,
+            "role": "central"
+          },
+          {
+            "factId": "aspect:A:Mercury:B:Pluto:conjunction",
+            "key": "first:Mercury:second:Pluto:conjunction",
+            "topic": "communication",
+            "focusOwner": 0,
+            "focalBody": "Mercury",
+            "counterBody": "Pluto",
+            "direct": true,
+            "rulerIds": [],
+            "orb": 2.9094574993771403,
+            "limit": 8,
+            "relativeOrb": 0.36368218742214253,
+            "mode": "blend",
+            "relevance": 3,
+            "central": false,
+            "score": 3.6363178125778575,
+            "role": "reinforcing"
+          },
+          {
+            "factId": "aspect:A:Mercury:B:Venus:square",
+            "key": "first:Mercury:second:Venus:square",
+            "topic": "communication",
+            "focusOwner": 0,
+            "focalBody": "Mercury",
+            "counterBody": "Venus",
+            "direct": true,
+            "rulerIds": [],
+            "orb": 5.099473426785153,
+            "limit": 6,
+            "relativeOrb": 0.8499122377975254,
+            "mode": "tension",
+            "relevance": 3,
+            "central": false,
+            "score": 3.1500877622024746,
+            "role": "secondary"
+          },
+          {
+            "factId": "aspect:A:Mercury:B:Neptune:sextile",
+            "key": "first:Mercury:second:Neptune:sextile",
+            "topic": "communication",
+            "focusOwner": 0,
+            "focalBody": "Mercury",
+            "counterBody": "Neptune",
+            "direct": true,
+            "rulerIds": [],
+            "orb": 3.7922257963182346,
+            "limit": 4,
+            "relativeOrb": 0.9480564490795587,
+            "mode": "resource",
+            "relevance": 3,
+            "central": false,
+            "score": 3.0519435509204413,
+            "role": "secondary"
+          }
+        ],
+        "omitted": [
+          {
+            "factId": "aspect:A:Jupiter:B:Mars:sextile",
+            "key": "first:Jupiter:second:Mars:sextile",
+            "reason": "secondary-outside-editorial-relevance-band"
+          }
+        ],
+        "shared": [
+          {
+            "factId": "aspect:A:Moon:B:Mercury:opposition",
+            "key": "first:Moon:second:Mercury:opposition",
+            "topic": "communication",
+            "focusOwner": 1,
+            "focalBody": "Mercury",
+            "counterBody": "Moon",
+            "direct": true,
+            "rulerIds": [],
+            "orb": 0.8496683444271298,
+            "limit": 8,
+            "relativeOrb": 0.10620854305339122,
+            "mode": "tension",
+            "relevance": 3,
+            "central": true,
+            "score": 4.893791456946609,
+            "role": "central",
+            "coveredIn": "emotions",
+            "reason": "same-computed-edge-already-narrated"
+          }
+        ],
+        "rulers": [],
+        "synthesisRule": "precision-does-not-entitle-to-disclosure",
+        "narrativePlan": [
+          "thread",
+          "context",
+          "thread",
+          "thread",
+          "thread",
+          "synthesis"
+        ],
+        "groups": [
+          {
+            "theme": "Saturn",
+            "edges": [
+              "aspect:A:Saturn:B:Mercury:opposition"
+            ]
+          },
+          {
+            "theme": "Pluto",
+            "edges": [
+              "aspect:A:Pluto:B:Mercury:conjunction",
+              "aspect:A:Mercury:B:Pluto:conjunction"
+            ]
+          },
+          {
+            "theme": "Venus",
+            "edges": [
+              "aspect:A:Mercury:B:Venus:square"
+            ]
+          },
+          {
+            "theme": "Neptune",
+            "edges": [
+              "aspect:A:Mercury:B:Neptune:sextile"
+            ]
+          }
+        ]
+      },
+      {
+        "topic": "emotions",
+        "selected": [
+          {
+            "factId": "aspect:A:Moon:B:Mercury:opposition",
+            "key": "first:Moon:second:Mercury:opposition",
+            "topic": "emotions",
+            "focusOwner": 0,
+            "focalBody": "Moon",
+            "counterBody": "Mercury",
+            "direct": true,
+            "rulerIds": [],
+            "orb": 0.8496683444271298,
+            "limit": 8,
+            "relativeOrb": 0.10620854305339122,
+            "mode": "tension",
+            "relevance": 3,
+            "central": true,
+            "score": 4.893791456946609,
+            "role": "central"
+          },
+          {
+            "factId": "aspect:A:Neptune:B:Moon:conjunction",
+            "key": "first:Neptune:second:Moon:conjunction",
+            "topic": "emotions",
+            "focusOwner": 1,
+            "focalBody": "Moon",
+            "counterBody": "Neptune",
+            "direct": true,
+            "rulerIds": [],
+            "orb": 2.677495649453931,
+            "limit": 8,
+            "relativeOrb": 0.3346869561817414,
+            "mode": "blend",
+            "relevance": 3,
+            "central": true,
+            "score": 4.665313043818259,
+            "role": "central"
+          },
+          {
+            "factId": "aspect:A:Moon:B:Mars:square",
+            "key": "first:Moon:second:Mars:square",
+            "topic": "emotions",
+            "focusOwner": 0,
+            "focalBody": "Moon",
+            "counterBody": "Mars",
+            "direct": true,
+            "rulerIds": [],
+            "orb": 2.4742524606447773,
+            "limit": 6,
+            "relativeOrb": 0.41237541010746287,
+            "mode": "tension",
+            "relevance": 3,
+            "central": false,
+            "score": 3.5876245898925374,
+            "role": "reinforcing"
+          },
+          {
+            "factId": "aspect:A:Mars:B:Moon:conjunction",
+            "key": "first:Mars:second:Moon:conjunction",
+            "topic": "emotions",
+            "focusOwner": 1,
+            "focalBody": "Moon",
+            "counterBody": "Mars",
+            "direct": true,
+            "rulerIds": [],
+            "orb": 3.746975322175331,
+            "limit": 8,
+            "relativeOrb": 0.46837191527191635,
+            "mode": "blend",
+            "relevance": 3,
+            "central": false,
+            "score": 3.5316280847280836,
+            "role": "reinforcing"
+          },
+          {
+            "factId": "aspect:A:Sun:B:Moon:square",
+            "key": "first:Sun:second:Moon:square",
+            "topic": "emotions",
+            "focusOwner": 1,
+            "focalBody": "Moon",
+            "counterBody": "Sun",
+            "direct": true,
+            "rulerIds": [],
+            "orb": 2.857774087534949,
+            "limit": 6,
+            "relativeOrb": 0.47629568125582483,
+            "mode": "tension",
+            "relevance": 3,
+            "central": false,
+            "score": 3.5237043187441754,
+            "role": "reinforcing"
+          },
+          {
+            "factId": "aspect:A:Moon:B:Jupiter:square",
+            "key": "first:Moon:second:Jupiter:square",
+            "topic": "emotions",
+            "focusOwner": 0,
+            "focalBody": "Moon",
+            "counterBody": "Jupiter",
+            "direct": true,
+            "rulerIds": [],
+            "orb": 4.1306334327979926,
+            "limit": 6,
+            "relativeOrb": 0.6884389054663321,
+            "mode": "tension",
+            "relevance": 3,
+            "central": false,
+            "score": 3.3115610945336678,
+            "role": "secondary"
+          },
+          {
+            "factId": "aspect:A:Moon:B:Neptune:opposition",
+            "key": "first:Moon:second:Neptune:opposition",
+            "topic": "emotions",
+            "focusOwner": 0,
+            "focalBody": "Moon",
+            "counterBody": "Neptune",
+            "direct": true,
+            "rulerIds": [],
+            "orb": 6.217168416996344,
+            "limit": 8,
+            "relativeOrb": 0.777146052124543,
+            "mode": "tension",
+            "relevance": 3,
+            "central": false,
+            "score": 3.222853947875457,
+            "role": "secondary"
+          },
+          {
+            "factId": "aspect:A:Saturn:B:Moon:trine",
+            "key": "first:Saturn:second:Moon:trine",
+            "topic": "emotions",
+            "focusOwner": 1,
+            "focalBody": "Moon",
+            "counterBody": "Saturn",
+            "direct": true,
+            "rulerIds": [
+              "ruler:A:4"
+            ],
+            "orb": 4.963418392253914,
+            "limit": 6,
+            "relativeOrb": 0.8272363987089856,
+            "mode": "resource",
+            "relevance": 3,
+            "central": false,
+            "score": 3.1727636012910145,
+            "role": "secondary"
+          },
+          {
+            "factId": "aspect:A:Moon:B:Moon:trine",
+            "key": "first:Moon:second:Moon:trine",
+            "topic": "emotions",
+            "focusOwner": 0,
+            "focalBody": "Moon",
+            "counterBody": "Moon",
+            "direct": true,
+            "rulerIds": [],
+            "orb": 5.591899791068556,
+            "limit": 6,
+            "relativeOrb": 0.931983298511426,
+            "mode": "resource",
+            "relevance": 3,
+            "central": false,
+            "score": 3.068016701488574,
+            "role": "secondary"
+          },
+          {
+            "factId": "aspect:A:Saturn:B:Mars:square",
+            "key": "first:Saturn:second:Mars:square",
+            "topic": "emotions",
+            "focusOwner": 0,
+            "focalBody": "Saturn",
+            "counterBody": "Mars",
+            "direct": false,
+            "rulerIds": [
+              "ruler:A:4"
+            ],
+            "orb": 1.8457710618301348,
+            "limit": 6,
+            "relativeOrb": 0.3076285103050225,
+            "mode": "tension",
+            "relevance": 1,
+            "central": false,
+            "score": 1.6923714896949775,
+            "role": "reinforcing"
+          }
+        ],
+        "omitted": [
+          {
+            "factId": "aspect:A:Mercury:B:Venus:square",
+            "key": "first:Mercury:second:Venus:square",
+            "reason": "secondary-outside-editorial-relevance-band"
+          },
+          {
+            "factId": "aspect:A:Venus:B:Venus:square",
+            "key": "first:Venus:second:Venus:square",
+            "reason": "secondary-outside-editorial-relevance-band"
+          },
+          {
+            "factId": "aspect:A:Mars:B:Venus:conjunction",
+            "key": "first:Mars:second:Venus:conjunction",
+            "reason": "secondary-outside-editorial-relevance-band"
+          }
+        ],
+        "shared": [
+          {
+            "factId": "aspect:A:Saturn:B:Mercury:opposition",
+            "key": "first:Saturn:second:Mercury:opposition",
+            "topic": "emotions",
+            "focusOwner": 0,
+            "focalBody": "Saturn",
+            "counterBody": "Mercury",
+            "direct": false,
+            "rulerIds": [
+              "ruler:A:4"
+            ],
+            "orb": 0.2211869456124873,
+            "limit": 8,
+            "relativeOrb": 0.027648368201560913,
+            "mode": "tension",
+            "relevance": 1,
+            "central": false,
+            "score": 1.972351631798439,
+            "role": "reinforcing",
+            "coveredIn": "communication",
+            "reason": "same-computed-edge-already-narrated"
+          }
+        ],
+        "rulers": [
+          "ruler:A:4"
+        ],
+        "synthesisRule": "words-and-attunement-remain-correctable",
+        "narrativePlan": [
+          "thread",
+          "context",
+          "thread",
+          "thread",
+          "thread",
+          "thread",
+          "thread",
+          "thread",
+          "synthesis"
+        ],
+        "groups": [
+          {
+            "theme": "Mercury",
+            "edges": [
+              "aspect:A:Moon:B:Mercury:opposition"
+            ]
+          },
+          {
+            "theme": "Neptune",
+            "edges": [
+              "aspect:A:Neptune:B:Moon:conjunction",
+              "aspect:A:Moon:B:Neptune:opposition"
+            ]
+          },
+          {
+            "theme": "Mars",
+            "edges": [
+              "aspect:A:Moon:B:Mars:square",
+              "aspect:A:Mars:B:Moon:conjunction",
+              "aspect:A:Saturn:B:Mars:square"
+            ]
+          },
+          {
+            "theme": "Sun",
+            "edges": [
+              "aspect:A:Sun:B:Moon:square"
+            ]
+          },
+          {
+            "theme": "Jupiter",
+            "edges": [
+              "aspect:A:Moon:B:Jupiter:square"
+            ]
+          },
+          {
+            "theme": "Saturn",
+            "edges": [
+              "aspect:A:Saturn:B:Moon:trine"
+            ]
+          },
+          {
+            "theme": "Moon",
+            "edges": [
+              "aspect:A:Moon:B:Moon:trine"
+            ]
+          }
+        ]
+      }
+    ],
+    "semanticLedger": [
+      {
+        "key": "relationship-thread:Saturn",
+        "chapter": "communication",
+        "evidenceIds": [
+          "aspect:A:Saturn:B:Mercury:opposition",
+          "pos:A:Saturn",
+          "pos:B:Mercury"
+        ]
+      },
+      {
+        "key": "communication:thread:Saturn",
+        "chapter": "communication",
+        "evidenceIds": [
+          "aspect:A:Saturn:B:Mercury:opposition",
+          "pos:A:Saturn",
+          "pos:B:Mercury"
+        ]
+      },
+      {
+        "key": "communication:directional-context",
+        "chapter": "communication",
+        "evidenceIds": [
+          "pos:A:Mercury",
+          "pos:B:Mercury",
+          "overlay:A:Mercury:in:B",
+          "overlay:B:Mercury:in:A"
+        ]
+      },
+      {
+        "key": "relationship-thread:Pluto",
+        "chapter": "communication",
+        "evidenceIds": [
+          "aspect:A:Pluto:B:Mercury:conjunction",
+          "pos:A:Pluto",
+          "pos:B:Mercury",
+          "aspect:A:Mercury:B:Pluto:conjunction",
+          "pos:A:Mercury",
+          "pos:B:Pluto"
+        ]
+      },
+      {
+        "key": "communication:thread:Pluto",
+        "chapter": "communication",
+        "evidenceIds": [
+          "aspect:A:Pluto:B:Mercury:conjunction",
+          "pos:A:Pluto",
+          "pos:B:Mercury",
+          "aspect:A:Mercury:B:Pluto:conjunction",
+          "pos:A:Mercury",
+          "pos:B:Pluto"
+        ]
+      },
+      {
+        "key": "relationship-thread:Venus",
+        "chapter": "communication",
+        "evidenceIds": [
+          "aspect:A:Mercury:B:Venus:square",
+          "pos:A:Mercury",
+          "pos:B:Venus"
+        ]
+      },
+      {
+        "key": "communication:thread:Venus",
+        "chapter": "communication",
+        "evidenceIds": [
+          "aspect:A:Mercury:B:Venus:square",
+          "pos:A:Mercury",
+          "pos:B:Venus"
+        ]
+      },
+      {
+        "key": "relationship-thread:Neptune",
+        "chapter": "communication",
+        "evidenceIds": [
+          "aspect:A:Mercury:B:Neptune:sextile",
+          "pos:A:Mercury",
+          "pos:B:Neptune"
+        ]
+      },
+      {
+        "key": "communication:thread:Neptune",
+        "chapter": "communication",
+        "evidenceIds": [
+          "aspect:A:Mercury:B:Neptune:sextile",
+          "pos:A:Mercury",
+          "pos:B:Neptune"
+        ]
+      },
+      {
+        "key": "communication:integrated-synthesis",
+        "chapter": "communication",
+        "evidenceIds": [
+          "pos:A:Mercury",
+          "pos:B:Mercury",
+          "overlay:A:Mercury:in:B",
+          "overlay:B:Mercury:in:A",
+          "aspect:A:Saturn:B:Mercury:opposition",
+          "pos:A:Saturn",
+          "aspect:A:Pluto:B:Mercury:conjunction",
+          "pos:A:Pluto",
+          "aspect:A:Mercury:B:Pluto:conjunction",
+          "pos:B:Pluto",
+          "aspect:A:Mercury:B:Venus:square",
+          "pos:B:Venus",
+          "aspect:A:Mercury:B:Neptune:sextile",
+          "pos:B:Neptune"
+        ]
+      },
+      {
+        "key": "communication:remaining-ruler:first",
+        "chapter": "communication",
+        "evidenceIds": [
+          "ruler:A:3",
+          "cusp:A:3",
+          "pos:A:Jupiter",
+          "overlay:A:Jupiter:in:B"
+        ]
+      },
+      {
+        "key": "communication:remaining-ruler:second",
+        "chapter": "communication",
+        "evidenceIds": [
+          "ruler:B:3",
+          "cusp:B:3",
+          "pos:B:Sun",
+          "overlay:B:Sun:in:A"
+        ]
+      },
+      {
+        "key": "relationship-thread:Mercury",
+        "chapter": "emotions",
+        "evidenceIds": [
+          "aspect:A:Moon:B:Mercury:opposition",
+          "pos:A:Moon",
+          "pos:B:Mercury"
+        ]
+      },
+      {
+        "key": "emotions:thread:Mercury",
+        "chapter": "emotions",
+        "evidenceIds": [
+          "aspect:A:Moon:B:Mercury:opposition",
+          "pos:A:Moon",
+          "pos:B:Mercury"
+        ]
+      },
+      {
+        "key": "emotions:directional-context",
+        "chapter": "emotions",
+        "evidenceIds": [
+          "pos:A:Moon",
+          "pos:B:Moon",
+          "overlay:A:Moon:in:B",
+          "overlay:B:Moon:in:A"
+        ]
+      },
+      {
+        "key": "emotions:thread:Neptune",
+        "chapter": "emotions",
+        "evidenceIds": [
+          "aspect:A:Neptune:B:Moon:conjunction",
+          "pos:A:Neptune",
+          "pos:B:Moon",
+          "aspect:A:Moon:B:Neptune:opposition",
+          "pos:A:Moon",
+          "pos:B:Neptune"
+        ]
+      },
+      {
+        "key": "relationship-thread:Mars",
+        "chapter": "emotions",
+        "evidenceIds": [
+          "aspect:A:Moon:B:Mars:square",
+          "pos:A:Moon",
+          "pos:B:Mars",
+          "aspect:A:Mars:B:Moon:conjunction",
+          "pos:A:Mars",
+          "pos:B:Moon",
+          "aspect:A:Saturn:B:Mars:square",
+          "pos:A:Saturn",
+          "ruler:A:4"
+        ]
+      },
+      {
+        "key": "emotions:thread:Mars",
+        "chapter": "emotions",
+        "evidenceIds": [
+          "aspect:A:Moon:B:Mars:square",
+          "pos:A:Moon",
+          "pos:B:Mars",
+          "aspect:A:Mars:B:Moon:conjunction",
+          "pos:A:Mars",
+          "pos:B:Moon",
+          "aspect:A:Saturn:B:Mars:square",
+          "pos:A:Saturn",
+          "ruler:A:4",
+          "cusp:A:4",
+          "overlay:A:Saturn:in:B"
+        ]
+      },
+      {
+        "key": "relationship-thread:Sun",
+        "chapter": "emotions",
+        "evidenceIds": [
+          "aspect:A:Sun:B:Moon:square",
+          "pos:A:Sun",
+          "pos:B:Moon"
+        ]
+      },
+      {
+        "key": "emotions:thread:Sun",
+        "chapter": "emotions",
+        "evidenceIds": [
+          "aspect:A:Sun:B:Moon:square",
+          "pos:A:Sun",
+          "pos:B:Moon"
+        ]
+      },
+      {
+        "key": "relationship-thread:Jupiter",
+        "chapter": "emotions",
+        "evidenceIds": [
+          "aspect:A:Moon:B:Jupiter:square",
+          "pos:A:Moon",
+          "pos:B:Jupiter"
+        ]
+      },
+      {
+        "key": "emotions:thread:Jupiter",
+        "chapter": "emotions",
+        "evidenceIds": [
+          "aspect:A:Moon:B:Jupiter:square",
+          "pos:A:Moon",
+          "pos:B:Jupiter"
+        ]
+      },
+      {
+        "key": "emotions:thread:Saturn",
+        "chapter": "emotions",
+        "evidenceIds": [
+          "aspect:A:Saturn:B:Moon:trine",
+          "pos:A:Saturn",
+          "pos:B:Moon",
+          "ruler:A:4"
+        ]
+      },
+      {
+        "key": "relationship-thread:Moon",
+        "chapter": "emotions",
+        "evidenceIds": [
+          "aspect:A:Moon:B:Moon:trine",
+          "pos:A:Moon",
+          "pos:B:Moon"
+        ]
+      },
+      {
+        "key": "emotions:thread:Moon",
+        "chapter": "emotions",
+        "evidenceIds": [
+          "aspect:A:Moon:B:Moon:trine",
+          "pos:A:Moon",
+          "pos:B:Moon"
+        ]
+      },
+      {
+        "key": "emotions:integrated-synthesis",
+        "chapter": "emotions",
+        "evidenceIds": [
+          "pos:A:Moon",
+          "pos:B:Moon",
+          "overlay:A:Moon:in:B",
+          "overlay:B:Moon:in:A",
+          "aspect:A:Moon:B:Mercury:opposition",
+          "pos:B:Mercury",
+          "aspect:A:Neptune:B:Moon:conjunction",
+          "pos:A:Neptune",
+          "aspect:A:Moon:B:Mars:square",
+          "pos:B:Mars",
+          "aspect:A:Mars:B:Moon:conjunction",
+          "pos:A:Mars",
+          "aspect:A:Sun:B:Moon:square",
+          "pos:A:Sun",
+          "aspect:A:Moon:B:Jupiter:square",
+          "pos:B:Jupiter",
+          "aspect:A:Moon:B:Neptune:opposition",
+          "pos:B:Neptune",
+          "aspect:A:Saturn:B:Moon:trine",
+          "pos:A:Saturn",
+          "ruler:A:4",
+          "aspect:A:Moon:B:Moon:trine",
+          "aspect:A:Saturn:B:Mars:square"
+        ]
+      },
+      {
+        "key": "emotions:remaining-ruler:second",
+        "chapter": "emotions",
+        "evidenceIds": [
+          "ruler:B:4",
+          "cusp:B:4",
+          "pos:B:Venus",
+          "overlay:B:Venus:in:A"
+        ]
+      }
+    ],
+    "selectionPolicy": {
+      "selection": "Every non-boundary direct contact; relative orb > .65 is secondary only. Ruler-only relative orb <= .35 and absolute orb <= 2°. No count cap. Sensitive edges do not anchor.",
+      "central": "Direct and relative orb <= .35 or absolute orb <= 1°. Resources do not cancel tensions; conjunction is blend.",
+      "ownership": "One narrative owner per geometric edge; emotions wins equal relevance for Mercury–Moon. Stable IDs break numeric ties."
+    },
+    "scope": {
+      "chapters": [
+        "communication",
+        "emotions"
+      ],
+      "otherChapters": false,
+      "phaseD": true,
+      "meanPoints": false,
+      "axes": false,
+      "motion": false
+    },
+    "coverage": {
+      "limits": "Rule-based editorial synthesis, not a complete catalogue of every possible configuration or scientific validation of symbolic meaning."
+    }
+  },
+  "comparison": [
+    {
+      "topic": "communication",
+      "oldCount": 2,
+      "newCount": 5,
+      "roles": [
+        "central",
+        "central",
+        "reinforcing",
+        "secondary",
+        "secondary"
+      ],
+      "shared": 1,
+      "omitted": 1,
+      "groups": [
+        "Saturn",
+        "Pluto",
+        "Venus",
+        "Neptune"
+      ]
+    },
+    {
+      "topic": "emotions",
+      "oldCount": 2,
+      "newCount": 10,
+      "roles": [
+        "central",
+        "central",
+        "reinforcing",
+        "reinforcing",
+        "reinforcing",
+        "secondary",
+        "secondary",
+        "secondary",
+        "secondary",
+        "reinforcing"
+      ],
+      "shared": 1,
+      "omitted": 3,
+      "groups": [
+        "Mercury",
+        "Neptune",
+        "Mars",
+        "Sun",
+        "Jupiter",
+        "Saturn",
+        "Moon"
+      ]
+    }
+  ]
+}
