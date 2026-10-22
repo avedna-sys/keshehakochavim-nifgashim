@@ -1,0 +1,453 @@
+[
+  {
+    "id": "couple-1",
+    "relationship": "זוגיות",
+    "audit": {
+      "status": "passed",
+      "bindingUses": 20,
+      "claims": 16
+    },
+    "chapters": [
+      {
+        "topic": "love",
+        "counts": {
+          "central": 1,
+          "reinforcing": 1,
+          "balancing": 1,
+          "secondary": 0
+        },
+        "missing": [
+          "Venus|Venus",
+          "Moon|Moon",
+          "Sun|Sun"
+        ],
+        "presentation": {
+          "central": [
+            "aspect:A:Venus:B:Sun:opposition"
+          ],
+          "compact": [
+            "aspect:A:Moon:B:Venus:square",
+            "aspect:A:Moon:B:Sun:trine"
+          ],
+          "sourceOnly": []
+        }
+      },
+      {
+        "topic": "attraction",
+        "counts": {
+          "central": 1,
+          "reinforcing": 0,
+          "balancing": 1,
+          "secondary": 1
+        },
+        "missing": [
+          "Mars|Sun"
+        ],
+        "presentation": {
+          "central": [
+            "aspect:A:Venus:B:Mars:square"
+          ],
+          "compact": [
+            "aspect:A:Mars:B:Venus:trine"
+          ],
+          "sourceOnly": [
+            {
+              "factId": "aspect:A:Mars:B:Mars:trine",
+              "reason": "secondary"
+            }
+          ]
+        }
+      },
+      {
+        "topic": "intimacy",
+        "counts": {
+          "central": 3,
+          "reinforcing": 1,
+          "balancing": 1,
+          "secondary": 2
+        },
+        "missing": [],
+        "presentation": {
+          "central": [
+            "aspect:A:Pluto:B:Venus:conjunction",
+            "aspect:A:Mars:B:Pluto:trine",
+            "aspect:A:Moon:B:Pluto:square"
+          ],
+          "compact": [
+            "aspect:A:Pluto:B:Mars:trine",
+            "aspect:A:Sun:B:Pluto:opposition"
+          ],
+          "sourceOnly": [
+            {
+              "factId": "aspect:A:Pluto:B:Moon:trine",
+              "reason": "secondary"
+            },
+            {
+              "factId": "aspect:A:Mars:B:Moon:conjunction",
+              "reason": "secondary"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "couple-2",
+    "relationship": "זוגיות",
+    "audit": {
+      "status": "passed",
+      "bindingUses": 10,
+      "claims": 11
+    },
+    "chapters": [
+      {
+        "topic": "love",
+        "counts": {
+          "central": 1,
+          "reinforcing": 0,
+          "balancing": 1,
+          "secondary": 1
+        },
+        "missing": [
+          "Moon|Venus",
+          "Venus|Venus",
+          "Moon|Sun",
+          "Sun|Sun"
+        ],
+        "presentation": {
+          "central": [
+            "aspect:A:Venus:B:Sun:square"
+          ],
+          "compact": [
+            "aspect:A:Sun:B:Venus:trine"
+          ],
+          "sourceOnly": [
+            {
+              "factId": "aspect:A:Moon:B:Moon:sextile",
+              "reason": "secondary"
+            }
+          ]
+        }
+      },
+      {
+        "topic": "attraction",
+        "counts": {
+          "central": 1,
+          "reinforcing": 1,
+          "balancing": 0,
+          "secondary": 0
+        },
+        "missing": [
+          "Mars|Venus",
+          "Mars|Mars"
+        ],
+        "presentation": {
+          "central": [
+            "aspect:A:Mars:B:Sun:square"
+          ],
+          "compact": [
+            "aspect:A:Mars:B:Saturn:square"
+          ],
+          "sourceOnly": []
+        }
+      },
+      {
+        "topic": "intimacy",
+        "counts": {
+          "central": 0,
+          "reinforcing": 1,
+          "balancing": 0,
+          "secondary": 2
+        },
+        "missing": [
+          "Moon|Pluto",
+          "Pluto|Venus",
+          "Mars|Pluto"
+        ],
+        "presentation": {
+          "central": [],
+          "compact": [
+            "aspect:A:Moon:B:Mars:trine"
+          ],
+          "sourceOnly": [
+            {
+              "factId": "aspect:A:Pluto:B:Sun:trine",
+              "reason": "secondary"
+            },
+            {
+              "factId": "aspect:A:Sun:B:Pluto:square",
+              "reason": "secondary"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "couple-sparse",
+    "relationship": "זוגיות",
+    "audit": {
+      "status": "passed",
+      "bindingUses": 6,
+      "claims": 9
+    },
+    "chapters": [
+      {
+        "topic": "love",
+        "counts": {
+          "central": 0,
+          "reinforcing": 1,
+          "balancing": 0,
+          "secondary": 0
+        },
+        "missing": [
+          "Moon|Venus",
+          "Venus|Venus",
+          "Moon|Sun",
+          "Moon|Moon",
+          "Sun|Sun"
+        ],
+        "presentation": {
+          "central": [],
+          "compact": [
+            "aspect:A:Sun:B:Venus:trine"
+          ],
+          "sourceOnly": []
+        }
+      },
+      {
+        "topic": "attraction",
+        "counts": {
+          "central": 0,
+          "reinforcing": 1,
+          "balancing": 0,
+          "secondary": 1
+        },
+        "missing": [
+          "Mars|Venus",
+          "Mars|Sun"
+        ],
+        "presentation": {
+          "central": [],
+          "compact": [
+            "aspect:A:Sun:B:Saturn:trine"
+          ],
+          "sourceOnly": [
+            {
+              "factId": "aspect:A:Mars:B:Mars:opposition",
+              "reason": "secondary"
+            }
+          ]
+        }
+      },
+      {
+        "topic": "intimacy",
+        "counts": {
+          "central": 1,
+          "reinforcing": 0,
+          "balancing": 0,
+          "secondary": 1
+        },
+        "missing": [
+          "Mars|Moon",
+          "Mars|Pluto",
+          "Pluto|Sun"
+        ],
+        "presentation": {
+          "central": [
+            "aspect:A:Moon:B:Pluto:trine"
+          ],
+          "compact": [],
+          "sourceOnly": [
+            {
+              "factId": "aspect:A:Venus:B:Pluto:opposition",
+              "reason": "secondary"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "friendship",
+    "relationship": "חברות",
+    "audit": {
+      "status": "passed",
+      "bindingUses": 10,
+      "claims": 14
+    },
+    "chapters": [
+      {
+        "topic": "love",
+        "counts": {
+          "central": 1,
+          "reinforcing": 0,
+          "balancing": 1,
+          "secondary": 1
+        },
+        "missing": [
+          "Moon|Venus",
+          "Venus|Venus",
+          "Moon|Sun",
+          "Sun|Sun"
+        ],
+        "presentation": {
+          "central": [
+            "aspect:A:Venus:B:Sun:square"
+          ],
+          "compact": [
+            "aspect:A:Sun:B:Venus:trine"
+          ],
+          "sourceOnly": [
+            {
+              "factId": "aspect:A:Moon:B:Moon:sextile",
+              "reason": "secondary"
+            }
+          ]
+        }
+      },
+      {
+        "topic": "attraction",
+        "counts": {
+          "central": 1,
+          "reinforcing": 1,
+          "balancing": 0,
+          "secondary": 0
+        },
+        "missing": [
+          "Mars|Venus",
+          "Mars|Mars"
+        ],
+        "presentation": {
+          "central": [
+            "aspect:A:Mars:B:Sun:square"
+          ],
+          "compact": [
+            "aspect:A:Mars:B:Saturn:square"
+          ],
+          "sourceOnly": []
+        }
+      },
+      {
+        "topic": "intimacy",
+        "counts": {
+          "central": 0,
+          "reinforcing": 1,
+          "balancing": 0,
+          "secondary": 2
+        },
+        "missing": [
+          "Moon|Pluto",
+          "Pluto|Venus",
+          "Mars|Pluto"
+        ],
+        "presentation": {
+          "central": [],
+          "compact": [
+            "aspect:A:Moon:B:Mars:trine"
+          ],
+          "sourceOnly": [
+            {
+              "factId": "aspect:A:Pluto:B:Sun:trine",
+              "reason": "secondary"
+            },
+            {
+              "factId": "aspect:A:Sun:B:Pluto:square",
+              "reason": "secondary"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "family",
+    "relationship": "הורה וילד",
+    "audit": {
+      "status": "passed",
+      "bindingUses": 14,
+      "claims": 16
+    },
+    "chapters": [
+      {
+        "topic": "love",
+        "counts": {
+          "central": 0,
+          "reinforcing": 1,
+          "balancing": 0,
+          "secondary": 2
+        },
+        "missing": [
+          "Sun|Venus",
+          "Moon|Venus",
+          "Sun|Sun"
+        ],
+        "presentation": {
+          "central": [],
+          "compact": [
+            "aspect:A:Sun:B:Moon:square"
+          ],
+          "sourceOnly": [
+            {
+              "factId": "aspect:A:Venus:B:Venus:square",
+              "reason": "secondary"
+            },
+            {
+              "factId": "aspect:A:Moon:B:Moon:trine",
+              "reason": "secondary"
+            }
+          ]
+        }
+      },
+      {
+        "topic": "attraction",
+        "counts": {
+          "central": 1,
+          "reinforcing": 0,
+          "balancing": 0,
+          "secondary": 1
+        },
+        "missing": [
+          "Mars|Mars"
+        ],
+        "presentation": {
+          "central": [
+            "aspect:A:Sun:B:Mars:sextile"
+          ],
+          "compact": [],
+          "sourceOnly": [
+            {
+              "factId": "aspect:A:Mars:B:Venus:conjunction",
+              "reason": "secondary"
+            }
+          ]
+        }
+      },
+      {
+        "topic": "intimacy",
+        "counts": {
+          "central": 1,
+          "reinforcing": 3,
+          "balancing": 1,
+          "secondary": 0
+        },
+        "missing": [
+          "Moon|Pluto",
+          "Pluto|Sun"
+        ],
+        "presentation": {
+          "central": [
+            "aspect:A:Pluto:B:Mars:square"
+          ],
+          "compact": [
+            "aspect:A:Venus:B:Pluto:conjunction",
+            "aspect:A:Moon:B:Mars:square",
+            "aspect:A:Mars:B:Moon:conjunction",
+            "aspect:A:Sun:B:Jupiter:sextile"
+          ],
+          "sourceOnly": []
+        }
+      }
+    ]
+  }
+]
