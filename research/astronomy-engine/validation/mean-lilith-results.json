@@ -1,0 +1,456 @@
+{
+  "status": "passed-mean-lilith-only-sample-validation",
+  "startedAt": "2026-10-20T14:46:45.395Z",
+  "finishedAt": "2026-10-20T14:46:46.430Z",
+  "node": "v24.19.0",
+  "astronomyEngine": "2.1.19",
+  "swiss": "2.10.03",
+  "referenceId": 12,
+  "flags": 258,
+  "definition": "Mean lunar apogee (Mean Black Moon Lilith); not osculating, interpolated or asteroid Lilith",
+  "provenance": {
+    "repository": "https://github.com/aloistr/swisseph",
+    "commit": "4daf766ab1dec2316a65fcb5f5149e52b4cd9027",
+    "files": {
+      "sepl_12.se1": "8dccace2557601a223d5f8a7cf64de4e6bbb8a82b9b130b95a54d49adfbe546d",
+      "semo_12.se1": "1c65fdbb854f350d3de36afc3e4ac126a53f360ae4f6dcb57beed7c690e7eb61",
+      "sepl_18.se1": "ca1393ceab3a44fbc895887cf789c68819ae6a1cbc9b22225872dbe4ccd99a66",
+      "semo_18.se1": "1ca07bd67c24374d77226180c20a4f9996cba013697894810518e7eb582ca4f7"
+    }
+  },
+  "limitDegrees": 0.001,
+  "dates": 88363,
+  "dailyCount": 82910,
+  "monthlyExtras": 5448,
+  "referenceCalls": 88363,
+  "positionComparisons": 176726,
+  "passedComparisons": 176726,
+  "failedComparisons": 0,
+  "coordinateChecks": 530178,
+  "wrapCases": 952,
+  "modes": {
+    "default": {
+      "longitude": {
+        "count": 88363,
+        "maxDegrees": 0.0003842057606107119,
+        "worst": {
+          "utc": "1803-10-07T12:34:56Z",
+          "mode": "default",
+          "actual": {
+            "longitude": 198.4790300271452,
+            "latitude": -4.367638581992076
+          },
+          "reference": {
+            "longitude": 198.47941423290578,
+            "latitude": -4.367648333120313
+          },
+          "longitudeDifferenceDegrees": -0.0003842057606107119,
+          "latitudeDifferenceDegrees": 0.000009751128236423767,
+          "skySeparationDegrees": 0.00038321407776829196
+        },
+        "failed": 0,
+        "meanDegrees": 0.0001399950412661972,
+        "rmsDegrees": 0.0001705471398511087,
+        "passed": 88363
+      },
+      "latitude": {
+        "count": 88363,
+        "maxDegrees": 0.000024638488173911455,
+        "worst": {
+          "utc": "1802-08-26T12:34:56Z",
+          "mode": "default",
+          "actual": {
+            "longitude": 153.27499214557588,
+            "latitude": 0.7837712471452405
+          },
+          "reference": {
+            "longitude": 153.27532347681975,
+            "latitude": 0.7837466086570666
+          },
+          "longitudeDifferenceDegrees": -0.00033133124384221446,
+          "latitudeDifferenceDegrees": 0.000024638488173911455,
+          "skySeparationDegrees": 0.0003322151523364231
+        },
+        "failed": 0,
+        "meanDegrees": 0.000007250849452419681,
+        "rmsDegrees": 0.000009353605732047501,
+        "passed": 88363
+      },
+      "skySeparation": {
+        "count": 88363,
+        "maxDegrees": 0.00038321407776829196,
+        "worst": {
+          "utc": "1803-10-07T12:34:56Z",
+          "mode": "default",
+          "actual": {
+            "longitude": 198.4790300271452,
+            "latitude": -4.367638581992076
+          },
+          "reference": {
+            "longitude": 198.47941423290578,
+            "latitude": -4.367648333120313
+          },
+          "longitudeDifferenceDegrees": -0.0003842057606107119,
+          "latitudeDifferenceDegrees": 0.000009751128236423767,
+          "skySeparationDegrees": 0.00038321407776829196
+        },
+        "failed": 0,
+        "meanDegrees": 0.0001400006544878303,
+        "rmsDegrees": 0.00017045835171588424,
+        "passed": 88363
+      },
+      "comparisons": 88363,
+      "failedComparisons": 0,
+      "passedComparisons": 88363
+    },
+    "matchedDeltaT": {
+      "longitude": {
+        "count": 88363,
+        "maxDegrees": 0.00037850364208225074,
+        "worst": {
+          "utc": "1803-10-07T12:34:56Z",
+          "mode": "matchedDeltaT",
+          "actual": {
+            "longitude": 198.47903572926373,
+            "latitude": -4.3676389804851015
+          },
+          "reference": {
+            "longitude": 198.47941423290578,
+            "latitude": -4.367648333120313
+          },
+          "longitudeDifferenceDegrees": -0.00037850364208225074,
+          "latitudeDifferenceDegrees": 0.00000935263521117946,
+          "skySeparationDegrees": 0.00037752030482734707
+        },
+        "failed": 0,
+        "meanDegrees": 0.000138162234224675,
+        "rmsDegrees": 0.00016821009425628416,
+        "passed": 88363
+      },
+      "latitude": {
+        "count": 88363,
+        "maxDegrees": 0.000023846245651659714,
+        "worst": {
+          "utc": "1802-08-25T12:34:56Z",
+          "mode": "matchedDeltaT",
+          "actual": {
+            "longitude": 153.1642179203924,
+            "latitude": 0.7983363907183915
+          },
+          "reference": {
+            "longitude": 153.16455135955138,
+            "latitude": 0.7983125444727398
+          },
+          "longitudeDifferenceDegrees": -0.0003334391590215091,
+          "latitudeDifferenceDegrees": 0.000023846245651659714,
+          "skySeparationDegrees": 0.00033425848210263514
+        },
+        "failed": 0,
+        "meanDegrees": 0.000007106207311671956,
+        "rmsDegrees": 0.000009139765298493163,
+        "passed": 88363
+      },
+      "skySeparation": {
+        "count": 88363,
+        "maxDegrees": 0.00037752030482734707,
+        "worst": {
+          "utc": "1803-10-07T12:34:56Z",
+          "mode": "matchedDeltaT",
+          "actual": {
+            "longitude": 198.47903572926373,
+            "latitude": -4.3676389804851015
+          },
+          "reference": {
+            "longitude": 198.47941423290578,
+            "latitude": -4.367648333120313
+          },
+          "longitudeDifferenceDegrees": -0.00037850364208225074,
+          "latitudeDifferenceDegrees": 0.00000935263521117946,
+          "skySeparationDegrees": 0.00037752030482734707
+        },
+        "failed": 0,
+        "meanDegrees": 0.00013816686382828584,
+        "rmsDegrees": 0.00016811788231906928,
+        "passed": 88363
+      },
+      "comparisons": 88363,
+      "failedComparisons": 0,
+      "passedComparisons": 88363
+    }
+  },
+  "samples": [
+    {
+      "utc": "1800-01-01T00:00:00Z",
+      "mode": "default",
+      "actual": {
+        "longitude": 45.401622356091764,
+        "latitude": 1.0864599940858057
+      },
+      "reference": {
+        "longitude": 45.40196511322902,
+        "latitude": 1.0864834847182032
+      },
+      "longitudeDifferenceDegrees": -0.0003427571372185412,
+      "latitudeDifferenceDegrees": -0.000023490632397482614,
+      "skySeparationDegrees": 0.0003434996739856966
+    },
+    {
+      "utc": "1800-01-01T00:00:00Z",
+      "mode": "matchedDeltaT",
+      "actual": {
+        "longitude": 45.40162893355733,
+        "latitude": 1.0864608495403425
+      },
+      "reference": {
+        "longitude": 45.40196511322902,
+        "latitude": 1.0864834847182032
+      },
+      "longitudeDifferenceDegrees": -0.0003361796716490062,
+      "latitudeDifferenceDegrees": -0.000022635177860719224,
+      "skySeparationDegrees": 0.000336880527104089
+    },
+    {
+      "utc": "1850-06-15T12:34:56Z",
+      "mode": "default",
+      "actual": {
+        "longitude": 298.4290518383391,
+        "latitude": 1.679484935015241
+      },
+      "reference": {
+        "longitude": 298.4293066580436,
+        "latitude": 1.679467093583723
+      },
+      "longitudeDifferenceDegrees": -0.0002548197044234257,
+      "latitudeDifferenceDegrees": 0.000017841431517950923,
+      "skySeparationDegrees": 0.0002553343354830829
+    },
+    {
+      "utc": "1850-06-15T12:34:56Z",
+      "mode": "matchedDeltaT",
+      "actual": {
+        "longitude": 298.4290549169708,
+        "latitude": 1.6794845480372373
+      },
+      "reference": {
+        "longitude": 298.4293066580436,
+        "latitude": 1.679467093583723
+      },
+      "longitudeDifferenceDegrees": -0.000251741072816003,
+      "latitudeDifferenceDegrees": 0.00001745445351430952,
+      "skySeparationDegrees": 0.0002522375660240824
+    },
+    {
+      "utc": "1900-01-01T12:00:00Z",
+      "mode": "default",
+      "actual": {
+        "longitude": 154.3886356254144,
+        "latitude": -4.9767906980119365
+      },
+      "reference": {
+        "longitude": 154.38878205082216,
+        "latitude": -4.976790018926321
+      },
+      "longitudeDifferenceDegrees": -0.00014642540782006108,
+      "latitudeDifferenceDegrees": -6.7908561529606e-7,
+      "skySeparationDegrees": 0.00014587495325180808
+    },
+    {
+      "utc": "1900-01-01T12:00:00Z",
+      "mode": "matchedDeltaT",
+      "actual": {
+        "longitude": 154.38863666939187,
+        "latitude": -4.976790732978133
+      },
+      "reference": {
+        "longitude": 154.38878205082216,
+        "latitude": -4.976790018926321
+      },
+      "longitudeDifferenceDegrees": -0.00014538143022946315,
+      "latitudeDifferenceDegrees": -7.14051811456784e-7,
+      "skySeparationDegrees": 0.00014483509105132724
+    },
+    {
+      "utc": "1930-01-01T11:40:28Z",
+      "mode": "default",
+      "actual": {
+        "longitude": 295.0362757299761,
+        "latitude": -4.996009883289691
+      },
+      "reference": {
+        "longitude": 295.036377176821,
+        "latitude": -4.996008119830577
+      },
+      "longitudeDifferenceDegrees": -0.00010144684483748279,
+      "latitudeDifferenceDegrees": -0.000001763459113846011,
+      "skySeparationDegrees": 0.00010107680905869953
+    },
+    {
+      "utc": "1930-01-01T11:40:28Z",
+      "mode": "matchedDeltaT",
+      "actual": {
+        "longitude": 295.0362761035741,
+        "latitude": -4.996009895078871
+      },
+      "reference": {
+        "longitude": 295.036377176821,
+        "latitude": -4.996008119830577
+      },
+      "longitudeDifferenceDegrees": -0.00010107324692398834,
+      "latitudeDifferenceDegrees": -0.0000017752482941446601,
+      "skySeparationDegrees": 0.0001007048945194354
+    },
+    {
+      "utc": "1950-06-15T12:34:56Z",
+      "mode": "default",
+      "actual": {
+        "longitude": 47.16793347697234,
+        "latitude": 3.5676552842910483
+      },
+      "reference": {
+        "longitude": 47.16799787153655,
+        "latitude": 3.567656179387608
+      },
+      "longitudeDifferenceDegrees": -0.00006439456421958312,
+      "latitudeDifferenceDegrees": -8.950965595388993e-7,
+      "skySeparationDegrees": 0.00006427600133677641
+    },
+    {
+      "utc": "1950-06-15T12:34:56Z",
+      "mode": "matchedDeltaT",
+      "actual": {
+        "longitude": 47.16793330770349,
+        "latitude": 3.56765526813436
+      },
+      "reference": {
+        "longitude": 47.16799787153655,
+        "latitude": 3.567656179387608
+      },
+      "longitudeDifferenceDegrees": -0.00006456383312070102,
+      "latitudeDifferenceDegrees": -9.112532479704782e-7,
+      "skySeparationDegrees": 0.00006444515228926025
+    },
+    {
+      "utc": "2000-01-01T12:00:00Z",
+      "mode": "default",
+      "actual": {
+        "longitude": 263.46430661323427,
+        "latitude": 3.419716686600883
+      },
+      "reference": {
+        "longitude": 263.46433272358223,
+        "latitude": 3.4197150149659836
+      },
+      "longitudeDifferenceDegrees": -0.000026110348017027718,
+      "latitudeDifferenceDegrees": 0.0000016716348993917052,
+      "skySeparationDegrees": 0.00002611740600291097
+    },
+    {
+      "utc": "2000-01-01T12:00:00Z",
+      "mode": "matchedDeltaT",
+      "actual": {
+        "longitude": 263.4643065898164,
+        "latitude": 3.419716688920397
+      },
+      "reference": {
+        "longitude": 263.46433272358223,
+        "latitude": 3.4197150149659836
+      },
+      "longitudeDifferenceDegrees": -0.000026133765913982643,
+      "latitudeDifferenceDegrees": 0.000001673954413305978,
+      "skySeparationDegrees": 0.000026140882742943216
+    },
+    {
+      "utc": "2016-11-15T12:34:56Z",
+      "mode": "default",
+      "actual": {
+        "longitude": 229.86292348098277,
+        "latitude": 4.871552795995982
+      },
+      "reference": {
+        "longitude": 229.86288586352634,
+        "latitude": 4.871548410987065
+      },
+      "longitudeDifferenceDegrees": 0.00003761745642805181,
+      "latitudeDifferenceDegrees": 0.000004385008917751065,
+      "skySeparationDegrees": 0.00003773719833118818
+    },
+    {
+      "utc": "2016-11-15T12:34:56Z",
+      "mode": "matchedDeltaT",
+      "actual": {
+        "longitude": 229.8629216759482,
+        "latitude": 4.87155271931007
+      },
+      "reference": {
+        "longitude": 229.86288586352634,
+        "latitude": 4.871548410987065
+      },
+      "longitudeDifferenceDegrees": 0.000035812421856462606,
+      "latitudeDifferenceDegrees": 0.000004308323005020043,
+      "skySeparationDegrees": 0.0000359422020361322
+    },
+    {
+      "utc": "2024-04-08T18:00:00Z",
+      "mode": "default",
+      "actual": {
+        "longitude": 170.94790516795717,
+        "latitude": 2.1548622289295953
+      },
+      "reference": {
+        "longitude": 170.94784150545593,
+        "latitude": 2.1548647418838622
+      },
+      "longitudeDifferenceDegrees": 0.00006366250124756334,
+      "latitudeDifferenceDegrees": -0.0000025129542668977933,
+      "skySeparationDegrees": 0.00006366709491143886
+    },
+    {
+      "utc": "2024-04-08T18:00:00Z",
+      "mode": "matchedDeltaT",
+      "actual": {
+        "longitude": 170.94789883263627,
+        "latitude": 2.154862993646539
+      },
+      "reference": {
+        "longitude": 170.94784150545593,
+        "latitude": 2.1548647418838622
+      },
+      "longitudeDifferenceDegrees": 0.00005732718034323625,
+      "latitudeDifferenceDegrees": -0.000001748237323351276,
+      "skySeparationDegrees": 0.0000573133108608604
+    },
+    {
+      "utc": "2026-12-31T23:59:59Z",
+      "mode": "default",
+      "actual": {
+        "longitude": 282.075821129259,
+        "latitude": -3.365134891391647
+      },
+      "reference": {
+        "longitude": 282.0757746686218,
+        "latitude": -3.3651363578872298
+      },
+      "longitudeDifferenceDegrees": 0.00004646063712243631,
+      "latitudeDifferenceDegrees": 0.0000014664955827470294,
+      "skySeparationDegrees": 0.00004640370509048864
+    },
+    {
+      "utc": "2026-12-31T23:59:59Z",
+      "mode": "matchedDeltaT",
+      "actual": {
+        "longitude": 282.0758122807383,
+        "latitude": -3.3651357789178884
+      },
+      "reference": {
+        "longitude": 282.0757746686218,
+        "latitude": -3.3651363578872298
+      },
+      "longitudeDifferenceDegrees": 0.000037612116557284025,
+      "latitudeDifferenceDegrees": 5.789693413582597e-7,
+      "skySeparationDegrees": 0.00003755172664637855
+    }
+  ],
+  "violations": [],
+  "violationDetailsTruncated": false,
+  "timePolicy": "Same UT1 timestamp, DUT1=0. Default uses each engine Delta T; matchedDeltaT uses Swiss Delta T in AE. Not verification of historic local time or UTC/UT1."
+}

@@ -1,0 +1,108 @@
+{
+  "status": "passed-provenance-and-ownership",
+  "cases": [
+    {
+      "case": 1,
+      "findingsUnchanged": true,
+      "duplicateNarratedEdges": 0,
+      "duplicateRegisteredConcepts": 0,
+      "chapters": [
+        {
+          "topic": "communication",
+          "oldCount": 2,
+          "count": 2,
+          "central": 0,
+          "reinforcing": 0,
+          "balancing": 0,
+          "secondary": 2,
+          "shared": 0,
+          "rule": "criteria-and-polarity"
+        },
+        {
+          "topic": "emotions",
+          "oldCount": 11,
+          "count": 11,
+          "central": 1,
+          "reinforcing": 3,
+          "balancing": 3,
+          "secondary": 4,
+          "shared": 0,
+          "rule": "depth-without-compensation"
+        }
+      ]
+    },
+    {
+      "case": 2,
+      "findingsUnchanged": true,
+      "duplicateNarratedEdges": 0,
+      "duplicateRegisteredConcepts": 0,
+      "chapters": [
+        {
+          "topic": "communication",
+          "oldCount": 2,
+          "count": 2,
+          "central": 1,
+          "reinforcing": 0,
+          "balancing": 1,
+          "secondary": 0,
+          "shared": 0,
+          "rule": "recognition-keeps-innovation-in-dialogue"
+        },
+        {
+          "topic": "emotions",
+          "oldCount": 4,
+          "count": 4,
+          "central": 1,
+          "reinforcing": 0,
+          "balancing": 1,
+          "secondary": 2,
+          "shared": 0,
+          "rule": "action-needs-continuity"
+        }
+      ]
+    },
+    {
+      "case": 3,
+      "findingsUnchanged": true,
+      "duplicateNarratedEdges": 0,
+      "duplicateRegisteredConcepts": 0,
+      "chapters": [
+        {
+          "topic": "communication",
+          "oldCount": 5,
+          "count": 5,
+          "central": 2,
+          "reinforcing": 1,
+          "balancing": 0,
+          "secondary": 2,
+          "shared": 1,
+          "rule": "precision-does-not-entitle-to-disclosure"
+        },
+        {
+          "topic": "emotions",
+          "oldCount": 10,
+          "count": 10,
+          "central": 2,
+          "reinforcing": 4,
+          "balancing": 0,
+          "secondary": 4,
+          "shared": 1,
+          "rule": "words-and-attunement-remain-correctable"
+        }
+      ]
+    }
+  ],
+  "literalRepetition": {
+    "before": {
+      "longSentences": 152,
+      "sharedAcrossReports": 1,
+      "repeatedWithinAReport": 0
+    },
+    "after": {
+      "longSentences": 98,
+      "sharedAcrossReports": 5,
+      "repeatedWithinAReport": 0
+    }
+  },
+  "limits": "Semantic keys and unique geometric ownership prevent registered duplicates, not every possible paraphrase. Literal repetition is diagnostic only; expanded coverage changes text length. Professional review remains necessary."
+}

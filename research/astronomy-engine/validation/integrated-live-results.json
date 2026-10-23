@@ -1,0 +1,18 @@
+{
+  "requestFailures": [
+    {
+      "url": "https://geocoding-api.open-meteo.com/v1/search?name=Jerusalem&countryCode=IL&language=he&count=20&format=json",
+      "error": "net::ERR_CERT_AUTHORITY_INVALID"
+    }
+  ],
+  "consoleErrors": [
+    "Failed to load resource: net::ERR_CERT_AUTHORITY_INVALID"
+  ],
+  "url": "http://127.0.0.1:5175",
+  "startedAt": "2026-10-20T14:45:37.692Z",
+  "status": "failed",
+  "mocked": false,
+  "locations": [],
+  "error": "page.waitForFunction: Timeout 20000ms exceeded.",
+  "finishedAt": "2026-10-20T14:45:58.272Z"
+}

@@ -1,0 +1,17 @@
+{
+  "finishedAt": "2026-10-21T07:46:07.652Z",
+  "count": 82910,
+  "thresholdDegreesPerDay": 0.001,
+  "standardMax": 0.010905653351950484,
+  "standardFailures": 6,
+  "matchedMax": 0.00002913182131251968,
+  "matchedFailures": 0,
+  "classificationMismatches": 0,
+  "uncertain": 501,
+  "original": {
+    "actual": 0.12975470868332195,
+    "standardSwiss": 0.13266183846183882,
+    "noDeflectionSwiss": 0.1297587979827936
+  },
+  "conclusion": "Only reference gravitational-deflection flag differs (258 vs 770). AE natal positions and time policy unchanged. Daily/monthly sample, not proof for every instant."
+}

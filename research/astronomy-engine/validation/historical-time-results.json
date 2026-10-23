@@ -1,0 +1,756 @@
+{
+  "status": "passed-experimental-sample-only",
+  "startedAt": "2026-10-20T14:46:45.315Z",
+  "finishedAt": "2026-10-20T14:46:45.576Z",
+  "node": "v24.19.0",
+  "python": "Python 3.12.14",
+  "tzdb": "2026b",
+  "provenance": {
+    "version": "2026b",
+    "url": "https://codeload.github.com/eggert/tz/tar.gz/refs/tags/2026b",
+    "archiveSha256": "bba53da7f6e4fd7739f464ca3356dd9dbe9730c0b098337049f1bbc956b87159",
+    "backzone": true,
+    "compiler": "zic (Debian GLIBC 2.41-12+deb13u4) 2.41",
+    "datasetSha256": "76d0b1534e87b5dead81a36cd596fde5da7acdd9ed2f9470665cc4ef08243305",
+    "zones": 599,
+    "options": [
+      "-b",
+      "fat",
+      "-R",
+      "@1830297600"
+    ],
+    "note": "POSIX times; full backzone; no leap-second table"
+  },
+  "zones": 599,
+  "cases": 11034,
+  "transitionCounts": {
+    "Africa/Casablanca": 71,
+    "America/New_York": 214,
+    "America/Sao_Paulo": 91,
+    "Asia/Jerusalem": 127,
+    "Asia/Kathmandu": 2,
+    "Asia/Kolkata": 7,
+    "Australia/Lord_Howe": 93,
+    "Europe/Amsterdam": 158,
+    "Europe/London": 220,
+    "Europe/Moscow": 78,
+    "Europe/Paris": 162,
+    "Pacific/Apia": 26
+  },
+  "resolved": 7302,
+  "ambiguous": 1863,
+  "nonexistent": 1869,
+  "roundTrips": 11028,
+  "maxUtcDifferenceSeconds": 0,
+  "maxOffsetDifferenceSeconds": 0,
+  "mismatches": [],
+  "systemVersion": "# version 2026b",
+  "fixtureResults": [
+    {
+      "label": "Amsterdam winter",
+      "zone": "Europe/Amsterdam",
+      "date": "1930-01-01",
+      "time": "12:00",
+      "expectedOffsetsSeconds": [
+        1172
+      ],
+      "actual": {
+        "status": "resolved",
+        "timeZone": "Europe/Amsterdam",
+        "tzdbVersion": "2026b",
+        "candidates": [
+          {
+            "instant": "1930-01-01T11:40:28Z",
+            "offsetSeconds": 1172,
+            "isDST": false
+          }
+        ]
+      },
+      "reference": [
+        {
+          "instant": "1930-01-01T11:40:28Z",
+          "offsetSeconds": 1172,
+          "isDST": false
+        }
+      ],
+      "systemReference": [
+        {
+          "instant": "1930-01-01T11:40:28Z",
+          "offsetSeconds": 1172,
+          "isDST": false
+        }
+      ],
+      "match": true,
+      "systemMatch": true
+    },
+    {
+      "label": "Amsterdam summer",
+      "zone": "Europe/Amsterdam",
+      "date": "1930-07-01",
+      "time": "12:00",
+      "expectedOffsetsSeconds": [
+        4772
+      ],
+      "actual": {
+        "status": "resolved",
+        "timeZone": "Europe/Amsterdam",
+        "tzdbVersion": "2026b",
+        "candidates": [
+          {
+            "instant": "1930-07-01T10:40:28Z",
+            "offsetSeconds": 4772,
+            "isDST": true
+          }
+        ]
+      },
+      "reference": [
+        {
+          "instant": "1930-07-01T10:40:28Z",
+          "offsetSeconds": 4772,
+          "isDST": true
+        }
+      ],
+      "systemReference": [
+        {
+          "instant": "1930-07-01T10:40:28Z",
+          "offsetSeconds": 4772,
+          "isDST": true
+        }
+      ],
+      "match": true,
+      "systemMatch": true
+    },
+    {
+      "label": "Amsterdam 28-second gap",
+      "zone": "Europe/Amsterdam",
+      "date": "1937-07-01",
+      "time": "00:00:15",
+      "expectedOffsetsSeconds": [],
+      "actual": {
+        "status": "nonexistent",
+        "timeZone": "Europe/Amsterdam",
+        "tzdbVersion": "2026b",
+        "candidates": []
+      },
+      "reference": [],
+      "systemReference": [],
+      "match": true,
+      "systemMatch": true
+    },
+    {
+      "label": "Jerusalem double summer time",
+      "zone": "Asia/Jerusalem",
+      "date": "1948-06-01",
+      "time": "12:00",
+      "expectedOffsetsSeconds": [
+        14400
+      ],
+      "actual": {
+        "status": "resolved",
+        "timeZone": "Asia/Jerusalem",
+        "tzdbVersion": "2026b",
+        "candidates": [
+          {
+            "instant": "1948-06-01T08:00:00Z",
+            "offsetSeconds": 14400,
+            "isDST": true
+          }
+        ]
+      },
+      "reference": [
+        {
+          "instant": "1948-06-01T08:00:00Z",
+          "offsetSeconds": 14400,
+          "isDST": true
+        }
+      ],
+      "systemReference": [
+        {
+          "instant": "1948-06-01T08:00:00Z",
+          "offsetSeconds": 14400,
+          "isDST": true
+        }
+      ],
+      "match": true,
+      "systemMatch": true
+    },
+    {
+      "label": "Jerusalem 2012",
+      "zone": "Asia/Jerusalem",
+      "date": "2012-09-25",
+      "time": "12:00",
+      "expectedOffsetsSeconds": [
+        7200
+      ],
+      "actual": {
+        "status": "resolved",
+        "timeZone": "Asia/Jerusalem",
+        "tzdbVersion": "2026b",
+        "candidates": [
+          {
+            "instant": "2012-09-25T10:00:00Z",
+            "offsetSeconds": 7200,
+            "isDST": false
+          }
+        ]
+      },
+      "reference": [
+        {
+          "instant": "2012-09-25T10:00:00Z",
+          "offsetSeconds": 7200,
+          "isDST": false
+        }
+      ],
+      "systemReference": [
+        {
+          "instant": "2012-09-25T10:00:00Z",
+          "offsetSeconds": 7200,
+          "isDST": false
+        }
+      ],
+      "match": true,
+      "systemMatch": true
+    },
+    {
+      "label": "Jerusalem 2013",
+      "zone": "Asia/Jerusalem",
+      "date": "2013-09-25",
+      "time": "12:00",
+      "expectedOffsetsSeconds": [
+        10800
+      ],
+      "actual": {
+        "status": "resolved",
+        "timeZone": "Asia/Jerusalem",
+        "tzdbVersion": "2026b",
+        "candidates": [
+          {
+            "instant": "2013-09-25T09:00:00Z",
+            "offsetSeconds": 10800,
+            "isDST": true
+          }
+        ]
+      },
+      "reference": [
+        {
+          "instant": "2013-09-25T09:00:00Z",
+          "offsetSeconds": 10800,
+          "isDST": true
+        }
+      ],
+      "systemReference": [
+        {
+          "instant": "2013-09-25T09:00:00Z",
+          "offsetSeconds": 10800,
+          "isDST": true
+        }
+      ],
+      "match": true,
+      "systemMatch": true
+    },
+    {
+      "label": "Jerusalem gap",
+      "zone": "Asia/Jerusalem",
+      "date": "2024-03-29",
+      "time": "02:30",
+      "expectedOffsetsSeconds": [],
+      "actual": {
+        "status": "nonexistent",
+        "timeZone": "Asia/Jerusalem",
+        "tzdbVersion": "2026b",
+        "candidates": []
+      },
+      "reference": [],
+      "systemReference": [],
+      "match": true,
+      "systemMatch": true
+    },
+    {
+      "label": "Jerusalem fold",
+      "zone": "Asia/Jerusalem",
+      "date": "2024-10-27",
+      "time": "01:30",
+      "expectedOffsetsSeconds": [
+        10800,
+        7200
+      ],
+      "actual": {
+        "status": "ambiguous",
+        "timeZone": "Asia/Jerusalem",
+        "tzdbVersion": "2026b",
+        "candidates": [
+          {
+            "instant": "2024-10-26T22:30:00Z",
+            "offsetSeconds": 10800,
+            "isDST": true
+          },
+          {
+            "instant": "2024-10-26T23:30:00Z",
+            "offsetSeconds": 7200,
+            "isDST": false
+          }
+        ]
+      },
+      "reference": [
+        {
+          "instant": "2024-10-26T22:30:00Z",
+          "offsetSeconds": 10800,
+          "isDST": true
+        },
+        {
+          "instant": "2024-10-26T23:30:00Z",
+          "offsetSeconds": 7200,
+          "isDST": false
+        }
+      ],
+      "systemReference": [
+        {
+          "instant": "2024-10-26T22:30:00Z",
+          "offsetSeconds": 10800,
+          "isDST": true
+        },
+        {
+          "instant": "2024-10-26T23:30:00Z",
+          "offsetSeconds": 7200,
+          "isDST": false
+        }
+      ],
+      "match": true,
+      "systemMatch": true
+    },
+    {
+      "label": "Paris mean time",
+      "zone": "Europe/Paris",
+      "date": "1900-01-01",
+      "time": "12:00",
+      "expectedOffsetsSeconds": [
+        561
+      ],
+      "actual": {
+        "status": "resolved",
+        "timeZone": "Europe/Paris",
+        "tzdbVersion": "2026b",
+        "candidates": [
+          {
+            "instant": "1900-01-01T11:50:39Z",
+            "offsetSeconds": 561,
+            "isDST": false
+          }
+        ]
+      },
+      "reference": [
+        {
+          "instant": "1900-01-01T11:50:39Z",
+          "offsetSeconds": 561,
+          "isDST": false
+        }
+      ],
+      "systemReference": [
+        {
+          "instant": "1900-01-01T11:50:39Z",
+          "offsetSeconds": 561,
+          "isDST": false
+        }
+      ],
+      "match": true,
+      "systemMatch": true
+    },
+    {
+      "label": "Paris summer",
+      "zone": "Europe/Paris",
+      "date": "2024-07-01",
+      "time": "12:00",
+      "expectedOffsetsSeconds": [
+        7200
+      ],
+      "actual": {
+        "status": "resolved",
+        "timeZone": "Europe/Paris",
+        "tzdbVersion": "2026b",
+        "candidates": [
+          {
+            "instant": "2024-07-01T10:00:00Z",
+            "offsetSeconds": 7200,
+            "isDST": true
+          }
+        ]
+      },
+      "reference": [
+        {
+          "instant": "2024-07-01T10:00:00Z",
+          "offsetSeconds": 7200,
+          "isDST": true
+        }
+      ],
+      "systemReference": [
+        {
+          "instant": "2024-07-01T10:00:00Z",
+          "offsetSeconds": 7200,
+          "isDST": true
+        }
+      ],
+      "match": true,
+      "systemMatch": true
+    },
+    {
+      "label": "New York mean time",
+      "zone": "America/New_York",
+      "date": "1880-01-01",
+      "time": "12:00",
+      "expectedOffsetsSeconds": [
+        -17762
+      ],
+      "actual": {
+        "status": "resolved",
+        "timeZone": "America/New_York",
+        "tzdbVersion": "2026b",
+        "candidates": [
+          {
+            "instant": "1880-01-01T16:56:02Z",
+            "offsetSeconds": -17762,
+            "isDST": false
+          }
+        ]
+      },
+      "reference": [
+        {
+          "instant": "1880-01-01T16:56:02Z",
+          "offsetSeconds": -17762,
+          "isDST": false
+        }
+      ],
+      "systemReference": [
+        {
+          "instant": "1880-01-01T16:56:02Z",
+          "offsetSeconds": -17762,
+          "isDST": false
+        }
+      ],
+      "match": true,
+      "systemMatch": true
+    },
+    {
+      "label": "New York gap",
+      "zone": "America/New_York",
+      "date": "2024-03-10",
+      "time": "02:30",
+      "expectedOffsetsSeconds": [],
+      "actual": {
+        "status": "nonexistent",
+        "timeZone": "America/New_York",
+        "tzdbVersion": "2026b",
+        "candidates": []
+      },
+      "reference": [],
+      "systemReference": [],
+      "match": true,
+      "systemMatch": true
+    },
+    {
+      "label": "New York fold",
+      "zone": "America/New_York",
+      "date": "2024-11-03",
+      "time": "01:30",
+      "expectedOffsetsSeconds": [
+        -14400,
+        -18000
+      ],
+      "actual": {
+        "status": "ambiguous",
+        "timeZone": "America/New_York",
+        "tzdbVersion": "2026b",
+        "candidates": [
+          {
+            "instant": "2024-11-03T05:30:00Z",
+            "offsetSeconds": -14400,
+            "isDST": true
+          },
+          {
+            "instant": "2024-11-03T06:30:00Z",
+            "offsetSeconds": -18000,
+            "isDST": false
+          }
+        ]
+      },
+      "reference": [
+        {
+          "instant": "2024-11-03T05:30:00Z",
+          "offsetSeconds": -14400,
+          "isDST": true
+        },
+        {
+          "instant": "2024-11-03T06:30:00Z",
+          "offsetSeconds": -18000,
+          "isDST": false
+        }
+      ],
+      "systemReference": [
+        {
+          "instant": "2024-11-03T05:30:00Z",
+          "offsetSeconds": -14400,
+          "isDST": true
+        },
+        {
+          "instant": "2024-11-03T06:30:00Z",
+          "offsetSeconds": -18000,
+          "isDST": false
+        }
+      ],
+      "match": true,
+      "systemMatch": true
+    },
+    {
+      "label": "Kathmandu mean time",
+      "zone": "Asia/Kathmandu",
+      "date": "1900-01-01",
+      "time": "12:00",
+      "expectedOffsetsSeconds": [
+        20476
+      ],
+      "actual": {
+        "status": "resolved",
+        "timeZone": "Asia/Kathmandu",
+        "tzdbVersion": "2026b",
+        "candidates": [
+          {
+            "instant": "1900-01-01T06:18:44Z",
+            "offsetSeconds": 20476,
+            "isDST": false
+          }
+        ]
+      },
+      "reference": [
+        {
+          "instant": "1900-01-01T06:18:44Z",
+          "offsetSeconds": 20476,
+          "isDST": false
+        }
+      ],
+      "systemReference": [
+        {
+          "instant": "1900-01-01T06:18:44Z",
+          "offsetSeconds": 20476,
+          "isDST": false
+        }
+      ],
+      "match": true,
+      "systemMatch": true
+    },
+    {
+      "label": "Kathmandu 15-minute gap",
+      "zone": "Asia/Kathmandu",
+      "date": "1986-01-01",
+      "time": "00:05",
+      "expectedOffsetsSeconds": [],
+      "actual": {
+        "status": "nonexistent",
+        "timeZone": "Asia/Kathmandu",
+        "tzdbVersion": "2026b",
+        "candidates": []
+      },
+      "reference": [],
+      "systemReference": [],
+      "match": true,
+      "systemMatch": true
+    },
+    {
+      "label": "Kathmandu modern",
+      "zone": "Asia/Kathmandu",
+      "date": "2024-01-01",
+      "time": "12:00",
+      "expectedOffsetsSeconds": [
+        20700
+      ],
+      "actual": {
+        "status": "resolved",
+        "timeZone": "Asia/Kathmandu",
+        "tzdbVersion": "2026b",
+        "candidates": [
+          {
+            "instant": "2024-01-01T06:15:00Z",
+            "offsetSeconds": 20700,
+            "isDST": false
+          }
+        ]
+      },
+      "reference": [
+        {
+          "instant": "2024-01-01T06:15:00Z",
+          "offsetSeconds": 20700,
+          "isDST": false
+        }
+      ],
+      "systemReference": [
+        {
+          "instant": "2024-01-01T06:15:00Z",
+          "offsetSeconds": 20700,
+          "isDST": false
+        }
+      ],
+      "match": true,
+      "systemMatch": true
+    },
+    {
+      "label": "Lord Howe half-hour gap",
+      "zone": "Australia/Lord_Howe",
+      "date": "2024-10-06",
+      "time": "02:15",
+      "expectedOffsetsSeconds": [],
+      "actual": {
+        "status": "nonexistent",
+        "timeZone": "Australia/Lord_Howe",
+        "tzdbVersion": "2026b",
+        "candidates": []
+      },
+      "reference": [],
+      "systemReference": [],
+      "match": true,
+      "systemMatch": true
+    },
+    {
+      "label": "Lord Howe half-hour fold",
+      "zone": "Australia/Lord_Howe",
+      "date": "2024-04-07",
+      "time": "01:45",
+      "expectedOffsetsSeconds": [
+        39600,
+        37800
+      ],
+      "actual": {
+        "status": "ambiguous",
+        "timeZone": "Australia/Lord_Howe",
+        "tzdbVersion": "2026b",
+        "candidates": [
+          {
+            "instant": "2024-04-06T14:45:00Z",
+            "offsetSeconds": 39600,
+            "isDST": true
+          },
+          {
+            "instant": "2024-04-06T15:15:00Z",
+            "offsetSeconds": 37800,
+            "isDST": false
+          }
+        ]
+      },
+      "reference": [
+        {
+          "instant": "2024-04-06T14:45:00Z",
+          "offsetSeconds": 39600,
+          "isDST": true
+        },
+        {
+          "instant": "2024-04-06T15:15:00Z",
+          "offsetSeconds": 37800,
+          "isDST": false
+        }
+      ],
+      "systemReference": [
+        {
+          "instant": "2024-04-06T14:45:00Z",
+          "offsetSeconds": 39600,
+          "isDST": true
+        },
+        {
+          "instant": "2024-04-06T15:15:00Z",
+          "offsetSeconds": 37800,
+          "isDST": false
+        }
+      ],
+      "match": true,
+      "systemMatch": true
+    },
+    {
+      "label": "Samoa skipped day",
+      "zone": "Pacific/Apia",
+      "date": "2011-12-30",
+      "time": "12:00",
+      "expectedOffsetsSeconds": [],
+      "actual": {
+        "status": "nonexistent",
+        "timeZone": "Pacific/Apia",
+        "tzdbVersion": "2026b",
+        "candidates": []
+      },
+      "reference": [],
+      "systemReference": [],
+      "match": true,
+      "systemMatch": true
+    },
+    {
+      "label": "Samoa before date line",
+      "zone": "Pacific/Apia",
+      "date": "2011-12-29",
+      "time": "12:00",
+      "expectedOffsetsSeconds": [
+        -36000
+      ],
+      "actual": {
+        "status": "resolved",
+        "timeZone": "Pacific/Apia",
+        "tzdbVersion": "2026b",
+        "candidates": [
+          {
+            "instant": "2011-12-29T22:00:00Z",
+            "offsetSeconds": -36000,
+            "isDST": true
+          }
+        ]
+      },
+      "reference": [
+        {
+          "instant": "2011-12-29T22:00:00Z",
+          "offsetSeconds": -36000,
+          "isDST": true
+        }
+      ],
+      "systemReference": [
+        {
+          "instant": "2011-12-29T22:00:00Z",
+          "offsetSeconds": -36000,
+          "isDST": true
+        }
+      ],
+      "match": true,
+      "systemMatch": true
+    },
+    {
+      "label": "Samoa after date line",
+      "zone": "Pacific/Apia",
+      "date": "2011-12-31",
+      "time": "12:00",
+      "expectedOffsetsSeconds": [
+        50400
+      ],
+      "actual": {
+        "status": "resolved",
+        "timeZone": "Pacific/Apia",
+        "tzdbVersion": "2026b",
+        "candidates": [
+          {
+            "instant": "2011-12-30T22:00:00Z",
+            "offsetSeconds": 50400,
+            "isDST": true
+          }
+        ]
+      },
+      "reference": [
+        {
+          "instant": "2011-12-30T22:00:00Z",
+          "offsetSeconds": 50400,
+          "isDST": true
+        }
+      ],
+      "systemReference": [
+        {
+          "instant": "2011-12-30T22:00:00Z",
+          "offsetSeconds": 50400,
+          "isDST": true
+        }
+      ],
+      "match": true,
+      "systemMatch": true
+    }
+  ],
+  "referenceLimitation": "Python ZoneInfo uses an independent TZif parser/converter, with the same pinned IANA history. System TZDB is an additional packaging check, not an independent archive of historical laws."
+}

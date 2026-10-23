@@ -1,0 +1,28 @@
+node_modules/
+validation/reference-data/
+
+# Unapproved True Node candidate and failed evidence, preserved locally
+local-investigations/
+
+# Experimental browser build (never the public app output)
+browser-dist/
+
+# Review artifact for the integrated website (not deployed)
+integrated-dist/
+
+# Personal interpretation fixtures and rendered samples must remain local.
+/interpretation/private/
+
+# Earlier personal chart audits and individual editorial review notes (local only).
+/SOLAR_FIRE_AUDIT_REPORT.md
+/INTERPRETATION_SAMPLE_REPORT.md
+/validation/solar-fire-audit*
+/validation/write-solar-fire-audit-report.mjs
+/validation/book-browser.mjs
+/validation/book-pdf.check.py
+/validation/interpretation-audit.check.mjs
+/validation/relationship-review-browser.mjs
+/interpretation/BOOK_REVIEW.md
+/interpretation/COMPLETION_SAMPLE_REVIEW.md
+/interpretation/EDITORIAL_REVISION_NOTES.md
+/interpretation/RELATIONSHIP_SAMPLE_REVIEW.md

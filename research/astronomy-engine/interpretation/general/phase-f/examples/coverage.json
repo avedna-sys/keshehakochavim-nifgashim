@@ -1,0 +1,722 @@
+[
+  {
+    "id": "couple-1",
+    "relationship": "זוגיות",
+    "audit": {
+      "status": "passed",
+      "bindingUsesChecked": 68,
+      "uniqueGeometricAspects": 23,
+      "scopeChapters": 7,
+      "duplicationPolicy": "one ledger row per actual edge; reuse is a reference, never another independent vote"
+    },
+    "paragraphs": [
+      {
+        "chapter": "commitment",
+        "count": 3
+      },
+      {
+        "chapter": "growth",
+        "count": 5
+      },
+      {
+        "chapter": "summary",
+        "count": 3
+      }
+    ],
+    "counts": [
+      {
+        "topic": "communication",
+        "label": "תקשורת",
+        "active": 0,
+        "central": 0,
+        "uniqueIds": [
+          "aspect:A:Mercury:B:Saturn:square",
+          "aspect:A:Mercury:B:Mercury:opposition"
+        ]
+      },
+      {
+        "topic": "emotions",
+        "label": "רגשות",
+        "active": 7,
+        "central": 1,
+        "uniqueIds": [
+          "aspect:A:Moon:B:Pluto:square",
+          "aspect:A:Jupiter:B:Moon:trine",
+          "aspect:A:Moon:B:Venus:square",
+          "aspect:A:Neptune:B:Moon:sextile",
+          "aspect:A:Moon:B:Sun:trine",
+          "aspect:A:Pluto:B:Moon:trine",
+          "aspect:A:Uranus:B:Moon:sextile",
+          "aspect:A:Moon:B:Saturn:conjunction",
+          "aspect:A:Mars:B:Moon:conjunction",
+          "aspect:A:Venus:B:Sun:opposition",
+          "aspect:A:Venus:B:Mars:square"
+        ]
+      },
+      {
+        "topic": "love",
+        "label": "אהבה",
+        "active": 3,
+        "central": 1,
+        "uniqueIds": [
+          "aspect:A:Venus:B:Sun:opposition",
+          "aspect:A:Moon:B:Venus:square",
+          "aspect:A:Moon:B:Sun:trine"
+        ]
+      },
+      {
+        "topic": "attraction",
+        "label": "משיכה",
+        "active": 2,
+        "central": 1,
+        "uniqueIds": [
+          "aspect:A:Venus:B:Mars:square",
+          "aspect:A:Mars:B:Venus:trine",
+          "aspect:A:Mars:B:Mars:trine"
+        ]
+      },
+      {
+        "topic": "intimacy",
+        "label": "אינטימיות",
+        "active": 5,
+        "central": 3,
+        "uniqueIds": [
+          "aspect:A:Pluto:B:Venus:conjunction",
+          "aspect:A:Mars:B:Pluto:trine",
+          "aspect:A:Moon:B:Pluto:square",
+          "aspect:A:Pluto:B:Mars:trine",
+          "aspect:A:Sun:B:Pluto:opposition",
+          "aspect:A:Pluto:B:Moon:trine",
+          "aspect:A:Mars:B:Moon:conjunction"
+        ]
+      },
+      {
+        "topic": "commitment",
+        "label": "מחויבות ויציבות",
+        "active": 7,
+        "central": 0,
+        "uniqueIds": [
+          "aspect:A:Jupiter:B:Moon:trine",
+          "aspect:A:Jupiter:B:Mars:conjunction",
+          "aspect:A:Sun:B:Jupiter:trine",
+          "aspect:A:Mercury:B:Saturn:square",
+          "aspect:A:Venus:B:Saturn:sextile",
+          "aspect:A:Moon:B:Saturn:conjunction",
+          "aspect:A:Jupiter:B:Sun:square",
+          "aspect:A:Venus:B:Sun:opposition",
+          "aspect:A:Venus:B:Mars:square"
+        ]
+      },
+      {
+        "topic": "growth",
+        "label": "אתגרים וצמיחה",
+        "active": 16,
+        "central": 5,
+        "uniqueIds": [
+          "aspect:A:Venus:B:Sun:opposition",
+          "aspect:A:Venus:B:Mars:square",
+          "aspect:A:Moon:B:Pluto:square",
+          "aspect:A:Moon:B:Venus:square",
+          "aspect:A:Sun:B:Pluto:opposition",
+          "aspect:A:Mercury:B:Saturn:square",
+          "aspect:A:Mars:B:Venus:trine",
+          "aspect:A:Venus:B:Saturn:sextile",
+          "aspect:A:Mars:B:Pluto:trine",
+          "aspect:A:Pluto:B:Mars:trine",
+          "aspect:A:Jupiter:B:Moon:trine",
+          "aspect:A:Neptune:B:Moon:sextile",
+          "aspect:A:Moon:B:Sun:trine",
+          "aspect:A:Sun:B:Jupiter:trine",
+          "aspect:A:Pluto:B:Venus:conjunction",
+          "aspect:A:Jupiter:B:Mars:conjunction"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "couple-sparse",
+    "relationship": "זוגיות",
+    "audit": {
+      "status": "passed",
+      "bindingUsesChecked": 38,
+      "uniqueGeometricAspects": 14,
+      "scopeChapters": 7,
+      "duplicationPolicy": "one ledger row per actual edge; reuse is a reference, never another independent vote"
+    },
+    "paragraphs": [
+      {
+        "chapter": "commitment",
+        "count": 3
+      },
+      {
+        "chapter": "growth",
+        "count": 2
+      },
+      {
+        "chapter": "summary",
+        "count": 3
+      }
+    ],
+    "counts": [
+      {
+        "topic": "communication",
+        "label": "תקשורת",
+        "active": 2,
+        "central": 1,
+        "uniqueIds": [
+          "aspect:A:Venus:B:Mercury:trine",
+          "aspect:A:Mercury:B:Jupiter:trine",
+          "aspect:A:Mercury:B:Mars:trine"
+        ]
+      },
+      {
+        "topic": "emotions",
+        "label": "רגשות",
+        "active": 3,
+        "central": 3,
+        "uniqueIds": [
+          "aspect:A:Mercury:B:Moon:square",
+          "aspect:A:Moon:B:Neptune:sextile",
+          "aspect:A:Moon:B:Pluto:trine",
+          "aspect:A:Moon:B:Uranus:square"
+        ]
+      },
+      {
+        "topic": "love",
+        "label": "אהבה",
+        "active": 1,
+        "central": 0,
+        "uniqueIds": [
+          "aspect:A:Sun:B:Venus:trine"
+        ]
+      },
+      {
+        "topic": "attraction",
+        "label": "משיכה",
+        "active": 1,
+        "central": 0,
+        "uniqueIds": [
+          "aspect:A:Mars:B:Mars:opposition",
+          "aspect:A:Sun:B:Saturn:trine"
+        ]
+      },
+      {
+        "topic": "intimacy",
+        "label": "אינטימיות",
+        "active": 1,
+        "central": 1,
+        "uniqueIds": [
+          "aspect:A:Moon:B:Pluto:trine",
+          "aspect:A:Venus:B:Pluto:opposition"
+        ]
+      },
+      {
+        "topic": "commitment",
+        "label": "מחויבות ויציבות",
+        "active": 5,
+        "central": 1,
+        "uniqueIds": [
+          "aspect:A:Sun:B:Saturn:trine",
+          "aspect:A:Mercury:B:Jupiter:trine",
+          "aspect:A:Jupiter:B:Mars:sextile",
+          "aspect:A:Saturn:B:Venus:conjunction",
+          "aspect:A:Mars:B:Saturn:opposition",
+          "aspect:A:Venus:B:Mercury:trine"
+        ]
+      },
+      {
+        "topic": "growth",
+        "label": "אתגרים וצמיחה",
+        "active": 9,
+        "central": 5,
+        "uniqueIds": [
+          "aspect:A:Mercury:B:Moon:square",
+          "aspect:A:Sun:B:Saturn:trine",
+          "aspect:A:Venus:B:Mercury:trine",
+          "aspect:A:Mercury:B:Jupiter:trine",
+          "aspect:A:Moon:B:Neptune:sextile",
+          "aspect:A:Moon:B:Pluto:trine",
+          "aspect:A:Jupiter:B:Mars:sextile",
+          "aspect:A:Sun:B:Venus:trine",
+          "aspect:A:Saturn:B:Venus:conjunction"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "friendship",
+    "relationship": "חברות",
+    "audit": {
+      "status": "passed",
+      "bindingUsesChecked": 40,
+      "uniqueGeometricAspects": 13,
+      "scopeChapters": 7,
+      "duplicationPolicy": "one ledger row per actual edge; reuse is a reference, never another independent vote"
+    },
+    "paragraphs": [
+      {
+        "chapter": "commitment",
+        "count": 2
+      },
+      {
+        "chapter": "growth",
+        "count": 5
+      },
+      {
+        "chapter": "summary",
+        "count": 3
+      }
+    ],
+    "counts": [
+      {
+        "topic": "communication",
+        "label": "תקשורת",
+        "active": 2,
+        "central": 1,
+        "uniqueIds": [
+          "aspect:A:Uranus:B:Mercury:opposition",
+          "aspect:A:Sun:B:Mercury:trine"
+        ]
+      },
+      {
+        "topic": "emotions",
+        "label": "רגשות",
+        "active": 2,
+        "central": 1,
+        "uniqueIds": [
+          "aspect:A:Uranus:B:Moon:square",
+          "aspect:A:Moon:B:Mars:trine",
+          "aspect:A:Moon:B:Jupiter:sextile",
+          "aspect:A:Moon:B:Moon:sextile"
+        ]
+      },
+      {
+        "topic": "love",
+        "label": "חיבה וקבלה",
+        "active": 2,
+        "central": 1,
+        "uniqueIds": [
+          "aspect:A:Venus:B:Sun:square",
+          "aspect:A:Sun:B:Venus:trine",
+          "aspect:A:Moon:B:Moon:sextile"
+        ]
+      },
+      {
+        "topic": "attraction",
+        "label": "יוזמה והנאה משותפת",
+        "active": 2,
+        "central": 1,
+        "uniqueIds": [
+          "aspect:A:Mars:B:Sun:square",
+          "aspect:A:Mars:B:Saturn:square"
+        ]
+      },
+      {
+        "topic": "intimacy",
+        "label": "אמון וגבולות",
+        "active": 1,
+        "central": 0,
+        "uniqueIds": [
+          "aspect:A:Moon:B:Mars:trine",
+          "aspect:A:Pluto:B:Sun:trine",
+          "aspect:A:Sun:B:Pluto:square"
+        ]
+      },
+      {
+        "topic": "commitment",
+        "label": "מחויבות ויציבות",
+        "active": 3,
+        "central": 1,
+        "uniqueIds": [
+          "aspect:A:Mars:B:Saturn:square",
+          "aspect:A:Venus:B:Saturn:square",
+          "aspect:A:Moon:B:Jupiter:sextile",
+          "aspect:A:Mars:B:Sun:square"
+        ]
+      },
+      {
+        "topic": "growth",
+        "label": "אתגרים וצמיחה",
+        "active": 9,
+        "central": 5,
+        "uniqueIds": [
+          "aspect:A:Uranus:B:Moon:square",
+          "aspect:A:Mars:B:Sun:square",
+          "aspect:A:Mars:B:Saturn:square",
+          "aspect:A:Uranus:B:Mercury:opposition",
+          "aspect:A:Venus:B:Sun:square",
+          "aspect:A:Venus:B:Saturn:square",
+          "aspect:A:Moon:B:Mars:trine",
+          "aspect:A:Sun:B:Mercury:trine",
+          "aspect:A:Sun:B:Venus:trine"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "family",
+    "relationship": "הורה וילד",
+    "audit": {
+      "status": "passed",
+      "bindingUsesChecked": 51,
+      "uniqueGeometricAspects": 22,
+      "scopeChapters": 7,
+      "duplicationPolicy": "one ledger row per actual edge; reuse is a reference, never another independent vote"
+    },
+    "paragraphs": [
+      {
+        "chapter": "commitment",
+        "count": 3
+      },
+      {
+        "chapter": "growth",
+        "count": 4
+      },
+      {
+        "chapter": "summary",
+        "count": 3
+      }
+    ],
+    "counts": [
+      {
+        "topic": "communication",
+        "label": "תקשורת",
+        "active": 3,
+        "central": 2,
+        "uniqueIds": [
+          "aspect:A:Saturn:B:Mercury:opposition",
+          "aspect:A:Pluto:B:Mercury:conjunction",
+          "aspect:A:Mercury:B:Pluto:conjunction",
+          "aspect:A:Mercury:B:Venus:square",
+          "aspect:A:Mercury:B:Neptune:sextile"
+        ]
+      },
+      {
+        "topic": "emotions",
+        "label": "רגשות",
+        "active": 6,
+        "central": 2,
+        "uniqueIds": [
+          "aspect:A:Moon:B:Mercury:opposition",
+          "aspect:A:Neptune:B:Moon:conjunction",
+          "aspect:A:Moon:B:Mars:square",
+          "aspect:A:Mars:B:Moon:conjunction",
+          "aspect:A:Sun:B:Moon:square",
+          "aspect:A:Moon:B:Jupiter:square",
+          "aspect:A:Moon:B:Neptune:opposition",
+          "aspect:A:Saturn:B:Moon:trine",
+          "aspect:A:Moon:B:Moon:trine",
+          "aspect:A:Saturn:B:Mars:square"
+        ]
+      },
+      {
+        "topic": "love",
+        "label": "חיבה וקבלה",
+        "active": 1,
+        "central": 0,
+        "uniqueIds": [
+          "aspect:A:Sun:B:Moon:square",
+          "aspect:A:Venus:B:Venus:square",
+          "aspect:A:Moon:B:Moon:trine"
+        ]
+      },
+      {
+        "topic": "attraction",
+        "label": "יוזמה והנאה משותפת",
+        "active": 1,
+        "central": 1,
+        "uniqueIds": [
+          "aspect:A:Sun:B:Mars:sextile",
+          "aspect:A:Mars:B:Venus:conjunction"
+        ]
+      },
+      {
+        "topic": "intimacy",
+        "label": "אמון וגבולות",
+        "active": 5,
+        "central": 1,
+        "uniqueIds": [
+          "aspect:A:Pluto:B:Mars:square",
+          "aspect:A:Venus:B:Pluto:conjunction",
+          "aspect:A:Moon:B:Mars:square",
+          "aspect:A:Mars:B:Moon:conjunction",
+          "aspect:A:Sun:B:Jupiter:sextile"
+        ]
+      },
+      {
+        "topic": "commitment",
+        "label": "מחויבות ויציבות",
+        "active": 3,
+        "central": 3,
+        "uniqueIds": [
+          "aspect:A:Saturn:B:Mercury:opposition",
+          "aspect:A:Saturn:B:Mars:square",
+          "aspect:A:Sun:B:Jupiter:sextile",
+          "aspect:A:Moon:B:Jupiter:square",
+          "aspect:A:Saturn:B:Moon:trine",
+          "aspect:A:Jupiter:B:Mars:sextile"
+        ]
+      },
+      {
+        "topic": "growth",
+        "label": "אתגרים וצמיחה",
+        "active": 13,
+        "central": 8,
+        "uniqueIds": [
+          "aspect:A:Saturn:B:Mercury:opposition",
+          "aspect:A:Moon:B:Mercury:opposition",
+          "aspect:A:Saturn:B:Mars:square",
+          "aspect:A:Pluto:B:Mars:square",
+          "aspect:A:Moon:B:Mars:square",
+          "aspect:A:Sun:B:Moon:square",
+          "aspect:A:Sun:B:Mars:sextile",
+          "aspect:A:Sun:B:Jupiter:sextile",
+          "aspect:A:Pluto:B:Mercury:conjunction",
+          "aspect:A:Mercury:B:Pluto:conjunction",
+          "aspect:A:Neptune:B:Moon:conjunction",
+          "aspect:A:Mars:B:Moon:conjunction",
+          "aspect:A:Venus:B:Pluto:conjunction"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "siblings",
+    "relationship": "אחים",
+    "audit": {
+      "status": "passed",
+      "bindingUsesChecked": 68,
+      "uniqueGeometricAspects": 23,
+      "scopeChapters": 7,
+      "duplicationPolicy": "one ledger row per actual edge; reuse is a reference, never another independent vote"
+    },
+    "paragraphs": [
+      {
+        "chapter": "commitment",
+        "count": 3
+      },
+      {
+        "chapter": "growth",
+        "count": 5
+      },
+      {
+        "chapter": "summary",
+        "count": 3
+      }
+    ],
+    "counts": [
+      {
+        "topic": "communication",
+        "label": "תקשורת",
+        "active": 0,
+        "central": 0,
+        "uniqueIds": [
+          "aspect:A:Mercury:B:Saturn:square",
+          "aspect:A:Mercury:B:Mercury:opposition"
+        ]
+      },
+      {
+        "topic": "emotions",
+        "label": "רגשות",
+        "active": 7,
+        "central": 1,
+        "uniqueIds": [
+          "aspect:A:Moon:B:Pluto:square",
+          "aspect:A:Jupiter:B:Moon:trine",
+          "aspect:A:Moon:B:Venus:square",
+          "aspect:A:Neptune:B:Moon:sextile",
+          "aspect:A:Moon:B:Sun:trine",
+          "aspect:A:Pluto:B:Moon:trine",
+          "aspect:A:Uranus:B:Moon:sextile",
+          "aspect:A:Moon:B:Saturn:conjunction",
+          "aspect:A:Mars:B:Moon:conjunction",
+          "aspect:A:Venus:B:Sun:opposition",
+          "aspect:A:Venus:B:Mars:square"
+        ]
+      },
+      {
+        "topic": "love",
+        "label": "חיבה וקבלה",
+        "active": 3,
+        "central": 1,
+        "uniqueIds": [
+          "aspect:A:Venus:B:Sun:opposition",
+          "aspect:A:Moon:B:Venus:square",
+          "aspect:A:Moon:B:Sun:trine"
+        ]
+      },
+      {
+        "topic": "attraction",
+        "label": "יוזמה והנאה משותפת",
+        "active": 2,
+        "central": 1,
+        "uniqueIds": [
+          "aspect:A:Venus:B:Mars:square",
+          "aspect:A:Mars:B:Venus:trine",
+          "aspect:A:Mars:B:Mars:trine"
+        ]
+      },
+      {
+        "topic": "intimacy",
+        "label": "אמון וגבולות",
+        "active": 5,
+        "central": 3,
+        "uniqueIds": [
+          "aspect:A:Pluto:B:Venus:conjunction",
+          "aspect:A:Mars:B:Pluto:trine",
+          "aspect:A:Moon:B:Pluto:square",
+          "aspect:A:Pluto:B:Mars:trine",
+          "aspect:A:Sun:B:Pluto:opposition",
+          "aspect:A:Pluto:B:Moon:trine",
+          "aspect:A:Mars:B:Moon:conjunction"
+        ]
+      },
+      {
+        "topic": "commitment",
+        "label": "מחויבות ויציבות",
+        "active": 7,
+        "central": 0,
+        "uniqueIds": [
+          "aspect:A:Jupiter:B:Moon:trine",
+          "aspect:A:Jupiter:B:Mars:conjunction",
+          "aspect:A:Sun:B:Jupiter:trine",
+          "aspect:A:Mercury:B:Saturn:square",
+          "aspect:A:Venus:B:Saturn:sextile",
+          "aspect:A:Moon:B:Saturn:conjunction",
+          "aspect:A:Jupiter:B:Sun:square",
+          "aspect:A:Venus:B:Sun:opposition",
+          "aspect:A:Venus:B:Mars:square"
+        ]
+      },
+      {
+        "topic": "growth",
+        "label": "אתגרים וצמיחה",
+        "active": 16,
+        "central": 5,
+        "uniqueIds": [
+          "aspect:A:Venus:B:Sun:opposition",
+          "aspect:A:Venus:B:Mars:square",
+          "aspect:A:Moon:B:Pluto:square",
+          "aspect:A:Moon:B:Venus:square",
+          "aspect:A:Sun:B:Pluto:opposition",
+          "aspect:A:Mercury:B:Saturn:square",
+          "aspect:A:Mars:B:Venus:trine",
+          "aspect:A:Venus:B:Saturn:sextile",
+          "aspect:A:Mars:B:Pluto:trine",
+          "aspect:A:Pluto:B:Mars:trine",
+          "aspect:A:Jupiter:B:Moon:trine",
+          "aspect:A:Neptune:B:Moon:sextile",
+          "aspect:A:Moon:B:Sun:trine",
+          "aspect:A:Sun:B:Jupiter:trine",
+          "aspect:A:Pluto:B:Venus:conjunction",
+          "aspect:A:Jupiter:B:Mars:conjunction"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "limited-commitment",
+    "relationship": "זוגיות",
+    "audit": {
+      "status": "passed",
+      "bindingUsesChecked": 27,
+      "uniqueGeometricAspects": 13,
+      "scopeChapters": 7,
+      "duplicationPolicy": "one ledger row per actual edge; reuse is a reference, never another independent vote"
+    },
+    "paragraphs": [
+      {
+        "chapter": "commitment",
+        "count": 2
+      },
+      {
+        "chapter": "growth",
+        "count": 3
+      },
+      {
+        "chapter": "summary",
+        "count": 3
+      }
+    ],
+    "counts": [
+      {
+        "topic": "communication",
+        "label": "תקשורת",
+        "active": 0,
+        "central": 0,
+        "uniqueIds": [
+          "aspect:A:Mercury:B:Saturn:sextile",
+          "aspect:A:Sun:B:Mercury:opposition"
+        ]
+      },
+      {
+        "topic": "emotions",
+        "label": "רגשות",
+        "active": 2,
+        "central": 1,
+        "uniqueIds": [
+          "aspect:A:Moon:B:Neptune:square",
+          "aspect:A:Moon:B:Sun:sextile"
+        ]
+      },
+      {
+        "topic": "love",
+        "label": "אהבה",
+        "active": 2,
+        "central": 0,
+        "uniqueIds": [
+          "aspect:A:Venus:B:Sun:trine",
+          "aspect:A:Moon:B:Sun:sextile",
+          "aspect:A:Sun:B:Venus:trine"
+        ]
+      },
+      {
+        "topic": "attraction",
+        "label": "משיכה",
+        "active": 2,
+        "central": 1,
+        "uniqueIds": [
+          "aspect:A:Mars:B:Mars:sextile",
+          "aspect:A:Mars:B:Sun:square",
+          "aspect:A:Venus:B:Mars:square"
+        ]
+      },
+      {
+        "topic": "intimacy",
+        "label": "אינטימיות",
+        "active": 1,
+        "central": 1,
+        "uniqueIds": [
+          "aspect:A:Mars:B:Pluto:opposition",
+          "aspect:A:Pluto:B:Mars:sextile"
+        ]
+      },
+      {
+        "topic": "commitment",
+        "label": "מחויבות ויציבות",
+        "active": 1,
+        "central": 0,
+        "uniqueIds": [
+          "aspect:A:Saturn:B:Mars:conjunction",
+          "aspect:A:Mercury:B:Saturn:sextile",
+          "aspect:A:Saturn:B:Venus:conjunction"
+        ]
+      },
+      {
+        "topic": "growth",
+        "label": "אתגרים וצמיחה",
+        "active": 7,
+        "central": 3,
+        "uniqueIds": [
+          "aspect:A:Mars:B:Pluto:opposition",
+          "aspect:A:Mars:B:Sun:square",
+          "aspect:A:Moon:B:Neptune:square",
+          "aspect:A:Mars:B:Mars:sextile",
+          "aspect:A:Moon:B:Sun:sextile",
+          "aspect:A:Venus:B:Sun:trine",
+          "aspect:A:Mercury:B:Saturn:sextile"
+        ]
+      }
+    ]
+  }
+]

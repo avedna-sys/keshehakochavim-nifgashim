@@ -1,0 +1,75 @@
+import {buildFindings} from '../facts.mjs';
+import {pointInfo} from '../../synastry.mjs';
+import {communication,emotions,houseContexts} from '../content.mjs';
+import {version,signStyles,bodyFunctions,aspectReadings,relationshipNotes} from './lexicon.mjs';
+const mainBodies=new Set(Object.keys(bodyFunctions));
+const unique=a=>[...new Set(a)];
+// Uses original generic mechanism/resource/friction seeds, not any personal draft.
+export function createGeneralInterpretation(pair,{participants}={}){
+ const model=buildFindings(pair),index=new Map(model.facts.map(f=>[f.id,f]));
+ if(!participants||participants.length!==2||participants.some(p=>!p||!/^[-_a-zA-Z0-9]{1,64}$/.test(p.id))||participants[0].id===participants[1].id)throw Error('Two distinct stable participant IDs required');
+ if(model.relationship==='הורה וילד'&&participants.map(p=>p.role).sort().join('|')!=='child|parent')throw Error('Explicit parent/child roles required');
+ const order=[0,1].sort((a,b)=>participants[a].id.localeCompare(participants[b].id));
+ const name=i=>model.names[i],pid=i=>i?'B':'A',pos=(i,b)=>index.get(`pos:${pid(i)}:${b}`),overlay=(i,b)=>index.get(`overlay:${pid(i)}:${b}:in:${pid(1-i)}`);
+ const body=b=>pointInfo[b][0];
+ const stableKey=a=>[[participants[0].id,a.first],[participants[1].id,a.second]].sort((a,b)=>a[0].localeCompare(b[0])).map(x=>x.join(':')).join('|')+':'+a.type;
+ const rank=a=>[a.nearBoundary?1:0,a.orb/a.limit,a.orb,stableKey(a)];
+ const compare=(a,b)=>{const x=rank(a),y=rank(b);for(let i=0;i<3;i++)if(Math.abs(x[i]-y[i])>1e-10)return x[i]-y[i];return x[3].localeCompare(y[3]);};
+ const owner=(a,focus)=>a.first===focus&&a.second===focus?order[0]:a.first===focus?0:1;
+ const otherBody=(a,focus)=>owner(a,focus)===0?a.second:a.first;
+ const evidenceText=a=>`${body(order[0]===0?a.first:a.second)} של ${name(order[0])} ${({conjunction:'בצמידות ל',opposition:'במולות ל',square:'בריבוע ל',trine:'במשולש ל',sextile:'במשושה ל'})[a.type]}${body(order[1]===0?a.first:a.second)} של ${name(order[1])}`;
+ const chapters=[],trace=[];
+ for(const topic of ['communication','emotions']){
+  const focus=topic==='communication'?'Mercury':'Moon',house=topic==='communication'?3:4,entries=topic==='communication'?communication:emotions;
+  const contacts=model.facts.filter(f=>f.kind==='aspect'&&mainBodies.has(f.first)&&mainBodies.has(f.second)&&(f.first===focus||f.second===focus)).sort(compare);
+  // Choose a lead, then a second viewpoint if present; ties are independent of names/input order.
+  const selected=[];if(contacts[0])selected.push(contacts[0]);
+  const opposite=contacts.find(a=>selected[0]&&owner(a,focus)!==owner(selected[0],focus)&&!a.nearBoundary&&a.orb/a.limit<=.65&&!selected.includes(a));
+  const second=opposite||contacts.find(a=>!selected.includes(a));if(second)selected.push(second);
+  const paragraphs=[];
+  const claim=(id,text,refs,kind='symbolic')=>{refs=unique(refs);if(!refs.length||refs.some(r=>!index.has(r)))throw Error('Untraced claim');return{id:`${topic}:${id}`,text,evidenceIds:refs,baseKeys:unique(refs.flatMap(r=>index.get(r).baseKeys)),policyRefs:[version,'relationship:'+model.relationship],kind};};
+  const unit=(id,title,claims)=>paragraphs.push({id:`${topic}:${id}`,ruleId:`general.${topic}.${id}`,title,text:claims.map(c=>c.text).join('\n\n'),claims,evidenceIds:unique(claims.flatMap(c=>c.evidenceIds)),role:'symbolic'});
+  const a=order[0],b=order[1],pa=pos(a,focus),pb=pos(b,focus),oa=overlay(a,focus),ob=overlay(b,focus);
+  unit('1',topic==='communication'?'שתי דרכי מחשבה והמרחב שבו הן נפגשות':'שני צרכים רגשיים, ושתי דרכים לפגוש אותם',[
+   claim('styles',`אצל ${name(a)}, ${body(focus)} ב${pa.sign} מציע קריאה של ${signStyles[focus][pa.signIndex]}; אצל ${name(b)}, ${body(focus)} ב${pb.sign} מציע ${signStyles[focus][pb.signIndex]}. ${pa.signIndex===pb.signIndex?'הדמיון במזל אינו מבטיח חוויה זהה: יש להבחין בין הנושא המשותף לבין הדרך שכל אדם מביא אותו.':'השוני מאפשר לבחון מה כל אדם מבקש מן המפגש, בלי להניח שמענה אחד מתאים לשניהם.'} במפות הלידה, התחום של ${name(a)} הוא ${houseContexts[pa.ownHouse.house]}, ואילו אצל ${name(b)} הוא ${houseContexts[pb.ownHouse.house]}.`,[pa.id,pb.id]),
+   claim('overlays',`${body(focus)} של ${name(a)} נופל בבית ${oa.house} של ${name(b)}: ${topic==='communication'?'הדיבור':'הביטוי הרגשי'} עשוי להדגיש אצל ${name(b)} ${houseContexts[oa.house]}. בכיוון האחר מופיע בית ${ob.house}, ולכן עבור ${name(a)} הביטוי של ${name(b)} מתקשר ל${houseContexts[ob.house]}. ${oa.house===ob.house?'זהו אותו תחום בשני הכיוונים, אך לא אותה בעלות או אותה חוויה.':'אותו ביטוי פוגש אפוא תחומים שונים; המשמעות עבור בעל הבית אינה בהכרח הכוונה של בעל הכוכב.'} ${oa.nearCusp||ob.nearCusp?'אחת החפיפות סמוכה לגבול בית, ולכן ההקשר הביתי נשאר רגיש לשעת הלידה.':''}`,[oa.id,ob.id]),
+  ]);
+  const contactClaims=selected.map((f,j)=>{
+   const i=owner(f,focus),o=1-i,other=otherBody(f,focus),entry=entries[other],fp=pos(i,focus),op=pos(o,other),outOfSign=Math.round((((op.signIndex-fp.signIndex+12)%12)>6?12-((op.signIndex-fp.signIndex+12)%12):(op.signIndex-fp.signIndex+12)%12)*30)!==f.angle;
+   const priority=f.nearBoundary?'ההיבט סמוך לסף ההכללה ולכן הוא הקשר משני בלבד.':f.orb<=1?'זהו מגע הדוק במיוחד במדגם, ולכן הוא מקבל כאן קדימות.':f.orb/f.limit>.65?'האורב רחב יחסית לטווח שנבחר, ולכן אין לבסס עליו לבדו את הפרק.':'';
+   return claim(`contact-${j+1}`,`${evidenceText(f)}. ${aspectReadings[f.type].opening} במפגש הזה ${entry[0]}. ${other===focus?`שני האנשים נושאים את אותו תפקוד, אך אצל ${name(i)} הוא ב${fp.sign} ובבית ${fp.ownHouse.house}, ואצל ${name(o)} ב${op.sign} ובבית ${op.ownHouse.house}.`:`אצל ${name(i)} המוקד הוא ${bodyFunctions[focus]} ב${fp.sign}, בבית ${fp.ownHouse.house}; אצל ${name(o)} המוקד הוא ${bodyFunctions[other]} ב${op.sign}, בבית ${op.ownHouse.house}.`} האפשרות התומכת היא ${entry[1]}; החיכוך האפשרי הוא ${entry[2]}. ${outOfSign?'זהו היבט חוצה־מזלות: הזווית המחושבת קובעת את ההיבט, גם כשהמזלות אינם הדגם הטיפוסי שלו. ':''}${priority}`,[f.id,fp.id,op.id]);
+  });
+  if(!contactClaims.length)contactClaims.push(claim('no-contacts',`לא נמצאו בין עשרת הגופים היבטי ${body(focus)} מכוסים בטווחים שנבחרו. אין להסיק מכך היעדר ${topic==='communication'?'תקשורת':'רגש'}: הקריאה נשענת על המיקומים, החפיפות והשליטים הזמינים, ואינה משלימה עבורכם דפוס שלא חושב.`,[pa.id,pb.id],'coverage'));
+  unit('2',selected.length&&selected.every(f=>f.nearBoundary||f.orb/f.limit>.65)?'המגעים המשניים וגבולות הקריאה':topic==='communication'?'המגעים המרכזיים: מה נאמר ומה מתקבל':'המגעים המרכזיים: בין הצורך לבין התגובה',contactClaims);
+  const rulerClaims=[],usedRulerIds=[],rulerContactIds=[];
+  for(const i of order){
+   const candidates=model.facts.filter(f=>f.kind==='ruler'&&f.person===i),primary=candidates.find(r=>r.house===house);
+   const extras=candidates.filter(r=>r.house!==house&&[1,4,5,7,8].includes(r.house)&&r.ruler!==primary.ruler&&selected.some(f=>(i===0?f.first:f.second)===r.ruler)).sort((x,y)=>y.priority-x.priority||x.house-y.house);
+   const group=[primary,...extras.slice(0,1)];
+   for(const r of group){
+    const chosenContact=model.facts.filter(f=>f.kind==='aspect'&&r.contactIds.includes(f.id)&&mainBodies.has(f.first)&&mainBodies.has(f.second)&&!f.nearBoundary).sort(compare)[0];
+    usedRulerIds.push(r.id);if(chosenContact)rulerContactIds.push(chosenContact.id);
+    const rp=pos(i,r.ruler),refs=[r.id,rp.id,...(chosenContact?[chosenContact.id]:[])];
+    rulerClaims.push(claim(`ruler-${participants[i].id}-${r.house}`,`אצל ${name(i)}, בית ${r.house} מתחיל ב${r.cuspSign} ושליטו המסורתי ${body(r.ruler)} ב${rp.sign}. השרשרת מובילה מבית ${r.natalHouse} במפת הלידה לבית ${r.partnerHouse} של ${name(1-i)}: נושאי ${houseContexts[r.house]} נקשרים כאן ל${houseContexts[r.partnerHouse]}. ${chosenContact?`השליט משתתף גם במגע ${evidenceText(chosenContact)}.${chosenContact.orb/chosenContact.limit>.65?' זהו הקשר משני בשל האורב הרחב.':''}`:'אין כאן מגע מכוסה של השליט בין עשרת הגופים; שרשרת הבית נשארת הקשר ואינה מוכיחה דפוס בין־אישי.'}${r.quality==='cusp-sign-sensitive'?' שיוך השליט רגיש למעבר מזל בגבול הבית ואין להעמיד עליו מסקנה מרכזית.':''}`,refs));
+   }
+  }
+  unit('3',topic==='communication'?'שליטי הבתים: מה השיחה נושאת מעבר לתוכנה':'שליטי הבתים: היכן מתארגן הביטחון',rulerClaims);
+  const soft=selected.find(f=>['trine','sextile'].includes(f.type)&&!f.nearBoundary&&f.orb/f.limit<=.65),hard=selected.find(f=>['square','opposition'].includes(f.type)&&!f.nearBoundary&&f.orb/f.limit<=.65);
+  let synthesis,rule;
+  if(soft&&hard){rule='resource-and-friction';const s=entries[otherBody(soft,focus)],h=entries[otherBody(hard,focus)];synthesis=`השילוב בין ${evidenceText(soft)} לבין ${evidenceText(hard)} אינו מבטל קושי באמצעות יתרון. האפשרות ${s[1]} יכולה לפתוח דרך לבירור, אך הצורך ${h[4]} נשאר משימה נפרדת. ${owner(soft,focus)!==owner(hard,focus)?`הכיווניות שונה: במגע התומך ${body(focus)} שייך ל${name(owner(soft,focus))}, ובמגע המאתגר ל${name(owner(hard,focus))}. לכן מי שמקבל מענה בהקשר אחד עשוי לבקש תרגום אחר בהקשר השני.`:'שני המגעים פוגשים את אותו בעל תפקוד, אך דרך תגובות שונות של האחר; אין צורך לבחור תיאור אחד ולבטל את השני.'}`;}
+  else if(selected.length){const lead=selected[0],entry=entries[otherBody(lead,focus)];rule=selected.every(f=>aspectReadings[f.type].mode==='tension')?'distinct-tensions':selected.every(f=>aspectReadings[f.type].mode==='resource')?'available-resources':'blended-functions';synthesis=`${lead.nearBoundary||lead.orb/lead.limit>.65?'המגע שנכלל כהקשר משני הוא':'הציר המרכזי שנבחר הוא'} ${evidenceText(lead)}. ${selected.length===2?`המגע הנוסף, ${evidenceText(selected[1])}, מוסיף הקשר: ${entries[otherBody(selected[1],focus)][0]}; הוא אינו חזרה על אותו יחס ואינו הוכחה לאותה חוויה.`:'אין מגע שני שעליו ניתן לבסס טענה לדפוס חוזר.'} כדי לחבר את המגעים להקשרי הבתים והשליטים, כדאי להבחין בין הנושא שעליו מגיבים לבין סוג המענה שמבקשים. דוגמה היפותטית מתאימה למגע המוביל: ${entry[3]}. אפשרות לבירור היא ${entry[4]}.`;}
+  else{rule='limited-coverage';synthesis=`המפה מאפשרת להבחין בין ${houseContexts[oa.house]} לבין ${houseContexts[ob.house]} כהקשרים למפגש, אך אין די מגעי ${body(focus)} מכוסים לסינתזה של תמיכה מול חיכוך. השוני במיקום אינו הוכחה למחלוקת, והיעדר היבט אינו היעדר יכולת. חשוב לבחון איזה הקשר מוכר לכם ולא למלא את הפער בסיפור כללי.`;}
+  const ra=model.facts.find(f=>f.kind==='ruler'&&f.person===a&&f.house===house),rb=model.facts.find(f=>f.kind==='ruler'&&f.person===b&&f.house===house);
+  synthesis+=` שליטי בית ${house} מוסיפים הקשר מעשי: אצל ${name(b)} נפתח תחום ${houseContexts[ra.partnerHouse]}, ואצל ${name(a)} תחום ${houseContexts[rb.partnerHouse]}. כך אפשר לברר היכן נדרש המענה, ולא לצפות שהבנה במישור אחד תענה מעצמה גם במישור האחר.`;
+  if(model.relationship==='הורה וילד'){
+   const parent=name(participants.findIndex(p=>p.role==='parent')),child=name(participants.findIndex(p=>p.role==='child'));
+   synthesis+=topic==='communication'?` בהקשר המשפחתי, ${parent} בתפקיד הורה ו${child} בתפקיד ילד; מיקום שבתאי אינו מעביר לילד אחריות להחזיק את מסגרת השיחה או לנהל את התגובה הרגשית של ההורה.`:` בהקשר המשפחתי אין להפוך רגישות או הקשבה לתפקיד טיפולי של ${child} כלפי ${parent}. תפקיד הילד בקשר אינו קביעה של קטינות או של תלות, והקריאה אינה מעניקה להורה סמכות על חווייתו.`;
+  }
+  unit('4',topic==='communication'?'סינתזה: תיאום משמעות, ולא רק החלפת מילים':'סינתזה: מענה מתאים, ולא תגובה אחת לכל צורך',[
+   claim('synthesis',synthesis,unique([...selected.map(f=>f.id),oa.id,ob.id,...usedRulerIds])),
+  ]);
+  trace.push({topic,selected:selected.map(f=>({factId:f.id,key:stableKey(f),orb:f.orb,limit:f.limit,relativeOrb:f.orb/f.limit,role:f.nearBoundary||f.orb/f.limit>.65?'secondary':'anchor-candidate'})),omitted:contacts.filter(f=>!selected.includes(f)).map(f=>({factId:f.id,key:stableKey(f),reason:'bounded phase-C sample; preserve two viewpoints; not absence of aspect'})),rulers:usedRulerIds,rulerContacts:unique(rulerContactIds),synthesisRule:rule});
+  chapters.push({id:topic,title:topic==='communication'?'תקשורת':'רגשות',paragraphs});
+ }
+ return{facts:model,report:{version,status:'general-library-phase-c-experimental-awaiting-editorial-review',names:model.names,relationship:model.relationship,disclosure:'הנתונים מחושבים במנוע הקיים; המשמעות המילולית היא קריאה סמלית ולא קביעה על אנשים. זהו מימוש ניסיוני לשני פרקים בלבד. '+relationshipNotes[model.relationship]+(model.relationship==='הורה וילד'?' בתפקיד הורה: '+name(participants.findIndex(p=>p.role==='parent'))+'; בתפקיד ילד: '+name(participants.findIndex(p=>p.role==='child'))+'.':''),relationshipNote:relationshipNotes[model.relationship],participants:participants.map((p,i)=>({...p,name:name(i)})),chapters,selectionTrace:trace,scope:{chapters:['communication','emotions'],otherChapters:false,phaseD:false,meanPoints:false,axes:false,motion:false},coverage:{context:'12 signs, 12 houses, traditional rulers; generic mechanism seeds plus phase-C synthesis',limits:'Two focus contacts per chapter; additional ruler contacts are contextual, not a complete chart interpretation. No claim of professional coverage for all charts.'}}};
+}

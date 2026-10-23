@@ -1,0 +1,137 @@
+{
+  "checks": "passed for the three failure instants",
+  "provenance": {
+    "repository": "https://github.com/aloistr/swisseph",
+    "commit": "4daf766ab1dec2316a65fcb5f5149e52b4cd9027",
+    "files": {
+      "sepl_12.se1": "8dccace2557601a223d5f8a7cf64de4e6bbb8a82b9b130b95a54d49adfbe546d",
+      "semo_12.se1": "1c65fdbb854f350d3de36afc3e4ac126a53f360ae4f6dcb57beed7c690e7eb61",
+      "sepl_18.se1": "ca1393ceab3a44fbc895887cf789c68819ae6a1cbc9b22225872dbe4ccd99a66",
+      "semo_18.se1": "1ca07bd67c24374d77226180c20a4f9996cba013697894810518e7eb582ca4f7"
+    }
+  },
+  "generatedAt": "2026-10-20T10:10:36.551Z",
+  "swissVersion": "2.10.03",
+  "flags": 258,
+  "stateFlags": 6514,
+  "status": "diagnostic-only-no-swiss-state-in-runtime",
+  "rows": [
+    {
+      "utc": "2016-04-29T06:17:23Z",
+      "utJulianDay": 2457507.7620717594,
+      "ttJulianDay": 2457507.7628618837,
+      "deltaTSeconds": 68.26673240497082,
+      "defaultDeltaTSeconds": 69.64984326332342,
+      "defaultNode": 170.4920050431533,
+      "standardNode": 170.49200650037756,
+      "swissApparent": 170.49702672164156,
+      "swissGeometric": 170.49702635801805,
+      "timeScaleEffectDegrees": -0.0000014572242434951477,
+      "lightTimeEffectDegrees": 3.6362348510010634e-7,
+      "utVsTtDifferenceDegrees": 0,
+      "positionDifferenceKm": 12.966596358026194,
+      "velocityDifferenceMetersPerSecond": 0.03291573380970577,
+      "velocityDirectionDifferenceDegrees": 0.0014180966948087951,
+      "nodes": {
+        "ae": {
+          "longitude": 170.49200650037756,
+          "differenceFromSwissGeometric": -0.0050198576404909545
+        },
+        "swiss": {
+          "longitude": 170.49706940836006,
+          "differenceFromSwissGeometric": 0.000043050342014794296
+        },
+        "swissPosition_aeVelocity": {
+          "longitude": 170.49315573822457,
+          "differenceFromSwissGeometric": -0.0038706197934743614
+        },
+        "aePosition_swissVelocity": {
+          "longitude": 170.49592018031353,
+          "differenceFromSwissGeometric": -0.0011061777045142662
+        },
+        "aeFourthOrder": {
+          "longitude": 170.49200634853514,
+          "differenceFromSwissGeometric": -0.005020009482905152
+        }
+      }
+    },
+    {
+      "utc": "2016-11-15T06:17:23Z",
+      "utJulianDay": 2457707.7620717594,
+      "ttJulianDay": 2457707.7628649836,
+      "deltaTSeconds": 68.53455275710435,
+      "defaultDeltaTSeconds": 69.92762524459977,
+      "defaultNode": 159.66172912463844,
+      "standardNode": 159.6617322373263,
+      "swissApparent": 159.66750807647506,
+      "swissGeometric": 159.66750554390723,
+      "timeScaleEffectDegrees": -0.0000031126878639042843,
+      "lightTimeEffectDegrees": 0.0000025325678052467993,
+      "utVsTtDifferenceDegrees": 0,
+      "positionDifferenceKm": 12.465418223998979,
+      "velocityDifferenceMetersPerSecond": 0.046194753805744664,
+      "velocityDirectionDifferenceDegrees": 0.0007109433183889701,
+      "nodes": {
+        "ae": {
+          "longitude": 159.6617322373263,
+          "differenceFromSwissGeometric": -0.005773306580977078
+        },
+        "swiss": {
+          "longitude": 159.66751432515252,
+          "differenceFromSwissGeometric": 0.000008781245242062141
+        },
+        "swissPosition_aeVelocity": {
+          "longitude": 159.6618347570411,
+          "differenceFromSwissGeometric": -0.0056707868661760585
+        },
+        "aePosition_swissVelocity": {
+          "longitude": 159.6674117089915,
+          "differenceFromSwissGeometric": -0.00009383491578773828
+        },
+        "aeFourthOrder": {
+          "longitude": 159.66173207099428,
+          "differenceFromSwissGeometric": -0.005773472913006117
+        }
+      }
+    },
+    {
+      "utc": "2016-11-15T12:34:56Z",
+      "utJulianDay": 2457708.0242592595,
+      "ttJulianDay": 2457708.0250524874,
+      "deltaTSeconds": 68.53488905420966,
+      "defaultDeltaTSeconds": 69.92799158615526,
+      "defaultNode": 159.61358131537997,
+      "standardNode": 159.61358429972097,
+      "swissApparent": 159.61941160678123,
+      "swissGeometric": 159.6194090791899,
+      "timeScaleEffectDegrees": -0.000002984340994771628,
+      "lightTimeEffectDegrees": 0.0000025275912776123732,
+      "utVsTtDifferenceDegrees": 0,
+      "positionDifferenceKm": 13.12402037409836,
+      "velocityDifferenceMetersPerSecond": 0.038736096106338685,
+      "velocityDirectionDifferenceDegrees": 0.0006966709249654434,
+      "nodes": {
+        "ae": {
+          "longitude": 159.61358429972097,
+          "differenceFromSwissGeometric": -0.005824779468866836
+        },
+        "swiss": {
+          "longitude": 159.61941627767487,
+          "differenceFromSwissGeometric": 0.000007198485036497004
+        },
+        "swissPosition_aeVelocity": {
+          "longitude": 159.61360925008012,
+          "differenceFromSwissGeometric": -0.005799829109719212
+        },
+        "aePosition_swissVelocity": {
+          "longitude": 159.6193912785443,
+          "differenceFromSwissGeometric": -0.000017800645537136006
+        },
+        "aeFourthOrder": {
+          "longitude": 159.61358434248064,
+          "differenceFromSwissGeometric": -0.005824736709200806
+        }
+      }
+    }
+  ]
+}

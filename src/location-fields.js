@@ -62,5 +62,23 @@ export function attachLocationFields(id) {
     if (country) countryInput.value = country.name;
   });
   schedule();
-  return { getLocation: () => selected ? { ...selected } : null };
+  return {
+    getLocation: () => selected ? { ...selected } : null,
+    restoreLocation(location) {
+      const country=countries.find(c=>c.code===location.countryCode);
+      if(!country||!Number.isFinite(location.latitude)||Math.abs(location.latitude)>90||!Number.isFinite(location.longitude)||Math.abs(location.longitude)>180||!location.timeZone?.includes('/'))throw new Error('המיקום השמור אינו תקין.');
+      invalidate();countryInput.value=country.name;countryInput.setCustomValidity('');
+      const value={...location};locations=[value];cityInput.value=locationLabel(value);select(value);
+      message(`נטען מיקום שמור, ללא חיפוש ברשת. אזור זמן: ${value.timeZone}. יש לוודא שהמיקום נכון.`);
+    },
+    // Explicit research reference input, never an automatic geocoding fallback.
+    setReferenceLocation(location) {
+      const country=countries.find(c=>c.code===location.countryCode);
+      if(!country||!Number.isFinite(location.latitude)||Math.abs(location.latitude)>90||!Number.isFinite(location.longitude)||Math.abs(location.longitude)>180||!location.timeZone?.includes('/'))throw new Error('מיקום הבדיקה אינו תקין.');
+      invalidate();countryInput.value=country.name;countryInput.setCustomValidity('');
+      const value={...location,source:'Research reference coordinates (not a live geocoding result)'};
+      locations=[value];cityInput.value=locationLabel(value);select(value);
+      message(`מיקום ייחוס לבדיקת המחקר בלבד. אזור זמן: ${value.timeZone}.`);
+    },
+  };
 }

@@ -1,0 +1,46 @@
+[
+  {
+    "id": "couple-1",
+    "computedFactsUnchanged": true,
+    "selectedAspectsOrbsAndWeightsUnchanged": true,
+    "chapters": [
+      {
+        "chapter": "love",
+        "beforeWords": 323,
+        "afterWords": 388
+      },
+      {
+        "chapter": "attraction",
+        "beforeWords": 283,
+        "afterWords": 396
+      },
+      {
+        "chapter": "intimacy",
+        "beforeWords": 466,
+        "afterWords": 665
+      }
+    ]
+  },
+  {
+    "id": "couple-sparse",
+    "computedFactsUnchanged": true,
+    "selectedAspectsOrbsAndWeightsUnchanged": true,
+    "chapters": [
+      {
+        "chapter": "love",
+        "beforeWords": 216,
+        "afterWords": 187
+      },
+      {
+        "chapter": "attraction",
+        "beforeWords": 204,
+        "afterWords": 202
+      },
+      {
+        "chapter": "intimacy",
+        "beforeWords": 242,
+        "afterWords": 247
+      }
+    ]
+  }
+]

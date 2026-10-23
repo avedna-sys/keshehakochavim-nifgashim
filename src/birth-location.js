@@ -53,12 +53,12 @@ export function resolveBirthTime(date, time, timeZone) {
   return { status: 'resolved', instant: earlier.toInstant().toString(), offset: earlier.offset, timeZone };
 }
 
-export function createBirthContext(person, location) {
+export function createBirthContext(person, location, { resolveTime = resolveBirthTime } = {}) {
   if (!location) throw new Error('יש לבחור עיר מתוצאות החיפוש עבור שני המשתתפים.');
   if (findCountry(person.country)?.code !== location.countryCode) {
     throw new Error('העיר שנבחרה אינה תואמת למדינה. יש לבחור אותה מחדש.');
   }
-  const civilTime = resolveBirthTime(person.date, person.time, location.timeZone);
+  const civilTime = resolveTime(person.date, person.time, location.timeZone);
   if (civilTime.status === 'nonexistent') throw new Error('שעת הלידה אינה קיימת בתאריך זה עקב מעבר שעון. יש לבדוק את הרישום המקורי.');
   if (civilTime.status === 'ambiguous') throw new Error('שעת הלידה מופיעה פעמיים בתאריך זה עקב מעבר שעון. דרוש בירור של ההיסט המדויק לפני חישוב מפה.');
   return { ...person, location: { ...location }, civilTime };

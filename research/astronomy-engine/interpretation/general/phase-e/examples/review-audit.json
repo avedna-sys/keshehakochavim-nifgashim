@@ -1,0 +1,263 @@
+{
+  "status": "passed-geometric-ownership-and-attribution",
+  "cases": [
+    {
+      "id": "couple-1",
+      "synthetic": true,
+      "relationship": "זוגיות",
+      "attribution": {
+        "status": "passed",
+        "bindingUses": 20,
+        "claims": 16
+      },
+      "repeatedLongSentences": 0,
+      "repeats": [],
+      "chapters": [
+        {
+          "id": "love",
+          "title": "אהבה",
+          "words": 388,
+          "central": 1,
+          "compact": 2,
+          "sourceOnly": 0,
+          "missing": [
+            "Venus|Venus",
+            "Moon|Moon",
+            "Sun|Sun"
+          ]
+        },
+        {
+          "id": "attraction",
+          "title": "משיכה",
+          "words": 396,
+          "central": 1,
+          "compact": 1,
+          "sourceOnly": 1,
+          "missing": [
+            "Mars|Sun"
+          ]
+        },
+        {
+          "id": "intimacy",
+          "title": "אינטימיות",
+          "words": 665,
+          "central": 3,
+          "compact": 2,
+          "sourceOnly": 2,
+          "missing": []
+        }
+      ]
+    },
+    {
+      "id": "couple-2",
+      "synthetic": true,
+      "relationship": "זוגיות",
+      "attribution": {
+        "status": "passed",
+        "bindingUses": 10,
+        "claims": 11
+      },
+      "repeatedLongSentences": 0,
+      "repeats": [],
+      "chapters": [
+        {
+          "id": "love",
+          "title": "אהבה",
+          "words": 283,
+          "central": 1,
+          "compact": 1,
+          "sourceOnly": 1,
+          "missing": [
+            "Moon|Venus",
+            "Venus|Venus",
+            "Moon|Sun",
+            "Sun|Sun"
+          ]
+        },
+        {
+          "id": "attraction",
+          "title": "משיכה",
+          "words": 277,
+          "central": 1,
+          "compact": 1,
+          "sourceOnly": 0,
+          "missing": [
+            "Mars|Venus",
+            "Mars|Mars"
+          ]
+        },
+        {
+          "id": "intimacy",
+          "title": "אינטימיות",
+          "words": 168,
+          "central": 0,
+          "compact": 1,
+          "sourceOnly": 2,
+          "missing": [
+            "Moon|Pluto",
+            "Pluto|Venus",
+            "Mars|Pluto"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "couple-sparse",
+      "synthetic": true,
+      "relationship": "זוגיות",
+      "attribution": {
+        "status": "passed",
+        "bindingUses": 6,
+        "claims": 9
+      },
+      "repeatedLongSentences": 0,
+      "repeats": [],
+      "chapters": [
+        {
+          "id": "love",
+          "title": "אהבה",
+          "words": 187,
+          "central": 0,
+          "compact": 1,
+          "sourceOnly": 0,
+          "missing": [
+            "Moon|Venus",
+            "Venus|Venus",
+            "Moon|Sun",
+            "Moon|Moon",
+            "Sun|Sun"
+          ]
+        },
+        {
+          "id": "attraction",
+          "title": "משיכה",
+          "words": 202,
+          "central": 0,
+          "compact": 1,
+          "sourceOnly": 1,
+          "missing": [
+            "Mars|Venus",
+            "Mars|Sun"
+          ]
+        },
+        {
+          "id": "intimacy",
+          "title": "אינטימיות",
+          "words": 247,
+          "central": 1,
+          "compact": 0,
+          "sourceOnly": 1,
+          "missing": [
+            "Mars|Moon",
+            "Mars|Pluto",
+            "Pluto|Sun"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "friendship",
+      "synthetic": true,
+      "relationship": "חברות",
+      "attribution": {
+        "status": "passed",
+        "bindingUses": 10,
+        "claims": 14
+      },
+      "repeatedLongSentences": 0,
+      "repeats": [],
+      "chapters": [
+        {
+          "id": "love",
+          "title": "חיבה וקבלה",
+          "words": 278,
+          "central": 1,
+          "compact": 1,
+          "sourceOnly": 1,
+          "missing": [
+            "Moon|Venus",
+            "Venus|Venus",
+            "Moon|Sun",
+            "Sun|Sun"
+          ]
+        },
+        {
+          "id": "attraction",
+          "title": "יוזמה והנאה משותפת",
+          "words": 305,
+          "central": 1,
+          "compact": 1,
+          "sourceOnly": 0,
+          "missing": [
+            "Mars|Venus",
+            "Mars|Mars"
+          ]
+        },
+        {
+          "id": "intimacy",
+          "title": "אמון וגבולות",
+          "words": 163,
+          "central": 0,
+          "compact": 1,
+          "sourceOnly": 2,
+          "missing": [
+            "Moon|Pluto",
+            "Pluto|Venus",
+            "Mars|Pluto"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "family",
+      "synthetic": true,
+      "relationship": "הורה וילד",
+      "attribution": {
+        "status": "passed",
+        "bindingUses": 14,
+        "claims": 16
+      },
+      "repeatedLongSentences": 0,
+      "repeats": [],
+      "chapters": [
+        {
+          "id": "love",
+          "title": "חיבה וקבלה",
+          "words": 209,
+          "central": 0,
+          "compact": 1,
+          "sourceOnly": 2,
+          "missing": [
+            "Sun|Venus",
+            "Moon|Venus",
+            "Sun|Sun"
+          ]
+        },
+        {
+          "id": "attraction",
+          "title": "יוזמה והנאה משותפת",
+          "words": 272,
+          "central": 1,
+          "compact": 0,
+          "sourceOnly": 1,
+          "missing": [
+            "Mars|Mars"
+          ]
+        },
+        {
+          "id": "intimacy",
+          "title": "אמון וגבולות",
+          "words": 391,
+          "central": 1,
+          "compact": 4,
+          "sourceOnly": 0,
+          "missing": [
+            "Moon|Pluto",
+            "Pluto|Sun"
+          ]
+        }
+      ]
+    }
+  ],
+  "limits": "Literal repetition is a diagnostic, not proof of semantic novelty or literary quality. Shared mechanisms are bounded symbolic rules. No scientific validation of interpretation."
+}

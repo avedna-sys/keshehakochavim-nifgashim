@@ -1,0 +1,214 @@
+[
+  {
+    "id": "couple-1",
+    "computedFactsIdentical": true,
+    "candidateSetOrbsAndLimitsIdentical": true,
+    "relevanceChanges": [
+      {
+        "factId": "aspect:A:Mercury:B:Saturn:square",
+        "orb": 3.947984359790837,
+        "before": "secondary",
+        "after": "contextual",
+        "reason": {
+          "precision": "broad",
+          "houseContext": [],
+          "newFunction": true,
+          "decision": "qualified-context",
+          "reason": "Distinct responsibility/support function, absolute and relative breadth checked, actual house link or explicit agreement function"
+        }
+      },
+      {
+        "factId": "aspect:A:Venus:B:Saturn:sextile",
+        "orb": 2.9753429760459653,
+        "before": "secondary",
+        "after": "contextual",
+        "reason": {
+          "precision": "broad",
+          "houseContext": [
+            "ruler:A:4"
+          ],
+          "newFunction": true,
+          "decision": "qualified-context",
+          "reason": "Distinct responsibility/support function, absolute and relative breadth checked, actual house link or explicit agreement function"
+        }
+      }
+    ],
+    "paragraphs": [
+      {
+        "chapter": "commitment",
+        "before": 6,
+        "after": 3
+      },
+      {
+        "chapter": "growth",
+        "before": 5,
+        "after": 5
+      },
+      {
+        "chapter": "summary",
+        "before": 2,
+        "after": 3
+      }
+    ]
+  },
+  {
+    "id": "limited-commitment",
+    "computedFactsIdentical": true,
+    "candidateSetOrbsAndLimitsIdentical": true,
+    "relevanceChanges": [
+      {
+        "factId": "aspect:A:Mercury:B:Saturn:sextile",
+        "orb": 3.1277926083628813,
+        "before": "secondary",
+        "after": "contextual",
+        "reason": {
+          "precision": "broad",
+          "houseContext": [],
+          "newFunction": true,
+          "decision": "qualified-context",
+          "reason": "Distinct responsibility/support function, absolute and relative breadth checked, actual house link or explicit agreement function"
+        }
+      }
+    ],
+    "paragraphs": [
+      {
+        "chapter": "commitment",
+        "before": 1,
+        "after": 2
+      },
+      {
+        "chapter": "growth",
+        "before": 4,
+        "after": 3
+      },
+      {
+        "chapter": "summary",
+        "before": 2,
+        "after": 3
+      }
+    ]
+  },
+  {
+    "id": "family",
+    "computedFactsIdentical": true,
+    "candidateSetOrbsAndLimitsIdentical": true,
+    "relevanceChanges": [],
+    "paragraphs": [
+      {
+        "chapter": "commitment",
+        "before": 4,
+        "after": 3
+      },
+      {
+        "chapter": "growth",
+        "before": 6,
+        "after": 4
+      },
+      {
+        "chapter": "summary",
+        "before": 2,
+        "after": 3
+      }
+    ]
+  },
+  {
+    "id": "siblings",
+    "computedFactsIdentical": true,
+    "candidateSetOrbsAndLimitsIdentical": true,
+    "relevanceChanges": [
+      {
+        "factId": "aspect:A:Mercury:B:Saturn:square",
+        "orb": 3.947984359790837,
+        "before": "secondary",
+        "after": "contextual",
+        "reason": {
+          "precision": "broad",
+          "houseContext": [
+            "ruler:A:3"
+          ],
+          "newFunction": true,
+          "decision": "qualified-context",
+          "reason": "Distinct responsibility/support function, absolute and relative breadth checked, actual house link or explicit agreement function"
+        }
+      },
+      {
+        "factId": "aspect:A:Venus:B:Saturn:sextile",
+        "orb": 2.9753429760459653,
+        "before": "secondary",
+        "after": "contextual",
+        "reason": {
+          "precision": "broad",
+          "houseContext": [
+            "ruler:A:4"
+          ],
+          "newFunction": true,
+          "decision": "qualified-context",
+          "reason": "Distinct responsibility/support function, absolute and relative breadth checked, actual house link or explicit agreement function"
+        }
+      }
+    ],
+    "paragraphs": [
+      {
+        "chapter": "commitment",
+        "before": 6,
+        "after": 3
+      },
+      {
+        "chapter": "growth",
+        "before": 5,
+        "after": 5
+      },
+      {
+        "chapter": "summary",
+        "before": 2,
+        "after": 3
+      }
+    ]
+  },
+  {
+    "id": "friendship",
+    "computedFactsIdentical": true,
+    "candidateSetOrbsAndLimitsIdentical": true,
+    "relevanceChanges": [],
+    "paragraphs": [
+      {
+        "chapter": "commitment",
+        "before": 4,
+        "after": 2
+      },
+      {
+        "chapter": "growth",
+        "before": 5,
+        "after": 5
+      },
+      {
+        "chapter": "summary",
+        "before": 2,
+        "after": 3
+      }
+    ]
+  },
+  {
+    "id": "couple-sparse",
+    "computedFactsIdentical": true,
+    "candidateSetOrbsAndLimitsIdentical": true,
+    "relevanceChanges": [],
+    "paragraphs": [
+      {
+        "chapter": "commitment",
+        "before": 6,
+        "after": 3
+      },
+      {
+        "chapter": "growth",
+        "before": 6,
+        "after": 2
+      },
+      {
+        "chapter": "summary",
+        "before": 2,
+        "after": 3
+      }
+    ]
+  }
+]

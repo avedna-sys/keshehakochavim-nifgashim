@@ -1,0 +1,16 @@
+{
+  "version": "2026b",
+  "url": "https://codeload.github.com/eggert/tz/tar.gz/refs/tags/2026b",
+  "archiveSha256": "bba53da7f6e4fd7739f464ca3356dd9dbe9730c0b098337049f1bbc956b87159",
+  "backzone": true,
+  "compiler": "zic (Debian GLIBC 2.41-12+deb13u4) 2.41",
+  "datasetSha256": "76d0b1534e87b5dead81a36cd596fde5da7acdd9ed2f9470665cc4ef08243305",
+  "zones": 599,
+  "options": [
+    "-b",
+    "fat",
+    "-R",
+    "@1830297600"
+  ],
+  "note": "POSIX times; full backzone; no leap-second table"
+}

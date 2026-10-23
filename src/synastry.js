@@ -2,7 +2,7 @@
  * BirthDetails: { name, date, time, place, country }, all strings.
  * Birth time is local civil time. A future engine must resolve coordinates,
  * historical timezone and DST before calculating astronomical positions.
- * No astronomical engine is connected in this first phase.
+ * This module validates input only; the research integration adapter calculates separately.
  */
 export const relationshipTypes = ['זוגיות', 'הורה וילד', 'אחים', 'חברות', 'אחר'];
 export function prepareRequest(first, second, relationship, today = new Date().toISOString().slice(0, 10)) {

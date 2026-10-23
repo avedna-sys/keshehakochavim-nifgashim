@@ -1,0 +1,385 @@
+{
+  "before": {
+    "relationships": [
+      "זוגיות",
+      "אחים"
+    ],
+    "maxParagraphBigramSimilarity": 1,
+    "nearDuplicateParagraphs": [
+      {
+        "left": 2,
+        "right": 2,
+        "bigramSimilarity": 1,
+        "vocabularySimilarity": 1,
+        "conceptSimilarity": 1,
+        "sharedConcepts": [
+          "intimate-disclosure"
+        ],
+        "nearDuplicate": true
+      }
+    ],
+    "conceptualRouteCollapse": true,
+    "routeAudits": [
+      {
+        "relationship": "זוגיות",
+        "detectedConcepts": [
+          "partner-choice",
+          "intimate-disclosure"
+        ],
+        "missingRelationalQuestions": [],
+        "relationalAxes": [],
+        "status": "passed"
+      },
+      {
+        "relationship": "אחים",
+        "detectedConcepts": [
+          "intimate-disclosure",
+          "family-belonging",
+          "revisable-family-ties"
+        ],
+        "missingRelationalQuestions": [
+          "family-differentiation",
+          "family-privacy"
+        ],
+        "relationalAxes": [],
+        "status": "needs-review"
+      }
+    ],
+    "paragraphComparisons": [
+      {
+        "left": 1,
+        "right": 1,
+        "bigramSimilarity": 0.053691275167785234,
+        "vocabularySimilarity": 0.16541353383458646,
+        "conceptSimilarity": 0,
+        "sharedConcepts": [],
+        "nearDuplicate": false
+      },
+      {
+        "left": 1,
+        "right": 2,
+        "bigramSimilarity": 0.023121387283236993,
+        "vocabularySimilarity": 0.10738255033557047,
+        "conceptSimilarity": 0,
+        "sharedConcepts": [],
+        "nearDuplicate": false
+      },
+      {
+        "left": 1,
+        "right": 3,
+        "bigramSimilarity": 0.012578616352201259,
+        "vocabularySimilarity": 0.13138686131386862,
+        "conceptSimilarity": 0,
+        "sharedConcepts": [],
+        "nearDuplicate": false
+      },
+      {
+        "left": 2,
+        "right": 1,
+        "bigramSimilarity": 0.014925373134328358,
+        "vocabularySimilarity": 0.125,
+        "conceptSimilarity": 0,
+        "sharedConcepts": [],
+        "nearDuplicate": false
+      },
+      {
+        "left": 2,
+        "right": 2,
+        "bigramSimilarity": 1,
+        "vocabularySimilarity": 1,
+        "conceptSimilarity": 1,
+        "sharedConcepts": [
+          "intimate-disclosure"
+        ],
+        "nearDuplicate": true
+      },
+      {
+        "left": 2,
+        "right": 3,
+        "bigramSimilarity": 0.013888888888888888,
+        "vocabularySimilarity": 0.15151515151515152,
+        "conceptSimilarity": 0,
+        "sharedConcepts": [],
+        "nearDuplicate": false
+      },
+      {
+        "left": 3,
+        "right": 1,
+        "bigramSimilarity": 0.0136986301369863,
+        "vocabularySimilarity": 0.15625,
+        "conceptSimilarity": 0,
+        "sharedConcepts": [],
+        "nearDuplicate": false
+      },
+      {
+        "left": 3,
+        "right": 2,
+        "bigramSimilarity": 0.023529411764705882,
+        "vocabularySimilarity": 0.20833333333333334,
+        "conceptSimilarity": 0,
+        "sharedConcepts": [],
+        "nearDuplicate": false
+      },
+      {
+        "left": 3,
+        "right": 3,
+        "bigramSimilarity": 0.3974358974358974,
+        "vocabularySimilarity": 0.48484848484848486,
+        "conceptSimilarity": 0,
+        "sharedConcepts": [],
+        "nearDuplicate": false
+      }
+    ],
+    "limits": "Curated relational concepts and paraphrase-sensitive vocabulary diagnostics; not proof of complete semantic novelty."
+  },
+  "after": {
+    "relationships": [
+      "זוגיות",
+      "אחים"
+    ],
+    "maxParagraphBigramSimilarity": 0.07547169811320754,
+    "nearDuplicateParagraphs": [],
+    "conceptualRouteCollapse": false,
+    "routeAudits": [
+      {
+        "relationship": "זוגיות",
+        "detectedConcepts": [
+          "partner-choice",
+          "intimate-disclosure"
+        ],
+        "missingRelationalQuestions": [],
+        "relationalAxes": [
+          "partner-choice",
+          "desirability",
+          "mutual-initiative",
+          "emotional-attunement",
+          "chosen-intimacy",
+          "shared-life",
+          "commitment-negotiation"
+        ],
+        "status": "passed"
+      },
+      {
+        "relationship": "אחים",
+        "detectedConcepts": [
+          "family-belonging",
+          "family-differentiation",
+          "family-privacy",
+          "revisable-family-ties"
+        ],
+        "missingRelationalQuestions": [],
+        "relationalAxes": [
+          "family-belonging",
+          "recognition-without-sameness",
+          "family-boundaries",
+          "differentiation",
+          "revisable-family-ties",
+          "nonfixed-obligations"
+        ],
+        "status": "passed"
+      }
+    ],
+    "paragraphComparisons": [
+      {
+        "left": 1,
+        "right": 1,
+        "bigramSimilarity": 0.07547169811320754,
+        "vocabularySimilarity": 0.23703703703703705,
+        "conceptSimilarity": 0,
+        "sharedConcepts": [],
+        "nearDuplicate": false
+      },
+      {
+        "left": 1,
+        "right": 2,
+        "bigramSimilarity": 0.012658227848101266,
+        "vocabularySimilarity": 0.1037037037037037,
+        "conceptSimilarity": 0,
+        "sharedConcepts": [],
+        "nearDuplicate": false
+      },
+      {
+        "left": 1,
+        "right": 3,
+        "bigramSimilarity": 0.033707865168539325,
+        "vocabularySimilarity": 0.15584415584415584,
+        "conceptSimilarity": 0,
+        "sharedConcepts": [],
+        "nearDuplicate": false
+      },
+      {
+        "left": 2,
+        "right": 1,
+        "bigramSimilarity": 0.05555555555555555,
+        "vocabularySimilarity": 0.1076923076923077,
+        "conceptSimilarity": 0,
+        "sharedConcepts": [],
+        "nearDuplicate": false
+      },
+      {
+        "left": 2,
+        "right": 2,
+        "bigramSimilarity": 0.04195804195804196,
+        "vocabularySimilarity": 0.12307692307692308,
+        "conceptSimilarity": 0,
+        "sharedConcepts": [],
+        "nearDuplicate": false
+      },
+      {
+        "left": 2,
+        "right": 3,
+        "bigramSimilarity": 0.024539877300613498,
+        "vocabularySimilarity": 0.1342281879194631,
+        "conceptSimilarity": 0,
+        "sharedConcepts": [],
+        "nearDuplicate": false
+      },
+      {
+        "left": 3,
+        "right": 1,
+        "bigramSimilarity": 0.02564102564102564,
+        "vocabularySimilarity": 0.2153846153846154,
+        "conceptSimilarity": 0,
+        "sharedConcepts": [],
+        "nearDuplicate": false
+      },
+      {
+        "left": 3,
+        "right": 2,
+        "bigramSimilarity": 0.025806451612903226,
+        "vocabularySimilarity": 0.13846153846153847,
+        "conceptSimilarity": 0,
+        "sharedConcepts": [],
+        "nearDuplicate": false
+      },
+      {
+        "left": 3,
+        "right": 3,
+        "bigramSimilarity": 0.045714285714285714,
+        "vocabularySimilarity": 0.20134228187919462,
+        "conceptSimilarity": 0,
+        "sharedConcepts": [],
+        "nearDuplicate": false
+      }
+    ],
+    "limits": "Curated relational concepts and paraphrase-sensitive vocabulary diagnostics; not proof of complete semantic novelty."
+  },
+  "allRouteAudits": [
+    {
+      "id": "couple-1",
+      "relationship": "זוגיות",
+      "detectedConcepts": [
+        "partner-choice",
+        "intimate-disclosure"
+      ],
+      "missingRelationalQuestions": [],
+      "relationalAxes": [
+        "partner-choice",
+        "desirability",
+        "mutual-initiative",
+        "emotional-attunement",
+        "chosen-intimacy",
+        "shared-life",
+        "commitment-negotiation"
+      ],
+      "status": "passed"
+    },
+    {
+      "id": "siblings",
+      "relationship": "אחים",
+      "detectedConcepts": [
+        "family-belonging",
+        "family-differentiation",
+        "family-privacy",
+        "revisable-family-ties"
+      ],
+      "missingRelationalQuestions": [],
+      "relationalAxes": [
+        "family-belonging",
+        "recognition-without-sameness",
+        "family-boundaries",
+        "differentiation",
+        "revisable-family-ties",
+        "nonfixed-obligations"
+      ],
+      "status": "passed"
+    },
+    {
+      "id": "family",
+      "relationship": "הורה וילד",
+      "detectedConcepts": [
+        "parental-responsibility",
+        "child-autonomy",
+        "educational-guidance"
+      ],
+      "missingRelationalQuestions": [],
+      "relationalAxes": [
+        "parental-duty",
+        "understandable-guidance",
+        "developmental-voice",
+        "asymmetric-regulation",
+        "autonomy",
+        "parental-scaffolding"
+      ],
+      "status": "passed"
+    },
+    {
+      "id": "friendship",
+      "relationship": "חברות",
+      "detectedConcepts": [
+        "requested-help",
+        "negotiated-availability",
+        "shared-enjoyment",
+        "friendship-reciprocity"
+      ],
+      "missingRelationalQuestions": [],
+      "relationalAxes": [
+        "shared-enjoyment",
+        "reciprocity",
+        "requested-help",
+        "personal-space",
+        "negotiated-availability",
+        "trust-without-entitlement"
+      ],
+      "status": "passed"
+    },
+    {
+      "id": "limited-commitment",
+      "relationship": "זוגיות",
+      "detectedConcepts": [
+        "partner-choice"
+      ],
+      "missingRelationalQuestions": [],
+      "relationalAxes": [
+        "partner-choice",
+        "desirability",
+        "mutual-initiative",
+        "emotional-attunement",
+        "chosen-intimacy",
+        "shared-life",
+        "commitment-negotiation"
+      ],
+      "status": "passed"
+    },
+    {
+      "id": "couple-sparse",
+      "relationship": "זוגיות",
+      "detectedConcepts": [
+        "partner-choice",
+        "family-differentiation"
+      ],
+      "missingRelationalQuestions": [],
+      "relationalAxes": [
+        "partner-choice",
+        "desirability",
+        "mutual-initiative",
+        "emotional-attunement",
+        "chosen-intimacy",
+        "shared-life",
+        "commitment-negotiation"
+      ],
+      "status": "passed"
+    }
+  ],
+  "limits": "Curated concepts plus vocabulary and bigram diagnostics; not unrestricted semantic understanding or a literary quality score."
+}

@@ -1,0 +1,153 @@
+{
+  "status": "generated-from-current-engine",
+  "scope": "phase C only; not editorial or scientific approval",
+  "cases": [
+    {
+      "case": 1,
+      "synthetic": true,
+      "relationship": "זוגיות",
+      "chapters": [
+        {
+          "topic": "communication",
+          "selected": [
+            {
+              "label": "מרקורי של אור ריבוע שבתאי של טל; אורב 3.947984° (סף 6°)",
+              "key": "first:Mercury|second:Saturn:square",
+              "role": "secondary"
+            },
+            {
+              "label": "מרקורי של אור מולות מרקורי של טל; אורב 5.932267° (סף 8°)",
+              "key": "first:Mercury|second:Mercury:opposition",
+              "role": "secondary"
+            }
+          ],
+          "rulers": [
+            "שליט בית 3 של אור: מרקורי (בתולה, שליטה מסורתית), בבית 10 במפת הלידה ובבית 12 של טל",
+            "שליט בית 3 של טל: ירח (סרטן, שליטה מסורתית), בבית 12 במפת הלידה ובבית 9 של אור"
+          ],
+          "synthesisRule": "accountability-and-two-voices",
+          "omittedFocusContacts": 0
+        },
+        {
+          "topic": "emotions",
+          "selected": [
+            {
+              "label": "ירח של אור ריבוע פלוטו של טל; אורב 1.976516° (סף 6°)",
+              "key": "first:Moon|second:Pluto:square",
+              "role": "anchor-candidate"
+            },
+            {
+              "label": "יופיטר של אור משולש ירח של טל; אורב 2.100175° (סף 6°)",
+              "key": "first:Jupiter|second:Moon:trine",
+              "role": "anchor-candidate"
+            }
+          ],
+          "rulers": [
+            "שליט בית 4 של אור: ונוס (מאזניים, שליטה מסורתית), בבית 10 במפת הלידה ובבית 12 של טל",
+            "שליט בית 4 של טל: ירח (סרטן, שליטה מסורתית), בבית 12 במפת הלידה ובבית 9 של אור"
+          ],
+          "synthesisRule": "depth-and-perspective",
+          "omittedFocusContacts": 7
+        }
+      ]
+    },
+    {
+      "case": 2,
+      "synthetic": true,
+      "relationship": "חברות",
+      "chapters": [
+        {
+          "topic": "communication",
+          "selected": [
+            {
+              "label": "אורנוס של דנה מולות מרקורי של רון; אורב 1.634891° (סף 8°)",
+              "key": "first:Uranus|second:Mercury:opposition",
+              "role": "anchor-candidate"
+            },
+            {
+              "label": "שמש של דנה משולש מרקורי של רון; אורב 3.738916° (סף 6°)",
+              "key": "first:Sun|second:Mercury:trine",
+              "role": "anchor-candidate"
+            }
+          ],
+          "rulers": [
+            "שליט בית 3 של דנה: שמש (אריה, שליטה מסורתית), בבית 8 במפת הלידה ובבית 8 של רון",
+            "שליט בית 3 של רון: מרקורי (בתולה, שליטה מסורתית), בבית 12 במפת הלידה ובבית 12 של דנה"
+          ],
+          "synthesisRule": "innovation-with-recognition",
+          "omittedFocusContacts": 0
+        },
+        {
+          "topic": "emotions",
+          "selected": [
+            {
+              "label": "אורנוס של דנה ריבוע ירח של רון; אורב 0.032170° (סף 6°)",
+              "key": "first:Uranus|second:Moon:square",
+              "role": "anchor-candidate"
+            },
+            {
+              "label": "ירח של דנה משולש מאדים של רון; אורב 2.677778° (סף 6°)",
+              "key": "first:Moon|second:Mars:trine",
+              "role": "anchor-candidate"
+            }
+          ],
+          "rulers": [
+            "שליט בית 4 של דנה: מרקורי (בתולה, שליטה מסורתית), בבית 8 במפת הלידה ובבית 7 של רון",
+            "שליט בית 4 של רון: מרקורי (בתולה, שליטה מסורתית), בבית 12 במפת הלידה ובבית 12 של דנה"
+          ],
+          "synthesisRule": "continuity-and-action",
+          "omittedFocusContacts": 2
+        }
+      ]
+    },
+    {
+      "case": 3,
+      "synthetic": true,
+      "relationship": "הורה וילד",
+      "chapters": [
+        {
+          "topic": "communication",
+          "selected": [
+            {
+              "label": "שבתאי של יעל מולות מרקורי של איתן; אורב 0.221187° (סף 8°)",
+              "key": "first:Saturn|second:Mercury:opposition",
+              "role": "anchor-candidate"
+            },
+            {
+              "label": "מרקורי של יעל צמידות פלוטו של איתן; אורב 2.909457° (סף 8°)",
+              "key": "first:Mercury|second:Pluto:conjunction",
+              "role": "anchor-candidate"
+            }
+          ],
+          "rulers": [
+            "שליט בית 3 של יעל: יופיטר (קשת, שליטה מסורתית), בבית 9 במפת הלידה ובבית 1 של איתן",
+            "שליט בית 3 של איתן: שמש (אריה, שליטה מסורתית), בבית 7 במפת הלידה ובבית 3 של יעל"
+          ],
+          "synthesisRule": "evaluation-and-disclosure",
+          "omittedFocusContacts": 4
+        },
+        {
+          "topic": "emotions",
+          "selected": [
+            {
+              "label": "ירח של יעל מולות מרקורי של איתן; אורב 0.849668° (סף 8°)",
+              "key": "first:Moon|second:Mercury:opposition",
+              "role": "anchor-candidate"
+            },
+            {
+              "label": "נפטון של יעל צמידות ירח של איתן; אורב 2.677496° (סף 8°)",
+              "key": "first:Neptune|second:Moon:conjunction",
+              "role": "anchor-candidate"
+            }
+          ],
+          "rulers": [
+            "שליט בית 4 של יעל: שבתאי (גדי, שליטה מסורתית), בבית 8 במפת הלידה ובבית 12 של איתן",
+            "שליט בית 4 של איתן: ונוס (מאזניים, שליטה מסורתית), בבית 8 במפת הלידה ובבית 4 של יעל"
+          ],
+          "synthesisRule": "explanation-and-attunement",
+          "omittedFocusContacts": 7
+        }
+      ]
+    }
+  ]
+}

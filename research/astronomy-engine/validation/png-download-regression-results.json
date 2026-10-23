@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "finishedAt": "2026-10-21T16:19:08.623Z",
+  "url": "http://127.0.0.1:4178",
+  "buildType": "production Vite preview",
+  "browser": "Chromium desktop",
+  "png": [
+    3000,
+    4140
+  ],
+  "downloadFailure": null,
+  "svgDecoded": true,
+  "canvasEncoded": true,
+  "formatPDFThenPNGWorks": true,
+  "cachedPNGNoAwaitOrRerasterization": true,
+  "downloadAnchorConnected": true,
+  "downloadHasUserActivation": true,
+  "manualFallbackIdenticalFile": true,
+  "slowDecodeFallbackTested": true,
+  "zoomIndependent": true,
+  "planetMarks": 20,
+  "houseCusps": 24,
+  "axes": 8,
+  "pageErrors": [],
+  "consoleErrors": []
+}

@@ -1,0 +1,384 @@
+{
+  "status": "passed-mean-only-sample-validation",
+  "startedAt": "2026-10-20T14:46:45.399Z",
+  "finishedAt": "2026-10-20T14:46:45.489Z",
+  "swiss": "2.10.03",
+  "astronomyEngine": "2.1.19",
+  "node": "v24.19.0",
+  "provenance": {
+    "repository": "https://github.com/aloistr/swisseph",
+    "commit": "4daf766ab1dec2316a65fcb5f5149e52b4cd9027",
+    "files": {
+      "sepl_12.se1": "8dccace2557601a223d5f8a7cf64de4e6bbb8a82b9b130b95a54d49adfbe546d",
+      "semo_12.se1": "1c65fdbb854f350d3de36afc3e4ac126a53f360ae4f6dcb57beed7c690e7eb61",
+      "sepl_18.se1": "ca1393ceab3a44fbc895887cf789c68819ae6a1cbc9b22225872dbe4ccd99a66",
+      "semo_18.se1": "1ca07bd67c24374d77226180c20a4f9996cba013697894810518e7eb582ca4f7"
+    }
+  },
+  "limitDegrees": 0.001,
+  "dates": 6018,
+  "dailyYears": [
+    1800,
+    1850,
+    1900,
+    1930,
+    1950,
+    2000,
+    2016,
+    2024,
+    2026
+  ],
+  "referenceCalls": 6018,
+  "oppositionChecks": 12036,
+  "modes": {
+    "default": {
+      "north": {
+        "count": 6018,
+        "maxDegrees": 0.00009980053675917588,
+        "worst": {
+          "utc": "1900-09-16T06:17:23Z",
+          "mode": "default",
+          "pole": "north",
+          "actual": 245.48484832151053,
+          "reference": 245.48494812204729,
+          "differenceDegrees": -0.00009980053675917588
+        },
+        "meanDegrees": 0.00002718599124058384
+      },
+      "south": {
+        "count": 6018,
+        "maxDegrees": 0.00009980053675917588,
+        "worst": {
+          "utc": "1900-09-16T06:17:23Z",
+          "mode": "default",
+          "pole": "south",
+          "actual": 65.48484832151053,
+          "reference": 65.48494812204729,
+          "differenceDegrees": -0.00009980053675917588
+        },
+        "meanDegrees": 0.000027185991240149347
+      }
+    },
+    "matchedDeltaT": {
+      "north": {
+        "count": 6018,
+        "maxDegrees": 0.00010023960487615113,
+        "worst": {
+          "utc": "1900-09-16T06:17:23Z",
+          "mode": "matchedDeltaT",
+          "pole": "north",
+          "actual": 245.4848478824424,
+          "reference": 245.48494812204729,
+          "differenceDegrees": -0.00010023960487615113
+        },
+        "meanDegrees": 0.000027766650870858137
+      },
+      "south": {
+        "count": 6018,
+        "maxDegrees": 0.00010023960487615113,
+        "worst": {
+          "utc": "1900-09-16T06:17:23Z",
+          "mode": "matchedDeltaT",
+          "pole": "south",
+          "actual": 65.48484788244241,
+          "reference": 65.48494812204729,
+          "differenceDegrees": -0.00010023960487615113
+        },
+        "meanDegrees": 0.000027766650870178058
+      }
+    }
+  },
+  "samples": [
+    {
+      "utc": "1800-01-01T00:00:00Z",
+      "mode": "default",
+      "pole": "north",
+      "actual": 33.24357796626373,
+      "reference": 33.243645085885646,
+      "differenceDegrees": -0.00006711962191729981
+    },
+    {
+      "utc": "1800-01-01T00:00:00Z",
+      "mode": "default",
+      "pole": "south",
+      "actual": 213.24357796626373,
+      "reference": 213.24364508588565,
+      "differenceDegrees": -0.00006711962191729981
+    },
+    {
+      "utc": "1800-01-01T00:00:00Z",
+      "mode": "matchedDeltaT",
+      "pole": "north",
+      "actual": 33.243574822104165,
+      "reference": 33.243645085885646,
+      "differenceDegrees": -0.0000702637814811169
+    },
+    {
+      "utc": "1800-01-01T00:00:00Z",
+      "mode": "matchedDeltaT",
+      "pole": "south",
+      "actual": 213.24357482210416,
+      "reference": 213.24364508588565,
+      "differenceDegrees": -0.0000702637814811169
+    },
+    {
+      "utc": "1850-06-15T12:34:56Z",
+      "mode": "default",
+      "pole": "north",
+      "actual": 137.432221239947,
+      "reference": 137.4322802028268,
+      "differenceDegrees": -0.000058962879847968
+    },
+    {
+      "utc": "1850-06-15T12:34:56Z",
+      "mode": "default",
+      "pole": "south",
+      "actual": 317.432221239947,
+      "reference": 317.43228020282686,
+      "differenceDegrees": -0.000058962879847968
+    },
+    {
+      "utc": "1850-06-15T12:34:56Z",
+      "mode": "matchedDeltaT",
+      "pole": "north",
+      "actual": 137.43221976941595,
+      "reference": 137.4322802028268,
+      "differenceDegrees": -0.000060433410908444785
+    },
+    {
+      "utc": "1850-06-15T12:34:56Z",
+      "mode": "matchedDeltaT",
+      "pole": "south",
+      "actual": 317.43221976941595,
+      "reference": 317.43228020282686,
+      "differenceDegrees": -0.000060433410908444785
+    },
+    {
+      "utc": "1900-01-01T12:00:00Z",
+      "mode": "default",
+      "pole": "north",
+      "actual": 259.13483063063904,
+      "reference": 259.13485378341136,
+      "differenceDegrees": -0.00002315277231446089
+    },
+    {
+      "utc": "1900-01-01T12:00:00Z",
+      "mode": "default",
+      "pole": "south",
+      "actual": 79.13483063063904,
+      "reference": 79.13485378341136,
+      "differenceDegrees": -0.00002315277231446089
+    },
+    {
+      "utc": "1900-01-01T12:00:00Z",
+      "mode": "matchedDeltaT",
+      "pole": "north",
+      "actual": 259.13483013748555,
+      "reference": 259.13485378341136,
+      "differenceDegrees": -0.00002364592580761382
+    },
+    {
+      "utc": "1900-01-01T12:00:00Z",
+      "mode": "matchedDeltaT",
+      "pole": "south",
+      "actual": 79.13483013748555,
+      "reference": 79.13485378341136,
+      "differenceDegrees": -0.00002364592580761382
+    },
+    {
+      "utc": "1930-01-01T11:40:28Z",
+      "mode": "default",
+      "pole": "north",
+      "actual": 38.912431018088,
+      "reference": 38.91245159783921,
+      "differenceDegrees": -0.00002057975120806077
+    },
+    {
+      "utc": "1930-01-01T11:40:28Z",
+      "mode": "default",
+      "pole": "south",
+      "actual": 218.912431018088,
+      "reference": 218.9124515978392,
+      "differenceDegrees": -0.00002057975120806077
+    },
+    {
+      "utc": "1930-01-01T11:40:28Z",
+      "mode": "matchedDeltaT",
+      "pole": "north",
+      "actual": 38.91243084159942,
+      "reference": 38.91245159783921,
+      "differenceDegrees": -0.000020756239791808184
+    },
+    {
+      "utc": "1930-01-01T11:40:28Z",
+      "mode": "matchedDeltaT",
+      "pole": "south",
+      "actual": 218.91243084159942,
+      "reference": 218.9124515978392,
+      "differenceDegrees": -0.000020756239791808184
+    },
+    {
+      "utc": "1950-06-15T12:34:56Z",
+      "mode": "default",
+      "pole": "north",
+      "actual": 3.34769704576388,
+      "reference": 3.3477089325433553,
+      "differenceDegrees": -0.00001188677947538963
+    },
+    {
+      "utc": "1950-06-15T12:34:56Z",
+      "mode": "default",
+      "pole": "south",
+      "actual": 183.34769704576388,
+      "reference": 183.34770893254336,
+      "differenceDegrees": -0.00001188677947538963
+    },
+    {
+      "utc": "1950-06-15T12:34:56Z",
+      "mode": "matchedDeltaT",
+      "pole": "north",
+      "actual": 3.3476971261413837,
+      "reference": 3.3477089325433553,
+      "differenceDegrees": -0.000011806401971625746
+    },
+    {
+      "utc": "1950-06-15T12:34:56Z",
+      "mode": "matchedDeltaT",
+      "pole": "south",
+      "actual": 183.34769712614138,
+      "reference": 183.34770893254336,
+      "differenceDegrees": -0.000011806401971625746
+    },
+    {
+      "utc": "2000-01-01T12:00:00Z",
+      "mode": "default",
+      "pole": "north",
+      "actual": 125.04060909747034,
+      "reference": 125.04064605661608,
+      "differenceDegrees": -0.000036959145745640853
+    },
+    {
+      "utc": "2000-01-01T12:00:00Z",
+      "mode": "default",
+      "pole": "south",
+      "actual": 305.04060909747034,
+      "reference": 305.0406460566161,
+      "differenceDegrees": -0.000036959145745640853
+    },
+    {
+      "utc": "2000-01-01T12:00:00Z",
+      "mode": "matchedDeltaT",
+      "pole": "north",
+      "actual": 125.04060910860943,
+      "reference": 125.04064605661608,
+      "differenceDegrees": -0.00003694800670928089
+    },
+    {
+      "utc": "2000-01-01T12:00:00Z",
+      "mode": "matchedDeltaT",
+      "pole": "south",
+      "actual": 305.0406091086095,
+      "reference": 305.0406460566161,
+      "differenceDegrees": -0.00003694800659559405
+    },
+    {
+      "utc": "2016-11-15T12:34:56Z",
+      "mode": "default",
+      "pole": "north",
+      "actual": 158.6870221325382,
+      "reference": 158.68701830597047,
+      "differenceDegrees": 0.000003826567763098865
+    },
+    {
+      "utc": "2016-11-15T12:34:56Z",
+      "mode": "default",
+      "pole": "south",
+      "actual": 338.68702213253823,
+      "reference": 338.68701830597047,
+      "differenceDegrees": 0.000003826567763098865
+    },
+    {
+      "utc": "2016-11-15T12:34:56Z",
+      "mode": "matchedDeltaT",
+      "pole": "north",
+      "actual": 158.68702298603912,
+      "reference": 158.68701830597047,
+      "differenceDegrees": 0.000004680068627749279
+    },
+    {
+      "utc": "2016-11-15T12:34:56Z",
+      "mode": "matchedDeltaT",
+      "pole": "south",
+      "actual": 338.6870229860391,
+      "reference": 338.68701830597047,
+      "differenceDegrees": 0.000004680068627749279
+    },
+    {
+      "utc": "2024-04-08T18:00:00Z",
+      "mode": "default",
+      "pole": "north",
+      "actual": 15.647744247441608,
+      "reference": 15.647729883628074,
+      "differenceDegrees": 0.000014363813534146175
+    },
+    {
+      "utc": "2024-04-08T18:00:00Z",
+      "mode": "default",
+      "pole": "south",
+      "actual": 195.64774424744155,
+      "reference": 195.64772988362802,
+      "differenceDegrees": 0.000014363813534146175
+    },
+    {
+      "utc": "2024-04-08T18:00:00Z",
+      "mode": "matchedDeltaT",
+      "pole": "north",
+      "actual": 15.647747273062805,
+      "reference": 15.647729883628074,
+      "differenceDegrees": 0.00001738943478812871
+    },
+    {
+      "utc": "2024-04-08T18:00:00Z",
+      "mode": "matchedDeltaT",
+      "pole": "south",
+      "actual": 195.6477472730628,
+      "reference": 195.64772988362802,
+      "differenceDegrees": 0.00001738943478812871
+    },
+    {
+      "utc": "2026-12-31T23:59:59Z",
+      "mode": "default",
+      "pole": "north",
+      "actual": 322.8440197201587,
+      "reference": 322.8440295877399,
+      "differenceDegrees": -0.000009867581184153096
+    },
+    {
+      "utc": "2026-12-31T23:59:59Z",
+      "mode": "default",
+      "pole": "south",
+      "actual": 142.8440197201587,
+      "reference": 142.8440295877399,
+      "differenceDegrees": -0.000009867581184153096
+    },
+    {
+      "utc": "2026-12-31T23:59:59Z",
+      "mode": "matchedDeltaT",
+      "pole": "north",
+      "actual": 322.844023930731,
+      "reference": 322.8440295877399,
+      "differenceDegrees": -0.00000565700884180842
+    },
+    {
+      "utc": "2026-12-31T23:59:59Z",
+      "mode": "matchedDeltaT",
+      "pole": "south",
+      "actual": 142.844023930731,
+      "reference": 142.8440295877399,
+      "differenceDegrees": -0.00000565700884180842
+    }
+  ],
+  "violations": [],
+  "timePolicy": "Same UT1, DUT1=0. Default uses each engine Delta T; matchedDeltaT supplies Swiss Delta T to AE. Not a historical civil-time validation.",
+  "southPolicy": "north+180; comparison against Swiss north+180, not independent south-node ephemeris"
+}
